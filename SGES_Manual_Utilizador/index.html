@@ -69,6 +69,7 @@
         <div id="ModuloEstabelecimentos"></div>
           <div id="ModuloProducaoEquipamentos"></div>
              <div id="ModuloEquipamentos"></div>
+           <div id="ModuloInstalacoes"></div>
           </div>
  
   <footer>
@@ -80,6 +81,7 @@
       refreshTabela();
       /**Carrega o html dos modulos**/
       $(function () {
+          $("#ModuloInstalacoes").load("Instalacoes.html");
            $("#ModuloEquipamentos").load("Equipamentos.html");
           $("#ModuloProducaoEquipamentos").load("ProducaoEquipamentos.html");
            $("#ModuloEstabelecimentos").load("Estabelecimentos.html");

@@ -278,6 +278,9 @@ padding: 0cm 5.4pt 0cm 5.4pt;
 td.width36 {
 width:27.2pt;
 }
+td.width44 {
+width:33.2pt;
+}
 td.width47 {
 width:35.5pt;
 }
@@ -286,6 +289,9 @@ width:36.65pt;
 }
 td.width66 {
 width:49.65pt;
+}
+td.width95 {
+width:92.9pt;
 }
 td.width123 {
 width:92.1pt;
@@ -308,8 +314,17 @@ width:162.95pt;
 td.width227 {
 width:169.95pt;
 }
+td.width236 {
+width:177.2pt;
+}
+td.width237 {
+width:177.75pt;
+}
 td.width241{
 width:180.65pt;
+}
+td.width246{
+width:184.2pt;
 }
 td.width264 {
 width:198.35pt;
@@ -317,14 +332,29 @@ width:198.35pt;
 td.width271 {
 width:203.1pt;
 }
+td.width279 {
+width:209.05pt;
+}
 td.width283 {
 width:212.1pt;
+}
+td.width283 {
+width:212.65pt;
+}
+td.width284 {
+width:212.95pt;
+}
+td.width285 {
+width:213.5pt;
 }
 td.width286 {
 width:214.35pt;
 }
 td.width287 {
 width:215.05pt;
+}
+td.width290 {
+width:217.4pt;
 }
 td.width310 {
 width:232.7pt;
@@ -334,6 +364,9 @@ width:239.3pt;
 }
 td.width322 {
 width:241.55pt;
+}
+td.width332 {
+width:249.25pt;
 }
 td.width380 {
 width:284.75pt;
@@ -347,6 +380,9 @@ width:331.65pt;
 td.width448 {
 width: 335.85pt;
 }
+td.width474 {
+width: 355.55pt;
+}
 td.width482 {
 width: 361.3pt;
 }
@@ -356,11 +392,18 @@ width:397.95pt;
 td.width539 {
 width:404.0pt;
 }
+
 td.width558 {
 width:418.15pt;
 }
+td.width569 {
+width:426.45pt;
+}
 td.width605 {
 width:453.65pt;
+}
+td.width616 {
+width:461.95pt;
 }
 
 
