@@ -36,6 +36,17 @@ html, button, input, select, textarea { font-family: sans-serif; color: #222; }
 
 body { margin: 0; font-size: 1em; line-height: 1.4; }
 
+div.content{
+    width: 85%;
+    margin: auto;
+}
+
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText{
+margin-top:.0001pt;margin-bottom: .0001pt;font-size:  11.0pt;
+font-family:"Calibri","sans-serif";line-height:  150%;text-align:  justify;}
+
+
+
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection declarations have to be separate
@@ -44,6 +55,7 @@ body { margin: 0; font-size: 1em; line-height: 1.4; }
 
 ::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
 ::selection { background: #fe57a1; color: #fff; text-shadow: none; }
+
 
 
 /* =============================================================================
@@ -102,6 +114,29 @@ ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
 dd { margin: 0 0 0 40px; }
 nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
 
+p.TextBullet, li.TextBullet, div.TextBullet{
+margin-left:  36.0pt;
+text-indent: -18.0pt;
+margin-bottom: .0001pt;
+font-size:  11.0pt;
+font-family: "Calibri","sans-serif";
+line-height: 150%;
+text-align: justify;
+}
+
+p.TextBullet.level2{
+    margin-left: 72.0pt;
+}
+
+p.TextBullet span:nth-child(1)
+{font-family:  Symbol;
+letter-spacing:  6pt;
+}
+
+
+p.TextBullet span:nth-child(2)::before {
+content:'  ';
+}
 
 /* =============================================================================
    Embedded content
@@ -126,6 +161,7 @@ svg:not(:root) { overflow: hidden; }
    ========================================================================== */
 
 figure { margin: 0; }
+p.imagem { margin: auto; padding-top: 20px}
 
 
 /* =============================================================================
@@ -144,6 +180,11 @@ label { cursor: pointer; }
  */
 
 legend { border: 0; *margin-left: -7px; padding: 0; white-space: normal; }
+p.imagem +p.MsoCaption {margin-top: 0cm;margin-right: 0cm;margin-bottom: 12.0pt;margin-left: 36.0pt;
+text-align: center;text-indent: -36.0pt;font-size: 10.0pt;
+font-family:"Calibri","sans-serif";letter-spacing: -.25pt;line-height: 150%;
+}
+
 
 /*
  * 1. Correct font-size not inheriting in all browsers
@@ -206,6 +247,122 @@ input:invalid, textarea:invalid { background-color: #f0dddd; }
 table { border-collapse: collapse; border-spacing: 0; }
 td { vertical-align: top; }
 
+/**tabela Campos obrigatorios*/
+.campoObriga table{	margin-top: 10px; margin-bottom: 10px;margin-left:auto; margin-right:auto;}
+.campoObriga table th {border:    solid #DAEDEF 1.0pt;background:#F5FAFB;}
+.campoObriga table th  p {text-align:    center;}
+.campoObriga table td {border:    solid #DAEDEF 1.0pt;}
+tr.imparCor {background:#F5FAFB;}
+
+
+table {margin-left:1%;
+margin-top: 10px;
+border-collapse: collapse;
+border: none;
+}
+
+
+table th {
+border: solid black 0.5pt;
+padding: 0cm 5.4pt 0cm 5.4pt;
+text-align: center;
+background:#818181;
+}
+
+
+table td {
+border: solid black 0.5pt;
+padding: 0cm 5.4pt 0cm 5.4pt;
+}
+
+td.width36 {
+width:27.2pt;
+}
+td.width47 {
+width:35.5pt;
+}
+td.width49 {
+width:36.65pt;
+}
+td.width66 {
+width:49.65pt;
+}
+td.width123 {
+width:92.1pt;
+}
+td.width132 {
+width:99.25pt;
+}
+td.width140 {
+width:104.65pt;
+}
+td.width141 {
+width:128.6pt;
+}
+td.width171 {
+width:105.75pt;
+}
+td.width217 {
+width:162.95pt;
+}
+td.width227 {
+width:169.95pt;
+}
+td.width241{
+width:180.65pt;
+}
+td.width264 {
+width:198.35pt;
+}
+td.width271 {
+width:203.1pt;
+}
+td.width283 {
+width:212.1pt;
+}
+td.width286 {
+width:214.35pt;
+}
+td.width287 {
+width:215.05pt;
+}
+td.width310 {
+width:232.7pt;
+}
+td.width319 {
+width:239.3pt;
+}
+td.width322 {
+width:241.55pt;
+}
+td.width380 {
+width:284.75pt;
+}
+td.width427 {
+width:320.25pt;
+}
+td.width442 {
+width:331.65pt;
+}
+td.width448 {
+width: 335.85pt;
+}
+td.width482 {
+width: 361.3pt;
+}
+td.width531 {
+width:397.95pt;
+}
+td.width539 {
+width:404.0pt;
+}
+td.width558 {
+width:418.15pt;
+}
+td.width605 {
+width:453.65pt;
+}
+
 
 /* =============================================================================
    Chrome Frame Prompt
@@ -215,23 +372,39 @@ td { vertical-align: top; }
 
 
 /* ==|== primary styles =====================================================
-   Author:
+   Author: Liliana Maia
    ========================================================================== */
 
+h1{margin-top: 12.0pt;
+margin-bottom: 6.0pt;
+font-size:  18.0pt;
+font-family:"Lucida Sans Unicode","sans-serif";
+color: black;
+letter-spacing: -1.25pt;
+font-weight: bold;
+}
+
+h1 a span:nth-child(2)::before {
+content:'  ';
+}
+
+
+h2{
+margin-top:12.0pt;
+margin-bottom:6.0pt;
+margin-left:5pt;
+font-size:18.0pt;
+font-family:"Lucida Sans Unicode","sans-serif";
+color:black;
+letter-spacing:-1.50pt;
+font-weight: bold;
+}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+h2 a span:nth-child(2)::before {
+content:'  ' ;
+}
 
 /* ==|== media queries ======================================================
    EXAMPLE Media Query for Responsive Design.
@@ -291,3 +464,6 @@ td { vertical-align: top; }
   p, h2, h3 { orphans: 3; widows: 3; }
   h2, h3 { page-break-after: avoid; }
 }
+
+
+

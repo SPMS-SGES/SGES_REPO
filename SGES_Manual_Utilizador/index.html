@@ -42,7 +42,7 @@
         <p align=center style='text-align:center'>
             <b>
                 <span style='font-size:26.0pt;color:black'>
-                    <img width=434 height=148 src="/img/SGES.png" alt="SGES_Logo">
+                    <img width=434 height=148 src="./img/SGES.png" alt="SGES_Logo">
                 </span>
             </b>
         </p>
@@ -62,7 +62,14 @@
         <p><span>&nbsp;</span></p>
 
      </div>
-     <div id="ModuloEntidades"></div>
+      <div class="content">
+    
+      <div id="ModuloIntroducao"></div>
+      <div id="ModuloEntidades"></div>
+        <div id="ModuloEstabelecimentos"></div>
+          <div id="ModuloProducaoEquipamentos"></div>
+             <div id="ModuloEquipamentos"></div>
+          </div>
  
   <footer>
 
@@ -70,16 +77,23 @@
 
 
   <script>
-    /**Carrega o html dos modulos**/
-    $(function(){
-      $("#ModuloEntidades").load("Entidades.html"); 
-    });
+      refreshTabela();
+      /**Carrega o html dos modulos**/
+      $(function () {
+           $("#ModuloEquipamentos").load("Equipamentos.html");
+          $("#ModuloProducaoEquipamentos").load("ProducaoEquipamentos.html");
+           $("#ModuloEstabelecimentos").load("Estabelecimentos.html");
+          $("#ModuloEntidades").load("Entidades.html");
+          $("#ModuloIntroducao").load("Introducao.html");
+      });
 
 
-    var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-    s.parentNode.insertBefore(g,s)}(document,'script'));
+      var _gaq = [['_setAccount', 'UA-XXXXX-X'], ['_trackPageview']];
+      (function (d, t) {
+          var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+          g.src = ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js';
+          s.parentNode.insertBefore(g, s)
+      } (document, 'script'));
   </script>
 </body>
 </html>
