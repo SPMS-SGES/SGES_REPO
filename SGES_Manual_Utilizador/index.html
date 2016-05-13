@@ -30,7 +30,8 @@
   </header>
   <div role="main">
       <div id="header">
-        <p><span>&nbsp;</span></p>
+       <img class="menuIcon" width=80 height=64 src="/img/menuHeader.png">
+          <div id="indice"></div>
 
         <p align=center style='text-align:center'>
             <img width=190 height=64 src="/img/SPMS.png">
@@ -61,7 +62,7 @@
         <p><span>&nbsp;</span></p>
         <p><span>&nbsp;</span></p>
         <p><span>&nbsp;</span></p>
-
+           </div>
      </div>
       <div class="content">
     
@@ -88,6 +89,12 @@
            $("#ModuloEstabelecimentos").load("Estabelecimentos.html");
           $("#ModuloEntidades").load("Entidades.html");
           $("#ModuloIntroducao").load("Introducao.html");
+          $("#indice").load("Indice.html");
+
+
+     $('#header .menuIcon').click( function() {
+               $('#indice').toggle();
+          });
       });
 
 

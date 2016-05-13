@@ -37,13 +37,17 @@ html, button, input, select, textarea { font-family: sans-serif; color: #222; }
 body { margin: 0; font-size: 1em; line-height: 1.4; }
 
 div.content{
-    width: 85%;
+    width: 70%;
     margin: auto;
+    margin-left: 20%;
 }
 
 p.MsoBodyText, li.MsoBodyText, div.MsoBodyText{
 margin-top:.0001pt;margin-bottom: .0001pt;font-size:  11.0pt;
 font-family:"Calibri","sans-serif";line-height:  150%;text-align:  justify;}
+
+p.MsoToc1{
+margin-top:.0001pt;margin-bottom: .0001pt;font-size:  9.0pt;font-family:"Calibri","sans-serif";text-align:  justify;line-height:120%}
 
 
 
@@ -525,3 +529,16 @@ content:'  ' ;
 
 
 
+
+
+/**teste*/
+.menuIcon{
+  position: fixed;  
+}
+#indice {
+    width: 15%;
+    background: transparent none repeat scroll 0% 0%;
+    position: fixed;
+    margin-top: 50px;
+    margin-left: 20px;
+}
