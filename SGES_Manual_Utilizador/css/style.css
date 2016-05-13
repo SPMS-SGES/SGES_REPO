@@ -162,6 +162,21 @@ svg:not(:root) { overflow: hidden; }
 
 figure { margin: 0; }
 p.imagem { margin: auto; padding-top: 20px}
+.zoom img {
+			display: block;
+		}
+.zoom:after {
+			content:'';
+			display:block; 
+			width:33px; 
+			height:33px; 
+			position:absolute; 
+			top:0;
+			right:0;
+			background:url(icon.png);
+		}
+.zoom img::selection { background-color: transparent; }
+
 
 
 /* =============================================================================
@@ -291,7 +306,7 @@ td.width66 {
 width:49.65pt;
 }
 td.width95 {
-width:92.9pt;
+width:70.9pt;
 }
 td.width123 {
 width:92.1pt;
