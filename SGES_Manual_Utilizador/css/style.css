@@ -66,9 +66,9 @@ margin-top:.0001pt;margin-bottom: .0001pt;font-size:  9.0pt;font-family:"Calibri
    Links
    ========================================================================== */
 
-a { color: #00e; }
-a:visited { color: #551a8b; }
-a:hover { color: #06e; }
+a { color: #3d596d; }
+a:visited { color: #3d596d; }
+a:hover { color: #3d596d; }
 a:focus { outline: thin dotted; }
 
 /* Improve readability when focused and hovered in all browsers: h5bp.com/h */
@@ -268,9 +268,9 @@ td { vertical-align: top; }
 
 /**tabela Campos obrigatorios*/
 .campoObriga table{	margin-top: 10px; margin-bottom: 10px;margin-left:auto; margin-right:auto;}
-.campoObriga table th {border:    solid #DAEDEF 1.0pt;background:#F5FAFB;}
+.campoObriga table th {border:    solid #005082 1.0pt;background:#F5FAFB;}
 .campoObriga table th  p {text-align:    center;}
-.campoObriga table td {border:    solid #DAEDEF 1.0pt;}
+.campoObriga table td {border:    solid #005082 1.0pt;}
 tr.imparCor {background:#F5FAFB;}
 
 
@@ -468,6 +468,43 @@ h2 a span:nth-child(2)::before {
 content:'  ' ;
 }
 
+#accordion li {
+	cursor: pointer;
+}
+/* carets */
+#accordion .caret {
+    color:inherit;
+    float:right;
+    margin-top:8px;
+    margin-right:16px;
+    width: 0;
+    height: 0;
+    overflow:hidden;/*for IE6*/
+    border-style:solid;
+    border-width:6px;
+    position:relative;
+    
+    border-top:6px solid initial;
+    border-bottom-width:0px;
+    border-left-color:transparent;
+    border-right-color: transparent;
+}  
+
+#accordion li li .caret {
+    margin-right:6px;
+    float:none;
+    display:inline-block;
+    margin-top:auto;
+    margin-bottom:4px;
+}  
+
+#accordion .caret.active {
+    margin-bottom:4px;
+    border-bottom-width:6px;
+    border-bottom-color:initial;
+    border-top: none;
+}
+
 /* ==|== media queries ======================================================
    EXAMPLE Media Query for Responsive Design.
    This example overrides the primary ('mobile first') styles
@@ -527,18 +564,10 @@ content:'  ' ;
   h2, h3 { page-break-after: avoid; }
 }
 
-
-
-
-
-/**teste*/
-.menuIcon{
-  position: fixed;  
-}
 #indice {
-    width: 15%;
+    /*width: 15%;
     background: transparent none repeat scroll 0% 0%;
-    position: fixed;
+    position: absolute;
     margin-top: 50px;
-    margin-left: 20px;
+    margin-left: 20px;*/
 }
