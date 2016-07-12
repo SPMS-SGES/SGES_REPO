@@ -5,80 +5,102 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="css/main.css" />
-        <link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/style.css">
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
+		
+		<script type="text/javascript">
+	hs.graphicsDir = '../highslide/graphics/';
+	hs.align = 'center';
+	hs.transitions = ['expand', 'crossfade'];
+	hs.outlineType = 'rounded-white';
+	hs.fadeInOut = true;
+	hs.numberPosition = 'caption';
+	hs.dimmingOpacity = 0.75;
+
+	// Add the controlbar
+	if (hs.addSlideshow) hs.addSlideshow({
+		//slideshowGroup: 'group1',
+		interval: 5000,
+		repeat: false,
+		useControls: true,
+		fixedControls: 'fit',
+		overlayOptions: {
+			opacity: .75,
+			position: 'bottom center',
+			hideOnMouseOut: true
+		}
+	});
+</script>
 	</head>
 	<body>
-
-		<!-- Content -->
-		<div id="content">
+				<!-- Content -->
+	<div id="content">
             <div id="header">
-			    <p align=center style='text-align: center'>
+			    <p><span>&nbsp;</span></p>
+
+			     <p align=center style='text-align: center'>
 				    <img width=190 height=64 src="img/SPMS.png">
 				    <img width=240 height=50 style="margin-left: 40px;" src="img/ACSS.png">
 				    <img width=180 height=88 style="margin-left: 40px;" src="img/GOVERNO.png">
 			    </p>
 
 			    <p><span>&nbsp;</span></p>
-
-			    <p align=center style='text-align: center'>
+ <p align=center style='text-align: center'>
 				    <b> <span style='font-size: 26.0pt; color: black'>
 						    <img width=434 height=148 src="img/SGES.png" alt="SGES_Logo">
 					    </span>
 				    </b>
-			    </p>
-
-			    <p><span>&nbsp;</span></p>
-
-			    <p class=MsoNormal align=center style='text-align: center'>
+				     </p>
+				      <p align=center style='text-align: center;margin-top: 100px;'>
                     <b> 
-                        <span lang=EN-US style='font-size: 26.0pt; color: black'>Manual do Utilizador</span>
+                        <span lang=EN-US style='font-size: 26.0pt; color: black; margin-top:3em'>Manual do Utilizador</span>
 				    </b>
 			    </p>
 
-			    <p><span>&nbsp;</span></p>
-			    <p><span>&nbsp;</span></p>
-                <p><span>&nbsp;</span></p>
-                <p><span>&nbsp;</span></p>
-
 		    </div>
-			<div id="ModuloIntroducao"></div>
-			<div id="ModuloEntidades"></div>
-			<div id="ModuloEstabelecimentos"></div>
-			<div id="ModuloProducaoEquipamentos"></div>
-			<div id="ModuloEquipamentos"></div>
-			<div id="ModuloInstalacoes"></div>
+				<div id="paginas">
+			<div id="ModuloIntroducao" class="modulo"></div>
+			<div id="ModuloEntidades" class="modulo"></div>
+			<div id="ModuloEstabelecimentos" class="modulo"></div>
+			<div id="ModuloRhServicos" class="modulo"></div>
+			<div id="ModuloProducao" class="modulo"></div>
+			<div id="ModuloTempoEspera" class="modulo"></div>
+			<div id="ModuloEquipamentos" class="modulo"></div>
 		</div>
-
+		
+		
 		<!-- Sidebar -->
 		<div id="sidebar" style="position: fixed;overflow-y: scroll;height: 100%;">
             <!-- Logo -->
 	        <h1 id="logo"><a href="#">MENU</a></h1>
             <div id="indice" style="margin-bottom: 40px;"></div>		
 		</div>
-			
 
 		<!-- Scripts -->
 		<script src="js/jquery.min.js"></script>
+        <script src="js/jquery.zoom.js"></script>
+		<script src="js/script.js"></script>
 		<script src="js/skel.min.js"></script>
 		<script src="js/util.js"></script>
-		<!--[if lte IE 8]><script src="js/ie/respond.min.js"></script><![endif]-->
-		<script src="js/main.js"></script>			
-		<script src="/js/accordion-menu.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/highslide-with-gallery.js"></script>		
 
 	</body>
     <script>
 		/**Carrega o html dos modulos**/
 		$(function() {
-			$("#indice").load("Indice.html");
-
-            $("#ModuloInstalacoes").load("Instalacoes.html");
-			$("#ModuloEquipamentos").load("Equipamentos.html");
-			$("#ModuloProducaoEquipamentos").load("ProducaoEquipamentos.html");
-			$("#ModuloEstabelecimentos").load("Estabelecimentos.html");
-			$("#ModuloEntidades").load("Entidades.html");
-			$("#ModuloIntroducao").load("Introducao.html");
+		$("#indice").load("Indice.html");
+		$("#ModuloIntroducao").load("https://limaia25.github.io/markdownToHtmlexample/content/introducao.html");
+		$("#ModuloEntidades").load("https://limaia25.github.io/markdownToHtmlexample/content/entidade.html");
+		$("#ModuloEstabelecimentos").load("https://limaia25.github.io/markdownToHtmlexample/content/estabelecimento.html");
+		$("#ModuloRhServicos").load("https://limaia25.github.io/markdownToHtmlexample/content/rhServico.html");
+		$("#ModuloTempoEspera").load("https://limaia25.github.io/markdownToHtmlexample/content/tempoEspera.html");
+		$("#ModuloProducao").load("https://limaia25.github.io/markdownToHtmlexample/content/producaoEquipamento.html");
+		$("#ModuloEquipamentos").load("https://limaia25.github.io/markdownToHtmlexample/content/equipamento.html");
+		$("#ModuloInstalacoes").load("https://limaia25.github.io/markdownToHtmlexample/content/instalacao.html");
 		});
+		
+		
 	</script>
 </html>
