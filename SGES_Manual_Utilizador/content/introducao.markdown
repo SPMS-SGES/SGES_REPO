@@ -94,13 +94,17 @@ No cabeçalho das páginas do **SGES** existe um conjunto de dados que serve par
 
 Aparece na 1ªlinha o perfil do utilizador e caso este pertenca a uma entidade, o nome dessa. Na 2ª linha aparece o nome do utilizador.
 
+
 Ao lado do nome de utilizador, encontra-se o botão das opções avançadas ![logo](img/definicao.png). 
 Ao clicar neste o utilizador tem acesso a um conjunto de opções relativas ao perfil do utilizador, como o alterar password ([5.2. Alteração da senha](#alterao-da-senha)) e a criação de utilizadores ([5.3. Gestão de utilizadores](#gesto-de-utilizadores)).
+
 
 A qualquer momento, em qualquer página existe a ligação ao manual de utilizador através do botão no canto superior direito. 
 ![logo](img/manual.jpg).
 
+
 O acesso às páginas e a sua navegação é representada nos *breadcrumbs* ![logo](img/breadcrumbs.jpg), que são clicáveis se o utilizador pretender voltar a uma página já navegada.
+
 
 De modo a familiarizar o utilizador com a aplicação, apresentam-se, de seguida, alguns exemplos ilustrativos de ações genéricas de interação com o SGES.
 
