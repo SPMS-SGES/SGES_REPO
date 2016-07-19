@@ -184,14 +184,14 @@ Se a lista de resultados for superior a 10 registos, surgirá no canto superior 
 
 ## 5.4. Gestão de utilizadores
 
-O utilizador, se responsável da entidade pelo SGES, pode criar/gerir utilizadores para atualizarem os diferentes paineis no SGES.
-Será possivel criar utilizadores do tipo:
+O utilizador, se tiver permissões, pode criar/gerir utilizadores para atualizarem os diferentes paineis no SGES na entidade respectiva.
+Será possivel criar utilizadores com os seguintes perfis:
 
 * **SGES_ENTIDADE** - Os utilizadores poderão executar as operações sobre a *entidade* assim como criar e alterar *estabelecimentos*.
 
 * **SGES_EQUIPAMENTOS** - Os utilizadores poderão executar as operações sobre os *equipamentos* médicos pesados e sobre a *produção* dos mesmos.
 
-Para criar novos utilizadores, se tiver autorização, deve clicar no botão das opções avançadas situado no canto superior direito da página 
+Para criar novos utilizadores, deve clicar no botão das opções avançadas situado no canto superior direito da página 
 ([5.Conceitos Básicos](#conceitos-bsicos)). Após clicar em **Gestão de Utilizadores**, aparecerá a página de **Gestão de Utilizadores** [Fig. 8](#fig5_4_1).
 
 ![img/pages/fig10.jpg](img/pages/5_4_1.jpg)
