@@ -186,7 +186,9 @@ Se a lista de resultados for superior a 10 registos, surgirá no canto superior 
 
 O utilizador, se responsável da entidade pelo SGES, pode criar/gerir utilizadores para atualizarem os diferentes paineis no SGES.
 Será possivel criar utilizadores do tipo:
+
 * **SGES_ENTIDADE** - Os utilizadores poderão executar as operações sobre a *entidade* assim como criar e alterar *estabelecimentos*.
+
 * **SGES_EQUIPAMENTOS** - Os utilizadores poderão executar as operações sobre os *equipamentos* médicos pesados e sobre a *produção* relativo à entidade.
 
 Para criar novos utilizadores, se tiver autorização, deve clicar no botão das opções avançadas situado no canto superior direito da página 
