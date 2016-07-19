@@ -198,6 +198,8 @@ Para criar novos utilizadores, se tiver autorização, deve clicar no botão das
 
 <p class="caption" id="fig5_4_1"> Fig. 8 - Gestão de utilizadores </p>
 
+## 5.4.1. Criação de utilizadores
+
 O utilizador deve clicar em **Criar**, para aparecer a página de *Criar Utilizador* [Fig. 9](#fig5_4_2).
 
 ![img/pages/fig10.jpg](img/pages/5_4_2.jpg)
@@ -215,6 +217,8 @@ Para a criação de utilizador deve ser preenchido os seguintes campos obrigató
 | e) |  E-mail                          ||
 | f) |  Perfil                          | SGES_ENTIDADE|
 | |                                     | SGES_EQUIPAMENTOS|
+
+No final da edição o utilizador para gravar as alterações deve clicar no botão **GUARDAR**. Após clicar irá ser notificado com o resultado da operação.
 
 
 
