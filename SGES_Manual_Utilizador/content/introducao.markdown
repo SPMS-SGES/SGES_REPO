@@ -95,7 +95,7 @@ No cabeçalho das páginas do **SGES** existe um conjunto de dados que serve par
 Aparece na 1ªlinha o perfil do utilizador e caso este pertenca a uma entidade, o nome dessa. Na 2ª linha aparece o nome do utilizador.
 
 Ao lado do nome de utilizador, encontra-se o botão das opções avançadas ![logo](img/definicao.png). 
-Ao clicar neste o utilizador tem acesso a um conjunto de opções relativas ao perfil do utilizador, como o alterar password ([5.2. Alteração da senha](#altero-da-senha)) e a criação de utilizadores ([5.3. Gestão de utilizadores](#gesto-de-utilizadores)).
+Ao clicar neste o utilizador tem acesso a um conjunto de opções relativas ao perfil do utilizador, como o alterar password ([5.2. Alteração da senha](#alterao-da-senha)) e a criação de utilizadores ([5.3. Gestão de utilizadores](#gesto-de-utilizadores)).
 
 A qualquer momento, em qualquer página existe a ligação ao manual de utilizador através do botão no canto superior direito. 
 ![logo](img/manual.jpg).
@@ -189,7 +189,7 @@ Será possivel criar utilizadores do tipo:
 
 * **SGES_ENTIDADE** - Os utilizadores poderão executar as operações sobre a *entidade* assim como criar e alterar *estabelecimentos*.
 
-* **SGES_EQUIPAMENTOS** - Os utilizadores poderão executar as operações sobre os *equipamentos* médicos pesados e sobre a *produção* relativo à entidade.
+* **SGES_EQUIPAMENTOS** - Os utilizadores poderão executar as operações sobre os *equipamentos* médicos pesados e sobre a *produção* dos mesmos.
 
 Para criar novos utilizadores, se tiver autorização, deve clicar no botão das opções avançadas situado no canto superior direito da página 
 ([5.Conceitos Básicos](#conceitos-bsicos)). Após clicar em **Gestão de Utilizadores**, aparecerá a página de **Gestão de Utilizadores** [Fig. 8](#fig5_4_1).
