@@ -10,16 +10,18 @@ order: 3
 
 
 # 1.Sobre este Manual
-A correta Este Manual tem como propósito servir de guia de utilização, permitindo ao utilizador que durante o acesso e operação no SGES tenha disponível um conjunto de instruções e mecanismos de autoajuda que lhe possibilitem uma melhor interação com o Sistema.
-O manual de utilizador do SGES está organizado pelo seguinte conjunto de capítulos:
+Este manual descreve o modo de funcionamento do sistema, apresentando os respectivos ecrãs, sua sequência, modo de preenchimento e as regras de negócio que lhe estão subjacentes. 
+Será organizado:
 
  - “Sobre este Manual”, o capítulo atual que descreve o conteúdo do
    manual, qual a sua organização e como pode ser consultado; 
  - “Tabela de  Acrónimos”, que contêm todos os acrónimos usados ao longo deste manual e que permitirá familiarizar desde já o utilizador com determinadas abreviaturas apresentadas na aplicação; 
  - “Introdução”,   onde é apresentado o sistema SGES, qual o seu contexto e propósito,  incluindo os seguintes subcapítulos:
-	 *  “Objetivos do Sistema” onde se descrevem os propósitos da utilização da aplicação informática;
+	 * “Objetivos do Sistema” onde se descrevem os propósitos da utilização da aplicação informática;
 	 * “Conceitos básicos” onde se explicam os principais conceitos que suportam a aplicação, concretamente conceitos tipo “navegação" no sistema, explicando o que se entende por isso;
-
+ 	 * “Instruções de acesso”, onde é descrito como o utilizador pode aceder ao sistema
+- “Sequências de menus”
+ 
 
 # 2.Tabela de Acrónimos
 
@@ -93,7 +95,7 @@ No cabeçalho das páginas do **SGES** existe um conjunto de dados que serve par
 Aparece na 1ªlinha o perfil do utilizador e caso este pertenca a uma entidade, o nome dessa. Na 2ª linha aparece o nome do utilizador.
 
 Ao lado do nome de utilizador, encontra-se o botão das opções avançadas ![logo](img/definicao.png). 
-Ao clicar o utilizador tem acesso a um conjunto de opções relativas ao perfil do utilizador, como o alterar password ([5.2. Alteração da senha](#altero-da-senha)).
+Ao clicar neste o utilizador tem acesso a um conjunto de opções relativas ao perfil do utilizador, como o alterar password ([5.2. Alteração da senha](#altero-da-senha)) e a criação de utilizadores ([5.3. Gestão de utilizadores](#gesto-de-utilizadores)).
 
 A qualquer momento, em qualquer página existe a ligação ao manual de utilizador através do botão no canto superior direito. 
 ![logo](img/manual.jpg).
@@ -132,6 +134,8 @@ Uma vez identificado e autenticado, é apresentada ao utilizador a página de en
 
 <p class="caption" id="fig5"> Fig. 5 -Página de entrada no SGES Entidade </p>
 
+Na primeira vez que o utilizador acede a aplicação, aparecerá a página de ([5.2. Alteração da senha](#alterao-da-senha)).
+
 ## 5.2. Alteração da senha
 
 A qualquer momento, o utilizador pode fazer a alteração da sua senha, clicando no botão das opções avançadas situado no canto superior direito da página ([5.Conceitos Básicos](#conceitos-bsicos)). 
@@ -149,7 +153,7 @@ Após o preenchimento dos campos, o utilizador deverá finalizar a alteração c
 
 <p class="caption" id="fig6"> Fig. 6 -Página de alteração de senha </p>
 
-## 5.2. Página de Pesquisa
+## 5.3. Página de Pesquisa
 
 A aplicação tem uma página onde podem ser efetuadas pesquisa de entidades ou estabelecimentos, que será a página de entrada de alguns perfis.
 Caso pretenda pesquisar por entidades, o utilizador deverá selecionar **Entidade** no campo *Pesquisar por:* presente no formulário e preencher pelo menos 3 campos de pesquisa. Em seguida clicar em **Pesquisar** para executar a pesquisa.
@@ -166,13 +170,53 @@ Caso pretenda pesquisar por estabelecimentos, o utilizador deverá selecionar **
 
 ![img/pages/fig8.jpg](img/pages/5_3_2.jpg)
 
-<p class="caption" id="fig8"> Fig. 8 -Pesquisa de estabelecimentos </p>
+<p class="caption" id="fig8"> Fig. 7.1 -Pesquisa de estabelecimentos </p>
 
-Na próxima imagem ([Fig. 9](#fig9)) podemos observar o resultado da pesquisa onde se pretende listar todos os Centros Hospitalares públicos no distrito do Porto.
+Na próxima imagem ([Fig. 7.2](#fig9)) podemos observar o resultado da pesquisa onde se pretende listar todos os Centros Hospitalares públicos no distrito do Porto.
 
 ![img/pages/fig9.jpg](img/pages/5_3_3.jpg)
 
-<p class="caption" id="fig9"> Fig. 9 - Pesquisa exemplo de entidades </p>
+<p class="caption" id="fig9"> Fig. 7.2 - Pesquisa exemplo de entidades </p>
 
 Clicando num dos registos da lista, o utilizador pode clicar nas opções que se encontram no final da tabela.
 Se a lista de resultados for superior a 10 registos, surgirá no canto superior da tabela a navegação para a(s) próxima(s) página(s);
+
+
+## 5.4. Gestão de utilizadores
+
+O utilizador, se responsável da entidade pelo SGES, pode criar/gerir utilizadores para atualizarem os diferentes paineis no SGES.
+Será possivel criar utilizadores do tipo:
+* **SGES_ENTIDADE** - Os utilizadores poderão executar as operações sobre a *entidade* assim como criar e alterar *estabelecimentos*.
+* **SGES_EQUIPAMENTOS** - Os utilizadores poderão executar as operações sobre os *equipamentos* médicos pesados e sobre a *produção* relativo à entidade.
+
+Para criar novos utilizadores, se tiver autorização, deve clicar no botão das opções avançadas situado no canto superior direito da página 
+([5.Conceitos Básicos](#conceitos-bsicos)). Após clicar em **Gestão de Utilizadores**, aparecerá a página de **Gestão de Utilizadores** [Fig. 8](#fig5_4_1).
+
+![img/pages/fig10.jpg](img/pages/5_4_1.jpg)
+
+<p class="caption" id="fig5_4_1"> Fig. 8 - Gestão de utilizadores </p>
+
+O utilizador deve clicar em **Criar**, para aparecer a página de *Criar Utilizador* [Fig. 9](#fig5_4_2).
+
+![img/pages/fig10.jpg](img/pages/5_4_2.jpg)
+
+<p class="caption" id="fig5_4_2"> Fig. 9 - Criar utilizador </p>
+
+Para a criação de utilizador deve ser preenchido os seguintes campos obrigatórios:
+
+|    |  Campos Obrigatórios [Fig. 9](#fig5_4_2)  | |    
+|----|----------------------------------------|----|
+| a) |  Nome       		                ||
+| b) |  BI/CC                           ||
+| c) |  Data de nascimento              ||
+| d) |  Sexo                            ||
+| e) |  E-mail                          ||
+| f) |  Perfil                          | SGES_ENTIDADE|
+| |                                     | SGES_EQUIPAMENTOS|
+
+
+
+
+
+
+
