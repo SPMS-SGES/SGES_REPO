@@ -1,11 +1,21 @@
+---
+layout: default
+title: "Your first markdown webPage using git"
+description: "index page how to show markdown files on html."
+published_on: 2015-09-30
+updated_on: 2015-10-06
+translation_priority: 2
+order: 3
+---
+
 # SGES_REPO
 
-Repositório para material do SGES (Sistema de Gestão de Entidades na Saúde). 
+RepositÃ³rio para material do SGES (Sistema de GestÃ£o de Entidades na SaÃºde). 
 
 
 ## Directorias
 
-* **_layouts** - directoria com o layout html do conteúdo utilizado em Markdown
+* **_layouts** - directoria com o layout html do conteÃºdo utilizado em Markdown
 
 ## Ajuda
 
