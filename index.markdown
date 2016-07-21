@@ -10,8 +10,8 @@ Repositório para material do SGES (Sistema de Gestão de Entidades na Saúde).
 ## Links dos ambientes
 
 ### CI
-Link do [SGES](http://192.168.4.220:8001/SGES/ "SGES").
-Link do [SGES BackOffice](http://192.168.4.220:8001/SGES_BKO/ "SGES BKO").
+1. Link do [SGES](http://192.168.4.220:8001/SGES/ "SGES").
+2. Link do [SGES BackOffice](http://192.168.4.220:8001/SGES_BKO/ "SGES BKO").
 
 ### DEV
 Link do [SGES](http://192.168.4.220:8001/SGES/ "SGES").
