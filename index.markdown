@@ -2,7 +2,7 @@
 layout: default
 title: "SGES Index"
 ---
-
+![SGES]( SGES_REPO/SGES_Manual_Utilizador/img/SGES.png )
 # SGES INDEX
 
 Repositório para material do SGES (Sistema de Gestão de Entidades na Saúde). 
@@ -10,19 +10,27 @@ Repositório para material do SGES (Sistema de Gestão de Entidades na Saúde).
 ## Links dos ambientes
 
 ### CI
-1. Link do [SGES](http://192.168.4.220:8001/SGES/ "SGES").
-2. Link do [SGES BackOffice](http://192.168.4.220:8001/SGES_BKO/ "SGES BKO").
+
+Link do [SGES](http://192.168.4.220:8001/SGES/ "SGES").
+
+Link do [SGES BackOffice](http://192.168.4.220:8001/SGES_BKO/ "SGES BKO").
 
 ### DEV
+
 Link do [SGES](http://192.168.4.220:8001/SGES/ "SGES").
+
 Link do [SGES BackOffice](http://192.168.4.220:8001/SGES_BKO/ "SGES BKO").
 
 ### QLT
+
 Link do [SGES](http://10.202.12.141:8080/SGES/ "SGES").
+
 Link do [SGES BackOffice](http://10.202.12.141:8080/SGES_BKO/ "SGES BKO").
 
 ### PRD
+
 Link do [SGES](https://sges.min-saude.pt/SGES/ "SGES").
+
 Link do [SGES BackOffice](https://sges.min-saude.pt/SGES_BKO/ "SGES BKO").
 
 ## Repositório de versões
