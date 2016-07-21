@@ -3,9 +3,8 @@ layout: default
 title: "SGES Index"
 ---
 ![SGES](http://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/img/SGES.png)
-# SGES INDEX
 
-Repositório para material do SGES (Sistema de Gestão de Entidades na Saúde). 
+Página auxiliar do projeto SGES
 
 ## Links dos ambientes
 
