@@ -6,15 +6,15 @@ title: "SGES Index"
 
 Página auxiliar do projeto SGES
 
-## Links dos ambientes
+    ## Links dos ambientes
 
-### CI
+    ### CI
 
-Link do [SGES](http://192.168.4.220:8001/SGES/ "SGES").
+    Link do [SGES](http://192.168.4.220:8001/SGES/ "SGES").
 
-Link do [SGES BackOffice](http://192.168.4.220:8001/SGES_BKO/ "SGES BKO").
+    Link do [SGES BackOffice](http://192.168.4.220:8001/SGES_BKO/ "SGES BKO").
 
-### DEV
+    ### DEV
 
 Link do [SGES](http://192.168.4.220:8001/SGES/ "SGES").
 
