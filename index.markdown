@@ -8,14 +8,14 @@ translation_priority: 2
 order: 3
 ---
 
-# SGES_REPO
+# SGES INDEX
 
 Repositório para material do SGES (Sistema de Gestão de Entidades na Saúde). 
 
 
-## Directorias
+## Repositório de versões
 
-* **_layouts** - directoria com o layout html do conteúdo utilizado em Markdown
+Link do [Repositório](http://example.com/ "Nexus").
 
 ## Ajuda
 
