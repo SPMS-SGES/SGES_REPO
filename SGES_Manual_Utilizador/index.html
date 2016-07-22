@@ -99,12 +99,9 @@
 	</body>
 	<script>
 		/**Carrega o html dos modulos**/
-		$(function() {
-			$("#indice").load("Indice.html");
-		});
-		$(window).bind("load", function() {
-			alert('load');
-		});
+		$("#indice").load("Indice.html");
+		$('a[href*='+location.hash+']').click();
+		
 	</script>
     
 </html>
