@@ -100,18 +100,11 @@
 		$("#ModuloEquipamentos").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/equipamento.html");
 		$("#ModuloInstalacoes").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/instalacao.html");
 		});
-		function gotoHASH() {
-		    if (location.hash) {
-		        if ( $.browser.webkit == false ) {
-		            window.location.hash = location.hash;
-		        } else {
-		            window.location.href = location.hash;
-		        }
-		    }
-		};
+		$(document).ready(function() {
+		    $('a[href*='+location.hash+']').click();
+		});
 		window.onload = function () { 
-		 gotoHASH();
-        	 $('a[href*='+location.hash+']').click();
+        		
 		}
 	</script>
 </html>
