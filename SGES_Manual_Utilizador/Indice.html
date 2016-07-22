@@ -234,6 +234,17 @@
 				</li>-->
 			</ul>
 		</div>
-	</nav>	
+	</nav>
+	<script>
+		/**Carrega o html dos modulos**/
+		$(function() {
+			loda();
+		});
+		
+		function loda(){
+			$('a[href*='+location.hash+']').click();	
+		}
+		
+	</script>
 </body>
 </html>
