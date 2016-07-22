@@ -85,22 +85,26 @@
 		<script src="js/main.js"></script>
 		<script src="js/highslide-with-gallery.js"></script>
 				
-
+		<script>
+			/**Carrega o html dos modulos**/
+			$("#ModuloIntroducao").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/introducao.html");
+			$("#ModuloEntidades").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/entidade.html");
+			$("#ModuloEstabelecimentos").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/estabelecimento.html");
+			$("#ModuloRhServicos").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/rhServico.html");
+			$("#ModuloTempoEspera").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/tempoEspera.html");
+			$("#ModuloProducao").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/producaoEquipamento.html");
+			$("#ModuloEquipamentos").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/equipamento.html");
+			$("#ModuloInstalacoes").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/instalacao.html");
+		</script>
 	</body>
-    <script>
+	<script>
 		/**Carrega o html dos modulos**/
 		$(function() {
-		$("#ModuloIntroducao").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/introducao.html");
-		$("#ModuloEntidades").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/entidade.html");
-		$("#ModuloEstabelecimentos").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/estabelecimento.html");
-		$("#ModuloRhServicos").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/rhServico.html");
-		$("#ModuloTempoEspera").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/tempoEspera.html");
-		$("#ModuloProducao").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/producaoEquipamento.html");
-		$("#ModuloEquipamentos").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/equipamento.html");
-		$("#ModuloInstalacoes").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/instalacao.html");
-		$("#indice").load("Indice.html");
-		loda();
+			$("#indice").load("Indice.html");
 		});
-
+		$(window).bind("load", function() {
+			alert('load');
+		});
 	</script>
+    
 </html>
