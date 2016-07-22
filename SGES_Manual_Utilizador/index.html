@@ -8,7 +8,7 @@
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/style.css">
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
-	<script type="text/javascript">
+		<script type="text/javascript">
 			hs.graphicsDir = '../highslide/graphics/';
 			hs.align = 'center';
 			hs.transitions = ['expand', 'crossfade'];
@@ -100,5 +100,7 @@
 		$("#ModuloEquipamentos").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/equipamento.html");
 		$("#ModuloInstalacoes").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/instalacao.html");
 		});
+		
+		$('a[href*='+location.hash+']').click()
 	</script>
 </html>
