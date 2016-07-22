@@ -89,7 +89,7 @@ A edição deve respeitar o preenchimento dos campos obrigatórios identificados
 No final da edição o utilizador para gravar as alterações deve clicar no botão **GUARDAR**. Após clicar irá ser notificado com o resultado da operação.
 
 ## 6.3.Consultar Entidade
-### <a name="Consultar Entidade"></a>
+<a name="Consultar Entidade"></a>
 A página de consulta de uma entidade pode ser a página de entrada no SGES ([Fig. 5](#fig5)) ou se tiver acesso à pesquisa de entidades pode navegar diretamente para a consulta após selecionar uma entidade da lista de resultados e clicar no botão **CONSULTAR** ([Fig. 7.2](#fig9) ).
 
 ## 6.4.Encerrar Entidade
