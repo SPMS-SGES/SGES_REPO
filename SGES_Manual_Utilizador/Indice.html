@@ -4,7 +4,7 @@
 	<meta charset="utf-8" />
 	<script src="js/libs/accordion-menu.js"></script>
 </head>
-<body onload="alert('indice');">
+<body >
     <!-- Nav -->
 	<nav id="nav">
 		<div id="accordion">
@@ -235,16 +235,5 @@
 			</ul>
 		</div>
 	</nav>
-	<script>
-		/**Carrega o html dos modulos**/
-		$(function() {
-			loda();
-		});
-		
-		function loda(){
-			$('a[href*='+location.hash+']').click();	
-		}
-		
-	</script>
 </body>
 </html>
