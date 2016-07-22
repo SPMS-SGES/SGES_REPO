@@ -90,7 +90,6 @@
     <script>
 		/**Carrega o html dos modulos**/
 		$(function() {
-		$("#indice").load("Indice.html");
 		$("#ModuloIntroducao").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/introducao.html");
 		$("#ModuloEntidades").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/entidade.html");
 		$("#ModuloEstabelecimentos").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/estabelecimento.html");
@@ -99,12 +98,8 @@
 		$("#ModuloProducao").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/producaoEquipamento.html");
 		$("#ModuloEquipamentos").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/equipamento.html");
 		$("#ModuloInstalacoes").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/instalacao.html");
-		loda();
+		$("#indice").load("Indice.html");
 		});
-		
-		function loda(){
-			$('a[href*='+location.hash+']').click();	
-		}
-		
+
 	</script>
 </html>
