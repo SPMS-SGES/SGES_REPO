@@ -12,7 +12,7 @@ order: 3
 # 6.Entidades
 
 É neste módulo que serão feitas ações sobre as entidades.
-
+<p id="criarEntidade"></p>
 ## 6.1.Criar Entidade
 
 Para poder criar uma entidade o utilizador deve preencher,pelo menos, os campos obrigatórios e clicar em **CRIAR**;
@@ -81,13 +81,13 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar a entidade. Ap�
 
 <p class="caption" id="fig11"> Fig.11 Criar Entidade </p>
 
-
+<p id="alteraEntidade"></p>
 ## 6.2.Editar Entidade
 
 A página de edição de uma entidade está disponível através da consulta de entidade clicando no botão “EDITAR ENTIDADE” ([Fig. 5](#fig5)) ou se tiver acesso à pesquisa de entidades pode navegar diretamente para a edição após selecionar uma entidade da lista de resultados e clicar no botão **EDITAR** ([Fig. 7.2](#fig9) ).
 A edição deve respeitar o preenchimento dos campos obrigatórios identificados no ponto [6.1 Criar Entidade](#criar-entidade).
 No final da edição o utilizador para gravar as alterações deve clicar no botão **GUARDAR**. Após clicar irá ser notificado com o resultado da operação.
-
+<p id="consultaEntidade"></p>
 ## 6.3.Consultar Entidade
 A página de consulta de uma entidade pode ser a página de entrada no SGES ([Fig. 5](#fig5)) ou se tiver acesso à pesquisa de entidades pode navegar diretamente para a consulta após selecionar uma entidade da lista de resultados e clicar no botão **CONSULTAR** ([Fig. 7.2](#fig9) ).
 
