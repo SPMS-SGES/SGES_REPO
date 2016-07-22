@@ -101,10 +101,10 @@
 		$("#ModuloInstalacoes").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/instalacao.html");
 		});
 		$(document).ready(function() {
-		    $('a[href*='+location.hash+']').click();
+		    navigate();
 		});
-		window.onload = function () { 
-        		
+		function navigate(){
+			$('a[href*='+location.hash+']').click();
 		}
 	</script>
 </html>
