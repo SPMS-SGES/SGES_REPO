@@ -17,6 +17,8 @@ O utilizador pode consultar a lista de estabelecimentos associados a uma entidad
 
 <p class="caption" id="fig14"> Fig. 14 -Estabelecimentos da Entidade</p>
 
+<p id="criarEstabelecimento"></p>
+
 ## 7.1.Criar Estabelecimento
 
 Para criar um novo estabelecimento, o utilizador deve clicar em **CRIAR** na página de estabelecimentos associados a uma entidade  ([Fig. 14](#fig14)). De seguida, será encaminhado para a página de criação de estabelecimento, onde deverá preencher os campos obrigatórios para poder efetuar o registo do estabelecimento.
@@ -146,14 +148,20 @@ Após o preenchimento da identificação do estabelecimento, dependendo do tipo 
 
 Após o registo dos dados em cada módulo, deve clicar em **GUARDAR** para gravar o estabelecimento. Após clicar irá ser notificado com o resultado da operação.
 
+<p id="alteraEstabelecimento"></p>
+
 ## 7.2. Editar Estabelecimento
 
 A página de edição de um estabelecimento está disponível através da consulta de estabelecimento clicando no botão **EDITAR ESTABELECIMENTO**. Se tiver acesso à pesquisa de estabelecimentos ([Fig. 8](#fig8)) ou à página de estabelecimentos associados a uma entidade ([Fig. 14](#fig14)) pode navegar diretamente para a edição após selecionar um estabelecimento da lista de resultados e clicar no botão **EDITAR**.
 A edição deve respeitar o preenchimento dos campos obrigatórios identificados no ponto [7.1 Criar Estabelecimento](#criar-estabelecimento).
 No final da edição o utilizador para gravar as alterações deve clicar no botão **GUARDAR**. Após clicar irá ser notificado com o resultado da operação.
 
+<p id="consultarEstabelecimento"></p>
+
 ## 7.3. Consultar Estabelecimento
 Se o utilizador tiver acesso à pesquisa de estabelecimentos ([Fig. 8](#fig8)) ou à página de estabelecimentos associados a uma entidade ([Fig. 14](#fig14)) pode navegar diretamente para a consulta após selecionar um estabelecimento da lista de resultados e clicar no botão **CONSULTAR**. 
+
+<p id="transfereEstabelecimento"></p>
 
 ## 7.4. Transferir Estabelecimento 
 Na página de estabelecimentos associados a uma entidade ([Fig. 14](#fig14)), o utilizador pode navegar diretamente para a página de transferência de equipamento após selecionar um estabelecimento da lista e clicar no botão **TRANSFERIR**.
@@ -169,6 +177,8 @@ Para poder transferir o equipamento, o utilizador deve preencher os campos obrig
 
 Após clicar no botão surge alerta a questionar se pretende mesmo encerrar o estabelecimento, se confirmar irá ser notificado com o resultado da operação.
 
+<p id="encerrarEstabelecimento"></p>
+
 ## 7.5. Encerrar Estabelecimento 
 Para encerrar um estabelecimento tem de pesquisar pelo mesmo ([Fig. 8](#fig8)) e depois de o selecionar na lista de resultados deve clicar no botão **ENCERRAR**.
 Uma vez na página de **Encerrar Estabelecimento** ([Fig. 20](#fig20)) deve preencher os campos *Mês*, *Ano*, *Motivo*, *Observação* se for necessário e depois clicar no botão “Encerrar”. Após clicar no botão surge alerta a questionar se pretende mesmo encerrar o estabelecimento, se confirmar irá ser notificado com o resultado da operação.
@@ -176,6 +186,8 @@ Uma vez na página de **Encerrar Estabelecimento** ([Fig. 20](#fig20)) deve pree
 ![img/pages/fig20](img/pages/7_5_1.jpg)
 
 <p class="caption" id="fig20"> Fig. 20 -Encerrar Estabelecimento</p>
+
+<p id="historicoEstabelecimento"></p>
 
 ## 7.6. Histórico Estabelecimento 
 
