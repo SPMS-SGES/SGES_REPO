@@ -10,6 +10,8 @@ order: 3
 
 # 12. Equipamentos
 
+<p id="criaEquipamento"></p>
+
 ## 12.1. Criar Equipamento
 Para criar um novo equipamento, o utilizador deve clicar em **CRIAR** na página de equipamentos de um estabelecimento ([Fig. 29](#fig29)). De seguida, será encaminhado para a página de criação de equipamento, onde deverá preencher os campos obrigatórios do painel Identificação para poder efetuar o registo do equipamento.
 
@@ -142,6 +144,7 @@ Para o utilizador aceder ao painel *Manutenção* ([Fig. 35](#fig35)) e *Recurso
 Após preencher os campos em cada painel, o utilizador deve clicar em  **GUARDAR** no painel respectivo, para gravar o equipamento. 
 Após clicar irá ser notificado com o resultado da operação.
 
+<p id="alteraEquipamento"></p>
 
 ## 12.2. Editar Equipamento
 
@@ -150,9 +153,13 @@ A edição deve respeitar o preenchimento dos campos obrigatórios identificados
 No final da edição o utilizador para gravar as alterações deve clicar no botão **GUARDAR**. Após clicar irá ser notificado com o resultado da operação.
 O utilizador pode navegar entre os equipamentos do estabelecimento clicando em **SEQGUINTE** ou **ANTERIOR**.
 
+<p id="consultaEquipamento"></p>
+
 ## 12.3. Consultar Equipamento
 
 Na página de equipamentos de um estabelecimento ([Fig. 29](#fig29)), o utilizador pode navegar diretamente para a consulta após selecionar um equipamento da lista e clicar no botão **CONSULTAR**. 
+
+<p id="transfereEquipamento"></p>
 
 ## 12.4. Transferir Equipamento
 
@@ -170,6 +177,8 @@ Para poder transferir o equipamento, o utilizador deve preencher os campos obrig
 ![img/pages/fig37](img/pages/12_4_1.jpg)
 
 <p class="caption" id="fig37"> Fig. 37 -Transferir Equipamento</p>
+
+<p id="historicoEquipamento"></p>
 
 ## 12.5. Histórico de Equipamento
 A página de histórico de um equipamento pode ser acedida através da página de equipamentos de estabelecimento ([Fig. 29](#fig29)) e clicando no botão **HISTÓRICO**.

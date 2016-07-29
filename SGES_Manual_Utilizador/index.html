@@ -8,58 +8,57 @@
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/style.css">
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
-		
 		<script type="text/javascript">
-	hs.graphicsDir = '../highslide/graphics/';
-	hs.align = 'center';
-	hs.transitions = ['expand', 'crossfade'];
-	hs.outlineType = 'rounded-white';
-	hs.fadeInOut = true;
-	hs.numberPosition = 'caption';
-	hs.dimmingOpacity = 0.75;
-
-	// Add the controlbar
-	if (hs.addSlideshow) hs.addSlideshow({
-		//slideshowGroup: 'group1',
-		interval: 5000,
-		repeat: false,
-		useControls: true,
-		fixedControls: 'fit',
-		overlayOptions: {
-			opacity: .75,
-			position: 'bottom center',
-			hideOnMouseOut: true
-		}
-	});
-</script>
+			hs.graphicsDir = '../highslide/graphics/';
+			hs.align = 'center';
+			hs.transitions = ['expand', 'crossfade'];
+			hs.outlineType = 'rounded-white';
+			hs.fadeInOut = true;
+			hs.numberPosition = 'caption';
+			hs.dimmingOpacity = 0.75;
+		
+			// Add the controlbar
+			if (hs.addSlideshow) hs.addSlideshow({
+				//slideshowGroup: 'group1',
+				interval: 5000,
+				repeat: false,
+				useControls: true,
+				fixedControls: 'fit',
+				overlayOptions: {
+					opacity: .75,
+					position: 'bottom center',
+					hideOnMouseOut: true
+				}
+			});
+		</script>
 	</head>
 	<body>
-				<!-- Content -->
-	<div id="content">
-            <div id="header">
-			    <p><span>&nbsp;</span></p>
-
-			     <p align=center style='text-align: center'>
-				    <img width=190 height=64 src="img/SPMS.png">
-				    <img width=240 height=50 style="margin-left: 40px;" src="img/ACSS.png">
-				    <img width=180 height=88 style="margin-left: 40px;" src="img/GOVERNO.png">
-			    </p>
-
-			    <p><span>&nbsp;</span></p>
- <p align=center style='text-align: center'>
-				    <b> <span style='font-size: 26.0pt; color: black'>
-						    <img width=434 height=148 src="img/SGES.png" alt="SGES_Logo">
-					    </span>
-				    </b>
-				     </p>
-				      <p align=center style='text-align: center;margin-top: 100px;'>
-                    <b> 
-                        <span lang=EN-US style='font-size: 26.0pt; color: black; margin-top:3em'>Manual do Utilizador</span>
-				    </b>
-			    </p>
-
-		    </div>
-				<div id="paginas">
+		<!-- Content -->
+		<div id="content">
+	            <div id="header">
+			<p><span>&nbsp;</span></p>
+	
+			<p align=center style='text-align: center'>
+			    <img width=190 height=64 src="img/SPMS.png">
+			    <img width=240 height=50 style="margin-left: 40px;" src="img/ACSS.png">
+			    <img width=180 height=88 style="margin-left: 40px;" src="img/GOVERNO.png">
+			</p>
+	
+			<p><span>&nbsp;</span></p>
+	 		<p align=center style='text-align: center'>
+				<b> 
+					<span style='font-size: 26.0pt; color: black'>
+				  		<img width=434 height=148 src="img/SGES.png" alt="SGES_Logo">
+					</span>
+				</b>
+			</p>
+			<p align=center style='text-align: center;margin-top: 100px;'>
+	                	<b> 
+	                        	<span lang=EN-US style='font-size: 26.0pt; color: black; margin-top:3em'>Manual do Utilizador</span>
+				</b>
+			</p>
+		</div>
+		<div id="paginas">
 			<div id="ModuloIntroducao" class="modulo"></div>
 			<div id="ModuloEntidades" class="modulo"></div>
 			<div id="ModuloEstabelecimentos" class="modulo"></div>
@@ -68,37 +67,38 @@
 			<div id="ModuloTempoEspera" class="modulo"></div>
 			<div id="ModuloEquipamentos" class="modulo"></div>
 		</div>
-		
-		
+			
+			
 		<!-- Sidebar -->
 		<div id="sidebar" style="position: fixed;overflow-y: scroll;height: 100%;">
-            <!-- Logo -->
-	        <h1 id="logo"><a href="#">MENU</a></h1>
-            <div id="indice" style="margin-bottom: 40px;"></div>		
+		    	<!-- Logo -->
+		        <h1 id="logo">
+		        	<a href="#">MENU</a>
+		        </h1>
+		        <div id="indice" style="margin-bottom: 40px;color: rgb(46, 68, 83);text-shadow: initial;"></div>		
 		</div>
-
+	
 		<!-- Scripts -->
 		<script src="js/jquery.min.js"></script>
-        <script src="js/jquery.zoom.js"></script>
+		<script src="js/jquery.zoom.js"></script>
 		<script src="js/script.js"></script>
 		<script src="js/skel.min.js"></script>
 		<script src="js/util.js"></script>
 		<script src="js/main.js"></script>
-		<script src="js/highslide-with-gallery.js"></script>		
-
+		<script src="js/highslide-with-gallery.js"></script>
+					
+		<script>
+			/**Carrega o html dos modulos**/
+			$("#ModuloIntroducao").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/introducao.html");
+			$("#ModuloEntidades").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/entidade.html");
+			$("#ModuloEstabelecimentos").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/estabelecimento.html");
+			$("#ModuloRhServicos").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/rhServico.html");
+			$("#ModuloTempoEspera").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/tempoEspera.html");
+			$("#ModuloProducao").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/producaoEquipamento.html");
+			$("#ModuloEquipamentos").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/equipamento.html");
+			$("#ModuloInstalacoes").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/instalacao.html");
+			$("#indice").load("Indice.html");
+		</script>
 	</body>
-    <script>
-		/**Carrega o html dos modulos**/
-		$(function() {
-		$("#indice").load("Indice.html");
-		$("#ModuloIntroducao").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/introducao.html");
-		$("#ModuloEntidades").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/entidade.html");
-		$("#ModuloEstabelecimentos").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/estabelecimento.html");
-		$("#ModuloRhServicos").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/rhServico.html");
-		$("#ModuloTempoEspera").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/tempoEspera.html");
-		$("#ModuloProducao").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/producaoEquipamento.html");
-		$("#ModuloEquipamentos").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/equipamento.html");
-		$("#ModuloInstalacoes").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/instalacao.html");
-		});
-	</script>
+	<script>setTimeout(function(){$('a[href*='+location.hash+']').click();},1000);</script>
 </html>
