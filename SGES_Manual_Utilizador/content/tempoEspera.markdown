@@ -16,6 +16,7 @@ O utilizador pode consultar os tempos de espera numa entidade no separador **Tem
 
 <p class="caption" id="fig27"> Fig. 27 -Tempos de Espera</p>
 
+<p id="tERealizacaoExames"></p>
 
 ## 11.1.Consultar Tempos de Espera
 
@@ -31,6 +32,8 @@ selecionar o período que pretende consultar e clicar no botão **CONSULTAR**;
 | a) | 	Área                                             |
 | b) | 	Exames                                           |
 | b) |  Total dias espera                                |
+
+<p id="tERealizacaoExames"></p>
 
 ## 11.2. Preencher/Alterar Tempos de Espera
 O utilizador pode preencher ou alterar o *Total dias de espera* após navegar para o separador **Tempos de Espera**  ([Fig. 27](#fig27)), selecionar o período que pretende preencher ou alterar e clicar no botão **PREENCHER/ALTERAR**.

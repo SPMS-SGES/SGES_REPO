@@ -1,14 +1,14 @@
 # Manual Utilizador SGES
 
-[Manual utilizado SGES](http://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/) para ver o resultado do repositório.
+[Manual utilizador SGES](http://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/) para ver o resultado do repositório.
 
-## Directórios
+## Directorias
 
 * **content** - conteúdo em markdown
 * **css** - ficheiros de estilo
  - *main.css* estilo principal
  - *style.css* estilo personalizado
-* **highdlide** - imagens essenciais para zoom ([highslide webpage](http://highslide.com/))
+* **highslide** - imagens essenciais para zoom ([highslide webpage](http://highslide.com/))
 * **img** - imagens incluidas no manual 
  - *pages* - imagens das páginas web da aplicação
 * **js** - bibliotecas e ficheiros de JavaScript
