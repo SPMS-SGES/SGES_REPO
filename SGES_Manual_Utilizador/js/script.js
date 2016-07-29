@@ -30,6 +30,8 @@ $('tr').each(function(){
  
  function zommClickImagem() {
 	 $('#paginas p>img:not([alt="logo"])').each(function(){
+		 var alt = $(this).attr("alt")
+		 if(alt != "alteracaoSenha" && alt != "login" && alt !="loginRecuperacao")
 		 $(this).wrap("<a class='imagem' href='"+$(this).attr( "src" ) + "' onclick='return hs.expand(this)'></a>"); 
 });
 }
