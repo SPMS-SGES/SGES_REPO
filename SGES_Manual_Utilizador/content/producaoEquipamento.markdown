@@ -16,6 +16,8 @@ O utilizador pode consultar a produção interna e para exterior dos equipamento
 
 <p class="caption" id="fig24"> Fig. 24 -Produção Equipamentos</p>
 
+<p id="producaoEquipamento"></p>
+
 ## 9.1.Consultar Produção Equipamentos
 O utilizador pode consultar a produção dos equipamentos após navegar para o subseparador de produção *Interna* ou *Para Exterior* do separador **Produção Equipamentos** ([Fig. 24](#fig24)), selecionar o ano que pretende consultar e clicar no botão **CONSULTAR**.
 
@@ -32,6 +34,8 @@ Na consulta será apresentada uma página separada por áreas de afetação dos 
 | c) | Indicador                                            |
 | d) | Total Exames                                         |
 
+<p id="producaoEquipamento"></p>
+
 ## 9.2.Preencher/Alterar Produção Equipamentos
 
 O utilizador pode preencher ou alterar o total de exames na produção realizada dos equipamentos após navegar para o subseparador de produção *Interna* ou *Para Exterior* do separador **Produção Equipamentos** ([Fig. 24](#fig24)), selecionar o ano que pretende preencher ou alterar e clicar no botão **PREENCHER/ALTERAR**.
@@ -46,9 +50,13 @@ O utilizador pode consultar a produção no exterior por uma entidade no separad
 
 <p class="caption" id="fig26"> Fig. 26 -Produção no Exterior</p>
 
+<p id="consultarProducaoRealizadaExterior"></p>
+
 ## 10.1.Consultar Produção no Exterior
 O utilizador pode consultar a produção realizada no exterior após navegar para o subseparador do ano pretendido no separador **Produção no Exterior** ([Fig. 26](#fig26)), selecionar o ano que pretende consultar e clicar no botão **CONSULTAR**.
 A consulta será apresentada da mesma forma que a demonstrada no ponto [9.1 Consultar Produção Equipamentos](#consultar-producao-equipamentos).
+
+<p id="alterarProducaoRealizadaExterior"></p>
 
 ## 10.2. Preencher/Alterar Produção no Exterior
 O utilizador pode preencher ou alterar o total de exames na produção realizada no exterior após navegar para o subseparador do ano pretendido no separador **Produção no Exterior** ([Fig. 26](#fig26)), selecionar o ano que pretende preencher/alterar e clicar no botão **PREENCHER/ALTERAR**.
