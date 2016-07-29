@@ -70,6 +70,7 @@ Objetivos do Sistema:
 # 5.Conceitos Básicos
 
 O utilizador interage com o **SGES** através da sua *Camada de Apresentação* com um browser de Internet.
+Sendo que a aplicação SGES é compativel com os seguintes browsers: *IE* versão 9 ou posterior, *Edge* , *Firefox* 40 ou posterior e *Chrome* 40 ou posterior.
 Associada a essa interação existe um conjunto de conceitos para os quais é chamada a atenção neste Capítulo.
 Todos os formulários que permitem criação ou edição de dados têm um conjunto de regras de negócio e validações para facilitar o preenchimento correto dos dados.
 Para auxiliar as validações existem 4 tipos de mensagens:
