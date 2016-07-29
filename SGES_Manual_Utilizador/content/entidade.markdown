@@ -84,15 +84,15 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar a entidade. Ap�
 
 ## 6.2.Editar Entidade
 
-A página de edição de uma entidade está disponível através da consulta de entidade clicando no botão “EDITAR ENTIDADE” ([Fig. 5](#fig5)) ou se tiver acesso à pesquisa de entidades pode navegar diretamente para a edição após selecionar uma entidade da lista de resultados e clicar no botão **EDITAR** ([Fig. 9](#fig9) ).
+A página de edição de uma entidade está disponível através da consulta de entidade clicando no botão “EDITAR ENTIDADE” ([Fig. 5](#fig5)) ou se tiver acesso à pesquisa de entidades pode navegar diretamente para a edição após selecionar uma entidade da lista de resultados e clicar no botão **EDITAR** ([Fig. 7.2](#fig9) ).
 A edição deve respeitar o preenchimento dos campos obrigatórios identificados no ponto [6.1 Criar Entidade](#criar-entidade).
 No final da edição o utilizador para gravar as alterações deve clicar no botão **GUARDAR**. Após clicar irá ser notificado com o resultado da operação.
 
 ## 6.3.Consultar Entidade
-A página de consulta de uma entidade pode ser a página de entrada no SGES ([Fig. 5](#fig5)) ou se tiver acesso à pesquisa de entidades pode navegar diretamente para a consulta após selecionar uma entidade da lista de resultados e clicar no botão **CONSULTAR** ([Fig. 9](#fig9) ).
+A página de consulta de uma entidade pode ser a página de entrada no SGES ([Fig. 5](#fig5)) ou se tiver acesso à pesquisa de entidades pode navegar diretamente para a consulta após selecionar uma entidade da lista de resultados e clicar no botão **CONSULTAR** ([Fig. 7.2](#fig9) ).
 
 ## 6.4.Encerrar Entidade
-Para encerrar uma entidade tem pesquisar pela mesma e depois de a selecionar na lista de resultados deve clicar no botão **ENCERRAR** ([Fig. 9](#fig9) ).
+Para encerrar uma entidade tem pesquisar pela mesma e depois de a selecionar na lista de resultados deve clicar no botão **ENCERRAR** ([Fig. 7.2](#fig9) ).
 Uma vez na página de **Encerrar Entidade** ([Fig. 12](#fig12)) deve preencher os campos *Mês*, *Ano*, *Observações* se for necessário e depois clicar no botão **Encerrar**. 
 Após clicar no botão surge alerta a questionar se pretende mesmo encerrar a entidade, se confirmar irá ser notificado com o resultado da operação.
 
@@ -101,7 +101,7 @@ Após clicar no botão surge alerta a questionar se pretende mesmo encerrar a en
 <p class="caption" id="fig12"> Fig. 12 - Encerrar entidade</p>
 
 ## 6.5.Histórico Entidade
-A página de histórico de uma entidade pode ser acedida através da pesquisa de entidades, selecionado uma entidade da lista de resultados e clicando no botão **HISTÓRICO**  ([Fig. 9](#fig9) ).
+A página de histórico de uma entidade pode ser acedida através da pesquisa de entidades, selecionado uma entidade da lista de resultados e clicando no botão **HISTÓRICO**  ([Fig. 7.2](#fig9) ).
 Uma vez na página de histórico ([Fig. 13](#fig13)) poderá visualizar todas as versões resultantes da edição da entidade, bem como a identificação dos campos alterados.
 
 ![img/pages/fig13](img/pages/6_5_1.jpg)
