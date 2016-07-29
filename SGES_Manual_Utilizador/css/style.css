@@ -72,40 +72,6 @@ a:hover, a:active { outline: 0; }
 =======
 
 
-span.imagem {
-	display: inline-block;
-	position: relative;
-}
-	
-.imagem img{
-	display: block;
-	width: 80%;
-	margin:auto;
-	margin-top: 50px;
-}
-
-#header .imagem img {
-	display: inline-block;
-	width: initial;
-}
-#header	 span.imagem{
-	display: inline-block;
-}
-
-.image.fit {
-	display: block;
-	width: 100%;
-}
-.image.featured {
-	display: block;
-	width: 100%;
-	margin: 0 0 2em 0;
-}
-
-.image.left {
-	float: left;
-	margin: 0 2em 2em 0;
-}
 
 
 /* =============================================================================
@@ -341,6 +307,7 @@ font-weight: bold;
 h2 a span:nth-child(2)::before {
 content:'  ' ;
 }
+
 /**imagens*/
 
 #paginas p img{
@@ -359,27 +326,25 @@ display:block;
 
 #paginas p  img[alt=logo]{
 height: 20px;
-display: initial;
-width: initial;
+display: inline;
+width: auto;
 }
 
 #paginas ul+p  img[alt=logo]{
-height: initial;
-display: initial;
-width: initial;
+height: auto;
+display: inline;
+width: auto;
 }
 
 
 #paginas p  img[alt=login],#paginas p  img[alt=loginRecuperacao], #paginas p  img[alt=alteracaoSenha] {
-width: initial;
+width: auto;
 }
 
 .imagem {
  outline: none;
  text-decoration: none;
 }
-
-
 
 
 p.caption{
