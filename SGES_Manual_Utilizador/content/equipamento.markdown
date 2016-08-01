@@ -10,10 +10,18 @@ order: 3
 
 # 12. Equipamentos
 
+É neste módulo que são feitas ações sobre os equipamentos. O utilizador pode consultar a lista de equipamentos associados a um estabelecimento através do separador Equipamentos ([Fig. 29](#fig29))
+
+![img/pages/fig29](img/pages/12_1.jpg)
+
+<p class="caption" id="fig29"> Fig. 29 - Equipamentos de um estabelecimento</p>
+
 <p id="criaEquipamento"></p>
 
 ## 12.1. Criar Equipamento
 Para criar um novo equipamento, o utilizador deve clicar em **CRIAR** na página de equipamentos de um estabelecimento ([Fig. 29](#fig29)). De seguida, será encaminhado para a página de criação de equipamento, onde deverá preencher os campos obrigatórios do painel Identificação para poder efetuar o registo do equipamento.
+
+
 
 ### 12.1.1. Identificação
 
