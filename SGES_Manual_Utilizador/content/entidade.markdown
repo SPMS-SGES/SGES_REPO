@@ -26,7 +26,7 @@ Para poder criar uma entidade o utilizador deve preencher,pelo menos, os campos 
 
 
 
-![/pages/img19.png](img/pages/6_1_1.jpg)
+![img/pages/img19.png](img/pages/6_1_1.jpg)
 
 <p class="caption" id="fig10"> Fig.10 Pesquisa Entidade </p>
   
