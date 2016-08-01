@@ -10,6 +10,12 @@ order: 3
 
 # 12. Equipamentos
 
+É neste módulo que são feitas ações sobre os equipamentos. O utilizador pode consultar a lista de equipamentos associados a um estabelecimento através do separador Equipamentos ([Fig. 29](#fig29))
+
+![img/pages/fig29](img/pages/12_1.jpg)
+
+<p class="caption" id="fig29"> Fig. 29 - Equipamentos de um estabelecimento</p>
+
 <p id="criaEquipamento"></p>
 
 ## 12.1. Criar Equipamento
