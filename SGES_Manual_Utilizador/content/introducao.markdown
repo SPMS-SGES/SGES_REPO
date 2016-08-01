@@ -69,6 +69,8 @@ Objetivos do Sistema:
 
 # 5.Conceitos Básicos
 
+O utilizador interage com o **SGES** através da sua *Camada de Apresentação* com um browser de Internet.
+Associada a essa interação existe um conjunto de conceitos para os quais é chamada a atenção neste Capítulo.
 Todos os formulários que permitem criação ou edição de dados têm um conjunto de regras de negócio e validações para facilitar o preenchimento correto dos dados.
 Para auxiliar as validações existem 4 tipos de mensagens:
 
