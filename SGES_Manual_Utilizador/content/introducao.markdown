@@ -1,11 +1,6 @@
 ---
 layout: default
-title: "Your first markdown webPage using git"
-description: "index page how to show markdown files on html."
-published_on: 2015-09-30
-updated_on: 2015-10-06
-translation_priority: 1
-order: 3
+title: "Introdução"
 ---
 
 
@@ -109,42 +104,43 @@ De modo a familiarizar o utilizador com a aplicação, apresentam-se, de seguida
 
 ## 5.1. Aceder ao SGES
 
-O acesso ao SGES é realizado através da navegação até ao seu endereço em [http://sges.min-saude.pt/SGES/login.html](http://sges.min-saude.pt/SGES/login.html) num browser de Internet que o utilizador tenha disponível no seu computador e irá surgir-lhe a página que surge na [Fig. 1](#fig1).
+O acesso ao SGES é realizado através da navegação até ao seu endereço em [http://sges.min-saude.pt/SGES/login.html](http://sges.min-saude.pt/SGES/login.html) num browser de Internet que o utilizador tenha disponível no seu computador e irá surgir-lhe a página que surge na [](#figLogin).
 
 ![login](img/pages/5_1_1.jpg)
 
-<p class="caption" id="fig1"> Fig. 1 -Página de acesso do SGES </p>
+<p class="caption" id="figLogin"> Página de acesso do SGES </p>
 
 Caso o utilizador saiba as suas credenciais, inserir os campos obrigatórios, e clicar em **Avançar**.
 
 Caso contrário, deverá clicar em **Recuperar Senha**, inserir os campos obrigatórios, e clicar em **Enviar**.
 
-|    |  Campos Obrigatórios [Fig. 3](#fig3).  |           
+|    |  Campos Obrigatórios [](#figLoginRecuperacao).  |           
 |----|----------------------------------------|
 | a) | e-mail associado á conta da aplicação  |  
 
 ![loginRecuperacao](img/pages/5_1_2.jpg)
 
-<p class="caption" id="fig3"> Fig. 3 -Recuperação da Senha </p>
+<p class="caption" id="figLoginRecuperacao"> Recuperação da Senha </p>
 
-Uma vez identificado e autenticado, é apresentada ao utilizador a página de entrada do SGES, [Fig. 4](#fig4) ou [Fig. 5](#fig5) caso seja do perfil ENTIDADE, onde pode então aceder às funcionalidades que lhe estão disponíveis.
+Uma vez identificado e autenticado, é apresentada ao utilizador a página de entrada do SGES, 
+[](#figPaginaEntrada) ou [](#figPaginaEntradaEnt) caso seja do perfil ENTIDADE, onde pode então aceder às funcionalidades que lhe estão disponíveis.
 
-![img/pages/fig4.jpg](img/pages/5_1_4.jpg)
+![figPaginaEntrada](img/pages/5_1_4.jpg)
 
-<p class="caption" id="fig4"> Fig. 4 -Página de entrada no SGES </p>
+<p class="caption" id="figPaginaEntrada"> Página de entrada no SGES </p>
 
-![img/pages/fig5.jpg](img/pages/5_1_5.jpg)
+![figPaginaEntradaEnt](img/pages/5_1_5.jpg)
 
-<p class="caption" id="fig5"> Fig. 5 -Página de entrada no SGES Entidade </p>
+<p class="caption" id="figPaginaEntradaEnt"> Fig. 5 -Página de entrada no SGES Entidade </p>
 
 Na primeira vez que o utilizador acede a aplicação, aparecerá a página de ([5.2. Alteração da senha](#alterao-da-senha)).
 
 ## 5.2. Alteração da senha
 
 A qualquer momento, o utilizador pode fazer a alteração da sua senha, clicando no botão das opções avançadas situado no canto superior direito da página ([5.Conceitos Básicos](#conceitos-bsicos)). 
-Após clicar em **Alterar Password** é lhe apresentada uma página de alteração de senha, [Fig. 6](#fig6). O utilizador deverá inserir os campos obrigatórios:
+Após clicar em **Alterar Password** é lhe apresentada uma página de alteração de senha, [](#figAlteracaoSenha). O utilizador deverá inserir os campos obrigatórios:
 
-|    |  Campos Obrigatórios [Fig. 6](#fig6)  |           
+|    |  Campos Obrigatórios [](#figAlteracaoSenha)  |           
 |----|----------------------------------------|
 | a) |  senha utilizada atualmente            | 
 | b) |  nova senha pretendida                 |  
@@ -154,32 +150,32 @@ Após o preenchimento dos campos, o utilizador deverá finalizar a alteração c
 
 ![alteracaoSenha](img/pages/5_2_1.jpg)
 
-<p class="caption" id="fig6"> Fig. 6 -Página de alteração de senha </p>
+<p class="caption" id="figAlteracaoSenha"> Página de alteração de senha </p>
 
 ## 5.3. Página de Pesquisa
 
 A aplicação tem uma página onde podem ser efetuadas pesquisa de entidades ou estabelecimentos, que será a página de entrada de alguns perfis.
 Caso pretenda pesquisar por entidades, o utilizador deverá selecionar **Entidade** no campo *Pesquisar por:* presente no formulário e preencher pelo menos 3 campos de pesquisa. Em seguida clicar em **Pesquisar** para executar a pesquisa.
 
-|   |  Campos Obrigatórios [Fig. 7](#fig7)  |           
+|   |  Campos Obrigatórios [](#figPesquisaEntidade)  |           
 |----|----------------------------------------|
 | a) | Campo de identificação do tipo de pesquisa | 
 
-![img/pages/5_3_1](img/pages/5_3_1.jpg)
+![figPesquisaEntidade](img/pages/5_3_1.jpg)
 
-<p class="caption" id="fig7"> Fig. 7 -Pesquisa de entidade </p>
+<p class="caption" id="figPesquisaEntidade"> Fig. 7 -Pesquisa de entidade </p>
 
 Caso pretenda pesquisar por estabelecimentos, o utilizador deverá selecionar **Estabelecimentos** no campo *Pesquisar por:* presente no formulário e preencher pelo menos 3 campos de pesquisa. Em seguida clicar em **Pesquisar** para executar a pesquisa.
 
-![img/pages/fig8.jpg](img/pages/5_3_2.jpg)
+![figPesquisaEstabelecimento](img/pages/5_3_2.jpg)
 
-<p class="caption" id="fig8"> Fig. 7.1 -Pesquisa de estabelecimentos </p>
+<p class="caption" id="figPesquisaEstabelecimento"> Pesquisa de estabelecimentos </p>
 
-Na próxima imagem ([Fig. 7.2](#fig9)) podemos observar o resultado da pesquisa onde se pretende listar todos os Centros Hospitalares públicos no distrito do Porto.
+Na próxima imagem ([](#figPesquisaExEntidade)) podemos observar o resultado da pesquisa onde se pretende listar todos os Centros Hospitalares públicos no distrito do Porto.
 
-![img/pages/fig9.jpg](img/pages/5_3_3.jpg)
+![figPesquisaExEntidade](img/pages/5_3_3.jpg)
 
-<p class="caption" id="fig9"> Fig. 7.2 - Pesquisa exemplo de entidades </p>
+<p class="caption" id="figPesquisaExEntidade"> Pesquisa exemplo de entidades </p>
 
 Clicando num dos registos da lista, o utilizador pode clicar nas opções que se encontram no final da tabela.
 Se a lista de resultados for superior a 10 registos, surgirá no canto superior da tabela a navegação para a(s) próxima(s) página(s);
@@ -195,23 +191,23 @@ Será possivel criar utilizadores com os seguintes perfis:
 * **SGES_EQUIPAMENTOS** - Os utilizadores poderão executar as operações sobre os *equipamentos* médicos pesados e sobre a *produção* dos mesmos.
 
 Para criar novos utilizadores, deve clicar no botão das opções avançadas situado no canto superior direito da página 
-([5.Conceitos Básicos](#conceitos-bsicos)). Após clicar em **Gestão de Utilizadores**, aparecerá a página de **Gestão de Utilizadores** [Fig. 8](#fig5_4_1).
+([5.Conceitos Básicos](#conceitos-bsicos)). Após clicar em **Gestão de Utilizadores**, aparecerá a página de **Gestão de Utilizadores** [](#figGestaoUtilizadores).
 
-![img/pages/fig10.jpg](img/pages/5_4_1.jpg)
+![figGestaoUtilizadores](img/pages/5_4_1.jpg)
 
-<p class="caption" id="fig5_4_1"> Fig. 8 - Gestão de utilizadores </p>
+<p class="caption" id="figGestaoUtilizadores"> Gestão de utilizadores </p>
 
 ## 5.4.1. Criação de utilizadores
 
-O utilizador deve clicar em **Criar**, para aparecer a página de *Criar Utilizador* [Fig. 9](#fig5_4_2).
+O utilizador deve clicar em **Criar**, para aparecer a página de *Criar Utilizador* [](#figCriarUtilizador).
 
-![img/pages/fig10.jpg](img/pages/5_4_2.jpg)
+![figCriarUtilizador](img/pages/5_4_2.jpg)
 
-<p class="caption" id="fig5_4_2"> Fig. 9 - Criar utilizador </p>
+<p class="caption" id="figCriarUtilizador"> Criar utilizador </p>
 
 Para a criação de utilizador deve ser preenchido os seguintes campos obrigatórios:
 
-|    |  Campos Obrigatórios [Fig. 9](#fig5_4_2)  | |    
+|    |  Campos Obrigatórios [](#figCriarUtilizador)  | |    
 |----|----------------------------------------|----|
 | a) |  Nome       		                ||
 | b) |  BI/CC                           ||
