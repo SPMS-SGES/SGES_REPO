@@ -1,11 +1,6 @@
 ---
 layout: default
-title: "Your first markdown webPage using git"
-description: "index page how to show markdown files on html."
-published_on: 2015-09-30
-updated_on: 2015-10-06
-translation_priority: 2
-order: 3
+title: "Entidade"
 ---
 
 
@@ -19,23 +14,23 @@ order: 3
 
 Para poder criar uma entidade o utilizador deve preencher,pelo menos, os campos obrigatórios e clicar em **CRIAR**;
 
-|  | Campos Obrigatórios ([Fig. 10](#fig10))               |   |   |   |
+|  | Campos Obrigatórios ([](#figPesquisaEntidade))               |   |   |   |
 |----|--------------------------------------------|---|---|---|
 | a) | Campo de identificação do tipo de pesquisa |   |   |   |
 | b) | NIPC da entidade a criar |   |   |   |
 
 
 
-![img/pages/img19.png](img/pages/6_1_1.jpg)
+![figPesquisaEntidade](img/pages/6_1_1.jpg)
 
-<p class="caption" id="fig10"> Fig.10 Pesquisa Entidade </p>
+<p class="caption" id="figPesquisaEntidade">Pesquisa Entidade </p>
   
   
-Se ainda não existir a entidade, o utilizador será encaminhado para a página de criação de entidade, com os dados pre-preenchidos da página de pesquisa [Fig. 10](#fig10). 
+Se ainda não existir a entidade, o utilizador será encaminhado para a página de criação de entidade, com os dados pre-preenchidos da página de pesquisa [](#figPesquisaEntidade). 
 Deverá preencher os campos obrigatórios para poder efetuar o registo da entidade.
 Após o registo dos dados deve clicar em **GUARDAR** para gravar a entidade. Após clicar irá ser notificado com o resultado da operação.
 
-|    | Campos Obrigatórios da ([Fig. 11](#fig11))                  |                 |             |   |
+|    | Campos Obrigatórios da ([](#figCriarEntidade))                  |                 |             |   |
 |----|-----------------------------------------------------|-----------------|-------------|---|
 | a) | Denominação                                         |                 |             |   |
 | b) | Natureza Jurídica                                   |                 |             |   |
@@ -79,43 +74,43 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar a entidade. Ap�
 | y) | Identificação dos Sócios/Acionistas (só se natureza jurídica = Privada) |     |     |   |
 
 
-![img/pages/image020.jpg](img/pages/6_1_2.jpg)
+![figCriarEntidade](img/pages/6_1_2.jpg)
 
-<p class="caption" id="fig11"> Fig.11 Criar Entidade </p>
+<p class="caption" id="figCriarEntidade">Criar Entidade </p>
 
 <p id="alteraEntidade"></p>
 
 ## 6.2.Editar Entidade
 
-A página de edição de uma entidade está disponível através da consulta de entidade clicando no botão “EDITAR ENTIDADE” ([Fig. 5](#fig5)) ou se tiver acesso à pesquisa de entidades pode navegar diretamente para a edição após selecionar uma entidade da lista de resultados e clicar no botão **EDITAR** ([Fig. 7.2](#fig9) ).
+A página de edição de uma entidade está disponível através da consulta de entidade clicando no botão “EDITAR ENTIDADE” ([](#figPaginaEntradaEnt)) ou se tiver acesso à pesquisa de entidades pode navegar diretamente para a edição após selecionar uma entidade da lista de resultados e clicar no botão **EDITAR** ([](#figPesquisaExEntidade) ).
 A edição deve respeitar o preenchimento dos campos obrigatórios identificados no ponto [6.1 Criar Entidade](#criar-entidade).
 No final da edição o utilizador para gravar as alterações deve clicar no botão **GUARDAR**. Após clicar irá ser notificado com o resultado da operação.
 
 <p id="consultaEntidade"></p>
 
 ## 6.3.Consultar Entidade
-A página de consulta de uma entidade pode ser a página de entrada no SGES ([Fig. 5](#fig5)) ou se tiver acesso à pesquisa de entidades pode navegar diretamente para a consulta após selecionar uma entidade da lista de resultados e clicar no botão **CONSULTAR** ([Fig. 7.2](#fig9) ).
+A página de consulta de uma entidade pode ser a página de entrada no SGES ([](#figPaginaEntradaEnt)) ou se tiver acesso à pesquisa de entidades pode navegar diretamente para a consulta após selecionar uma entidade da lista de resultados e clicar no botão **CONSULTAR** ([](#figPesquisaExEntidade) ).
 
 <p id="encerrarEntidade"></p>
 
 ## 6.4.Encerrar Entidade
-Para encerrar uma entidade tem pesquisar pela mesma e depois de a selecionar na lista de resultados deve clicar no botão **ENCERRAR** ([Fig. 7.2](#fig9) ).
-Uma vez na página de **Encerrar Entidade** ([Fig. 12](#fig12)) deve preencher os campos *Mês*, *Ano*, *Observações* se for necessário e depois clicar no botão **Encerrar**. 
+Para encerrar uma entidade tem pesquisar pela mesma e depois de a selecionar na lista de resultados deve clicar no botão **ENCERRAR** ([](#figPesquisaExEntidade) ).
+Uma vez na página de **Encerrar Entidade** ([](#figEncerraEntidade)) deve preencher os campos *Mês*, *Ano*, *Observações* se for necessário e depois clicar no botão **Encerrar**. 
 Após clicar no botão surge alerta a questionar se pretende mesmo encerrar a entidade, se confirmar irá ser notificado com o resultado da operação.
 
-![img/pages/fig12](img/pages/6_4_1.jpg)
+![figEncerraEntidade](img/pages/6_4_1.jpg)
 
-<p class="caption" id="fig12"> Fig. 12 - Encerrar entidade</p>
+<p class="caption" id="figEncerraEntidade"> Encerrar entidade</p>
 
 <p id="historicoEntidade"></p>
 
 ## 6.5.Histórico Entidade
-A página de histórico de uma entidade pode ser acedida através da pesquisa de entidades, selecionado uma entidade da lista de resultados e clicando no botão **HISTÓRICO**  ([Fig. 7.2](#fig9) ).
-Uma vez na página de histórico ([Fig. 13](#fig13)) poderá visualizar todas as versões resultantes da edição da entidade, bem como a identificação dos campos alterados.
+A página de histórico de uma entidade pode ser acedida através da pesquisa de entidades, selecionado uma entidade da lista de resultados e clicando no botão **HISTÓRICO**  ([](#figPesquisaExEntidade) ).
+Uma vez na página de histórico ([](#figHistoricoEntidade)) poderá visualizar todas as versões resultantes da edição da entidade, bem como a identificação dos campos alterados.
 
-![img/pages/fig13](img/pages/6_5_1.jpg)
+![figHistoricoEntidade](img/pages/6_5_1.jpg)
 
-<p class="caption" id="fig13"> Fig.13 - Histórico de Entidade</p>
+<p class="caption" id="figHistoricoEntidade"> Histórico de Entidade</p>
 
 Estão também registados os estabelecimentos transferidos e encerrados da entidade. 
 
