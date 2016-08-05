@@ -46,9 +46,9 @@ $('.caption').each(function () {
     $(this).text(textRef + n + " - " + text);
     $("[href='" + alt + "']").each(function () {
         $(this).text(textRef + n);
-    })
+    });
     n++;
-})
+});
 
 
 }
