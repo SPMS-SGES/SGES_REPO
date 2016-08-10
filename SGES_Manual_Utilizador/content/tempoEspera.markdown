@@ -9,7 +9,9 @@ order: 3
 ---
 
 # 11.Tempos de Espera
-É neste módulo que serão feitas ações sobre os tempos de espera para a realização de exames.
+
+Os tempos de espera correspondem ao nº máximo de dias que decorrem desde que surge a necessidade de marcar um exame até à sua realização, para um doente programado, não urgente e seguido em ambulatório.
+O registo desta informação deve ser feito trimestralmente ([Despacho nº. 10430](http://www.sg.min-saude.pt/NR/rdonlyres/4D921E90-4382-4E9E-B682-3FE85F261D87/27261/3387133871.pdf)), preferencialmente nas datas 31 de Março, 30 de Junho, 30 de Setembro e 31 de Dezembro.
 O utilizador pode consultar os tempos de espera numa entidade no separador **Tempos de Espera** ([Fig. 27](#fig27)), através do ponto [6.3 Consultar Entidade](#consultar-entidade).
 
 ![img/pages/fig27](img/pages/11_0_1.jpg)
