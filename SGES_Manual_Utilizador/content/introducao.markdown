@@ -108,7 +108,7 @@ O acesso ao SGES é realizado através da navegação até ao seu endereço em [
 
 ![figLogin](img/pages/5_1_1.jpg)
 
-<p class="caption" id="figLogin"> Página de acesso do SGES </p>
+<p class="caption" id="figLogin">Página de acesso do SGES </p>
 
 Caso o utilizador saiba as suas credenciais, inserir os campos obrigatórios, e clicar em **Avançar**.
 
@@ -131,7 +131,7 @@ Uma vez identificado e autenticado, é apresentada ao utilizador a página de en
 
 ![figPaginaEntradaEnt](img/pages/5_1_5.jpg)
 
-<p class="caption" id="figPaginaEntradaEnt"> Fig. 5 -Página de entrada no SGES Entidade </p>
+<p class="caption" id="figPaginaEntradaEnt"> Página de entrada no SGES Entidade </p>
 
 Na primeira vez que o utilizador acede a aplicação, aparecerá a página de ([5.2. Alteração da senha](#alterao-da-senha)).
 
@@ -163,7 +163,7 @@ Caso pretenda pesquisar por entidades, o utilizador deverá selecionar **Entidad
 
 ![figPesquisaEntidade](img/pages/5_3_1.jpg)
 
-<p class="caption" id="figPesquisaEntidade"> Fig. 7 -Pesquisa de entidade </p>
+<p class="caption" id="figPesquisaEntidade"> Pesquisa de entidade </p>
 
 Caso pretenda pesquisar por estabelecimentos, o utilizador deverá selecionar **Estabelecimentos** no campo *Pesquisar por:* presente no formulário e preencher pelo menos 3 campos de pesquisa. Em seguida clicar em **Pesquisar** para executar a pesquisa.
 
