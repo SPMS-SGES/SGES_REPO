@@ -31,7 +31,7 @@ $('tr').each(function(){
  function zommClickImagem() {
 	 $('#paginas p>img:not([alt="logo"])').each(function(){
 		 var alt = $(this).attr("alt")
-		 if(alt != "alteracaoSenha" && alt != "login" && alt !="loginRecuperacao")
+		 if(alt != "figAlteracaoSenha" && alt != "figLogin" && alt !="figLoginRecuperacao")
 		 $(this).wrap("<a class='imagem' href='"+$(this).attr( "src" ) + "' onclick='return hs.expand(this)'></a>"); 
 });
 }
@@ -43,12 +43,21 @@ var textRef ="Fig."
 $('.caption').each(function () {
     var alt = $(this).attr("id");
     var text = $(this).html();
-    $(this).text(textRef + n + " - " + text);
+    /**acrescentar a label (Fig) à legenda*/
+    $(this).not(".legendaNum .caption").text(textRef + n + " - " + text);
+    $(this).not(".legendaNum .caption").wrap("<div class='legendaNum'></div>");
+    /**alterar id da legenda e colocar na imagem*/
+    ($(this)).attr("id",alt+"Capt");
+     $("img[alt='"+alt+"']").each(function () {
+         ($(this)).attr("id",alt);
+    });
+    
     $("[href='#" + alt + "']").each(function () {
         $(this).text(textRef + n);
     });
     n++;
 });
+
 
 
 }

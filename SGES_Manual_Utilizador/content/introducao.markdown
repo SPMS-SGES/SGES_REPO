@@ -106,7 +106,7 @@ De modo a familiarizar o utilizador com a aplicação, apresentam-se, de seguida
 
 O acesso ao SGES é realizado através da navegação até ao seu endereço em [http://sges.min-saude.pt/SGES/login.html](http://sges.min-saude.pt/SGES/login.html) num browser de Internet que o utilizador tenha disponível no seu computador e irá surgir-lhe a página que surge na [](#figLogin).
 
-![login](img/pages/5_1_1.jpg)
+![figLogin](img/pages/5_1_1.jpg)
 
 <p class="caption" id="figLogin"> Página de acesso do SGES </p>
 
@@ -118,7 +118,7 @@ Caso contrário, deverá clicar em **Recuperar Senha**, inserir os campos obriga
 |----|----------------------------------------|
 | a) | e-mail associado á conta da aplicação  |  
 
-![loginRecuperacao](img/pages/5_1_2.jpg)
+![figLoginRecuperacao](img/pages/5_1_2.jpg)
 
 <p class="caption" id="figLoginRecuperacao"> Recuperação da Senha </p>
 
@@ -148,7 +148,7 @@ Após clicar em **Alterar Password** é lhe apresentada uma página de alteraç�
 
 Após o preenchimento dos campos, o utilizador deverá finalizar a alteração clicando em **Alterar**.
 
-![alteracaoSenha](img/pages/5_2_1.jpg)
+![figAlteracaoSenha](img/pages/5_2_1.jpg)
 
 <p class="caption" id="figAlteracaoSenha"> Página de alteração de senha </p>
 
