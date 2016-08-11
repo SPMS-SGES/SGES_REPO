@@ -182,6 +182,7 @@ Se a lista de resultados for superior a 10 registos, surgirá no canto superior 
 
 
 ## 5.4. Gestão de utilizadores
+<p id="gestaoUtilizadores"></p>
 
 O utilizador, se tiver permissões, pode criar/gerir utilizadores para atualizarem os diferentes paineis no SGES na entidade respectiva.
 Será possivel criar utilizadores com os seguintes perfis:
