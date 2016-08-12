@@ -1,3 +1,4 @@
+
  function atualizarTabela(){
  /**retirar borders das células vazias*/
   $('td').each(function(){
@@ -31,9 +32,38 @@ $('tr').each(function(){
  function zommClickImagem() {
 	 $('#paginas p>img:not([alt="logo"])').each(function(){
 		 var alt = $(this).attr("alt")
-		 if(alt != "alteracaoSenha" && alt != "login" && alt !="loginRecuperacao")
+		 if(alt != "figAlteracaoSenha" && alt != "figLogin" && alt !="figLoginRecuperacao")
 		 $(this).wrap("<a class='imagem' href='"+$(this).attr( "src" ) + "' onclick='return hs.expand(this)'></a>"); 
 });
+}
+
+function autoFigureNumber() {
+	
+var n="1";
+var textRef ="Fig."
+
+$('.caption').each(function () {
+    var alt = $(this).attr("id");
+    var text = $(this).html();
+    /**acrescentar a label (Fig) à legenda*/
+    if(!$(this).is(".legendaNum .caption")){
+		$(this).text(textRef + n + " - " + text);
+		$(this).wrap("<div class='legendaNum'></div>");
+    /**alterar id da legenda e colocar na imagem*/
+		($(this)).attr("id",alt+"Capt");
+		$("img[alt='"+alt+"']").each(function () {
+			($(this)).attr("id",alt);
+		});
+    
+		$("[href='#" + alt + "']").each(function () {
+			$(this).text(textRef + n);
+		});
+    n++;
+	}
+});
+
+
+
 }
 
 
