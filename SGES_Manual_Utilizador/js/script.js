@@ -46,7 +46,7 @@ $('.caption').each(function () {
     var alt = $(this).attr("id");
     var text = $(this).html();
     /**acrescentar a label (Fig) à legenda*/
-    if($(this).not(".legendaNum .caption")){
+    if(!$(this).is(".legendaNum .caption")){
 		$(this).text(textRef + n + " - " + text);
 		$(this).wrap("<div class='legendaNum'></div>");
     /**alterar id da legenda e colocar na imagem*/
