@@ -10,17 +10,17 @@ order: 3
 
 # 8. RH Serviços
 É neste módulo que são feitas ações sobre os recursos humanos afetos a serviços.
-O utilizador pode consultar a lista dos recursos humanos afetos a serviços numa entidade no separador **RH Serviços**  ([Fig. 22](#fig22)), através do ponto [6.3 Consultar Entidade](##consultar-entidade).
+O utilizador pode consultar a lista dos recursos humanos afetos a serviços numa entidade no separador **RH Serviços**  ([](#figRhAfetosEntidade)), através do ponto [6.3 Consultar Entidade](##consultar-entidade).
 
-![img/pages/fig22](img/pages/8_0_1.jpg)
+![figRhAfetosEntidade](img/pages/8_0_1.jpg)
 
-<p class="caption" id="fig22"> Fig. 22 -Recursos Humanos afetos a serviços numa Entidade</p>
+<p class="caption" id="figRhAfetosEntidade"> Recursos Humanos afetos a serviços numa Entidade</p>
 
 <p id="criaRhEquipamento"></p>
 
 ## 8.1. Criar RH Serviço
 
-|    | Campos Obrigatórios da [Fig. 23](#fig23)       |      |
+|    | Campos Obrigatórios da [](#figCriarRhServicos)       |      |
 |----|---------------------------------------------------|----------|
 | a) | Ano                                          |   | 
 | b) | Grupo Profissional               |  Assistente Operacional| 
@@ -66,9 +66,9 @@ O utilizador pode consultar a lista dos recursos humanos afetos a serviços numa
 | k) | Nº de exames contratados                                |   | 
 
 
-![img/pages/fig23](img/pages/8_1_1.jpg)
+![figCriarRhServicos](img/pages/8_1_1.jpg)
 
-<p class="caption" id="fig23"> Fig. 23 -Criar RH Serviços</p>
+<p class="caption" id="figCriarRhServicos"> Criar RH Serviços</p>
 
 Após o registo dos dados deve clicar em **GUARDAR** para gravar o RH Serviço. Após clicar irá ser notificado com o resultado da operação.
 
@@ -76,13 +76,13 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar o RH Serviço. 
 
 ##8.2. Consultar RH Serviço
 
-O utilizador pode navegar para a página de consulta de RH Serviços após selecionar um RH Serviço da lista de RH Serviços existentes numa entidade ([Fig. 22](#fig22))  e clicar no botão **CONSULTAR**.
+O utilizador pode navegar para a página de consulta de RH Serviços após selecionar um RH Serviço da lista de RH Serviços existentes numa entidade ([](#figRhAfetosEntidade))  e clicar no botão **CONSULTAR**.
 
 <p id="alteraRhEquipamento"></p>
 
 ##8.3. Editar RH Serviço
 
-Através da página de consulta de RH Serviços existentes numa entidade ([Fig. 22](#fig22)) , o utilizador pode navegar diretamente para a edição após selecionar um RH Serviço da lista e clicar no botão **EDITAR**.
+Através da página de consulta de RH Serviços existentes numa entidade ([](#figRhAfetosEntidade)) , o utilizador pode navegar diretamente para a edição após selecionar um RH Serviço da lista e clicar no botão **EDITAR**.
 A edição deve respeitar o preenchimento dos campos obrigatórios identificados no ponto [8.1 Criar RH Serviço](#criar-rh-servico).
 No final da edição o utilizador para gravar as alterações deve clicar no botão **GUARDAR**. Após clicar irá ser notificado com o resultado da operação.
 
@@ -90,5 +90,5 @@ No final da edição o utilizador para gravar as alterações deve clicar no bot
 
 ##8.3. Apagar RH Serviço
  
- O utilizador pode apagar um RH Serviço após selecionar um RH Serviço da lista de RH Serviços existentes numa entidade ([Fig. 22](#fig22)) e clicar no botão **APAGAR**. 
+ O utilizador pode apagar um RH Serviço após selecionar um RH Serviço da lista de RH Serviços existentes numa entidade ([](#figRhAfetosEntidade)) e clicar no botão **APAGAR**. 
  Após clicar irá ser notificado com o resultado da operação.

@@ -10,24 +10,24 @@ order: 3
 
 # 9.Produção Equipamentos
 É neste módulo que serão feitas ações sobre a produção realizada pelos equipamentos.
-O utilizador pode consultar a produção interna e para exterior dos equipamentos de uma entidade no separador **Produção Equipamentos** ([Fig. 24](#fig24)), através do ponto [6.3 Consultar Entidade](#consultar-entidade).
+O utilizador pode consultar a produção interna e para exterior dos equipamentos de uma entidade no separador **Produção Equipamentos** ([](#figProdEquipamento)), através do ponto [6.3 Consultar Entidade](#consultar-entidade).
 
-![img/pages/fig24](img/pages/9_0_1.jpg)
+![figProdEquipamento](img/pages/9_0_1.jpg)
 
-<p class="caption" id="fig24"> Fig. 24 -Produção Equipamentos</p>
+<p class="caption" id="figProdEquipamento"> Fig. 24 -Produção Equipamentos</p>
 
 <p id="producaoEquipamento"></p>
 
 ## 9.1.Consultar Produção Equipamentos
-O utilizador pode consultar a produção dos equipamentos após navegar para o subseparador de produção *Interna* ou *Para Exterior* do separador **Produção Equipamentos** ([Fig. 24](#fig24)), selecionar o ano que pretende consultar e clicar no botão **CONSULTAR**.
+O utilizador pode consultar a produção dos equipamentos após navegar para o subseparador de produção *Interna* ou *Para Exterior* do separador **Produção Equipamentos** ([](#figProdEquipamento)), selecionar o ano que pretende consultar e clicar no botão **CONSULTAR**.
 
-![img/pages/fig25](img/pages/9_1_1.jpg)
+![figExProdIntEnt](img/pages/9_1_1.jpg)
 
-<p class="caption" id="fig25"> Fig. 25 -Exemplo de Produção Interna de uma Entidade</p>
+<p class="caption" id="figExProdIntEnt"> Exemplo de Produção Interna de uma Entidade</p>
 
 Na consulta será apresentada uma página separada por áreas de afetação dos equipamentos, em que cada separador disponibiliza uma lista organizada da seguinte forma:
 
-|    | Colunas de Produção Equipamento ([Fig. 25](#fig25))  | 
+|    | Colunas de Produção Equipamento ([](#figExProdIntEnt))  | 
 |----|------------------------------------------------------|
 | a) | Capítulo                                             |
 | b) | Subcapítulo                                          |
@@ -44,21 +44,21 @@ No final da edição o utilizador para gravar as alterações deve clicar no bot
 # 10.Produção no Exterior
 
 É neste módulo que serão feitas ações sobre a produção realizada no exterior.
-O utilizador pode consultar a produção no exterior por uma entidade no separador **Produção no Exterior** ([Fig. 26](#fig26)) através do ponto [6.3 Consultar Entidade](#consultar-entidade).
+O utilizador pode consultar a produção no exterior por uma entidade no separador **Produção no Exterior** ([](#figProdExterior)) através do ponto [6.3 Consultar Entidade](#consultar-entidade).
 
-![img/pages/fig26](img/pages/10_0_1.jpg)
+![figProdExterior](img/pages/10_0_1.jpg)
 
-<p class="caption" id="fig26"> Fig. 26 -Produção no Exterior</p>
+<p class="caption" id="figProdExterior"> Produção no Exterior</p>
 
 <p id="consultarProducaoRealizadaExterior"></p>
 
 ## 10.1.Consultar Produção no Exterior
-O utilizador pode consultar a produção realizada no exterior após navegar para o subseparador do ano pretendido no separador **Produção no Exterior** ([Fig. 26](#fig26)), selecionar o ano que pretende consultar e clicar no botão **CONSULTAR**.
+O utilizador pode consultar a produção realizada no exterior após navegar para o subseparador do ano pretendido no separador **Produção no Exterior** ([](#figProdExterior)), selecionar o ano que pretende consultar e clicar no botão **CONSULTAR**.
 A consulta será apresentada da mesma forma que a demonstrada no ponto [9.1 Consultar Produção Equipamentos](#consultar-producao-equipamentos).
 
 <p id="alterarProducaoRealizadaExterior"></p>
 
 ## 10.2. Preencher/Alterar Produção no Exterior
-O utilizador pode preencher ou alterar o total de exames na produção realizada no exterior após navegar para o subseparador do ano pretendido no separador **Produção no Exterior** ([Fig. 26](#fig26)), selecionar o ano que pretende preencher/alterar e clicar no botão **PREENCHER/ALTERAR**.
+O utilizador pode preencher ou alterar o total de exames na produção realizada no exterior após navegar para o subseparador do ano pretendido no separador **Produção no Exterior** ([](#figProdExterior)), selecionar o ano que pretende preencher/alterar e clicar no botão **PREENCHER/ALTERAR**.
 No final da edição o utilizador para gravar as alterações deve clicar no botão **GUARDAR**. Após clicar irá ser notificado com o resultado da operação.
 
