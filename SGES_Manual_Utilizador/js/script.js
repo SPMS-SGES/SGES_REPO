@@ -1,3 +1,5 @@
+ var n="1";
+ 
  function atualizarTabela(){
  /**retirar borders das células vazias*/
   $('td').each(function(){
@@ -37,7 +39,7 @@ $('tr').each(function(){
 }
 
 function autoFigureNumber() {
-var n="1"
+
 var textRef ="Fig."
 
 $('.caption').each(function () {
