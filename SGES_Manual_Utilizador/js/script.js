@@ -1,4 +1,5 @@
 
+/**colocar tabela mais apresentavel*/
  function atualizarTabela(){
  /**retirar borders das células vazias*/
   $('td').each(function(){
@@ -9,7 +10,7 @@
 		$(this).css("border-left","none");
 });
 
- /**unir células*/
+ /**unir células (que tenham numero de linhas >1)*/
 $('tr').each(function(){
 	var n =1;
 	var anteriorvazio = 1;
@@ -28,7 +29,7 @@ $('tr').each(function(){
 });
  }
  
- 
+ /**preparar imagem para zoom*/
  function zommClickImagem() {
 	 $('#paginas p>img:not([alt="logo"])').each(function(){
 		 var alt = $(this).attr("alt")
