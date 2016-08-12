@@ -1,5 +1,4 @@
- var n="1";
- 
+
  function atualizarTabela(){
  /**retirar borders das células vazias*/
   $('td').each(function(){
@@ -39,14 +38,16 @@ $('tr').each(function(){
 }
 
 function autoFigureNumber() {
+var n="1";
 var textRef ="Fig."
 
 $('.caption').each(function () {
     var alt = $(this).attr("id");
     var text = $(this).html();
     /**acrescentar a label (Fig) à legenda*/
-    $(this).not(".legendaNum .caption").text(textRef + n + " - " + text);
-    $(this).not(".legendaNum .caption").wrap("<div class='legendaNum'></div>");
+    if($(this).not(".legendaNum .caption")>0){
+    $(this).text(textRef + n + " - " + text);
+    $(this).wrap("<div class='legendaNum'></div>");
     /**alterar id da legenda e colocar na imagem*/
     ($(this)).attr("id",alt+"Capt");
      $("img[alt='"+alt+"']").each(function () {
