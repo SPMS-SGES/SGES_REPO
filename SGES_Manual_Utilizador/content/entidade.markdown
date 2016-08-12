@@ -14,16 +14,16 @@ title: "Entidade"
 
 Para poder criar uma entidade o utilizador deve preencher,pelo menos, os campos obrigatórios e clicar em **CRIAR**;
 
-|  | Campos Obrigatórios ([](#figPesquisaEntidade))               |   |   |   |
+|  | Campos Obrigatórios ([](#figCamposPesquisaEntidade))               |   |   |   |
 |----|--------------------------------------------|---|---|---|
 | a) | Campo de identificação do tipo de pesquisa |   |   |   |
 | b) | NIPC da entidade a criar |   |   |   |
 
 
 
-![figPesquisaEntidade](img/pages/6_1_1.jpg)
+![figCamposPesquisaEntidade](img/pages/6_1_1.jpg)
 
-<p class="caption" id="figPesquisaEntidade">Pesquisa Entidade </p>
+<p class="caption" id="figCamposPesquisaEntidade"> Campos de preenchimento para pesquisa Entidade </p>
   
   
 Se ainda não existir a entidade, o utilizador será encaminhado para a página de criação de entidade, com os dados pre-preenchidos da página de pesquisa [](#figPesquisaEntidade). 
