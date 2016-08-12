@@ -37,6 +37,7 @@ $('tr').each(function(){
 });
 }
 
+/**adicionar legendas com numeração automática*/
 function autoFigureNumber() {
 	
 var n="1";
@@ -47,7 +48,7 @@ $('.caption').each(function () {
     var text = $(this).html();
     /**acrescentar a label (Fig) à legenda*/
     if(!$(this).is(".legendaNum .caption")){
-		$(this).text(textRef + n + " - " + text);
+		$(this).html("<b>"textRef + n + "</b>"+ "  -  " + text);
 		$(this).wrap("<div class='legendaNum'></div>");
     /**alterar id da legenda e colocar na imagem*/
 		($(this)).attr("id",alt+"Capt");
