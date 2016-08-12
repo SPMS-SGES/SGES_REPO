@@ -9,6 +9,7 @@ order: 3
 ---
 
 # 8. RH Serviços
+
 É neste módulo que são feitas ações sobre os recursos humanos afetos a serviços.
 O utilizador pode consultar a lista dos recursos humanos afetos a serviços numa entidade no separador **RH Serviços**  ([Fig. 22](#fig22)), através do ponto [6.3 Consultar Entidade](##consultar-entidade).
 
@@ -74,13 +75,13 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar o RH Serviço. 
 
 <p id="consultaRhEquipamento"></p>
 
-##8.2. Consultar RH Serviço
+## 8.2. Consultar RH Serviço
 
 O utilizador pode navegar para a página de consulta de RH Serviços após selecionar um RH Serviço da lista de RH Serviços existentes numa entidade ([Fig. 22](#fig22))  e clicar no botão **CONSULTAR**.
 
 <p id="alteraRhEquipamento"></p>
 
-##8.3. Editar RH Serviço
+## 8.3. Editar RH Serviço
 
 Através da página de consulta de RH Serviços existentes numa entidade ([Fig. 22](#fig22)) , o utilizador pode navegar diretamente para a edição após selecionar um RH Serviço da lista e clicar no botão **EDITAR**.
 A edição deve respeitar o preenchimento dos campos obrigatórios identificados no ponto [8.1 Criar RH Serviço](#criar-rh-servico).
