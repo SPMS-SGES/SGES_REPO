@@ -10,22 +10,22 @@ order: 3
 
 # 12. Equipamentos
 
-É neste módulo que são feitas ações sobre os equipamentos. O utilizador pode consultar a lista de equipamentos associados a um estabelecimento através do separador Equipamentos ([Fig. 29](#fig29))
+É neste módulo que são feitas ações sobre os equipamentos. O utilizador pode consultar a lista de equipamentos associados a um estabelecimento através do separador Equipamentos ([](#figEqpEstabelecimento))
 
-![img/pages/fig29](img/pages/12_1.jpg)
+![figEqpEstabelecimento](img/pages/12_1.jpg)
 
-<p class="caption" id="fig29"> Fig. 29 - Equipamentos de um estabelecimento</p>
+<p class="caption" id="figEqpEstabelecimento"> Equipamentos de um estabelecimento</p>
 
 <p id="criaEquipamento"></p>
 
 ## 12.1. Criar Equipamento
-Para criar um novo equipamento, o utilizador deve clicar em **CRIAR** na página de equipamentos de um estabelecimento ([Fig. 29](#fig29)). De seguida, será encaminhado para a página de criação de equipamento, onde deverá preencher os campos obrigatórios do painel Identificação para poder efetuar o registo do equipamento.
+Para criar um novo equipamento, o utilizador deve clicar em **CRIAR** na página de equipamentos de um estabelecimento ([](#figEqpEstabelecimento)). De seguida, será encaminhado para a página de criação de equipamento, onde deverá preencher os campos obrigatórios do painel Identificação para poder efetuar o registo do equipamento.
 
 
 
 ### 12.1.1. Identificação
 
-|    | Campos Obrigatórios da ([Fig. 30](#fig30))         |      |
+|    | Campos Obrigatórios da ([](#figCriarEquipamento))         |      |
 |----|----------------------------------------------------|----------|
 | a) | Designação                                         |      |
 | b) | Número de Série                                    |      |
@@ -36,9 +36,9 @@ Para criar um novo equipamento, o utilizador deve clicar em **CRIAR** na página
 | g) | Produção para Exterior?                          | Sim     |
 
 
-![img/pages/fig30](img/pages/12_1_1_1.jpg)
+![figCriarEquipamento](img/pages/12_1_1_1.jpg)
 
-<p class="caption" id="fig30"> Fig. 30 -Criar novo Equipamento - Identificação</p>
+<p class="caption" id="figCriarEquipamento"> Criar novo Equipamento - Identificação</p>
 
 Após o registo dos dados deve clicar em **GUARDAR** para gravar o equipamento. Após clicar irá ser notificado com o resultado da operação.
 
@@ -46,15 +46,15 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar o equipamento. 
 
 |    | Outros módulos a preencher                 |
 |----|--------------------------------------------|
-| a) | Contratação ([Fig. 31](#fig31))            |
-| b) | Localização/Estado ([Fig. 32](#fig32))     |
-| c) | Atividade   ([Fig. 33](#fig33))            |
-| d) |Autorização Ministerial / Licença de Instalação ([Fig. 34](#fig34))|
-| e) | Manutenção  ([Fig. 35](#fig35))            |
-| f) | Recursos Humanos Afetos ([Fig. 36](#fig36))|
+| a) | Contratação ([](#figContratacao))            |
+| b) | Localização/Estado ([](#figLocalizacao))     |
+| c) | Atividade   ([](#figAtividade))            |
+| d) |Autorização Ministerial / Licença de Instalação ([](#figAutorizacao))|
+| e) | Manutenção  ([](#figManutencao))            |
+| f) | Recursos Humanos Afetos ([](#figRhAfetos))|
 
 
-|    | Campos Obrigatórios do módulo Contratação ([Fig. 31](#fig31)) | |
+|    | Campos Obrigatórios do módulo Contratação ([](#figContratacao)) | |
 |----|----------------------------------------------------|----------|
 | a) | Tipo de Contrato                                   | Aquisição    |
 ||                                                        | Concessão    |
@@ -66,11 +66,11 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar o equipamento. 
 | e) | Se Tipo de Contrato= Aquisição                     | Custo Aquisição |
 | f) | Se Tipo de Contrato= Aquisição                     | Data de Receção  |
 
-![img/pages/fig31](img/pages/12_1_2_1.jpg)
+![figContratacao](img/pages/12_1_2_1.jpg)
 
-<p class="caption" id="fig31"> Fig. 31 -Criar novo Equipamento - Contratação</p>
+<p class="caption" id="figContratacao"> Criar novo Equipamento - Contratação</p>
 
-|    | Campos Obrigatórios do módulo Localização/Estado ([Fig. 32](#fig32)) | | |
+|    | Campos Obrigatórios do módulo Localização/Estado ([](#figLocalizacao)) | | |
 |----|----------------------------------------------------|----------||
 | a) | Estado                               		      | Abatido    ||
 ||                                                        | Avariado    ||
@@ -82,11 +82,11 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar o equipamento. 
 | c) | Se Estado = Não Instalado,Parado ou Avariado       | Motivo||
 | d) | Se Estado = Abatido                    	          | Data de Abate|
 
-![img/pages/fig32](img/pages/12_1_2_2.jpg)
+![figLocalizacao](img/pages/12_1_2_2.jpg)
 
-<p class="caption" id="fig32"> Fig. 32 -Criar novo Equipamento - Localização/Estado</p>
+<p class="caption" id="figLocalizacao"> Criar novo Equipamento - Localização/Estado</p>
 
-|    | Campos Obrigatórios do módulo Atividade ([Fig. 33](#fig33)) | | 
+|    | Campos Obrigatórios do módulo Atividade ([](#figAtividade)) | | 
 |----|----------------------------------------------------|----------|
 | a) | Tipo Atividade                               	| Partilhada (Programada/Urgência) |
 ||                                                      | Programada    |
@@ -96,12 +96,12 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar o equipamento. 
 | c) | Se Estado diferente urgência				        | Nº dias por semana| 
 | d) | Tipo de Utilização                    	        ||
 
-![img/pages/fig33](img/pages/12_1_2_2.jpg)
+![figAtividade](img/pages/12_1_2_2.jpg)
 
-<p class="caption" id="fig33"> Fig. 33 -Criar novo Equipamento - Atividade</p>
+<p class="caption" id="figAtividade"> Criar novo Equipamento - Atividade</p>
 
 
-|    | Campos Obrigatórios do módulo Autorização Ministeria/ Licença de Instalação ([Fig. 34](#fig34)) | | |
+|    | Campos Obrigatórios do módulo Autorização Ministeria/ Licença de Instalação ([](#figAutorizacao)) | | |
 |----|----------------------------------------------------|----------|--|
 | a) | Autorização Ministerial                         	  | Sim||
 ||                                                   	  | Não||
@@ -109,11 +109,11 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar o equipamento. 
 ||                                                   	  | Não||
 
 
-![img/pages/fig34](img/pages/12_1_2_3.jpg)
+![figAutorizacao](img/pages/12_1_2_3.jpg)
 
-<p class="caption" id="fig34"> Fig. 34 -Criar novo Equipamento - Autorização Ministeria/ Licença de Instalação</p>
+<p class="caption" id="figAutorizacao"> Criar novo Equipamento - Autorização Ministeria/ Licença de Instalação</p>
 
-|    | Campos Obrigatórios do módulo Manutenção ([Fig. 35](#fig35)) | | 
+|    | Campos Obrigatórios do módulo Manutenção ([](#figManutencao)) | | 
 |----|----------------------------------------------------|----------|
 | a) | Ano               			                	  | |
 | b) | Tipo de Manutenção                           	  | Corretiva|
@@ -132,11 +132,11 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar o equipamento. 
 |	|        		                         	          | Não |
 | f) | Custo                             	          	  |  |
 
-![img/pages/fig35](img/pages/12_1_2_4.jpg)
+![figManutencao](img/pages/12_1_2_4.jpg)
 
-<p class="caption" id="fig35"> Fig. 35 -Criar novo Equipamento - Manutenção</p>
+<p class="caption" id="figManutencao"> Criar novo Equipamento - Manutenção</p>
 
-|    | Campos Obrigatórios do módulo Recursos Humanos Afetos ([Fig. 36](#fig36)) | | 
+|    | Campos Obrigatórios do módulo Recursos Humanos Afetos ([](#figRhAfetos)) | | 
 |----|----------------------------------------------------|----------|
 | a) | Ano               			                	  | |
 | b) | Grupo Profissional                         	      | |
@@ -144,11 +144,11 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar o equipamento. 
 | d) | ECTS 		   		                           	  | |
 
 
-![img/pages/fig36](img/pages/12_1_2_5.jpg)
+![figRhAfetos](img/pages/12_1_2_5.jpg)
 
-<p class="caption" id="fig36"> Fig. 36 -Criar novo Equipamento - Recursos Humanos Afetos</p>
+<p class="caption" id="figRhAfetos"> Criar novo Equipamento - Recursos Humanos Afetos</p>
 
-Para o utilizador aceder ao painel *Manutenção* ([Fig. 35](#fig35)) e *Recursos Humanos Afetos*([Fig. 36](#fig36)) deverá clicar na tab respectiva, e selecionar o ano pretendido. 
+Para o utilizador aceder ao painel *Manutenção* ([](#figManutencao)) e *Recursos Humanos Afetos*([](#figRhAfetos)) deverá clicar na tab respectiva, e selecionar o ano pretendido. 
 Após preencher os campos em cada painel, o utilizador deve clicar em  **GUARDAR** no painel respectivo, para gravar o equipamento. 
 Após clicar irá ser notificado com o resultado da operação.
 
@@ -156,7 +156,7 @@ Após clicar irá ser notificado com o resultado da operação.
 
 ## 12.2. Editar Equipamento
 
-A página de edição de um equipamento está disponível através da consulta de equipamento clicando no botão **EDITAR EQUIPAMENTO**. Na página de equipamentos de um estabelecimento ([Fig. 29](#fig29)) o utilizador pode navegar diretamente para a edição após selecionar um equipamento da lista e clicar no botão **ALTERAR**.
+A página de edição de um equipamento está disponível através da consulta de equipamento clicando no botão **EDITAR EQUIPAMENTO**. Na página de equipamentos de um estabelecimento ([](#figEqpEstabelecimento)) o utilizador pode navegar diretamente para a edição após selecionar um equipamento da lista e clicar no botão **ALTERAR**.
 A edição deve respeitar o preenchimento dos campos obrigatórios identificados no ponto [13.1 Criar Equipamento](#criar-equipamento).
 No final da edição o utilizador para gravar as alterações deve clicar no botão **GUARDAR**. Após clicar irá ser notificado com o resultado da operação.
 O utilizador pode navegar entre os equipamentos do estabelecimento clicando em **SEQGUINTE** ou **ANTERIOR**.
@@ -165,16 +165,16 @@ O utilizador pode navegar entre os equipamentos do estabelecimento clicando em *
 
 ## 12.3. Consultar Equipamento
 
-Na página de equipamentos de um estabelecimento ([Fig. 29](#fig29)), o utilizador pode navegar diretamente para a consulta após selecionar um equipamento da lista e clicar no botão **CONSULTAR**. 
+Na página de equipamentos de um estabelecimento ([](#figEqpEstabelecimento)), o utilizador pode navegar diretamente para a consulta após selecionar um equipamento da lista e clicar no botão **CONSULTAR**. 
 
 <p id="transfereEquipamento"></p>
 
 ## 12.4. Transferir Equipamento
 
-Na página de equipamentos de um estabelecimento([Fig. 29](#fig29)), o utilizador pode navegar diretamente para a página de transferência de equipamento após selecionar um equipamento da lista e clicar no botão **TRANSFERIR**.
+Na página de equipamentos de um estabelecimento([](#figEqpEstabelecimento)), o utilizador pode navegar diretamente para a página de transferência de equipamento após selecionar um equipamento da lista e clicar no botão **TRANSFERIR**.
 Para poder transferir o equipamento, o utilizador deve preencher os campos obrigatórios e clicar em **TRANSFERIR**.
 
-|    | Campos Obrigatórios da ([Fig. 37](#fig37))         |
+|    | Campos Obrigatórios da ([](#figTransfEquipamento))         |
 |----|----------------------------------------------------|
 | a) | Data de Fim                                        | 
 | b) | Motivo                                             | 
@@ -182,12 +182,12 @@ Para poder transferir o equipamento, o utilizador deve preencher os campos obrig
 | d) | Estabelecimento de Destino                         | 
 
 
-![img/pages/fig37](img/pages/12_4_1.jpg)
+![figTransfEquipamento](img/pages/12_4_1.jpg)
 
-<p class="caption" id="fig37"> Fig. 37 -Transferir Equipamento</p>
+<p class="caption" id="figTransfEquipamento"> Transferir Equipamento</p>
 
 <p id="historicoEquipamento"></p>
 
 ## 12.5. Histórico de Equipamento
-A página de histórico de um equipamento pode ser acedida através da página de equipamentos de estabelecimento ([Fig. 29](#fig29)) e clicando no botão **HISTÓRICO**.
+A página de histórico de um equipamento pode ser acedida através da página de equipamentos de estabelecimento ([](#figEqpEstabelecimento)) e clicando no botão **HISTÓRICO**.
 Uma vez na página de histórico poderá visualizar todas as versões resultantes da edição do equipamento, bem como a identificação dos campos alterados.
