@@ -38,6 +38,7 @@ $('tr').each(function(){
 }
 
 function autoFigureNumber() {
+	
 var n="1";
 var textRef ="Fig."
 
@@ -46,18 +47,19 @@ $('.caption').each(function () {
     var text = $(this).html();
     /**acrescentar a label (Fig) à legenda*/
     if($(this).not(".legendaNum .caption")>0){
-    $(this).text(textRef + n + " - " + text);
-    $(this).wrap("<div class='legendaNum'></div>");
+		$(this).text(textRef + n + " - " + text);
+		$(this).wrap("<div class='legendaNum'></div>");
     /**alterar id da legenda e colocar na imagem*/
-    ($(this)).attr("id",alt+"Capt");
-     $("img[alt='"+alt+"']").each(function () {
-         ($(this)).attr("id",alt);
-    });
+		($(this)).attr("id",alt+"Capt");
+		$("img[alt='"+alt+"']").each(function () {
+			($(this)).attr("id",alt);
+		});
     
-    $("[href='#" + alt + "']").each(function () {
-        $(this).text(textRef + n);
-    });
+		$("[href='#" + alt + "']").each(function () {
+			$(this).text(textRef + n);
+		});
     n++;
+	}
 });
 
 
