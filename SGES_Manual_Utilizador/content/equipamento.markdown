@@ -62,7 +62,7 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar o equipamento. 
 ||                                                        | Oferta       |
 | b) | Data de Início de Funcionamento                     || 
 | c) | Se Tipo de Contrato diferente de Concessão         |Nº inventário/ID Equipamento |
-| d) | Se Tipo de Contrato= Aquisição                     | Data de Publicação da abertura de concurso (apenas para novas aquisições)|
+| d) | Se Tipo de Contrato= Aquisição (apenas para novas aquisições)| Data de Publicação da abertura de concurso |
 | e) | Se Tipo de Contrato= Aquisição                     | Custo Aquisição |
 | f) | Se Tipo de Contrato= Aquisição                     | Data de Receção  |
 
