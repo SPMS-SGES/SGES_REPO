@@ -2166,6 +2166,7 @@
 			text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.5);
 			box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
 			text-align: center;
+			padding-left: 30px;
 		}
 
 			#titleBar .title a {
@@ -2840,7 +2841,7 @@
 
 /* Off-Canvas Sidebar */
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1200px) {
 
 		/* Basic */
 
@@ -2895,10 +2896,10 @@
 			}
 
 			body.sidebar-visible #content, body.sidebar-visible #titleBar {
-				-moz-transform: translateX(21em);
-				-webkit-transform: translateX(21em);
-				-ms-transform: translateX(21em);
-				transform: translateX(21em);
+				-moz-transform: translateX(1em);
+				-webkit-transform: translateX(1em);
+				-ms-transform: translateX(1em);
+				transform: translateX(1em);
 			}
 
 			body.sidebar-visible #sidebar {
