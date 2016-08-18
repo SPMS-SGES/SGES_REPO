@@ -2213,7 +2213,7 @@
 		color: #aaa;
 		color: rgba(255, 255, 255, 0.55);
 		text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.5);
-		width: 17em;
+		width: 21em;
 		padding: 3em 1.35em 1em 1.15em;
 		overflow-y: auto;
 		left: 0;
@@ -2557,7 +2557,7 @@
 
 			#content {
 				padding: 3em 5em 8em 5em;
-				margin-left: 17em;
+				margin-left: 21em;
 			}
 
 	}
@@ -2887,18 +2887,18 @@
 				position: fixed;
 				top: 0;
 				z-index: 10002;
-				-moz-transform: translateX(-17em);
-				-webkit-transform: translateX(-17em);
-				-ms-transform: translateX(-17em);
-				transform: translateX(-17em);
+				-moz-transform: translateX(-21em);
+				-webkit-transform: translateX(-21em);
+				-ms-transform: translateX(-21em);
+				transform: translateX(-21em);
                 background-color: #2e4453;
 			}
 
 			body.sidebar-visible #content, body.sidebar-visible #titleBar {
-				-moz-transform: translateX(17em);
-				-webkit-transform: translateX(17em);
-				-ms-transform: translateX(17em);
-				transform: translateX(17em);
+				-moz-transform: translateX(21em);
+				-webkit-transform: translateX(21em);
+				-ms-transform: translateX(21em);
+				transform: translateX(21em);
 			}
 
 			body.sidebar-visible #sidebar {
