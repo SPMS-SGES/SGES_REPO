@@ -51,9 +51,9 @@ Para criar um novo estabelecimento, o utilizador deve clicar em **CRIAR** na pá
 
 |    | Campos Obrigatórios do painel do gabinete do cidadão, se aplicável([](#figPainelGabCidadao))  |      |
 |----|---------------------------------------------------|----------|
-| m) |E-mail do Gabinete Cidadão (só se Balcão de Apoio ao Cidadão aplicável )||
-| n) |Telefone do Gabinete Cidadão (só se Balcão de Apoio ao Cidadão aplicável) ||
-| m) |Site de Preços do Gabinete Cidadão (só se Balcão de Apoio ao Cidadão aplicável )||
+| m) |E-mail do Gabinete Cidadão ||
+| n) |Telefone do Gabinete Cidadão ||
+| m) |Site Tabela Preços em vigor (É uma tabela de preços em vigor para os cuidados a prestar pelo hospital. (São os preços a pagar por um utente independente, sem qualquer sistema de saúde) )||
 
 
 ![figCriarEstabelecimento](img/pages/7_1_1.jpg)
