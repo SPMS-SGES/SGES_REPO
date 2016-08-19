@@ -118,11 +118,11 @@ Após o preenchimento da identificação do estabelecimento, dependendo do tipo 
 
 Explicação dos valores possíveis para os quartos de isolamento:
 
-Quarto de Isolamento de GRAU III –     Quarto individual fechado, bem ventilado
+ Quarto de Isolamento de GRAU III –     Quarto individual fechado, bem ventilado
 
-Quarto de Isolamento de GRAU IV  –     Quarto individual fechado, bem ventilado, com desinfeção da ventilação e pressão negativa
+ Quarto de Isolamento de GRAU IV  –     Quarto individual fechado, bem ventilado, com desinfeção da ventilação e pressão negativa
 
-Quarto de Isolamento de GRAU VI  –     Quarto individual com porta dupla e pressão negativa. 
+ Quarto de Isolamento de GRAU VI  –     Quarto individual com porta dupla e pressão negativa. 
 
 
 
