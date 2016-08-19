@@ -125,6 +125,7 @@ Quarto de Isolamento de GRAU IV  –     Quarto individual fechado, bem ventilad
 Quarto de Isolamento de GRAU VI  –     Quarto individual com porta dupla e pressão negativa. 
 
 
+
 |    | Campos Obrigatórios – Unidade Funcional - ([](#figPostosColheita))  | |
 |----|--------------------------------------------------------|------|
 | a) | Centro de Saúde                                        | | 
