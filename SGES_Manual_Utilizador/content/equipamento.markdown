@@ -30,9 +30,9 @@ Para criar um novo equipamento, o utilizador deve clicar em **CRIAR** na página
 | a) | Designação                                         |      |
 | b) | Número de Série                                    |      |
 | c) | Posto de Trabalho (Todos os serviços a que um equipamento se encontra associado devem ser considerados)                           |      |
-| f) | Marca                                              |      |
+| d) | Marca                                              |      |
 | e) | Modelo                                             |      |
-| f) |Se Designação =Acelerador Linear,Angiógrafo,Câmara Gama, Câmara Hiperbárica,RM, RM (Dedicada exclusivamente à Radioterapia,TC ou TC (Dedicada exclusivamente à Radioterapia                           |Característica Técnica| 
+| f) |Se Designação = Acelerador Linear,Angiógrafo,Câmara Gama, Câmara Hiperbárica,RM, RM (Dedicada exclusivamente à Radioterapia,TC ou TC (Dedicada exclusivamente à Radioterapia                           |Característica Técnica| 
 | g) | Produção para Exterior?                          | Sim     |
 
 
