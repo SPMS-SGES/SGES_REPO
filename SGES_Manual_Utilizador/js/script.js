@@ -63,7 +63,7 @@ $('.caption').each(function () {
     n++;
 	}
 });
-
+}
 /**criarPDF*/
 function scriptParapdf(){
 var 
@@ -75,6 +75,7 @@ $('#create_pdf').on('click',function(){
  $('content').scrollTop(0);
  createPDF();
 });
+}
 //create pdf
 function createPDF(){
  getCanvas().then(function(canvas){
@@ -99,11 +100,9 @@ function getCanvas(){
     }); 
 }
  
-}());
 
 
 
-}
 
 
 
