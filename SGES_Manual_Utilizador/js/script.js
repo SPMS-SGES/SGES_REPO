@@ -72,10 +72,10 @@ var
  a4  =[ 595.28,  841.89];  // for a4 size paper width and height
  
 $('#create_pdf').on('click',function(){
- $('content').scrollTop(0);
+ $('#content').scrollTop(0);
  createPDF();
 });
-}
+
 //create pdf
 function createPDF(){
  getCanvas().then(function(canvas){
@@ -98,6 +98,7 @@ function getCanvas(){
      imageTimeout:2000,
      removeContainer:true
     }); 
+}
 }
  
 
