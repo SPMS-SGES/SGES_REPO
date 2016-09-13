@@ -1,4 +1,5 @@
 
+/**colocar tabela mais apresentavel*/
  function atualizarTabela(){
  /**retirar borders das células vazias*/
   $('td').each(function(){
@@ -9,7 +10,7 @@
 		$(this).css("border-left","none");
 });
 
- /**unir células*/
+ /**unir células (que tenham numero de linhas >1)*/
 $('tr').each(function(){
 	var n =1;
 	var anteriorvazio = 1;
@@ -28,7 +29,7 @@ $('tr').each(function(){
 });
  }
  
- 
+ /**preparar imagem para zoom*/
  function zommClickImagem() {
 	 $('#paginas p>img:not([alt="logo"])').each(function(){
 		 var alt = $(this).attr("alt")
@@ -37,6 +38,7 @@ $('tr').each(function(){
 });
 }
 
+/**adicionar legendas com numeração automática*/
 function autoFigureNumber() {
 	
 var n="1";
@@ -47,7 +49,7 @@ $('.caption').each(function () {
     var text = $(this).html();
     /**acrescentar a label (Fig) à legenda*/
     if(!$(this).is(".legendaNum .caption")){
-		$(this).text(textRef + n + " - " + text);
+		$(this).html("<b>"+textRef + n + "</b>"+ "  -  " + text);
 		$(this).wrap("<div class='legendaNum'></div>");
     /**alterar id da legenda e colocar na imagem*/
 		($(this)).attr("id",alt+"Capt");
@@ -61,6 +63,43 @@ $('.caption').each(function () {
     n++;
 	}
 });
+
+/**criarPDF*/
+function scriptParapdf(){
+var 
+ form = $('#content'),
+ cache_width = form.width(),
+ a4  =[ 595.28,  841.89];  // for a4 size paper width and height
+ 
+$('#create_pdf').on('click',function(){
+ $('content').scrollTop(0);
+ createPDF();
+});
+//create pdf
+function createPDF(){
+ getCanvas().then(function(canvas){
+  var 
+  img = canvas.toDataURL("image/png"),
+  doc = new jsPDF({
+          unit:'px', 
+          format:'a4'
+        });     
+        doc.addImage(img, 'JPEG', 20, 20);
+        doc.save('manual_utilizador_sges.pdf');
+        form.width(cache_width);
+ });
+}
+ 
+// create canvas object
+function getCanvas(){
+ form.width((a4[0]*1.33333) -80).css('max-width','none');
+ return html2canvas(form,{
+     imageTimeout:2000,
+     removeContainer:true
+    }); 
+}
+ 
+}());
 
 
 

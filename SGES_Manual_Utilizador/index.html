@@ -33,6 +33,7 @@
 		</script>
 	</head>
 	<body>
+				 <a href="#" id="create_pdf">Create PDF</a>
 		<!-- Content -->
 		<div id="content">
 	            <div id="header">
@@ -58,6 +59,7 @@
 				</b>
 			</p>
 		</div>
+		
 		<div id="paginas">
 			<div id="ModuloIntroducao" class="modulo"></div>
 			<div id="ModuloEntidades" class="modulo"></div>
@@ -68,7 +70,8 @@
 			<div id="ModuloEquipamentos" class="modulo"></div>
 		</div>
 			
-			
+			</div>
+
 		<!-- Sidebar -->
 		<div id="sidebar" style="position: fixed;overflow-y: scroll;height: 100%;">
 		    	<!-- Logo -->
@@ -86,24 +89,28 @@
 		<script src="js/util.js"></script>
 		<script src="js/main.js"></script>
 		<script src="js/highslide-with-gallery.js"></script>
+		<script type="text/javascript" src="//cdn.rawgit.com/MrRio/jsPDF/master/dist/jspdf.min.js"></script> 
+		<script type="text/javascript" src="//cdn.rawgit.com/niklasvh/html2canvas/0.5.0-alpha2/dist/html2canvas.min.js"></script>
 					
 		<script>
 			/**Carrega o html dos modulos**/
-			$("#ModuloIntroducao").load("https://limaia25.github.io/SGES_REPO/SGES_Manual_Utilizador/content/introducao.html");
-			$("#ModuloEntidades").load("https://limaia25.github.io/SGES_REPO/SGES_Manual_Utilizador/content/entidade.html");
-			$("#ModuloEstabelecimentos").load("https://limaia25.github.io/SGES_REPO/SGES_Manual_Utilizador/content/estabelecimento.html");
-			$("#ModuloRhServicos").load("https://limaia25.github.io/SGES_REPO/SGES_Manual_Utilizador/content/rhServico.html");
-			$("#ModuloTempoEspera").load("https://limaia25.github.io/SGES_REPO/SGES_Manual_Utilizador/content/tempoEspera.html");
-			$("#ModuloProducao").load("https://limaia25.github.io/SGES_REPO/SGES_Manual_Utilizador/content/producaoEquipamento.html");
-			$("#ModuloEquipamentos").load("https://limaia25.github.io/SGES_REPO/SGES_Manual_Utilizador/content/equipamento.html");
-			$("#ModuloInstalacoes").load("https://limaia25.github.io/SGES_REPO/SGES_Manual_Utilizador/content/instalacao.html");
+			$("#ModuloIntroducao").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/introducao.html");
+			$("#ModuloEntidades").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/entidade.html");
+			$("#ModuloEstabelecimentos").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/estabelecimento.html");
+			$("#ModuloRhServicos").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/rhServico.html");
+			$("#ModuloTempoEspera").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/tempoEspera.html");
+			$("#ModuloProducao").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/producaoEquipamento.html");
+			$("#ModuloEquipamentos").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/equipamento.html");
+			$("#ModuloInstalacoes").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/instalacao.html");
 			$("#indice").load("Indice.html");
 		</script>
 	</body>
 	<script>
 	setTimeout(function(){
 	autoFigureNumber();
-	$('a[href*='+location.hash+']').click();},1000);</script>
+	$('a[href*='+location.hash+']').click(); 
+	scriptParapdf();
+	},1000);</script>
 	
 
 </html>
