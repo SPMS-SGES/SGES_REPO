@@ -29,10 +29,10 @@ Para criar um novo equipamento, o utilizador deve clicar em **CRIAR** na página
 |----|----------------------------------------------------|----------|
 | a) | Designação                                         |      |
 | b) | Número de Série                                    |      |
-| c) | Posto de Trabalho  (Todos os serviços a que um equipamento se encontra associado devem ser considerados)                                 |      |
-| f) | Marca                                              |      |
+| c) | Posto de Trabalho (Todos os serviços a que um equipamento se encontra associado devem ser considerados)                           |      |
+| d) | Marca                                              |      |
 | e) | Modelo                                             |      |
-| f) |Se Designação =Acelerador Linear,Angiógrafo,Câmara Gama, Câmara Hiperbárica,RM, RM (Dedicada exclusivamente à Radioterapia,TC ou TC (Dedicada exclusivamente à Radioterapia                           |Característica Técnica| 
+| f) |Se Designação = Acelerador Linear,Angiógrafo,Câmara Gama, Câmara Hiperbárica,RM, RM (Dedicada exclusivamente à Radioterapia,TC ou TC (Dedicada exclusivamente à Radioterapia                           |Característica Técnica| 
 | g) | Produção para Exterior?                          | Sim     |
 
 
@@ -62,7 +62,7 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar o equipamento. 
 ||                                                        | Oferta       |
 | b) | Data de Início de Funcionamento                     || 
 | c) | Se Tipo de Contrato diferente de Concessão         |Nº inventário/ID Equipamento |
-| d) | Se Tipo de Contrato= Aquisição                     | Data de Publicação da abertura de concurso|
+| d) | Se Tipo de Contrato= Aquisição (apenas para novas aquisições)| Data de Publicação da abertura de concurso |
 | e) | Se Tipo de Contrato= Aquisição                     | Custo Aquisição |
 | f) | Se Tipo de Contrato= Aquisição                     | Data de Receção  |
 
