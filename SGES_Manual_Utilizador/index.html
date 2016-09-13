@@ -68,7 +68,7 @@
 			<div id="ModuloEquipamentos" class="modulo"></div>
 		</div>
 			
-			
+			</div>
 		<!-- Sidebar -->
 		<div id="sidebar" style="position: fixed;overflow-y: scroll;height: 100%;">
 		    	<!-- Logo -->
@@ -86,6 +86,8 @@
 		<script src="js/util.js"></script>
 		<script src="js/main.js"></script>
 		<script src="js/highslide-with-gallery.js"></script>
+		<script type="text/javascript" src="//cdn.rawgit.com/MrRio/jsPDF/master/dist/jspdf.min.js"></script> 
+		<script type="text/javascript" src="//cdn.rawgit.com/niklasvh/html2canvas/0.5.0-alpha2/dist/html2canvas.min.js"></script>
 					
 		<script>
 			/**Carrega o html dos modulos**/
@@ -103,7 +105,9 @@
 	<script>
 	setTimeout(function(){
 	autoFigureNumber();
-	$('a[href*='+location.hash+']').click();},1000);</script>
+	$('a[href*='+location.hash+']').click(); 
+	scriptParapdf();
+	},1000);</script>
 	
 
 </html>
