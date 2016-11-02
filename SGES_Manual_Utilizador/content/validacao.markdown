@@ -10,4 +10,8 @@ order: 3
 
 # 13. Validações
 
-É neste módulo que são feitas ações sobre os equipamentos. O utilizador pode consultar a lista de equipamentos associados a um estabelecimento através do separador Equipamentos ([](#figEqpEstabelecimento))
+Alguns dos módulos do SGES contêm um painel que confirma a validade dos dados do respetivo módulo.  ([](#figValicaoPanel))
+
+![figValicaoPanel](img/pages/13_1.jpg)
+
+<p class="caption" id="figValicaoPanel">Painel Validação</p>
