@@ -24,11 +24,11 @@ Para validar um módulo, basta selecionar a checkbox do painel e clicar no botã
 ([](#figValidarModulo))
 
 ![figValicaoPanel](img/pages/13_1_1.jpg)
-<p class="caption" id="figValicaoPanel">Validar Módulo</p>
+<p class="caption" id="figValidarModulo">Validar Módulo</p>
 
 Sempre que os dados de um módulo sejam alterados, eles deixam de estar validados. Sendo assim, o utilizador deve voltar a validá-los.
 
-## 13.1. Módulos com validação
+## 13.2. Módulos com validação
 
 Atualmente os módulos do SGES que contêm este painel são:
 
