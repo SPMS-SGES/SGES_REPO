@@ -51,9 +51,9 @@ Para criar um novo estabelecimento, o utilizador deve clicar em **CRIAR** na pá
 
 |    | Campos Obrigatórios do painel do gabinete do cidadão, se aplicável([](#figPainelGabCidadao))  |      |
 |----|---------------------------------------------------|----------|
-| m) |E-mail do Gabinete Cidadão (só se Balcão de Apoio ao Cidadão aplicável )||
-| n) |Telefone do Gabinete Cidadão (só se Balcão de Apoio ao Cidadão aplicável) ||
-| m) |Site de Preços do Gabinete Cidadão (só se Balcão de Apoio ao Cidadão aplicável )||
+| m) |E-mail do Gabinete Cidadão ||
+| n) |Telefone do Gabinete Cidadão ||
+| m) |Site Tabela Preços em vigor (É uma tabela de preços em vigor para os cuidados a prestar pelo hospital. (São os preços a pagar por um utente independente, sem qualquer sistema de saúde) )||
 
 
 ![figCriarEstabelecimento](img/pages/7_1_1.jpg)
@@ -115,6 +115,16 @@ Após o preenchimento da identificação do estabelecimento, dependendo do tipo 
 ![figCapacidade](img/pages/7_1_5.jpg)
 
 <p class="caption" id="figCapacidade"> Painel das Capacidades </p>
+
+Explicação dos valores possíveis para os quartos de isolamento:
+
+   Quarto de Isolamento de GRAU III –     Quarto individual fechado, bem ventilado
+
+   Quarto de Isolamento de GRAU IV  –     Quarto individual fechado, bem ventilado, com desinfeção da ventilação e pressão negativa
+
+   Quarto de Isolamento de GRAU VI  –     Quarto individual com porta dupla e pressão negativa. 
+
+
 
 
 |    | Campos Obrigatórios – Unidade Funcional - ([](#figPostosColheita))  | |
