@@ -15,3 +15,4 @@ Alguns dos módulos do SGES contêm um painel que confirma a validade dos dados 
 ![figValicaoPanel](img/pages/13_1.jpg)
 
 <p class="caption" id="figValicaoPanel">Painel Validação</p>
+<p id="validacao"></p>
