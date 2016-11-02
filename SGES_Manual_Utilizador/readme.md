@@ -1,6 +1,6 @@
 # Manual Utilizador SGES
 
-[Manual utilizador SGES](http://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/) para ver o resultado do repositório.
+[Manual utilizador SGES](http://ocosta-altran.github.io/SGES_REPO/SGES_Manual_Utilizador/) para ver o resultado do repositório.
 
 ## Directorias
 
