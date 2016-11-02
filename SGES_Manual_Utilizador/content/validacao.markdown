@@ -10,7 +10,7 @@ order: 3
 
 # 13. Validações
 
-Alguns dos módulos do SGES contêm um painel que confirma a validade dos dados do respetivo módulo. Através da verificação deste painel, o utilizador sabe se os dados que está a consultar são válidos.
+Alguns dos módulos do SGES contêm um painel que confirma a validade dos dados do mesmo. Através da verificação deste painel, o utilizador sabe se os dados que está a consultar são válidos.
 ([](#figValicaoPanel))
 <p id="validacao"></p>
 
