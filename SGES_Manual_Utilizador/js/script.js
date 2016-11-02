@@ -63,10 +63,12 @@ $('.caption').each(function () {
     n++;
 	}
 });
-
-
-
 }
+
+ 
+
+
+
 
 
 
