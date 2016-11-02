@@ -58,7 +58,6 @@
 				</b>
 			</p>
 		</div>
-		
 		<div id="paginas">
 			<div id="ModuloIntroducao" class="modulo"></div>
 			<div id="ModuloEntidades" class="modulo"></div>
@@ -67,10 +66,10 @@
 			<div id="ModuloProducao" class="modulo"></div>
 			<div id="ModuloTempoEspera" class="modulo"></div>
 			<div id="ModuloEquipamentos" class="modulo"></div>
+			<div id="ModuloValidacao" class="modulo"></div>
 		</div>
 			
-			</div>
-
+			
 		<!-- Sidebar -->
 		<div id="sidebar" style="position: fixed;overflow-y: scroll;height: 100%;">
 		    	<!-- Logo -->
@@ -88,8 +87,6 @@
 		<script src="js/util.js"></script>
 		<script src="js/main.js"></script>
 		<script src="js/highslide-with-gallery.js"></script>
-		<script type="text/javascript" src="//cdn.rawgit.com/MrRio/jsPDF/master/dist/jspdf.min.js"></script> 
-		<script type="text/javascript" src="//cdn.rawgit.com/niklasvh/html2canvas/0.5.0-alpha2/dist/html2canvas.min.js"></script>
 					
 		<script>
 			/**Carrega o html dos modulos**/
@@ -100,6 +97,7 @@
 			$("#ModuloTempoEspera").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/tempoEspera.html");
 			$("#ModuloProducao").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/producaoEquipamento.html");
 			$("#ModuloEquipamentos").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/equipamento.html");
+			$("#ModuloValidacao").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/validacao.html");
 			$("#ModuloInstalacoes").load("https://spms-sges.github.io/SGES_REPO/SGES_Manual_Utilizador/content/instalacao.html");
 			$("#indice").load("Indice.html");
 		</script>
@@ -107,8 +105,7 @@
 	<script>
 	setTimeout(function(){
 	autoFigureNumber();
-	$('a[href*='+location.hash+']').click(); 
-	},1000);</script>
+	$('a[href*='+location.hash+']').click();},1000);</script>
 	
 
 </html>
