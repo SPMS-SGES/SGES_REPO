@@ -11,6 +11,7 @@ order: 3
 # 13. Validações
 <p id="validacao"></p>
 
+Os módulos do SGES 
 Alguns dos módulos do SGES contêm um painel que confirma a validade dos dados do mesmo. Através da verificação deste painel, o utilizador sabe se os dados que está a consultar são válidos.
 ([](#figValicaoPanel))
 
@@ -34,16 +35,16 @@ Sempre que os dados de um módulo sejam alterados, eles deixam de estar validado
 
 Atualmente os módulos do SGES que contêm este painel são:
 
-|                  |: Módulos Validáveis                 |
-|--------------------------------------------------------|
-| Entidades 	   | Identificação						 |
-|           	   | Estabelecimentos Existentes		 |
-|           	   | RH Serviços                         |
-|           	   | Produção de Equipamentos            |
-|           	   | Produção no Exterior                |
-|           	   | Tempos de Espera                    |
-|--------------------------------------------------------|
-| Estabelecimentos | Identificação			     		 |
-|                  | Capacidades (Se do tipo Hospital)	 |
-|                  | Equipamentos Existentes             |
-|--------------------------------------------------------|
+|                  |Módulos Validáveis                   |  |
+|------------------|-------------------------------------|--|
+| Entidades        | Identificação                       |  |
+|                  | Estabelecimentos Existentes         |  |
+|                  | RH Serviços                         |  |
+|                  | Produção de Equipamentos            |  |
+|                  | Produção no Exterior                |  |
+|                  | Tempos de Espera                    |  |
+|------------------|-------------------------------------|--|
+| Estabelecimentos | Identificação                       |  |
+|                  | Capacidades (Se do tipo Hospital)   |  |
+|                  | Equipamentos Existentes             |  |
+|------------------|-------------------------------------|--|
