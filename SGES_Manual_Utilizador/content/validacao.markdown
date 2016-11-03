@@ -34,7 +34,7 @@ Sempre que os dados de um módulo sejam alterados, eles deixam de estar validado
 
 Atualmente os módulos do SGES que contêm este painel são:
 
-|                  |Módulos Validáveis                   |
+|                  |: Módulos Validáveis                 |
 |--------------------------------------------------------|
 | Entidades 	   | Identificação						 |
 |           	   | Estabelecimentos Existentes		 |
