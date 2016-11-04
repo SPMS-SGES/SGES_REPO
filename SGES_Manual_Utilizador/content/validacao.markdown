@@ -47,4 +47,3 @@ Atualmente os módulos do SGES que contêm este painel são:
 |                  | Capacidades (Se do tipo Hospital)   |  |
 |                  | Equipamentos Existentes             |  |
 |------------------|-------------------------------------|--|
-
