@@ -42,8 +42,8 @@ Atualmente os módulos do SGES que contêm este painel são:
 | Entidades        | Identificação                       |  |
 |                  | Estabelecimentos Existentes         |  |
 |                  | RH Serviços                         |  |
-|                  | Produção de Equipamentos            |  |
-|                  | Produção no Exterior                |  |
+|                  | Consulta do ano da Produção de Equipamentos (interna e externa)           |  |
+|                  | Consulta do ano da Produção no Exterior (se existir)               |  |
 |                  | Tempos de Espera                    |  |
 |------------------|-------------------------------------|--|
 | Estabelecimentos | Identificação                       |  |
