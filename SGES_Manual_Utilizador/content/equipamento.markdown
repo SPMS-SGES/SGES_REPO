@@ -69,7 +69,7 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar o equipamento. 
 | e) | Se Tipo de Contrato= Aquisição                     | Custo Aquisição |
 | f) | Se Tipo de Contrato= Aquisição                     | Data de Receção  |
 
-![figContratacao](img/pages/12_1_2_1.PNG)
+![figContratacao](img/pages/12_1_2_1.jpg)
 
 <p class="caption" id="figContratacao"> Criar novo Equipamento - Contratação</p>
 
