@@ -47,14 +47,13 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar o equipamento. 
 ### 12.1.2. Outros painéis
 
 |    | Outros módulos a preencher                 |
-|----|--------------------------------------------|
-| a) | Identificação 
-| b) | Contratação ([](#figContratacao))            |
-| c) | Localização/Estado ([](#figLocalizacao))     |
-| d) | Manutenção  ([](#figManutencao))
-| e) | Atividade   ([](#figAtividade))            |
-| f) | Autorização Ministerial / Licença de Instalação ([](#figAutorizacao))|
-| g) | Recursos Humanos Afetos ([](#figRhAfetos))|
+|----|--------------------------------------------| 
+| a) | Contratação ([](#figContratacao))            |
+| b) | Localização/Estado ([](#figLocalizacao))     |
+| c) | Manutenção  ([](#figManutencao))
+| d) | Atividade   ([](#figAtividade))            |
+| e) | Autorização Ministerial / Licença de Instalação ([](#figAutorizacao))|
+| f) | Recursos Humanos Afetos ([](#figRhAfetos))|
 
 
 |    | Campos Obrigatórios do módulo Contratação ([](#figContratacao)) | |
