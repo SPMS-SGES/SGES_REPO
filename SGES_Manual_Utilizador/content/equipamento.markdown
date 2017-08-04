@@ -153,7 +153,7 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar o equipamento. 
 | c) | Área Afetação   		                           	  | |
 | d) | ECTS 		   		                           	  | |
 
-Para o utilizador aceder ao painel *Manutenção* ([](#figManutencao)) e *Recursos Humanos Afetos*([](#figRhAfetos)) deverá clicar na tab respectiva, e selecionar o ano pretendido. 
+Para o utilizador aceder ao painel *Recursos Humanos Afetos*([](#figRhAfetos)) deverá clicar na tab respectiva, e selecionar o ano pretendido. 
 Após preencher os campos em cada painel, o utilizador deve clicar em  **GUARDAR** no painel respectivo, para gravar o equipamento. 
 Após clicar irá ser notificado com o resultado da operação.
 
