@@ -103,30 +103,6 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar o equipamento. 
 
 <p class="caption" id="figManutencao"> Criar novo Equipamento - Manutenção</p>
 
-|    | Campos Obrigatórios do módulo Recursos Humanos Afetos ([](#figRhAfetos)) | | 
-|----|----------------------------------------------------|----------|
-| a) | Ano               			                	  | |
-| b) | Grupo Profissional                         	      | |
-| c) | Área Afetação   		                           	  | |
-| d) | ECTS 		   		                           	  | |
-
-![figAtividade](img/pages/12_1_2_4.jpg)
-
-<p class="caption" id="figAtividade"> Criar novo Equipamento - Atividade</p>
-
-
-|    | Campos Obrigatórios do módulo Autorização Ministeria/ Licença de Instalação ([](#figAutorizacao)) | | |
-|----|----------------------------------------------------|----------|--|
-| a) | Autorização Ministerial                         	  | Sim||
-||                                                   	  | Não||
-| b) | Instalação licenciada pela DGS?                    | Sim| Data da Licença |
-||                                                   	  | Não||
-
-
-![figAutorizacao](img/pages/12_1_2_5.jpg)
-
-<p class="caption" id="figAutorizacao"> Criar novo Equipamento - Autorização Ministeria/ Licença de Instalação</p>
-
 
 |    | Campos Obrigatórios do módulo Manutenção ([](#figManutencao)) ||
 |----|----------------------------------------------------|----------|
@@ -146,11 +122,37 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar o equipamento. 
 | f) | Detetores                              	          | Sim |
 |	|        		                         	          | Não |
 | f) | Custo                             	          	  |  |
-		   		                           	  
-											  
+
+
+
+![figAtividade](img/pages/12_1_2_4.jpg)
+
+<p class="caption" id="figAtividade"> Criar novo Equipamento - Atividade</p>
+
+
+|    | Campos Obrigatórios do módulo Autorização Ministeria/ Licença de Instalação ([](#figAutorizacao)) | | |
+|----|----------------------------------------------------|----------|--|
+| a) | Autorização Ministerial                         	  | Sim||
+||                                                   	  | Não||
+| b) | Instalação licenciada pela DGS?                    | Sim| Data da Licença |
+||                                                   	  | Não||
+
+
+![figAutorizacao](img/pages/12_1_2_5.jpg)
+
+<p class="caption" id="figAutorizacao"> Criar novo Equipamento - Autorização Ministeria/ Licença de Instalação</p>
+
+
 ![figRhAfetos](img/pages/12_1_2_6.jpg)
 
 <p class="caption" id="figRhAfetos"> Criar novo Equipamento - Recursos Humanos Afetos</p>
+
+|    | Campos Obrigatórios do módulo Recursos Humanos Afetos ([](#figRhAfetos)) | | 
+|----|----------------------------------------------------|----------|
+| a) | Ano               			                	  | |
+| b) | Grupo Profissional                         	      | |
+| c) | Área Afetação   		                           	  | |
+| d) | ECTS 		   		                           	  | |
 
 Para o utilizador aceder ao painel *Manutenção* ([](#figManutencao)) e *Recursos Humanos Afetos*([](#figRhAfetos)) deverá clicar na tab respectiva, e selecionar o ano pretendido. 
 Após preencher os campos em cada painel, o utilizador deve clicar em  **GUARDAR** no painel respectivo, para gravar o equipamento. 
