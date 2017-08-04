@@ -69,7 +69,7 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar o equipamento. 
 | e) | Se Tipo de Contrato= Aquisição                     | Custo Aquisição |
 | f) | Se Tipo de Contrato= Aquisição                     | Data de Receção  |
 
-![figContratacao](img/pages/12_1_2_1.jpg)
+![figContratacao](img/pages/12_1_2_1.PNG)
 
 <p class="caption" id="figContratacao"> Criar novo Equipamento - Contratação</p>
 
@@ -99,7 +99,7 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar o equipamento. 
 | c) | Se Estado diferente urgência				        | Nº dias por semana| 
 | d) | Tipo de Utilização                    	        ||
 
-![figManutencao](img/pages/12_1_2_3.jpg)
+![figManutencao](img/pages/12_1_2_3.PNG)
 
 <p class="caption" id="figManutencao"> Criar novo Equipamento - Manutenção</p>
 
@@ -125,7 +125,7 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar o equipamento. 
 
 
 
-![figAtividade](img/pages/12_1_2_4.jpg)
+![figAtividade](img/pages/12_1_2_4.PNG)
 
 <p class="caption" id="figAtividade"> Criar novo Equipamento - Atividade</p>
 
@@ -143,7 +143,7 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar o equipamento. 
 <p class="caption" id="figAutorizacao"> Criar novo Equipamento - Autorização Ministeria/ Licença de Instalação</p>
 
 
-![figRhAfetos](img/pages/12_1_2_6.jpg)
+![figRhAfetos](img/pages/12_1_2_6.PNG)
 
 <p class="caption" id="figRhAfetos"> Criar novo Equipamento - Recursos Humanos Afetos</p>
 
