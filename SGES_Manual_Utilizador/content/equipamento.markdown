@@ -99,7 +99,18 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar o equipamento. 
 | c) | Se Estado diferente urgência				        | Nº dias por semana| 
 | d) | Tipo de Utilização                    	        ||
 
-![figAtividade](img/pages/12_1_2_2.jpg)
+![figManutencao](img/pages/12_1_2_3.jpg)
+
+<p class="caption" id="figManutencao"> Criar novo Equipamento - Manutenção</p>
+
+|    | Campos Obrigatórios do módulo Recursos Humanos Afetos ([](#figRhAfetos)) | | 
+|----|----------------------------------------------------|----------|
+| a) | Ano               			                	  | |
+| b) | Grupo Profissional                         	      | |
+| c) | Área Afetação   		                           	  | |
+| d) | ECTS 		   		                           	  | |
+
+![figAtividade](img/pages/12_1_2_4.jpg)
 
 <p class="caption" id="figAtividade"> Criar novo Equipamento - Atividade</p>
 
@@ -112,7 +123,7 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar o equipamento. 
 ||                                                   	  | Não||
 
 
-![figAutorizacao](img/pages/12_1_2_3.jpg)
+![figAutorizacao](img/pages/12_1_2_5.jpg)
 
 <p class="caption" id="figAutorizacao"> Criar novo Equipamento - Autorização Ministeria/ Licença de Instalação</p>
 
@@ -134,20 +145,8 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar o equipamento. 
 | f) | Detetores                              	          | Sim |
 |	|        		                         	          | Não |
 | f) | Custo                             	          	  |  |
-
-![figManutencao](img/pages/12_1_2_4.jpg)
-
-<p class="caption" id="figManutencao"> Criar novo Equipamento - Manutenção</p>
-
-|    | Campos Obrigatórios do módulo Recursos Humanos Afetos ([](#figRhAfetos)) | | 
-|----|----------------------------------------------------|----------|
-| a) | Ano               			                	  | |
-| b) | Grupo Profissional                         	      | |
-| c) | Área Afetação   		                           	  | |
-| d) | ECTS 		   		                           	  | |
-
-
-![figRhAfetos](img/pages/12_1_2_5.jpg)
+		   		                           	  | |
+![figRhAfetos](img/pages/12_1_2_6.jpg)
 
 <p class="caption" id="figRhAfetos"> Criar novo Equipamento - Recursos Humanos Afetos</p>
 
