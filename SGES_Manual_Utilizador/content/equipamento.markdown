@@ -127,7 +127,8 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar o equipamento. 
 
 <p class="caption" id="figAutorizacao"> Criar novo Equipamento - Autorização Ministeria/ Licença de Instalação</p>
 
-|    | Campos Obrigatórios do módulo Manutenção ([](#figManutencao)) | | 
+
+|    | Campos Obrigatórios do módulo Manutenção ([](#figManutencao)) ||
 |----|----------------------------------------------------|----------|
 | a) | Ano               			                	  | |
 | b) | Tipo de Manutenção                           	  | Corretiva|
@@ -145,7 +146,8 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar o equipamento. 
 | f) | Detetores                              	          | Sim |
 |	|        		                         	          | Não |
 | f) | Custo                             	          	  |  |
-		   		                           	  | |
+		   		                           	  
+											  
 ![figRhAfetos](img/pages/12_1_2_6.jpg)
 
 <p class="caption" id="figRhAfetos"> Criar novo Equipamento - Recursos Humanos Afetos</p>
