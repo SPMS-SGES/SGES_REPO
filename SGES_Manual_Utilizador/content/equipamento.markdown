@@ -48,12 +48,13 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar o equipamento. 
 
 |    | Outros módulos a preencher                 |
 |----|--------------------------------------------|
-| a) | Contratação ([](#figContratacao))            |
-| b) | Localização/Estado ([](#figLocalizacao))     |
-| c) | Atividade   ([](#figAtividade))            |
-| d) |Autorização Ministerial / Licença de Instalação ([](#figAutorizacao))|
-| e) | Manutenção  ([](#figManutencao))            |
-| f) | Recursos Humanos Afetos ([](#figRhAfetos))|
+| a) | Identificação 
+| b) | Contratação ([](#figContratacao))            |
+| c) | Localização/Estado ([](#figLocalizacao))     |
+| d) |  Manutenção  ([](#figManutencao))
+| e) | Atividade   ([](#figAtividade))            |
+| f) | Autorização Ministerial / Licença de Instalação ([](#figAutorizacao))|
+| g) | Recursos Humanos Afetos ([](#figRhAfetos))|
 
 
 |    | Campos Obrigatórios do módulo Contratação ([](#figContratacao)) | |
