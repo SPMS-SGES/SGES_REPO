@@ -51,7 +51,7 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar o equipamento. 
 | a) | Identificação 
 | b) | Contratação ([](#figContratacao))            |
 | c) | Localização/Estado ([](#figLocalizacao))     |
-| d) |  Manutenção  ([](#figManutencao))
+| d) | Manutenção  ([](#figManutencao))
 | e) | Atividade   ([](#figAtividade))            |
 | f) | Autorização Ministerial / Licença de Instalação ([](#figAutorizacao))|
 | g) | Recursos Humanos Afetos ([](#figRhAfetos))|
