@@ -38,7 +38,7 @@ Para criar um novo equipamento, o utilizador deve clicar em **CRIAR** na página
 | g) | Produção para Exterior?                          | Sim     |
 
 
-![figCriarEquipamento](img/pages/12_1_1_1.jpg)
+![figCriarEquipamento](img/pages/12_1_1_1.PNG)
 
 <p class="caption" id="figCriarEquipamento"> Criar novo Equipamento - Identificação</p>
 
