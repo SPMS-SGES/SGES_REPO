@@ -32,7 +32,7 @@ Para criar um novo equipamento, o utilizador deve clicar em **CRIAR** na página
 | c) | Posto de Trabalho (Todos os serviços a que um equipamento se encontra associado devem ser considerados)                           |      |
 | d) | Marca                                              |      |
 | e) | Modelo                                             |      |
-| f) |Se Designação = Acelerador Linear,Angiógrafo,Câmara Gama, Câmara Hiperbárica,RM, RM (Dedicada exclusivamente à Radioterapia,TC ou TC (Dedicada exclusivamente à Radioterapia                           |Característica Técnica| 
+| f) | Se Designação = Acelerador Linear,Angiógrafo,Câmara Gama, Câmara Hiperbárica,RM, RM (Dedicada exclusivamente à Radioterapia,TC ou TC (Dedicada exclusivamente à Radioterapia                           |Característica Técnica| 
 | g) | Produção para Exterior?                          | Sim     |
 
 
@@ -114,7 +114,7 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar o equipamento. 
 |	|        		                         	          | Semestral |
 |	|        		                         	          | Trianual |
 | d) |  Se Tipo de Manutenção = Preventiva ou Preventiva e Corretiva           	  | Preventiva com Peças|
-| e) | Com ampola                              	          | Sim |
+| e) | Se Designação=TC, com ampola                              	          | Sim |
 |	|        		                         	          | Não |
 | f) | Detetores                              	          | Sim |
 |	|        		                         	          | Não |
