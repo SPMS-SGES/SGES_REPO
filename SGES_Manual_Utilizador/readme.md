@@ -33,7 +33,9 @@ Ao inserir uma imagem com o tamanho menor que a página, esta não poderá esten
       * #paginas p* **(...)** *{*
       *width: auto;*
       *}*
-     acrescentar **,#paginas p  img[alt=<nome da imagem>]**:
+     acrescentar 
+       **,#paginas p  img[alt=\<nome da imagem\>]**:
+ 
         * #paginas p* **(...)**,#paginas p  img[alt=<nome da imagem>]  *{*
         *width: auto;*
         *}*
