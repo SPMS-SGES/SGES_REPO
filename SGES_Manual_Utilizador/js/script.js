@@ -33,7 +33,7 @@ $('tr').each(function(){
  function zommClickImagem() {
 	 $('#paginas p>img:not([alt="logo"])').each(function(){
 		 var alt = $(this).attr("alt")
-		 if(alt != "figAlteracaoSenha" && alt != "figLogin" && alt !="figLoginRecuperacao")
+		 if(alt != "figAlteracaoSenha" && alt != "figLogin" && alt !="figLoginRecuperacao" && alt != "figura_FT" && alt != figura_acordos_convencoes)
 		 $(this).wrap("<a class='imagem' href='"+$(this).attr( "src" ) + "' onclick='return hs.expand(this)'></a>"); 
 });
 }
