@@ -132,14 +132,14 @@ Uma vez identificado e autenticado, é apresentado ao utilizador o menu principa
 Para além dos menus referidos anteriormente, existe ainda o menu Acordos e Convenções - [](#figura_acordos_convencoes) -  e o menu Ficha Técnica - [](#figura_FT).
 
 
-![figura_acordos_convencoes](img/pages/acordos_convencoes.jpg)
+![figura_acordos_convencoes](img/pages/acordos_convencoes.jpg) Recuperar Senha, inserir os campos obrigatórios, e clicar em Enviar.
 
 <p class="caption" id="figura_acordos_convencoes"> Menu Acordos e Convenções. </p>
 
 
 ![figura_FT](img/pages/FT.jpg)
 
-<p class="caption" id="figura_FT" style="height:30%> Menu Ficha Técnica. </p>
+<p class="caption" id="figura_FT" style="width:30%; height:30%"> Menu Ficha Técnica. </p>
 
 
 O menu Acordos e Convenções, que permite a gestão de acordos e convenções, pode ser acedido por utilizadores com o perfil ACSS e ARS. 
