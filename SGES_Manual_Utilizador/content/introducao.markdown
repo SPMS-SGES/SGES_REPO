@@ -143,9 +143,9 @@ Por sua vez, o menu Ficha Técnica, que permite o carregamento de fichas técnic
 
 Junto ao logotipo do SGES, encontra-se o botão de atalho para os diferentes menus [](#figura_atalho_menu)
 
-![figura_menu_ADMIN_entidade](img/pages/atalho_menu.JPG)
+![figura_atalho_menu](img/pages/atalho_menu.JPG)
 
-<p class="caption" id="figura_atalho_menu"> Menu Principal para um utilizador com o perfil de administrador de uma entidade pública. </p> 
+<p class="caption" id="figura_atalho_menu"> Botão de atalho para os diferentes menus destacado a amarelo e a janela mostrada quando se carrega no referido botão. </p> 
 
 Este botão permite ao utilizador, em qualquer momento na navegação, mudar para um determinado menu.
 
