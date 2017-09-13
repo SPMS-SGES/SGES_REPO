@@ -28,7 +28,7 @@ No directório superior encontra-se a pasta *_layouts* essencial para definiçã
 
 ### Imagem tamanho menor que a página
 Ao inserir uma imagem com o tamanho menor que a página, esta não poderá estende-la usando o zoom, nem poderá encolhe-la no seu estado normal.
-* Alterar o ficheiro **script.js** na função **zommClickImagem()** adicionar && alt != "<nome da imagem>"
+* Alterar o ficheiro **script.js** na função **zommClickImagem()** adicionar && alt != "\<nome da imagem\>"
 * Alterar o ficheiro **style.css** no estilo:
       * #paginas p* **(...)** *{*
       *width: auto;*
