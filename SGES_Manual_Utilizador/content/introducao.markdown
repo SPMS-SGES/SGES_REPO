@@ -124,25 +124,20 @@ Caso contrário, deverá clicar em **Recuperar Senha**, inserir os campos obriga
 
 Uma vez identificado e autenticado, é apresentado ao utilizador o menu principal do SGES onde pode aceder às diferentes funcionalidades que lhe estão disponíveis consoante o seu perfil; caso o utilizador tenha o perfil de administração de uma entidade pública o menu principal será o mostrado na [](#figura_menu_ADMIN_entidade).
 
-<p class="caption" id="figura_menu_ADMIN_entidade"> Menu Principal para um utilizador com o perfil de administrador de uma entidade pública. </p>
-
-![figura_menu_ADMIN_entidade](ifigura_menu_ADMIN_entidade.JPG)
+![figura_menu_ADMIN_entidade](img/pages/menu_ADMIN_entidade.JPG)
 
 <p class="caption" id="figura_menu_ADMIN_entidade"> Menu Principal para um utilizador com o perfil de administrador de uma entidade pública. </p>
 
 
 Para além dos menus referidos anteriormente, existe ainda o menu Acordos e Convenções - [](#figura_acordos_convencoes) -  e o menu Ficha Técnica - [](#figura_FT).
 
+
+![figura_acordos_convencoes](img/pages/acordos_convencoes.jpg)
+
 <p class="caption" id="figura_acordos_convencoes"> Menu Acordos e Convenções. </p>
 
-![figura_acordos_convencoes](ifigura_acordos_convencoes.jpg)
 
-<p class="caption" id="figura_acordos_convencoes"> Menu Acordos e Convenções. </p>
-
-
-<p class="caption" id="figura_FT"> Menu Ficha Técnica. </p>
-
-![figura_FT](ifigura_FT.jpg)
+![figura_FT](img/pages/FT.jpg)
 
 <p class="caption" id="figura_FT"> Menu Ficha Técnica. </p>
 
