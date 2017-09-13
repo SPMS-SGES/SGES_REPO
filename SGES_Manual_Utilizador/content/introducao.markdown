@@ -90,14 +90,14 @@ Aparece na 1ªlinha o perfil do utilizador e caso este pertenca a uma entidade, 
 
 
 Ao lado do nome de utilizador, encontra-se o botão das opções avançadas ![logo](img/definicao.png). 
-Ao clicar neste o utilizador tem acesso a um conjunto de opções relativas ao perfil do utilizador, como o alterar password ([5.2. Alteração da senha](#alterao-da-senha)) e a criação de utilizadores ([5.3. Gestão de utilizadores](#gesto-de-utilizadores)).
+Ao clicar neste o utilizador tem acesso a um conjunto de opções relativas ao perfil do utilizador, como o alterar password ([5.2. Alteração da senha](#alterao-da-senha)) e a criação de utilizadores ([5.3. Gestão de utilizadores](#gesto-de-utilizadores)). A opção de Gestão de Utilizadores também está disponível no menu principal da aplicação.
 
 
 A qualquer momento, em qualquer página existe a ligação ao manual de utilizador através do botão no canto superior direito. 
 ![logo](img/manual.jpg).
 
 
-O acesso às páginas e a sua navegação é representada nos *breadcrumbs* ![logo](img/breadcrumbs.jpg), que são clicáveis se o utilizador pretender voltar a uma página já navegada.
+O acesso às páginas e a sua navegação é representada nos panéis de navegação ![logo](img/breadcrumbs.jpg). Estes são clicáveis o que permite ao utilizador voltar a uma página já navegada.
 
 
 De modo a familiarizar o utilizador com a aplicação, apresentam-se, de seguida, alguns exemplos ilustrativos de ações genéricas de interação com o SGES.
@@ -122,18 +122,38 @@ Caso contrário, deverá clicar em **Recuperar Senha**, inserir os campos obriga
 
 <p class="caption" id="figLoginRecuperacao"> Recuperação da Senha </p>
 
-Uma vez identificado e autenticado, é apresentada ao utilizador a página de entrada do SGES, 
-[](#figPaginaEntrada) ou [](#figPaginaEntradaEnt) caso seja do perfil ENTIDADE, onde pode então aceder às funcionalidades que lhe estão disponíveis.
+Uma vez identificado e autenticado, é apresentado ao utilizador o menu principal do SGES onde pode aceder às diferentes funcionalidades que lhe estão disponíveis consoante o seu perfil; caso o utilizador tenha o perfil de administração de uma entidade pública o menu principal será o mostrado na [](#figura_menu_ADMIN_entidade).
 
-![figPaginaEntrada](img/pages/5_1_4.jpg)
+<p class="caption" id="figura_menu_ADMIN_entidade"> Menu Principal para um utilizador com o perfil de administrador de uma entidade pública. </p>
 
-<p class="caption" id="figPaginaEntrada"> Página de entrada no SGES </p>
+![figura_menu_ADMIN_entidade](ifigura_menu_ADMIN_entidade.JPG)
 
-![figPaginaEntradaEnt](img/pages/5_1_5.jpg)
+<p class="caption" id="figura_menu_ADMIN_entidade"> Menu Principal para um utilizador com o perfil de administrador de uma entidade pública. </p>
 
-<p class="caption" id="figPaginaEntradaEnt"> Página de entrada no SGES Entidade </p>
 
-Na primeira vez que o utilizador acede a aplicação, aparecerá a página de ([5.2. Alteração da senha](#alterao-da-senha)).
+Para além dos menus referidos anteriormente, existe ainda o menu Acordos e Convenções - [](#figura_acordos_convencoes) -  e o menu Ficha Técnica - [](#figura_FT).
+
+<p class="caption" id="figura_acordos_convencoes"> Menu Acordos e Convenções. </p>
+
+![figura_acordos_convencoes](ifigura_acordos_convencoes.jpg)
+
+<p class="caption" id="figura_acordos_convencoes"> Menu Acordos e Convenções. </p>
+
+
+<p class="caption" id="figura_FT"> Menu Ficha Técnica. </p>
+
+![figura_FT](ifigura_FT.jpg)
+
+<p class="caption" id="figura_FT"> Menu Ficha Técnica. </p>
+
+
+O menu Acordos e Convenções, que permite a gestão de acordos e convenções, pode ser acedido por utilizadores com o perfil ACSS e ARS. 
+Por sua vez, o menu Ficha Técnica, que permite o carregamento de fichas técnicas, pode ser acedido por utilizadores com o perfil ACSS. 
+
+Junto ao logotipo do SGES, encontra-se o botão de atalho para os diferentes menus ![logo](ifigura_acordos_convencoes.jpg). Este botão permite ao utilizador, em qualquer momento na navegação, mudar para um determinado menu.
+
+
+Na primeira vez que o utilizador acede a aplicação, aparecerá a página de ([5.2. Alteração da senha](#alterao-da-senha)).  
 
 ## 5.2. Alteração da senha
 
