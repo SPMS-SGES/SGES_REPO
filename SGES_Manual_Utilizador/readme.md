@@ -24,4 +24,24 @@
 ## A ter em atenção
 No directório superior encontra-se a pasta *_layouts* essencial para definição do output dos ficheiros de markdown.
 
+## Alterações específicas
 
+### Imagem tamanho menor que a página
+Ao inserir uma imagem com o tamanho menor que a página, esta não poderá estende-la usando o zoom, nem poderá encolhe-la no seu estado normal.
+* Alterar o ficheiro **script.js** na função **zommClickImagem()** adicionar && alt != "<nome da imagem>"
+* Alterar o ficheiro **style.css** no estilo:
+      * #paginas p* **(...)** *{*
+      *width: auto;*
+      *}*
+     acrescentar **,#paginas p  img[alt=<nome da imagem>]**:
+        * #paginas p* **(...)**,#paginas p  img[alt=<nome da imagem>]  *{*
+        *width: auto;*
+        *}*
+ 
+ ### Novo Módulo
+ Ao inserir um novo módulo, deve-se colocar o ficheiro markdown na directoria **content**. 
+ Após isso é necessário efectuar 3 alterações:
+  * **Indice** alterar o *Indice.html* colocando os div's, ul e li necessários.
+  * **index** 
+    * no **\<div id="paginas">** colocar o módulo novo
+    * no script, alterar de forma a carregar o novo módulo
