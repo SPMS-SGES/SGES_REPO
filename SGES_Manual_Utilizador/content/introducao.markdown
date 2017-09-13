@@ -130,7 +130,7 @@ Uma vez identificado e autenticado, é apresentado ao utilizador o menu principa
 
 Para além dos menus referidos anteriormente, existe ainda o menu Acordos e Convenções - [](#figura_acordos_convencoes) -  e o menu Ficha Técnica - [](#figura_FT).
 
-![figura_acordos_convencoes](img/pages/acordos_convencoes.jpg) Recuperar Senha, inserir os campos obrigatórios, e clicar em Enviar.
+![figura_acordos_convencoes](img/pages/acordos_convencoes.jpg) 
 
 <p class="caption" id="figura_acordos_convencoes"> Menu Acordos e Convenções. </p>
 
@@ -139,6 +139,7 @@ Para além dos menus referidos anteriormente, existe ainda o menu Acordos e Conv
 <p class="caption" id="figura_FT"> Menu Ficha Técnica. </p>
 
 O menu Acordos e Convenções, que permite a gestão de acordos e convenções, pode ser acedido por utilizadores com o perfil ACSS e ARS. 
+
 Por sua vez, o menu Ficha Técnica, que permite o carregamento de fichas técnicas, pode ser acedido por utilizadores com o perfil ACSS. 
 
 Junto ao logotipo do SGES, encontra-se o botão de atalho para os diferentes menus [](#figura_atalho_menu)
@@ -148,7 +149,6 @@ Junto ao logotipo do SGES, encontra-se o botão de atalho para os diferentes men
 <p class="caption" id="figura_atalho_menu"> Botão de atalho para os diferentes menus destacado a amarelo e a janela mostrada quando se carrega no referido botão. </p> 
 
 Este botão permite ao utilizador, em qualquer momento na navegação, mudar para um determinado menu.
-
 
 Na primeira vez que o utilizador acede a aplicação, aparecerá a página de ([5.2. Alteração da senha](#alterao-da-senha)).  
 
