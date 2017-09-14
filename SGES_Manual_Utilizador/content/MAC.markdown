@@ -129,12 +129,15 @@ Se o utilizador pretende adicionar diretores técnicos substitutos, deve clicar 
 ## 14.1.3. Adicionar Recursos Humanos Técnicos
 Se o utilizador prentender adicionar recursos humanos técnicos, deve clicar 
 
-
 ## 14.2 Editar Acordo
 
 ## 14.3 Consultar Acordo
 
 ## 14.4 Alterar Estado
+
+## 14.4.1 Alterar Estado do Acordo/Convenção
+
+## 14.4.2 Alterar Estado das Valências
 
 ## 14.5 Alterar Estado Convenção
 
