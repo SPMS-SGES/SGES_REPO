@@ -23,16 +23,16 @@ Para poder registar uma convenção o utilizador deve preencher,pelo menos, os c
 
 <p class="caption" id="14_1.jpg"> Campos de preenchimento obrigatório para registar Convenção </p>
   
-Após clicar no botão Gravar irá ser notificado com o resultado da operação e os botões ''Adicionar Área'', ''Associar Estabelecimento'' e ''Associar RH Técnico'' passam a ficar ativos o que é sinalizado pela sua mudança de cor cinzenta para azul ([](#fig14_2)) .
+Após clicar no botão **GRAVAR** irá ser notificado do resultado da operação e, caso a convençaõ tenha sido registada com sucesso, os botões ''Adicionar Área'', ''Associar Estabelecimento'' e ''Associar RH Técnico'' passam a ficar ativos o que é sinalizado pela sua mudança de cor cinzenta para azul ([](#fig14_2)) .
 
 ![fig14_2](img/pages/14_2.JPG)
 
 <p class="caption" id="14_2.JPG"> Botões ''Adicionar Área'', ''Associar Estabelecimento'' e ''Associar RH Técnico'' ativos </p>
 
-### 14.1.1. Adicionar Área
-Para poder adicionar uma área convencionada o utilizador deve preencher, pelo menos, os campos obrigatórios e clicar em **GRAVAR** ([](#figadiciona_area)) .
+## 14.1.1. Adicionar Área
+Para adicionar uma área convencionada o utilizador deve preencher, pelo menos, os campos obrigatórios e clicar em **GRAVAR** ([](#figadiciona_area)) .
 
-|     Campos obrigatórios para adicionar área                                                                               |
+|     Campos obrigatórios para adicionar área                                                                             |
 | a) Área                                             |  Análises Clínicas  | 
 |                                                     |  Anatomia Patológica| 
 |                                                     |  Cardiologia| 
@@ -50,147 +50,20 @@ Para poder adicionar uma área convencionada o utilizador deve preencher, pelo m
 |                                                     |  SIGIC| 
 |                                                     |  Diálise| 
 |                                                     |  Cirurgia|  
-| b) Nome                                          |                                                         
-| c) Nº Cédula da Ordem                            |
-| d) Acumula funções?                              | Sim | 
+| b)Responsável Técnico Principal                                                                                         |
+| b1) Nome                                          |                                                         
+| b2) Nº Cédula da Ordem                            |
+| b3) Acumula funções?                              | Sim | 
 |                                                  | Não | 
-| e) Vínculo ao SNS?                               | Sim | Na entidade |  Hospital Doutor Francisco Zagalo - Ovar| 
-|                                                  |     |             |  Centro Hospitalar e Universitário de Coimbra, E.P.E| 
-|                                                  |     |             |  Centro Hospitalar do Algarve, E.P.E.| 
-|                                                  |     |             |  Centro Hospitalar de Leiria, E.P.E.| 
-|                                                  |     |             |  Centro Hospitalar de Trás-os-Montes e Alto Douro, E.P.E.| 
-|                                                  |     |             |  Centro Hospitalar Médio Tejo, E.P.E.| 
-|                                                  |     |             |  Centro Hospitalar Póvoa de Varzim/Vila do Conde, E.P.E.| 
-|                                                  |     |             |  Centro Hospitalar do Barreiro e Montijo, E.P.E.| 
-|                                                  |     |             |  ACES Guarda| 
-|                                                  |     |             |  ACES Alto Minho| 
-|                                                  |     |             |  ACES Grande Porto VII - Gaia|
-|                                                  |     |             |  ACES Cávado III - Barcelos/Esposende| 
-|                                                  |     |             |  ACES Alentejo Central| 
-|                                                  |     |             |  ACES Alto Ave - Guimarães, Vizela e Terras de Basto| 
-|                                                  |     |             |  ACES Grande Porto I - Santo Tirso/Trofa | 
-|                                                  |     |             |  ACES Alto Trás-os-Montes - Nordeste| 
-|                                                  |     |             |  ACES Dão Lafões|
-|                                                  |     |             |  ACES Alto Trás-os-Montes - Nordeste| 
-|                                                  |     |             |  ACES Dão Lafões|  
-|                                                  |     |             |  ACES Douro I - Marão e Douro Norte| 
-|                                                  |     |             |  ACES Pinhal Litoral|
-|                                                  |     |             |  ACES Arrábida| 
-|                                                  |     |             |  ACES São Mamede| 
-|                                                  |     |             |  ACES Douro II - Douro Sul| 
-|                                                  |     |             |  ACES Algarve III - Algarve Sotavento| 
-|                                                  |     |             |  ACES Grande Porto V - Porto Ocidental| 
-|                                                  |     |             |  ACES Algarve I - Algarve Central |
-|                                                  |     |             |  Centro Hospitalar de Lisboa Central, E.P.E| 
-|                                                  |     |             |  ACES Ave/Famalicão| 
-|                                                  |     |             |  ACES Lisboa Central | 
-|                                                  |     |             |  ACES Tâmega I - Baixo Tâmega| 
-|                                                  |     |             |  ACES Amadora|
-|                                                  |     |             |  ACES Lisboa Ocidental e Oeiras| 
-|                                                  |     |             |  ACES Cávado I - Braga|  
-|                                                  |     |             |  ACES Tâmaga III - Vale do Sousa Norte| 
-|                                                  |     |             |  ACES Loures/Odivelas |
-|                                                  |     |             |  ACES Cávado II - Gerês/Cabreira| 
-|                                                  |     |             |  ACES Grande Porto VI - Porto Oriental| 
-|                                                  |     |             |  ACES Entre Douro e Vouga II - Aveiro Norte| 
-|                                                  |     |             |  ACES Tâmega II - Vale do Sousa Sul | 
-|                                                  |     |             |  ACES Grande Porto II - Gondomar| 
-|                                                  |     |             |  ACES Grande Porto III - Maia/Valongo|
-|                                                  |     |             |  ACES Almada/Seixal| 
-|                                                  |     |             |  ACES Baixo Vouga|  
-|                                                  |     |             |  ACES Arco Ribeirinho|
-|                                                  |     |             |  ACES Cascais | 
-|                                                  |     |             |  ACES Oeste Norte| 
-|                                                  |     |             |  ACES Estuário do Tejo|
-|                                                  |     |             |  ACES Sintra| 
-|                                                  |     |             |  ACES Lisboa Norte|  
-|                                                  |     |             |  ACES Estuário do Tejo| 
-|                                                  |     |             |  ACES Sintra |
-|                                                  |     |             |  ACES Lisboa Norte| 
-|                                                  |     |             |  ACES Baixo Alentejo| 
-|                                                  |     |             |  ACES Alentejo Litoral| 
-|                                                  |     |             |  Administração Regional de Saúde Alentejo, IP| 
-|                                                  |     |             |  Administração Regional de Saúde Norte, IP| 
-|                                                  |     |             |  Administração Local de Saúde do Alto Minho, E.P.E.|
-|                                                  |     |             |  ACES Algarve II - Algarve Barlavento| 
-|                                                  |     |             |  ACES Cova da Beira|  
-|                                                  |     |             |  ACES Grande Porto IV - Póvoa do Varzim/Vila do Conde|
-|                                                  |     |             |  ACES Lezíria| 
-|                                                  |     |             |  ACES Entre Douro e Vouga I - Feira e Arouca|  
-|                                                  |     |             |  ACES Matosinhos|         
-|                                                  |     |             |  HPP Hospital de Cascais Dr José de Almeida| 
-|                                                  |     |             |  Centro Hospitalar de Lisboa Ocidental, E.P.E.|  
-|                                                  |     |             |  Centro Hospitalar Lisboa Norte, E.P.E.|
-|                                                  |     |             |  Hospital Distrital da Figueira da Foz, E.P.E.|
-|                                                  |     |             |  ACES Oeste Sul| 
-|                                                  |     |             |  Centro Hospitalar do Baixo Vouga, E.P.E.|  
-|                                                  |     |             |  Centro Hospitalar de Setúbal, E.P.E.|
-|                                                  |     |             |  Unidade Local de Saúde da Guarda, EPE| 
-|                                                  |     |             |  Instituto Português Oncologia Francisco Gentil - Coimbra, E.P.E.|  
-|                                                  |     |             |  ACES Pinhal Interior Norte|         
-|                                                  |     |             |  ACES Beira Interior Sul| 
-|                                                  |     |             |  Unidade Local de Saúde do Baixo Alentejo, EPE|  
-|                                                  |     |             |  Unidade Local de Saúde do Nordeste, EPE|
-|                                                  |     |             |  Centro de Saúde Dr. Francisco Rodrigues Jardim (ACES Madeira)| 
-|                                                  |     |             |  Instituto Português Oncologia Francisco Gentil - Coimbra, E.P.E.|  
-|                                                  |     |             |  ACES Pinhal Interior Norte|         
-|                                                  |     |             |  ACES Beira Interior Sul| 
-|                                                  |     |             |  Unidade Local de Saúde do Baixo Alentejo, EPE|  
-|                                                  |     |             |  Centro de Saúde Dr. Francisco Rodrigues Jardim (ACES Madeira)|
-|                                                  |     |             |  ACES Pinhal Interior Sul|  
-|                                                  |     |             |  Administração Regional de Saúde Lisboa e Vale do Tejo, IP|
-|                                                  |     |             |  Unidade de Alcoologia de Coimbra| 
-|                                                  |     |             |  Centro Hospitalar de Entre o Douro e Vouga, E.P.E.|  
-|                                                  |     |             |  Centro Hospitalar Tâmega e Sousa, E.P.E.|         
-|                                                  |     |             |  Centro de Medicina Física de Reabilitação do Sul - São Brás de Alportel| 
-|                                                  |     |             |  Administração sistema central de saude|  
-|                                                  |     |             |  Centro de Saúde Zona Oeste (ACES Madeira)|
-|                                                  |     |             |  Centro de Saúde de Câmara de Lobos (ACES Madeira)|
-|                                                  |     |             |  Centro de Saúde do Funchal Zona I (ACES Madeira)|  
-|                                                  |     |             |  Instituto Nacional de Emergência Médica, IP|
-|                                                  |     |             |  Centro Hospitalar do Oeste| 
-|                                                  |     |             |  Centro Hospitalar de São João, E.P.E.|  
-|                                                  |     |             |  Centro Hospitalar Tondela-Viseu, E.P.E.|         
-|                                                  |     |             |  Hospital Vila Franca de Xira| 
-|                                                  |     |             |  Centro Hospitalar de Vila Nova de Gaia/Espinho, E.P.E.|     
-|                                                  |     |             |  Centro Hospitalar Cova da Beira, E.P.E.|  
-|                                                  |     |             |  Hospital da Senhora da Oliveira - Guimarães, E.P.E.|         
-|                                                  |     |             |  Junta de Freguesia de São Vicente| 
-|                                                  |     |             |  Centro de Saúde Zona Leste (ACES Madeira)|  
-|                                                  |     |             |  Administração Regional de Saúde Algarve, IP|  
-|                                                  |     |             |  Hospital Garcia da Orta, E.P.E.|  
-|                                                  |     |             |  Hospital de Magalhães Lemos, E.P.E.|     
-|                                                  |     |             |  Instituto de Oftalmologia Gama Pinto|  
-|                                                  |     |             | Centro Hospitalar do Médio Ave, E.P.E. |         
-|                                                  |     |             |  Administração Regional de Saúde Centro, IP| 
-|                                                  |     |             |  Hospital Professor Dr. Fernando da Fonseca, E.P.E.|  
-|                                                  |     |             |  Unidade de Alcoologia de Lisboa|     
-|                                                  |     |             |  Hospital Beatriz Ângelo|  
-|                                                  |     |             |  Unidade Local de Saúde de Matosinhos, EPE|     
-|                                                  |     |             |  Instituto Nacional de Saúde Dr. Ricardo Jorge, IP|  
-|                                                  |     |             |  Unidade de Alcoologia do Norte |         
-|                                                  |     |             |  Hospital José Luciano de Castro - Anadia| 
-|                                                  |     |             |  Unidade Local de Saúde de Castelo Branco, EPE|  
-|                                                  |     |             |  Centro de Saúde de Santa Cruz (ACES Madeira)|
-| 											       |     |             | Infarmed - Autoridade Nacional do Medicamento e Produtos de Saúde, IP| 
-|                                                  |     |             |  Hospital de Braga|  
-|                                                  |     |             |  Hospital de Santa Maria Maior, EPE|
-| 												   |	 |			   |  Hospital Distrital de Santarém, E.P.E.| 
-|                                                  |     |             |  Hospital Espírito Santo - Évora, E.P.E.|  
-|                                                  |     |             |  Centro Hospitalar Psiquiátrico de Lisboa|
-|												   |	 |			   |  Centro Medicina de Reabilitação da Região Centro - Rovisco Pais| 
-|                                                  |     |             |  Centro de Medicina Física e Reabilitação do Sul|  
-|                                                  |     |             |  Administração de sistema central de saude|   
-|                                                  |     |             |  Serviço de Saúden da RAM|  
-|                                                  |     |             |  Instituto Português do Sangue e da Transplantação, IP|                                  
+| b4) Vínculo ao SNS?                               | Sim | Na entidade | Lista de todas as entidades do SNS registadas no SGES|                                
 |                                                  | Não | 
-| f) Proprietário de uma entidade convencionada?   |Sim| |Qual entidade é proprietário?|
+| b5) Proprietário de uma entidade convencionada?   |Sim| |Qual entidade é proprietário?|
 |												   |Não|                             
-| g) Responsável Técnico  em mais algum estabelecimento? |Sim|
+| b6) Responsável Técnico  em mais algum estabelecimento? |Sim|
 |						                                 | Não|
-| h) Todos os dias da semana? 	   |Sim|
+| b7) Todos os dias da semana? 	   |Sim|
 |                                  |Não|	|Possível selecionar qual/quais o(s) dia(s) da semana|	
-| i) Sempre no mesmo horário?      |Sim| Possível inserir um único horário de entrada e saída nos períodos da manhã e da tarde.
+| b8) Sempre no mesmo horário?      |Sim| Possível inserir um único horário de entrada e saída nos períodos da manhã e da tarde.
 |                                  |Não| Possível inserir, para cada dia da semana, um horário de entreda e de saída nos períodos da manhã e da tarde.
 
 ![figadiciona_area](img/pages/adiciona_area.JPG)
@@ -199,142 +72,14 @@ Para poder adicionar uma área convencionada o utilizador deve preencher, pelo m
 
 Alguns dos campos requerem uma determinada ordem de preenchimento, nomeadamente, os dois campos referentes ao horário de presença física. Apenas é possível preencher inserir o horário de presença física depois de o utilizador indicar quais os dias da semana em que se encontra presente.
 
-Caso o utilizador deseje adicionar um responsável técnico substituto poderá fazê-lo preenchendo os campos obrigatórios do formulário mostrado na figura abaixo ([](#figRT_S))
+Caso o utilizador deseje adicionar responsáveis técnicos substitutos poderá fazê-lo aon clicar no botão **Adicionar RT** e, depois, preenchendo os campos obrigatórios do formulário mostrado na figura abaixo ([](#figRT_S))
 
 |  Campos obrigatórios para registar convenção              |
 | a) Nome                                          |                                                         
 | b) Nº Cédula da Ordem                            |
 | c) Acumula funções?                              | Sim | 
 |                                                  | Não | 
-| d) Vínculo ao SNS?                               | Sim | Na entidade |  Hospital Doutor Francisco Zagalo - Ovar| 
-|                                                  |     |             |  Centro Hospitalar e Universitário de Coimbra, E.P.E| 
-|                                                  |     |             |  Centro Hospitalar do Algarve, E.P.E.| 
-|                                                  |     |             |  Centro Hospitalar de Leiria, E.P.E.| 
-|                                                  |     |             |  Centro Hospitalar de Trás-os-Montes e Alto Douro, E.P.E.| 
-|                                                  |     |             |  Centro Hospitalar Médio Tejo, E.P.E.| 
-|                                                  |     |             |  Centro Hospitalar Póvoa de Varzim/Vila do Conde, E.P.E.| 
-|                                                  |     |             |  Centro Hospitalar do Barreiro e Montijo, E.P.E.| 
-|                                                  |     |             |  ACES Guarda| 
-|                                                  |     |             |  ACES Alto Minho| 
-|                                                  |     |             |  ACES Grande Porto VII - Gaia|
-|                                                  |     |             |  ACES Cávado III - Barcelos/Esposende| 
-|                                                  |     |             |  ACES Alentejo Central| 
-|                                                  |     |             |  ACES Alto Ave - Guimarães, Vizela e Terras de Basto| 
-|                                                  |     |             |  ACES Grande Porto I - Santo Tirso/Trofa | 
-|                                                  |     |             |  ACES Alto Trás-os-Montes - Nordeste| 
-|                                                  |     |             |  ACES Dão Lafões|
-|                                                  |     |             |  ACES Alto Trás-os-Montes - Nordeste| 
-|                                                  |     |             |  ACES Dão Lafões|  
-|                                                  |     |             |  ACES Douro I - Marão e Douro Norte| 
-|                                                  |     |             |  ACES Pinhal Litoral|
-|                                                  |     |             |  ACES Arrábida| 
-|                                                  |     |             |  ACES São Mamede| 
-|                                                  |     |             |  ACES Douro II - Douro Sul| 
-|                                                  |     |             |  ACES Algarve III - Algarve Sotavento| 
-|                                                  |     |             |  ACES Grande Porto V - Porto Ocidental| 
-|                                                  |     |             |  ACES Algarve I - Algarve Central |
-|                                                  |     |             |  Centro Hospitalar de Lisboa Central, E.P.E| 
-|                                                  |     |             |  ACES Ave/Famalicão| 
-|                                                  |     |             |  ACES Lisboa Central | 
-|                                                  |     |             |  ACES Tâmega I - Baixo Tâmega| 
-|                                                  |     |             |  ACES Amadora|
-|                                                  |     |             |  ACES Lisboa Ocidental e Oeiras| 
-|                                                  |     |             |  ACES Cávado I - Braga|  
-|                                                  |     |             |  ACES Tâmaga III - Vale do Sousa Norte| 
-|                                                  |     |             |  ACES Loures/Odivelas |
-|                                                  |     |             |  ACES Cávado II - Gerês/Cabreira| 
-|                                                  |     |             |  ACES Grande Porto VI - Porto Oriental| 
-|                                                  |     |             |  ACES Entre Douro e Vouga II - Aveiro Norte| 
-|                                                  |     |             |  ACES Tâmega II - Vale do Sousa Sul | 
-|                                                  |     |             |  ACES Grande Porto II - Gondomar| 
-|                                                  |     |             |  ACES Grande Porto III - Maia/Valongo|
-|                                                  |     |             |  ACES Almada/Seixal| 
-|                                                  |     |             |  ACES Baixo Vouga|  
-|                                                  |     |             |  ACES Arco Ribeirinho|
-|                                                  |     |             |  ACES Cascais | 
-|                                                  |     |             |  ACES Oeste Norte| 
-|                                                  |     |             |  ACES Estuário do Tejo|
-|                                                  |     |             |  ACES Sintra| 
-|                                                  |     |             |  ACES Lisboa Norte|  
-|                                                  |     |             |  ACES Estuário do Tejo| 
-|                                                  |     |             |  ACES Sintra |
-|                                                  |     |             |  ACES Lisboa Norte| 
-|                                                  |     |             |  ACES Baixo Alentejo| 
-|                                                  |     |             |  ACES Alentejo Litoral| 
-|                                                  |     |             |  Administração Regional de Saúde Alentejo, IP| 
-|                                                  |     |             |  Administração Regional de Saúde Norte, IP| 
-|                                                  |     |             |  Administração Local de Saúde do Alto Minho, E.P.E.|
-|                                                  |     |             |  ACES Algarve II - Algarve Barlavento| 
-|                                                  |     |             |  ACES Cova da Beira|  
-|                                                  |     |             |  ACES Grande Porto IV - Póvoa do Varzim/Vila do Conde|
-|                                                  |     |             |  ACES Lezíria| 
-|                                                  |     |             |  ACES Entre Douro e Vouga I - Feira e Arouca|  
-|                                                  |     |             |  ACES Matosinhos|         
-|                                                  |     |             |  HPP Hospital de Cascais Dr José de Almeida| 
-|                                                  |     |             |  Centro Hospitalar de Lisboa Ocidental, E.P.E.|  
-|                                                  |     |             |  Centro Hospitalar Lisboa Norte, E.P.E.|
-|                                                  |     |             |  Hospital Distrital da Figueira da Foz, E.P.E.|
-|                                                  |     |             |  ACES Oeste Sul| 
-|                                                  |     |             |  Centro Hospitalar do Baixo Vouga, E.P.E.|  
-|                                                  |     |             |  Centro Hospitalar de Setúbal, E.P.E.|
-|                                                  |     |             |  Unidade Local de Saúde da Guarda, EPE| 
-|                                                  |     |             |  Instituto Português Oncologia Francisco Gentil - Coimbra, E.P.E.|  
-|                                                  |     |             |  ACES Pinhal Interior Norte|         
-|                                                  |     |             |  ACES Beira Interior Sul| 
-|                                                  |     |             |  Unidade Local de Saúde do Baixo Alentejo, EPE|  
-|                                                  |     |             |  Unidade Local de Saúde do Nordeste, EPE|
-|                                                  |     |             |  Centro de Saúde Dr. Francisco Rodrigues Jardim (ACES Madeira)| 
-|                                                  |     |             |  Instituto Português Oncologia Francisco Gentil - Coimbra, E.P.E.|  
-|                                                  |     |             |  ACES Pinhal Interior Norte|         
-|                                                  |     |             |  ACES Beira Interior Sul| 
-|                                                  |     |             |  Unidade Local de Saúde do Baixo Alentejo, EPE|  
-|                                                  |     |             |  Centro de Saúde Dr. Francisco Rodrigues Jardim (ACES Madeira)|
-|                                                  |     |             |  ACES Pinhal Interior Sul|  
-|                                                  |     |             |  Administração Regional de Saúde Lisboa e Vale do Tejo, IP|
-|                                                  |     |             |  Unidade de Alcoologia de Coimbra| 
-|                                                  |     |             |  Centro Hospitalar de Entre o Douro e Vouga, E.P.E.|  
-|                                                  |     |             |  Centro Hospitalar Tâmega e Sousa, E.P.E.|         
-|                                                  |     |             |  Centro de Medicina Física de Reabilitação do Sul - São Brás de Alportel| 
-|                                                  |     |             |  Administração sistema central de saude|  
-|                                                  |     |             |  Centro de Saúde Zona Oeste (ACES Madeira)|
-|                                                  |     |             |  Centro de Saúde de Câmara de Lobos (ACES Madeira)|
-|                                                  |     |             |  Centro de Saúde do Funchal Zona I (ACES Madeira)|  
-|                                                  |     |             |  Instituto Nacional de Emergência Médica, IP|
-|                                                  |     |             |  Centro Hospitalar do Oeste| 
-|                                                  |     |             |  Centro Hospitalar de São João, E.P.E.|  
-|                                                  |     |             |  Centro Hospitalar Tondela-Viseu, E.P.E.|         
-|                                                  |     |             |  Hospital Vila Franca de Xira| 
-|                                                  |     |             |  Centro Hospitalar de Vila Nova de Gaia/Espinho, E.P.E.|     
-|                                                  |     |             |  Centro Hospitalar Cova da Beira, E.P.E.|  
-|                                                  |     |             |  Hospital da Senhora da Oliveira - Guimarães, E.P.E.|         
-|                                                  |     |             |  Junta de Freguesia de São Vicente| 
-|                                                  |     |             |  Centro de Saúde Zona Leste (ACES Madeira)|  
-|                                                  |     |             |  Administração Regional de Saúde Algarve, IP|  
-|                                                  |     |             |  Hospital Garcia da Orta, E.P.E.|  
-|                                                  |     |             |  Hospital de Magalhães Lemos, E.P.E.|     
-|                                                  |     |             |  Instituto de Oftalmologia Gama Pinto|  
-|                                                  |     |             | Centro Hospitalar do Médio Ave, E.P.E. |         
-|                                                  |     |             |  Administração Regional de Saúde Centro, IP| 
-|                                                  |     |             |  Hospital Professor Dr. Fernando da Fonseca, E.P.E.|  
-|                                                  |     |             |  Unidade de Alcoologia de Lisboa|     
-|                                                  |     |             |  Hospital Beatriz Ângelo|  
-|                                                  |     |             |  Unidade Local de Saúde de Matosinhos, EPE|     
-|                                                  |     |             |  Instituto Nacional de Saúde Dr. Ricardo Jorge, IP|  
-|                                                  |     |             |  Unidade de Alcoologia do Norte |         
-|                                                  |     |             |  Hospital José Luciano de Castro - Anadia| 
-|                                                  |     |             |  Unidade Local de Saúde de Castelo Branco, EPE|  
-|                                                  |     |             |  Centro de Saúde de Santa Cruz (ACES Madeira)|
-| 											       |     |             | Infarmed - Autoridade Nacional do Medicamento e Produtos de Saúde, IP| 
-|                                                  |     |             |  Hospital de Braga|  
-|                                                  |     |             |  Hospital de Santa Maria Maior, EPE|
-| 												   |	 |			   |  Hospital Distrital de Santarém, E.P.E.| 
-|                                                  |     |             |  Hospital Espírito Santo - Évora, E.P.E.|  
-|                                                  |     |             |  Centro Hospitalar Psiquiátrico de Lisboa|
-|												   |	 |			   |  Centro Medicina de Reabilitação da Região Centro - Rovisco Pais| 
-|                                                  |     |             |  Centro de Medicina Física e Reabilitação do Sul|  
-|                                                  |     |             |  Administração de sistema central de saude|   
-|                                                  |     |             |  Serviço de Saúden da RAM|  
-|                                                  |     |             |  Instituto Português do Sangue e da Transplantação, IP|                                  
+| d) Vínculo ao SNS?                               | Sim | Na entidade | Lista de todas as entidades do SNS registadas no SGES |                                   
 |                                                  | Não | 
 | e) Proprietário de uma entidade convencionada?   |Sim| |Qual entidade é proprietário?|
 |												   |Não|                             
@@ -351,12 +96,54 @@ Caso o utilizador deseje adicionar um responsável técnico substituto poderá f
 
 Depois de preencher todos os campos o utilizador deve clicar no botão **GUARDAR**, caso deseje que as informações sejam gravadas, ou deve clicar no botão **REMOVER* caso contrário.
 
+## 14.1.2. Associar Estabelecimento
+Para associar um estabelecimento ao acordo/convenção o utilizador deve preencher,pelo menos, os campos obrigatórios do formulário correspondente e clicar em **GRAVAR** ([] (#figAssociar_Estabelecimento) ). 
+|  | Campos obrigatórios para associar estabelecimento           |   |   |   |
+|----|--------------------------------------------|---|---|---|
+| a) | Identificação do Estabelecimento Associado |   |   |   |
+| b) | Áreas Associadas |   |   |   |
+| c) | Diretor Técnico |   |   |   |
+| d) | Horário Marcação de Exames|   |   |   |
+| e) | Horário Realização de Exames |   |   |   |
 
+![fig14_1](img/pages/Associar_Estabelecimento.JPG)
 
+<p class="caption" id="Associar_Estabelecimento.JPG"> Campos de preenchimento obrigatório para associar um estabelecimento </p>
 
+A identificação do estabelecimento depende de qual é o estabelecimento que se pretende associar de entre os estabelecimentos que pertencem à entidade. 
 
+A escolha das áreas a associar depende das áreas convencionadas que estão associadas à entidade. Ao clicar no botão **ADICIONAR ÁREA**, é possível escolher qual a área que se pretende associar de entre as possíveis; posteriormente é possível selecionar quais a vaências e quais os exames abrangidos pela convenção ([] (#figValencias_Exames) ).
 
+![figValencias_Exames](img/pages/Valencias_Exames.JPG)
 
+<p class="caption" id="Valencias_Exames.JPG"> Possibilidade de selecionar as valências e exames abrangidos pela convenção no estabelecimento. </p>
+
+Os campos obrigatórios relativos ao Diretor Técnico são os mesmos que já foram referidos para o Responsável Técnico Principal (ver tabela Campos obrigatórios para adicionar área).
+
+Se o utilizador pretende adicionar diretores técnicos substitutos, deve clicar no botão **ADICIONAR SUBSTITUTO** e, posteriormente, preencher os campos obrigatórios do formulário. Estes campos obrigatórios já foram referidos para o Responsável Técnico Principal (ver tabela Campos obrigatórios para adicionar área)([] (#figValencias_Exames) ).
+
+## 14.1.3. Adicionar Recursos Humanos Técnicos
+Se o utilizador prentender adicionar recursos humanos técnicos, deve clicar 
+
+![fig14_1](img/pages/14_1.jpg)
+
+<p class="caption" id="14_1.jpg"> Campos de preenchimento obrigatório para registar Convenção </p>
+  
+Após clicar no botão **GRAVAR** irá ser notificado do resultado da operação e, caso a convenção tenha sido registada com sucesso, os botões ''Adicionar Área'', ''Associar Estabelecimento'' e ''Associar RH Técnico'' passam a ficar ativos o que é sinalizado pela sua mudança de cor cinzenta para azul ([](#fig14_2)) .
+
+![fig14_2](img/pages/14_2.JPG)
+
+<p class="caption" id="14_2.JPG"> Botões ''Adicionar Área'', ''Associar Estabelecimento'' e ''Associar RH Técnico'' ativos </p>
+
+## 14.2 Editar Acordo
+
+## 14.3 Consultar Acordo
+
+## 14.4 Alterar Estado
+
+## 14.1 Alterar Estado Convenção
+
+## 14.2 Alterar Estado Valências
 
 
 
