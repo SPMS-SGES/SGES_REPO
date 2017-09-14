@@ -34,34 +34,34 @@ Para poder adicionar uma área convencionada o utilizador deve preencher, pelo m
 
 |    | Campos obrigatórios para adicionar área        |      |
 |----|---------------------------------------------------|----------|
-| a) | Área                                             |  Análises Clínicas  | 
-|                                                      |  Anatomia Patológica| 
-|                                                      |  Cardiologia| 
-|                                                      |  Medicina Nuclear| 
-|                                                      |  Eletroencefalografia| 
-|                                                       |  Endoscopia Gastrenteológica| 
-|                                                      |  Medicina Física e de Reabilitação| 
-|                                                      |  Otorrinolaringologia| 
-|                                                      |  Pneumologia e Imunoalergologia| 
-|                                                      |  Urologia| 
-|                                                      |  Neurofisiologia|
-|                                                      |  Radiologia| 
-|                                                      |  Consultas| 
-|                                                      |  Psicologia| 
-|                                                      |  SIGIC| 
+| a) Área                                             |  Análises Clínicas  | 
+|                                                     |  Anatomia Patológica| 
+|                                                     |  Cardiologia| 
+|                                                     |  Medicina Nuclear| 
+|                                                     |  Eletroencefalografia| 
+|                                                     |  Endoscopia Gastrenteológica| 
+|                                                     |  Medicina Física e de Reabilitação| 
+|                                                     |  Otorrinolaringologia| 
+|                                                     |  Pneumologia e Imunoalergologia| 
+|                                                     |  Urologia| 
+|                                                     |  Neurofisiologia|
+|                                                     |  Radiologia| 
+|                                                     |  Consultas| 
+|                                                     |  Psicologia| 
+|                                                     |  SIGIC| 
 |                                                     |  Diálise| 
 |                                                     |  Cirurgia|  
 | b) Nome                                          | |                                                         
 | c) Nº Cédula da Ordem                            | |
 | d) Acumula funções?                              | Sim | 
 |                                                  | Não | 
-| e) Vínculo ao SNS?                               | Sim | | Na entidade | |  Hospital Doutor Francisco Zagalo - Ovar| 
-|                                                  || ||                 |  Centro Hospitalar e Universitário de Coimbra, E.P.E| 
-|                                                   || ||                        |  Centro Hospitalar do Algarve, E.P.E.| 
-|                                                         || ||                  |  Centro Hospitalar de Leiria, E.P.E.| 
-|                                                               || ||           |  Centro Hospitalar de Trás-os-Montes e Alto Douro, E.P.E.| 
-|                                                  || ||                         |  Centro Hospitalar Médio Tejo, E.P.E.| 
-|                                                  || ||                         |  Centro Hospitalar Póvoa de Varzim/Vila do Conde, E.P.E.| 
+| e) Vínculo ao SNS?                               | Sim | Na entidade | Hospital Doutor Francisco Zagalo - Ovar| 
+|                                                  |     |             | Centro Hospitalar e Universitário de Coimbra, E.P.E| 
+|                                                  |     |             | Centro Hospitalar do Algarve, E.P.E.| 
+|                                                  |     |             | Centro Hospitalar de Leiria, E.P.E.| 
+|                                                  |     |             | Centro Hospitalar de Trás-os-Montes e Alto Douro, E.P.E.| 
+|                                                  |     |             | Centro Hospitalar Médio Tejo, E.P.E.| 
+|                                                  |     |             | Centro Hospitalar Póvoa de Varzim/Vila do Conde, E.P.E.| 
 |                                                                          |  Centro Hospitalar do Barreiro e Montijo, E.P.E.| 
 |                                                                          |  ACES Guarda| 
 |                                                                          |  ACES Alto Minho| 
