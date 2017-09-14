@@ -12,7 +12,7 @@ title: "Entidade"
 
 ## 14.1. Regista Convenção
 
-Para poder registar uma convenção o utilizador deve preencher,pelo menos, os campos obrigatórios e clicar em **GRAVAR** ([] (#fig14_1) ).
+Para poder registar uma convenção o utilizador deve preencher,pelo menos, os campos obrigatórios e clicar em **GRAVAR** ([](#fig14_1)).
  
 |    | Campos obrigatórios para registar convenção|   |   |   |
 |----|--------------------------------------------|---|---|---|
@@ -74,7 +74,7 @@ Para adicionar uma área convencionada o utilizador deve preencher, pelo menos, 
 
 Alguns dos campos requerem uma determinada ordem de preenchimento, nomeadamente, os dois campos referentes ao horário de presença física. Apenas é possível preencher inserir o horário de presença física depois de o utilizador indicar quais os dias da semana em que se encontra presente.
 
-Caso o utilizador deseje adicionar responsáveis técnicos substitutos poderá fazê-lo aon clicar no botão **Adicionar RT** e, depois, preenchendo os campos obrigatórios do formulário mostrado na figura abaixo ([](#figRT_S))
+Caso o utilizador deseje adicionar responsáveis técnicos substitutos poderá fazê-lo aon clicar no botão **ADICIONAR RT** e, depois, preenchendo os campos obrigatórios do formulário mostrado na figura abaixo ([](#figRT_S))
 
 |    |                                                               | Campos obrigatórios para adicionar responsáveis técnicos substitutos                                               |   |   |  |                                                                                                |
 |----|---------------------------------------------------------------|-----|--------------|-----------------------------------------------------------------------------------------------|---|---|--|
@@ -130,18 +130,22 @@ Se o utilizador pretende adicionar diretores técnicos substitutos, deve clicar 
 Se o utilizador prentender adicionar recursos humanos técnicos, deve clicar 
 
 ## 14.2 Editar Acordo
+Depois de registado um acordo/convenção é possível editá-lo. Para tal o utilizador deve selecionar o acordo/convenção que pretende editar e clicar no botão **EDITAR**.
 
 ## 14.3 Consultar Acordo
+Depois de registado um acordo/convenção é possível consultá-lo. Para tal o utilizador deve selecionar o acordo/convenção que pretende editar e clicar no botão **CONSULTAR**.
 
 ## 14.4 Alterar Estado
+Depois de registado um acordo/convenção é possível alterar o estado quer do acordo/convenção quer das suas valências e exames. Para tal o utilizador deve selecionar o acordo/convenção que pretende editar e clicar no botão **ALTERAR ESTADO**.
 
 ## 14.4.1 Alterar Estado do Acordo/Convenção
 
 ## 14.4.2 Alterar Estado das Valências
 
-## 14.5 Alterar Estado Convenção
+## 14.5 Pesquisar Acordo/Convenção
 
-## 14.6 Alterar Estado Valências
+## 14.6 Importar Ficha Técnica
+
 
 
 
