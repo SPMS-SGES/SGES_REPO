@@ -136,9 +136,9 @@ Se o utilizador prentender adicionar recursos humanos técnicos, deve clicar
 
 ## 14.4 Alterar Estado
 
-## 14.1 Alterar Estado Convenção
+## 14.5 Alterar Estado Convenção
 
-## 14.2 Alterar Estado Valências
+## 14.6 Alterar Estado Valências
 
 
 
