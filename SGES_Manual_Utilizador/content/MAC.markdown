@@ -194,7 +194,7 @@ O utilizador pode alterar o estado do acordo/convenção após selecionar o acor
 
 ## 14.5 Pesquisar Acordo/Convenção
 
-A lista de acordos/convenções de uma determinada entidade pode ser acedida através da pesquisa de entidades ou, caso o utilizador tenha acesso ao menu Acordos e Convenções, pode navegar diretamente para a lista de acordos/convenções de uma determinada entidade após selecionar uma entidade e clicar no botão *CONSULTAR**.
+A lista de acordos/convenções de uma determinada entidade pode ser acedida através da pesquisa de entidades ou, caso o utilizador tenha acesso ao menu Acordos e Convenções, pode navegar diretamente para a lista de acordos/convenções de uma determinada entidade após selecionar uma entidade e clicar no botão **CONSULTAR**.
 
 ## 14.6 Importar Ficha Técnica
 
