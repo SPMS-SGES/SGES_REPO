@@ -199,11 +199,11 @@ A lista de acordos/convenções de uma determinada entidade pode ser acedida atr
 
 ## 14.6 Importar Ficha Técnica
 
-A importação da ficha técnica pode ser efetuada acedendo, exclusivamente, ao menu Ficha Técnica. O utilizador é encaminhado para uma página onde pode anexar e carregar as fichas técnicas ([](#figFT)) .
+A importação da ficha técnica pode ser efetuada acedendo, exclusivamente, ao menu Ficha Técnica. O utilizador é encaminhado para uma página onde pode anexar e carregar as fichas técnicas ([](#figFichaTecnica)) .
 
-![figFT](img/pages/14_12.JPG)
+![figFichaTecnica](img/pages/14_12.JPG)
 
-<p class="caption" id="figFT"> Acordo selecionado e botão "Alterar Estado da Convenção" ativo e destacado a amarelo. </p>
+<p class="caption" id="figFichaTecnica"> Acordo selecionado e botão "Alterar Estado da Convenção" ativo e destacado a amarelo. </p>
 
 Caso a informação seja confirmada, o novo acordo/convenção passa a poder ser editado, consultado e o seu estado alterado, quer através do menu Entidade quer através do menu Acordos/Convenções.
 
