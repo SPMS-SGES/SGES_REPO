@@ -19,7 +19,7 @@ Para criar um acordo ou convenção o utilizador deve clicar no botão **CRIAR**
 
 <p class="caption" id="figCriarAC"> Campos de preenchimento obrigatório para registar Convenção </p>
 
-Para que o registo de um acordo ou convenção seja feito com sucesso, o utilizador deve preencher, os campos obrigatórios e clicar em **GRAVAR** ([](#figCriaAC)).
+Para que o registo de um acordo ou convenção seja feito com sucesso, o utilizador deve preencher, os campos obrigatórios e clicar em **GRAVAR** ([](#figRegistaAC)).
  
 |    | Campos obrigatórios para registar convenção|   |   |   |
 |----|--------------------------------------------|---|---|---|
@@ -27,9 +27,9 @@ Para que o registo de um acordo ou convenção seja feito com sucesso, o utiliza
 | b) | Outorgante                                 |   |   |   |
 | c) | Designação Convenção                       |   |   |   |
 
-![figCriaAC](img/pages/14_1.JPG)
+![figRegistaAC](img/pages/14_1.JPG)
 
-<p class="caption" id="figCriaAC"> Campos de preenchimento obrigatório para registar Convenção </p>
+<p class="caption" id="figRegistaAC"> Campos de preenchimento obrigatório para registar Convenção </p>
 
 Depois de clicar no botão **GRAVAR** o utilizador irá ser notificado do resultado da operação e, caso a convenção tenha sido registada com sucesso, os botões ''Adicionar Área'', ''Associar Estabelecimento'' e ''Associar RH Técnico'' passam a ficar ativos o que é sinalizado pela sua mudança de cor cinzenta para azul ([](#figOpcoesAC)) .
 
