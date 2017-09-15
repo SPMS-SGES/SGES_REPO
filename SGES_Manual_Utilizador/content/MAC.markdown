@@ -158,7 +158,7 @@ Para poder editar um acordo ou convenção o utilizador deve selecionar o acordo
 
 ![figEditAC](img/pages/14_11.JPG)
 
-<p class="caption" id="EditAC"> Acordo selecionado e botão **EDITAR** ativo e destacado a amarelo. </p>
+<p class="caption" id="EditAC"> Acordo selecionado e botão "Editar" ativo e destacado a amarelo. </p>
 
 O utilizador é encaminhado para uma página onde pode alterar e adicionar informações relativas ao acordo ou convenção, respeitando o preenchimento dos campos obrigatórios identificados nos pontos anteriores.
 
@@ -172,7 +172,7 @@ Para consultar um acordo ou convenção o utilizador deve selecionar o acordo/co
 
 ![figConsultarAC](img/pages/14_9.JPG)
 
-<p class="caption" id="ConsultarAC"> Acordo selecionado e botão **CONSULTAR** ativo e destacado a amarelo. </p>
+<p class="caption" id="ConsultarAC"> Acordo selecionado e botão "Consultar" ativo e destacado a amarelo. </p>
 
 Para visualizar cada um dos campos relativos ao acordo ou convenção - identificação da entidade, áreas convencionadas, estabelecimentos e recursos humanos técnicos - o utilizador deverá clicar no botão **+** relativo a cada uma das áreas.
 
