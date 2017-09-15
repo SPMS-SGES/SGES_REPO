@@ -6,13 +6,19 @@ title: "Entidade"
 
 # 14. Acordos e Convenções
 
-É neste módulo que serão feitas ações sobre os acordos e convenções.
+É neste módulo que serão feitas ações sobre os acordos e convenções. Todas elas podem ser realizadas indiretamente - acedendo ao menu Entidade, pesquisando uma entidade e clicando no botão **ACORDOS/CONVENÇÕES** - ou diretamente - acedendo ao menu Acordos e Convenções, pesquisando e selecionando uma entidade convencionada.
 
 <p id="registaAconvencao"></p>
 
 ## 14.1. Regista Convenção
 
-Para poder registar uma convenção o utilizador deve preencher,pelo menos, os campos obrigatórios e clicar em **GRAVAR** ([](#fig14_1)).
+Para poder criar um acordo ou convenção o utilizador deve clicar no botão **CRIAR** ([] (#figCriarAC) ).
+
+![figCriarAC](img/pages/14_8.JPG)
+
+<p class="caption" id="figCriarAC"> Campos de preenchimento obrigatório para registar Convenção </p>
+
+Para poder registar uma convenção o utilizador deve preencher,pelo menos, os campos obrigatórios e clicar em **GRAVAR** ([](#figRegistaAC)).
  
 |    | Campos obrigatórios para registar convenção|   |   |   |
 |----|--------------------------------------------|---|---|---|
@@ -20,17 +26,18 @@ Para poder registar uma convenção o utilizador deve preencher,pelo menos, os c
 | b) | Outorgante                                 |   |   |   |
 | c) | Designação Convenção                       |   |   |   |
 
-![fig14_1](img/pages/14_1.JPG)
+![figRegistaAC](img/pages/14_1.JPG)
 
-<p class="caption" id="14_1.JPG"> Campos de preenchimento obrigatório para registar Convenção </p>
+<p class="caption" id="figRegistaAC"> Campos de preenchimento obrigatório para registar Convenção </p>
   
-Após clicar no botão **GRAVAR** irá ser notificado do resultado da operação e, caso a convençaõ tenha sido registada com sucesso, os botões ''Adicionar Área'', ''Associar Estabelecimento'' e ''Associar RH Técnico'' passam a ficar ativos o que é sinalizado pela sua mudança de cor cinzenta para azul ([](#fig14_2)) .
+Após clicar no botão **GRAVAR** irá ser notificado do resultado da operação e, caso a convençaõ tenha sido registada com sucesso, os botões ''Adicionar Área'', ''Associar Estabelecimento'' e ''Associar RH Técnico'' passam a ficar ativos o que é sinalizado pela sua mudança de cor cinzenta para azul ([](#figOpcoesAC)) .
 
-![fig14_2](img/pages/14_2.JPG)
+![figOpcoesAC](img/pages/14_2.JPG)
 
-<p class="caption" id="14_2.JPG"> Botões ''Adicionar Área'', ''Associar Estabelecimento'' e ''Associar RH Técnico'' ativos </p>
+<p class="caption" id="OpcoesAC"> Botões ''Adicionar Área'', ''Associar Estabelecimento'' e ''Associar RH Técnico'' ativos </p>
 
 ## 14.1.1. Adicionar Área
+
 Para adicionar uma área convencionada o utilizador deve preencher, pelo menos, os campos obrigatórios e clicar em **GRAVAR** ([](#figadiciona_area)) .
 
 |    |                                                | Campos obrigatórios para adicionar área                                    |                     |
@@ -68,9 +75,9 @@ Para adicionar uma área convencionada o utilizador deve preencher, pelo menos, 
 | b8) Sempre no mesmo horário?                        |Sim| Possível inserir um único horário de entrada e saída nos períodos da manhã e da tarde        |
 |                                                     |Não| Possível inserir, para cada dia da semana, um horário de entreda e de saída nos períodos da manhã e da tarde    |
 
-![figadiciona_area](img/pages/adiciona_area.JPG)
+![figadiciona_area](img/pages/14_3.JPG)
 
-<p class="caption" id="adiciona_area.JPG"> Campos que têm de ser obrigatoriamente preenchidos para que seja possível adicionar uma área convencionada. </p>
+<p class="caption" id="adiciona_area"> Campos que têm de ser obrigatoriamente preenchidos para que seja possível adicionar uma área convencionada. </p>
 
 Alguns dos campos requerem uma determinada ordem de preenchimento, nomeadamente, os dois campos referentes ao horário de presença física. Apenas é possível preencher inserir o horário de presença física depois de o utilizador indicar quais os dias da semana em que se encontra presente.
 
@@ -93,13 +100,14 @@ Caso o utilizador deseje adicionar responsáveis técnicos substitutos poderá f
 | h) Sempre no mesmo horário?                                        |Sim| Possível inserir um único horário de entrada e saída nos períodos da manhã e da tarde                                     |
 |                                                                    |Não| Possível inserir, para cada dia da semana, um horário de entreda e de saída nos períodos da manhã e da tarde              |
 
-![figRT_S](img/pages/RT_S.JPG)
+![figRT_S](img/pages/14_4.JPG)
 
-<p class="caption" id="14_2.JPG"> Formulário que deve ser preenchido para que seja possível adicionar um responsável técnico substituto. </p>
+<p class="caption" id="RT_S"> Formulário que deve ser preenchido para que seja possível adicionar um responsável técnico substituto. </p>
 
 Depois de preencher todos os campos o utilizador deve clicar no botão **GUARDAR**, caso deseje que as informações sejam gravadas, ou deve clicar no botão **REMOVER* caso contrário.
 
 ## 14.1.2. Associar Estabelecimento
+
 Para associar um estabelecimento ao acordo/convenção o utilizador deve preencher,pelo menos, os campos obrigatórios do formulário correspondente e clicar em **GRAVAR** ([] (#figAssociar_Estabelecimento) ). 
 
 |    | Campos obrigatórios para associar estabelecimento           |   |   |   |
@@ -110,41 +118,93 @@ Para associar um estabelecimento ao acordo/convenção o utilizador deve preench
 | d) | Horário Marcação de Exames                                  |   |   |   |
 | e) | Horário Realização de Exames                                |   |   |   |
 
-![figAssociar_Estabelecimento](img/pages/Associar_Estabelecimento.JPG)
+![figAssociar_Estabelecimento](img/pages/14_5.JPG)
 
-<p class="caption" id="Associar_Estabelecimento.JPG"> Campos de preenchimento obrigatório para associar um estabelecimento </p>
+<p class="caption" id="Associar_Estabelecimento"> Campos de preenchimento obrigatório para associar um estabelecimento </p>
 
 A identificação do estabelecimento depende de qual é o estabelecimento que se pretende associar de entre os estabelecimentos que pertencem à entidade. 
 
 A escolha das áreas a associar depende das áreas convencionadas que estão associadas à entidade. Ao clicar no botão **ADICIONAR ÁREA**, é possível escolher qual a área que se pretende associar de entre as possíveis; posteriormente é possível selecionar quais a vaências e quais os exames abrangidos pela convenção ([] (#figValencias_Exames) ).
 
-![figValencias_Exames](img/pages/Valencias_Exames.JPG)
+![figValencias_Exames](img/pages/14_6.JPG)
 
-<p class="caption" id="Valencias_Exames.JPG"> Possibilidade de selecionar as valências e exames abrangidos pela convenção no estabelecimento. </p>
+<p class="caption" id="Valencias_Exames"> Possibilidade de selecionar as valências e exames abrangidos pela convenção no estabelecimento. </p>
 
 Os campos obrigatórios relativos ao Diretor Técnico são os mesmos que já foram referidos para o Responsável Técnico Principal (ver tabela Campos obrigatórios para adicionar área).
 
 Se o utilizador pretende adicionar diretores técnicos substitutos, deve clicar no botão **ADICIONAR SUBSTITUTO** e, posteriormente, preencher os campos obrigatórios do formulário. Estes campos obrigatórios já foram referidos para o Responsável Técnico Principal (ver tabela Campos obrigatórios para adicionar área)([] (#figValencias_Exames) ).
 
 ## 14.1.3. Adicionar Recursos Humanos Técnicos
-Se o utilizador prentender adicionar recursos humanos técnicos, deve clicar 
+
+Para adicionar recursos humanos técnicos, basta clicar no botão **ASSOCIAR RH TÉCNICO**. O utilizador é encaminhado para uma página que contém um formulário cujos campos obrigatórios devem ser preenchidos ([] (#figAdicionar_RH_Tecnicos) ).
+
+|    | Campos obrigatórios para adicionar recursos humanos técnicos          |   |   |   |
+|----|-----------------------------------------------------------------------|---|---|---|
+| a) | Nome                                                                  |   |   |   |
+| b) | Cédula Profissional                                                   |   |   |   |
+| c) | Atividade Clínica                                                     |   |   |   |
+
+![figAdicionar_RH_Tecnicos](img/pages/14_7.JPG)
+
+<p class="caption" id="Adicionar_RH_Tecnicos"> Formulário que deve ser preenchido para que seja adicionado um recurso humano técnico. </p>
+
+De salientar que o campo Especialidade apenas pode ser preenchido depois de selecionada a área clínica.
+
+Para que os dados relativos ao recurso humano técnico sejam guardados, o utilizador deve clicar no botão **GRAVAR**. Após clicar irá ser notificado com o resultado da operação.
 
 ## 14.2 Editar Acordo
-Depois de registado um acordo/convenção é possível editá-lo. Para tal o utilizador deve selecionar o acordo/convenção que pretende editar e clicar no botão **EDITAR**.
+
+Para poder editar um acordo ou convenção o utilizador deve selecionar o acordo/convenção que pretende editar e clicar no botão **EDITAR** ([] (#figEditAC) ).
+
+![figEditAC](img/pages/14_11.JPG)
+
+<p class="caption" id="EditAC"> Acordo selecionado e botão **EDITAR** ativo e destacado a amarelo. </p>
+
+O utilizador é encaminhado para uma página onde pode alterar e adicionar informações relativas ao acordo ou convenção, respeitando o preenchimento dos campos obrigatórios identificados nos pontos anteriores.
+
+Para aceder a cada um dos campos relativos ao acordo ou convenção - identificação da entidade, áreas convencionadas, estabelecimentos e recursos humanos técnicos  - o utilizador deverá clicar no botão **+** para conseguir consultá-los e, se desejar, realizar alterações.
+
+No final da edição de cada um dos campos do acordo ou convenção o utilizador deve clicar no botão **GRAVAR** para que as alterações realizadas sejam guardadas. Após clicar irá ser notificado com o resultado da operação.
 
 ## 14.3 Consultar Acordo
-Depois de registado um acordo/convenção é possível consultá-lo. Para tal o utilizador deve selecionar o acordo/convenção que pretende editar e clicar no botão **CONSULTAR**.
 
-## 14.4 Alterar Estado
-Depois de registado um acordo/convenção é possível alterar o estado quer do acordo/convenção quer das suas valências e exames. Para tal o utilizador deve selecionar o acordo/convenção que pretende editar e clicar no botão **ALTERAR ESTADO**.
+Para consultar um acordo ou convenção o utilizador deve selecionar o acordo/convenção que pretende consultar e clicar no botão **CONSULTAR** ([] (#figConsultarAC) ).
+
+![figConsultarAC](img/pages/14_9.JPG)
+
+<p class="caption" id="ConsultarAC"> Acordo selecionado e botão **CONSULTAR** ativo e destacado a amarelo. </p>
+
+Para visualizar cada um dos campos relativos ao acordo ou convenção - identificação da entidade, áreas convencionadas, estabelecimentos e recursos humanos técnicos - o utilizador deverá clicar no botão **+** relativo a cada uma das áreas.
+
+## 14.4 Alterar Estado 
 
 ## 14.4.1 Alterar Estado do Acordo/Convenção
 
+O utilizador pode alterar o estado do acordo/convenção após selecionar o acordo/convenção que pretende editar, clicar no botão **ALTERAR ESTADO** ([] (#figAltAC) ). 
+
+![figAltAC](img/pages/14_10.JPG)
+
+<p class="caption" id="AltAC"> Acordo selecionado e botão **ALTERAR ESTADO DA CONVENÇÃO** ativo e destacado a amarelo. </p>
+
+O utilizador é conduzido a uma página onde pode alterar o estado de cada acordo/convenção associado ao estabelecimento e selecionar o motivo da alteração de estado. 
+
 ## 14.4.2 Alterar Estado das Valências
+
+O utilizador pode alterar o estado do acordo/convenção após selecionar o acordo/convenção que pretende editar, clicar no botão **ALTERAR ESTADO** e, finalmente, no botão **DETALHES**. O utilzador é conduzido a uma página onde pode, alterar o estado de cada valência e exame e selecionar o motivo da alteração de estado.
 
 ## 14.5 Pesquisar Acordo/Convenção
 
+A lista de acordos/convenções de uma determinada entidade pode ser acedida através da pesquisa de entidades (fig X) ou, caso o utilizador tenha acesso ao menu Acordos e Convenções, pode navegar diretamente para a lista de acordos/convenções de uma determinada entidade após selecionar uma entidade e clicar no botão *CONSULTAR**.
+
 ## 14.6 Importar Ficha Técnica
+
+A importação da ficha técnica pode ser efetuada acedendo, exclusivamente, ao menu Ficha Técnica. O utilizador é encaminhado para uma página onde pode anexar e carregar as fichas técnicas ([] (#FT) .
+
+![figFT](img/pages/14_12.JPG)
+
+<p class="caption" id="FT"> Acordo selecionado e botão **ALTERAR ESTADO DA CONVENÇÃO** ativo e destacado a amarelo. </p>
+
+Caso a informação seja confirmada, o novo acordo/convenção passa a poder ser editado, consultado e o seu estado alterado, quer através do menu Entidade quer através do menu Acordos/Convenções.
 
 
 

@@ -124,17 +124,17 @@ Caso contrário, deverá clicar em **Recuperar Senha**, inserir os campos obriga
 
 Uma vez identificado e autenticado, é apresentado ao utilizador o menu principal do SGES onde pode aceder às diferentes funcionalidades que lhe estão disponíveis consoante o seu perfil; caso o utilizador tenha o perfil de administração de uma entidade pública o menu principal será o mostrado na [](#figura_menu_ADMIN_entidade).
 
-![figura_menu_ADMIN_entidade](img/pages/menu_ADMIN_entidade.JPG)
+![figura_menu_ADMIN_entidade](img/pages/5_1_3.JPG)
 
 <p class="caption" id="figura_menu_ADMIN_entidade"> Menu Principal para um utilizador com o perfil de administrador de uma entidade pública. </p>
 
-Para além dos menus referidos anteriormente, existe ainda o menu Acordos e Convenções - [](#figura_acordos_convencoes) -  e o menu Ficha Técnica - [](#figura_FT).
+Para além dos menus referidos anteriormente, existe ainda o menu Acordos e Convenções - [](#figacordos_convencoes) -  e o menu Ficha Técnica - [](#figFT).
 
-![figura_acordos_convencoes](img/pages/acordos_convencoes.jpg) 
+![figacordos_convencoes](img/pages/5_1_3_1.jpg) 
 
-<p class="caption" id="figura_acordos_convencoes"> Menu Acordos e Convenções. </p>
+<p class="caption" id="figacordos_convencoes"> Menu Acordos e Convenções. </p>
 
-![figura_FT](img/pages/FT.jpg)
+![figFT](img/pages/5_1_3_1_1.jpg)
 
 <p class="caption" id="figura_FT"> Menu Ficha Técnica. </p>
 
@@ -142,11 +142,11 @@ O menu Acordos e Convenções, que permite a gestão de acordos e convenções, 
 
 Por sua vez, o menu Ficha Técnica, que permite o carregamento de fichas técnicas, pode ser acedido por utilizadores com o perfil ACSS. 
 
-Junto ao logotipo do SGES, encontra-se o botão de atalho para os diferentes menus [](#figura_atalho_menu)
+Junto ao logotipo do SGES, encontra-se o botão de atalho para os diferentes menus [](#figatalho_menu)
 
-![figura_atalho_menu](img/pages/atalho_menu.JPG)
+![figatalho_menu](img/pages/5_1_3_2.JPG)
 
-<p class="caption" id="figura_atalho_menu"> Botão de atalho para os diferentes menus destacado a amarelo e a janela mostrada quando se carrega no referido botão. </p> 
+<p class="caption" id="figatalho_menu"> Botão de atalho para os diferentes menus destacado a amarelo e a janela mostrada quando se carrega no referido botão. </p> 
 
 Este botão permite ao utilizador, em qualquer momento na navegação, mudar para um determinado menu.
 
