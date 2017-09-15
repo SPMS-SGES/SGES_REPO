@@ -6,7 +6,8 @@ title: "Entidade"
 
 # 14. Acordos e Convenções
 
-É neste módulo que serão feitas ações sobre os acordos e convenções. Todas elas podem ser realizadas indiretamente - acedendo ao menu Entidade, pesquisando uma entidade e clicando no botão **ACORDOS/CONVENÇÕES** - ou diretamente - acedendo ao menu Acordos e Convenções, pesquisando e selecionando uma entidade convencionada.
+É neste módulo que serão feitas ações sobre os acordos e convenções. 
+Todas elas podem ser realizadas indiretamente - acedendo ao menu Entidade onde deve pesquisanr e selecionar uma entidade e clicar no botão **ACORDOS/CONVENÇÕES** para aceder à lista de acordos - ou diretamente - acedendo ao menu Acordos e Convenções onde deve pesquisar e selecionar uma entidade convencionada.
 
 <p id="registaAconvencao"></p>
 
@@ -18,7 +19,7 @@ Para poder criar um acordo ou convenção o utilizador deve clicar no botão **C
 
 <p class="caption" id="figCriarAC"> Campos de preenchimento obrigatório para registar Convenção </p>
 
-Para poder registar uma convenção o utilizador deve preencher,pelo menos, os campos obrigatórios e clicar em **GRAVAR** ([](#figRegistaAC)).
+Para poder registar uma convenção o utilizador deve preencher,pelo menos, os campos obrigatórios e clicar em **GRAVAR** ([](#figCriaAC)).
  
 |    | Campos obrigatórios para registar convenção|   |   |   |
 |----|--------------------------------------------|---|---|---|
@@ -28,7 +29,7 @@ Para poder registar uma convenção o utilizador deve preencher,pelo menos, os c
 
 ![figRegistaAC](img/pages/14_1.JPG)
 
-<p class="caption" id="figRegistaAC"> Campos de preenchimento obrigatório para registar Convenção </p>
+<p class="caption" id="figCriaAC"> Campos de preenchimento obrigatório para registar Convenção </p>
   
 Após clicar no botão **GRAVAR** irá ser notificado do resultado da operação e, caso a convenção tenha sido registada com sucesso, os botões ''Adicionar Área'', ''Associar Estabelecimento'' e ''Associar RH Técnico'' passam a ficar ativos o que é sinalizado pela sua mudança de cor cinzenta para azul ([](#figOpcoesAC)) .
 
