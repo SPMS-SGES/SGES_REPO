@@ -27,7 +27,7 @@ Para poder registar uma convenção o utilizador deve preencher,pelo menos, os c
 | b) | Outorgante                                 |   |   |   |
 | c) | Designação Convenção                       |   |   |   |
 
-![figRegistaAC](img/pages/14_1.JPG)
+![figCriaAC](img/pages/14_1.JPG)
 
 <p class="caption" id="figCriaAC"> Campos de preenchimento obrigatório para registar Convenção </p>
   
