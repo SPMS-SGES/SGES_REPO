@@ -199,7 +199,7 @@ A lista de acordos/convenções de uma determinada entidade pode ser acedida atr
 
 ## 14.6 Importar Ficha Técnica
 
-A importação da ficha técnica pode ser efetuada acedendo, exclusivamente, ao menu Ficha Técnica. O utilizador é encaminhado para uma página onde pode anexar e carregar as fichas técnicas ([](#FT)) .
+A importação da ficha técnica pode ser efetuada acedendo, exclusivamente, ao menu Ficha Técnica. O utilizador é encaminhado para uma página onde pode anexar e carregar as fichas técnicas ([](#figFT)) .
 
 ![figFT](img/pages/14_12.JPG)
 
