@@ -77,7 +77,7 @@ Para adicionar uma área convencionada o utilizador deve preencher, pelo menos, 
 
 ![figadiciona_area](img/pages/14_3.JPG)
 
-<p class="caption" id="adiciona_area"> Campos que têm de ser obrigatoriamente preenchidos para que seja possível adicionar uma área convencionada. </p>
+<p class="caption" id="figadiciona_area"> Campos que têm de ser obrigatoriamente preenchidos para que seja possível adicionar uma área convencionada. </p>
 
 Alguns dos campos requerem uma determinada ordem de preenchimento, nomeadamente, os dois campos referentes ao horário de presença física. Apenas é possível preencher inserir o horário de presença física depois de o utilizador indicar quais os dias da semana em que se encontra presente.
 
@@ -104,7 +104,7 @@ Caso o utilizador deseje adicionar responsáveis técnicos substitutos poderá f
 
 <p class="caption" id="RT_S"> Formulário que deve ser preenchido para que seja possível adicionar um responsável técnico substituto. </p>
 
-Depois de preencher todos os campos o utilizador deve clicar no botão **GUARDAR**, caso deseje que as informações sejam gravadas, ou deve clicar no botão **REMOVER* caso contrário.
+Depois de preencher todos os campos o utilizador deve clicar no botão **GUARDAR**, caso deseje que as informações sejam gravadas, ou deve clicar no botão **REMOVER** caso contrário.
 
 ## 14.1.2. Associar Estabelecimento
 
@@ -124,11 +124,11 @@ Para associar um estabelecimento ao acordo/convenção o utilizador deve preench
 
 A identificação do estabelecimento depende de qual é o estabelecimento que se pretende associar de entre os estabelecimentos que pertencem à entidade. 
 
-A escolha das áreas a associar depende das áreas convencionadas que estão associadas à entidade. Ao clicar no botão **ADICIONAR ÁREA**, é possível escolher qual a área que se pretende associar de entre as possíveis; posteriormente é possível selecionar quais a vaências e quais os exames abrangidos pela convenção ([]((#figValencias_Exames)).
+A escolha das áreas a associar depende das áreas convencionadas que estão associadas à entidade. Ao clicar no botão **ADICIONAR ÁREA**, é possível escolher qual a área que se pretende associar de entre as possíveis; posteriormente é possível selecionar quais a valências e quais os exames abrangidos pela convenção ([]((#figValencias_Exames)).
 
 ![figValencias_Exames](img/pages/14_6.JPG)
 
-<p class="caption" id="Valencias_Exames"> Possibilidade de selecionar as valências e exames abrangidos pela convenção no estabelecimento. </p>
+<p class="caption" id="figValencias_Exames"> Possibilidade de selecionar as valências e exames abrangidos pela convenção no estabelecimento. </p>
 
 Os campos obrigatórios relativos ao Diretor Técnico são os mesmos que já foram referidos para o Responsável Técnico Principal (ver tabela Campos obrigatórios para adicionar área).
 
@@ -146,7 +146,7 @@ Para adicionar recursos humanos técnicos, basta clicar no botão **ASSOCIAR RH 
 
 ![figAdicionar_RH_Tecnicos](img/pages/14_7.JPG)
 
-<p class="caption" id="Adicionar_RH_Tecnicos"> Formulário que deve ser preenchido para que seja adicionado um recurso humano técnico. </p>
+<p class="caption" id="figAdicionar_RH_Tecnicos"> Formulário que deve ser preenchido para que seja adicionado um recurso humano técnico. </p>
 
 De salientar que o campo Especialidade apenas pode ser preenchido depois de selecionada a área clínica.
 
@@ -158,7 +158,7 @@ Para poder editar um acordo ou convenção o utilizador deve selecionar o acordo
 
 ![figEditAC](img/pages/14_11.JPG)
 
-<p class="caption" id="EditAC"> Acordo selecionado e botão "Editar" ativo e destacado a amarelo. </p>
+<p class="caption" id="figEditAC"> Acordo selecionado e botão "Editar" ativo e destacado a amarelo. </p>
 
 O utilizador é encaminhado para uma página onde pode alterar e adicionar informações relativas ao acordo ou convenção, respeitando o preenchimento dos campos obrigatórios identificados nos pontos anteriores.
 
@@ -172,7 +172,7 @@ Para consultar um acordo ou convenção o utilizador deve selecionar o acordo/co
 
 ![figConsultarAC](img/pages/14_9.JPG)
 
-<p class="caption" id="ConsultarAC"> Acordo selecionado e botão "Consultar" ativo e destacado a amarelo. </p>
+<p class="caption" id="figConsultarAC"> Acordo selecionado e botão "Consultar" ativo e destacado a amarelo. </p>
 
 Para visualizar cada um dos campos relativos ao acordo ou convenção - identificação da entidade, áreas convencionadas, estabelecimentos e recursos humanos técnicos - o utilizador deverá clicar no botão **+** relativo a cada uma das áreas.
 
@@ -184,7 +184,7 @@ O utilizador pode alterar o estado do acordo/convenção após selecionar o acor
 
 ![figAltAC](img/pages/14_10.JPG)
 
-<p class="caption" id="AltAC"> Acordo selecionado e botão **ALTERAR ESTADO DA CONVENÇÃO** ativo e destacado a amarelo. </p>
+<p class="caption" id="figAltAC"> Acordo selecionado e botão "Alterado Estado Convenção" ativo e destacado a amarelo. </p>
 
 O utilizador é conduzido a uma página onde pode alterar o estado de cada acordo/convenção associado ao estabelecimento e selecionar o motivo da alteração de estado. 
 
@@ -194,7 +194,7 @@ O utilizador pode alterar o estado do acordo/convenção após selecionar o acor
 
 ## 14.5 Pesquisar Acordo/Convenção
 
-A lista de acordos/convenções de uma determinada entidade pode ser acedida através da pesquisa de entidades (fig X) ou, caso o utilizador tenha acesso ao menu Acordos e Convenções, pode navegar diretamente para a lista de acordos/convenções de uma determinada entidade após selecionar uma entidade e clicar no botão *CONSULTAR**.
+A lista de acordos/convenções de uma determinada entidade pode ser acedida através da pesquisa de entidades ou, caso o utilizador tenha acesso ao menu Acordos e Convenções, pode navegar diretamente para a lista de acordos/convenções de uma determinada entidade após selecionar uma entidade e clicar no botão *CONSULTAR**.
 
 ## 14.6 Importar Ficha Técnica
 
@@ -202,7 +202,7 @@ A importação da ficha técnica pode ser efetuada acedendo, exclusivamente, ao 
 
 ![figFT](img/pages/14_12.JPG)
 
-<p class="caption" id="FT"> Acordo selecionado e botão **ALTERAR ESTADO DA CONVENÇÃO** ativo e destacado a amarelo. </p>
+<p class="caption" id="figFT"> Acordo selecionado e botão "Alterar Estado da Convenção" ativo e destacado a amarelo. </p>
 
 Caso a informação seja confirmada, o novo acordo/convenção passa a poder ser editado, consultado e o seu estado alterado, quer através do menu Entidade quer através do menu Acordos/Convenções.
 
