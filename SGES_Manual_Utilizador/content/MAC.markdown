@@ -4,14 +4,14 @@ title: "Entidade"
 ---
 
 
-# 14. Acordos e Convenções
+# 15. Acordos e Convenções
 
 É neste módulo que serão feitas ações sobre os acordos e convenções. 
 Todas elas podem ser realizadas indiretamente - acedendo ao menu Entidade onde o utilizador deve pesquisar e selecionar uma entidade e clicar no botão **ACORDOS/CONVENÇÕES** para aceder à lista de acordos - ou diretamente - acedendo ao menu Acordos e Convenções onde deve pesquisar e selecionar uma entidade convencionada.
 
 <p id="registaAconvencao"></p>
 
-## 14.1. Regista Convenção
+## 15.1. Regista Convenção
 
 Para criar um acordo ou convenção o utilizador deve clicar no botão **CRIAR** ([](#figCriarAC) ).
 
@@ -37,7 +37,7 @@ Depois de clicar no botão **GRAVAR** o utilizador irá ser notificado do result
 
 <p class="caption" id="FigOpcoesAC"> Botões ''Adicionar Área'', ''Associar Estabelecimento'' e ''Associar RH Técnico'' ativos </p>
 
-## 14.1.1. Adicionar Área
+## 15.1.1. Adicionar Área
 
 Para adicionar uma área convencionada o utilizador deve preencher os campos obrigatórios do formulário e clicar em **GRAVAR** ([](#figadiciona_area)) .
 
@@ -107,7 +107,7 @@ Caso o utilizador deseje adicionar responsáveis técnicos substitutos poderá f
 
 Depois de preencher todos os campos o utilizador deve clicar no botão **GUARDAR**, caso deseje que as informações sejam gravadas, ou deve clicar no botão **REMOVER** caso contrário.
 
-## 14.1.2. Associar Estabelecimento
+## 15.1.2. Associar Estabelecimento
 
 Para associar um estabelecimento ao acordo/convenção o utilizador deve preencher os campos obrigatórios do formulário correspondente e clicar em **GRAVAR** ([](#figAssociar_Estabelecimento)). 
 
@@ -135,7 +135,7 @@ Os campos obrigatórios relativos ao Diretor Técnico são os mesmos que já for
 
 Se o utilizador pretende adicionar diretores técnicos substitutos, deve clicar no botão **ADICIONAR SUBSTITUTO** e, posteriormente, preencher os campos obrigatórios do formulário. Estes campos obrigatórios já foram referidos para o Responsável Técnico Principal (ver tabela Campos obrigatórios para adicionar área).
 
-## 14.1.3. Adicionar Recursos Humanos Técnicos
+## 15.1.3. Adicionar Recursos Humanos Técnicos
 
 Para adicionar recursos humanos técnicos, basta clicar no botão **ASSOCIAR RH TÉCNICO**. O utilizador é encaminhado para uma página que contém um formulário cujos campos obrigatórios devem ser preenchidos ([](#figAdicionar_RH_Tecnicos)).
 
@@ -153,7 +153,7 @@ De salientar que o campo Especialidade apenas pode ser preenchido depois de sele
 
 Para que os dados relativos ao recurso humano técnico sejam guardados, o utilizador deve clicar no botão **GRAVAR**. Após clicar irá ser notificado com o resultado da operação.
 
-## 14.2 Editar Acordo
+## 15.2 Editar Acordo
 
 Para editar um acordo ou convenção o utilizador deve selecionar o acordo/convenção que pretende editar e clicar no botão **EDITAR** ([](#figEditAC)).
 
@@ -167,7 +167,7 @@ Para aceder a cada um dos campos relativos ao acordo ou convenção - identifica
 
 No final da edição de cada um dos campos do acordo ou convenção o utilizador deve clicar no botão **GRAVAR** para que as alterações realizadas sejam guardadas. Após clicar irá ser notificado com o resultado da operação.
 
-## 14.3 Consultar Acordo
+## 15.3 Consultar Acordo
 
 Para consultar um acordo ou convenção o utilizador deve selecionar o acordo/convenção que pretende consultar e clicar no botão **CONSULTAR** ([](#figConsultarAC)).
 
@@ -177,9 +177,9 @@ Para consultar um acordo ou convenção o utilizador deve selecionar o acordo/co
 
 Para visualizar cada um dos campos relativos ao acordo ou convenção - identificação da entidade, áreas convencionadas, estabelecimentos e recursos humanos técnicos - o utilizador deverá clicar no botão **+** relativo a cada uma das áreas.
 
-## 14.4 Alterar Estado 
+## 15.4 Alterar Estado 
 
-## 14.4.1 Alterar Estado do Acordo/Convenção
+## 15.4.1 Alterar Estado do Acordo/Convenção
 
 O utilizador pode alterar o estado do acordo/convenção após selecionar o acordo/convenção que pretende editar, clicar no botão **ALTERAR ESTADO** ([](#figAltAC)). 
 
@@ -189,15 +189,15 @@ O utilizador pode alterar o estado do acordo/convenção após selecionar o acor
 
 O utilizador é conduzido a uma página onde pode alterar o estado de cada acordo/convenção associado ao estabelecimento e selecionar o motivo da alteração de estado. 
 
-## 14.4.2 Alterar Estado das Valências
+## 15.4.2 Alterar Estado das Valências
 
 O utilizador pode alterar o estado do acordo/convenção após selecionar o acordo/convenção que pretende editar, clicar no botão **ALTERAR ESTADO** e, finalmente, no botão **DETALHES**. O utilzador é conduzido a uma página onde pode, alterar o estado de cada valência e exame e selecionar o motivo da alteração de estado.
 
-## 14.5 Pesquisar Acordo/Convenção
+## 15.5 Pesquisar Acordo/Convenção
 
 A lista de acordos/convenções de uma determinada entidade pode ser acedida através da pesquisa de entidades ou, caso o utilizador tenha acesso ao menu Acordos e Convenções, pode navegar diretamente para a lista de acordos/convenções de uma determinada entidade após selecionar uma entidade e clicar no botão **CONSULTAR**.
 
-## 14.6 Importar Ficha Técnica
+## 15.6 Importar Ficha Técnica
 
 A importação da ficha técnica pode ser efetuada acedendo, exclusivamente, ao menu Ficha Técnica. O utilizador é encaminhado para uma página onde pode anexar e carregar as fichas técnicas ([](#figFichaTecnica)) .
 
