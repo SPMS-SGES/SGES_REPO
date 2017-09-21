@@ -77,9 +77,12 @@ Para poder criar a instalação o utilizador deve preencher, pelo menos, os camp
 |    |                                                                                         |Código Postal                                 |||
 |    |                                                                                         |Concelho                                      |||
 |    |                                                                                         |Freguesia                                     |||                                                                                                                                      
-| f) | Edifícios construídos na mesma fase?                                                    |Sim|            Número de fases de construção=1||
+
+|  |   Campos Obrigatórios – Caracterização Geral: Campos presentes paras as 3 situações anteriores - ([](#fig40_2))                             |                                              ||
+|----|-----------------------------------------------------------------------------------------|-------------------------------------------|-|-|
+| a) | Edifícios construídos na mesma fase?                                                    |Sim|            Número de fases de construção=1||
 |    |                                                                                         |Não|     Quantas fases de construção existiram?||
-| g) | Heliporto?                                                                              |Sim| Heliporto Certificado?                | Sim|
+| b) | Heliporto?                                                                              |Sim| Heliporto Certificado?                | Sim|
 |    |                                                                                         | Não|                                          ||
 |    | Heliporto Operacional?| Sim|
 |    |                       | Não|
