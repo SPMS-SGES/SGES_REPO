@@ -35,11 +35,11 @@ Para poder criar a instalação o utilizador deve preencher, pelo menos, os camp
 |    | Campos Obrigatórios – Caracterização Geral - ([](#fig40))                               |                                           | | |
 |----|-----------------------------------------------------------------------------------------|-------------------------------------------|-|-|
 | 1. |Se estabelecimento tem vários edifícios  = Sim e se edifícios que compõem o estabelecimento localizados no mesmo terreno?= Sim            |
-|a)  | Propriedade do Terreno                                                                  |Estado                                     | | |
+|    | Propriedade do Terreno                                                                  |Estado                                     | | |
 |    |                                                                                         |Privado com cedência de direito de superfície|||
 |    |                                                                                         |SCM                                          |||
-|b)  | Nome edifício                                                                                                                         |||
-|c)  | Propriedade do(s) Edifício(s)                                                           |Arrendado                                    |||
+|    | Nome edifício                                                                                                                         |||
+|    | Propriedade do(s) Edifício(s)                                                           |Arrendado                                    |||
 |    |                                                                                         |Estado                                        |||
 |    |                                                                                         |PPP                                           |||
 |    |                                                                                         |SCM                                           |||
