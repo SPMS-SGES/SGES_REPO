@@ -11,15 +11,15 @@ order: 3
 # 14. Instalações
 
 É neste módulo que serão feitas ações sobre as instalações.
-O utilizador pode consultar as instalações de um estabelecimento no separador “Instalações” ([Fig. 38](#figEstabeSInst) e [Fig. 39](#fig39)), através do ponto [7.3 Consultar Estabelecimento](#consultar-estabelecimento), ou selecionando um estabelecimento e clicando em **Instalações** ([Fig. 39_1](#fig39_1)) na página de consulta de estabelecimentos existentes numa entidade, através do ponto [7. Estabelecimentos](#estabelecimentos). É possível, ainda, aceder às instalações de um estabelecimento através do sub-menu Instalações [](#figura_menu_ADMIN_entidade).
+O utilizador pode consultar as instalações de um estabelecimento no separador “Instalações” ((#figEstabeSInst) e [Fig. 39](#fig39)), através do ponto [7.3 Consultar Estabelecimento](#consultar-estabelecimento), ou selecionando um estabelecimento e clicando em **Instalações** ((#fig39_1)) na página de consulta de estabelecimentos existentes numa entidade, através do ponto [7. Estabelecimentos](#estabelecimentos). É possível, ainda, aceder às instalações de um estabelecimento através do sub-menu Instalações [](#figura_menu_ADMIN_entidade).
 
-![figEstabeSInst](img/pages/fig38.JPG)
+![figEstabeSInst](img/pages/38.JPG)
 
-<p class="caption" id="figEstabeSInst"> Fig. 38 -Exemplo de Estabelecimento sem Instalações</p>
+<p class="caption" id="figEstabeSInst"> Exemplo de Estabelecimento sem Instalações</p>
 
 ![img/pages/fig39](img/pages/fig39.JPG)
 
-<p class="caption" id="fig39"> Fig. 39 -Exemplo de Estabelecimento com Instalações</p>
+<p class="caption" id="fig39"> Exemplo de Estabelecimento com Instalações</p>
 
 ## 14.1. Criar Instalações
 
@@ -32,7 +32,7 @@ Para o Registo de Instalações será necessário primeiro submeter os campos da
 Para poder criar a instalação o utilizador deve preencher, pelo menos, os campos obrigatórios da *Caracterização Geral* e clicar em **SUBMETER**;
 
 
-|    | Campos Obrigatórios – Caracterização Geral - [Fig. 40](#fig40)  |   | | |
+|    | Campos Obrigatórios – Caracterização Geral - (#fig40)  |   | | |
 |----|----------------------------------------------------------------|----|-|-|
 | 1. Se estabelecimento tem vários edifícios  = Sim e se edifícios que compõem o estabelecimento localizados no mesmo terreno?= Sim|
 |a)| Propriedade do Terreno  |Estado  | | |
@@ -80,11 +80,11 @@ ___________________________________________________________________________
 
 ![img/pages/fig40](img/pages/fig40.JPG)
 
-<p class="caption" id="fig40"> Fig. 40 -Criar Instalações – Caracterização Geral</p>
+<p class="caption" id="fig40"> Criar Instalações – Caracterização Geral</p>
 
 Pode inserir informação acerca das áreas e estacionamento, submetendo no final de cada um de ambos os módulos.
 
-|    | Campos Áreas Totais e Estacionamento - [Fig. 41](#fig41)  | |
+|    | Campos Áreas Totais e Estacionamento - (#fig41)  | |
 |----|-----------------------------------------------------------|-|
 | a) | Áreas Totais    |    Área bruta de construção             |
 ||                     |    Área de Estacionamento Construído     |
@@ -132,7 +132,7 @@ Contem informação acerca da energia, águas e gases medicinais utilizados na i
 
 |    | Campos Obrigatórios em Detalhe                            | | |
 |----|-----------------------------------------------------------|-|-|
-| a) | Energia ([Fig. 46](#fig46))   | Ano de alteração;            | |
+| a) | Energia ((#fig46))   | Ano de alteração;            | |
 | |                                  | Nível da tensão de alimentação – rede elétrica de distribuição pública;  | |
 | |                                  | Topologia de alimentação de energia elétrica; | | **lista*?
 | |                                  | Potência Contratada; | |
@@ -153,14 +153,14 @@ Contem informação acerca da energia, águas e gases medicinais utilizados na i
 | |                                                                                                      |D| | |
 | |                                                                                                      |E| | |
 | |                                                                                                      |F| | |
-|b)|Água / Águas Residuais  ([Fig. 47](#fig47))  | Ano de alteração;            | |
+|b)|Água / Águas Residuais  ((#fig47))  | Ano de alteração;            | |
 ||                                               | Volume de armazenamento total; | |
 ||                                               | Volume de armazenamento de água para rede de incêndios; | |
 ||                                               | Furo de captação de águas subterrâneas; | |
 ||                                               | ETAR / ETARI;| |
-|c)| Gases Medicinais  ([Fig. 48](#fig48)) | Ano de alteração;            | |
+|c)| Gases Medicinais  ((#fig48)) | Ano de alteração;            | |
 ||                                         | Instalação registada no Infarmed como Dispositivo Médico?| |
-|d)| Consumos e Custos  ([Fig. 49](#fig49)) | Ano                   | |
+|d)| Consumos e Custos  ((#fig49)) | Ano                   | |
 |  |                                        | Energias Renováveis  |Energia elétrica produzida por painéis fotovoltaicos; |
 |  |                                        |                      |Energia elétrica produzida por aerogeradores; |
 |  |                                        | Combustíveis      |Consumo nafta; |
@@ -187,30 +187,30 @@ Contem informação acerca da energia, águas e gases medicinais utilizados na i
 |  |                                        |           |Custo produção em Vácuo;|
 |  |                                        |     |Consumo exaustão de gases anestésicos;|
 |  |                                        |     |Custo exaustão de gases anestésicos;|
-|e)| Produção de Resíduos  ([Fig. 50](#fig50)) | Ano                   | |
+|e)| Produção de Resíduos  ((#fig50)) | Ano                   | |
 |  |                                   |Quantidade de Resíduos Produzidos |Grupo I e II; |
 |  |                                   |                                  |Grupo III; |
 |  |                                   |                                  |Grupo IV; |
 
 ![img/pages/fig46](img/pages/fig46.JPG)
 
-<p class="caption" id="fig46"> Fig. 46 -Detalhe Energia</p>
+<p class="caption" id="fig46"> Detalhe Energia</p>
 
 ![img/pages/fig47](img/pages/fig47.JPG)
 
-<p class="caption" id="fig47"> Fig. 47 -Detalhe Água/Águas Residuais</p>
+<p class="caption" id="fig47"> Detalhe Água/Águas Residuais</p>
 
 ![img/pages/fig48](img/pages/fig48.JPG)
 
-<p class="caption" id="fig48"> Fig. 48 -Detalhe Gases Medicinais</p>
+<p class="caption" id="fig48"> Detalhe Gases Medicinais</p>
 
 ![img/pages/fig49](img/pages/fig49.JPG)
 
-<p class="caption" id="fig49">Fig. 49 -Detalhe Consumos e Custos</p>
+<p class="caption" id="fig49"> Detalhe Consumos e Custos</p>
 
 ![img/pages/fig50](img/pages/fig50.JPG)
 
-<p class="caption" id="fig50">Fig. 50 -Detalhe Produção de Resíduos</p>
+<p class="caption" id="fig50"> Detalhe Produção de Resíduos</p>
 
 ### 15.1.3 Equipamentos Críticos 
 
@@ -219,7 +219,7 @@ Após guardar cada registo na tabela, e para não se perder os dados será neces
 
 |    | Campos Obrigatórios em Equipamentos Críticos              | |
 |----|-----------------------------------------------------------|-|
-| a) | Instalações Elétricas ([Fig. 51](#fig51)), Instalações Mecânicas ([Fig. 52](#fig52)) ,Instalações de Águas e Esgotos ([Fig. 53](#fig53)) | Designação do Equipamento;    ||
+| a) | Instalações Elétricas ((#fig51)), Instalações Mecânicas ((#fig52)) ,Instalações de Águas e Esgotos ((#fig53)) | Designação do Equipamento;    ||
 || Designação | Central de deteção automático de deteção de incêndios||
 ||            | Central de deteção de CO| |
 ||            | Central de deteção de gás combustível||
@@ -238,15 +238,15 @@ Após guardar cada registo na tabela, e para não se perder os dados será neces
 
 ![img/pages/fig51](img/pages/fig51.JPG)
 
-<p class="caption" id="fig51">Fig. 51 - Equipamentos Críticos - Instalações Elétricas</p>
+<p class="caption" id="fig51"> Equipamentos Críticos - Instalações Elétricas</p>
 
 ![img/pages/fig52](img/pages/fig52.JPG)
 
-<p class="caption" id="fig52">Fig. 52 -Equipamentos Críticos - Instalações Mecânicas</p>
+<p class="caption" id="fig52"> Equipamentos Críticos - Instalações Mecânicas</p>
 
 ![img/pages/fig53](img/pages/fig53.JPG)
 
-<p class="caption" id="fig53">Fig. 53 -Equipamentos Críticos - Instalações de Águas e Esgotos</p>
+<p class="caption" id="fig53"> Equipamentos Críticos - Instalações de Águas e Esgotos</p>
 
 ### 15.1.4 Serviços
 
@@ -273,17 +273,17 @@ Contém toda a informação relacionada com os serviços que foram realizados na
 
 ![img/pages/fig55](img/pages/fig55.JPG)
 
-<p class="caption" id="fig55">Fig. 55 -Serviços - Custos do Serviço</p>
+<p class="caption" id="fig55"> Serviços - Custos do Serviço</p>
 
 ![img/pages/fig56](img/pages/fig56.JPG)
 
-<p class="caption" id="fig56">Fig. 56 -Serviços - Serviços de Apoio</p>
+<p class="caption" id="fig56"> Serviços - Serviços de Apoio</p>
 
 ### 15.1.5 Contratos de Manutenção
 
 Contém a informação dos contratos de manutenção dos equipamentos das instalações.
 
-|    | Campos em Contratos de Manutenção – [Fig. 57](#fig57)     | |
+|    | Campos em Contratos de Manutenção – (#fig57)     | |
 |----|-----------------------------------------------------------|-|
 |a)  |Possibilidade de filtrar pelo estado do contrato          | |
 |b)  | Equipamento com contrato de manutenção | Bomba(s) rede de incêndios |
@@ -329,14 +329,14 @@ Contém a informação dos contratos de manutenção dos equipamentos das instal
 
 ![img/pages/fig57](img/pages/fig57.JPG)
 
-<p class="caption" id="fig57">Fig. 57 -Contratos de Manutenção </p>
+<p class="caption" id="fig57"> Contratos de Manutenção </p>
 
 
 ### 15.1.6 Avaliação Pós-Ocupação
 
 Contém a informação acerca da avaliação dos edifícios da instalação; útil instrumento na implementação de melhorias na criação de edifícios no futuro.
 
-|    | Campos em Avaliação Pós-Ocupação – [Fig. 58](#fig58)     | |
+|    | Campos em Avaliação Pós-Ocupação – (#fig58)     | |
 |----|-----------------------------------------------------------|-|
 |a)  | Existe APO efetuada?                | Data de realização |
 |b)  | Serviços avaliados                						||
@@ -344,13 +344,13 @@ Contém a informação acerca da avaliação dos edifícios da instalação; út
 
 ![img/pages/fig58](img/pages/fig58.JPG)
 
-<p class="caption" id="fig58">Fig. 58 -Avaliação Pós-Ocupação </p>
+<p class="caption" id="fig58"> Avaliação Pós-Ocupação </p>
 
 ### 15.1.7 Ações ACSS
 
 Contém a informação de todas as ações que a ACSS executou naquelas instalações.
 
-|    | Campos em Ações ACSS – [Fig. 59](#fig59)     | |
+|    | Campos em Ações ACSS – (#fig59)     | |
 |----|-----------------------------------------------------------|-|
 | a) | Existem ações realizadas no estabelecimento, pela ACSS? |Data de realização |
 | b) | Tipo de Ação                          |Avaliações do estado das instalações |
@@ -364,16 +364,16 @@ Contém a informação de todas as ações que a ACSS executou naquelas instala�
 
 ![img/pages/fig59](img/pages/fig59.JPG)
 
-<p class="caption" id="fig59">Fig. 59 -Ações ACSS </p>
+<p class="caption" id="fig59"> Ações ACSS </p>
 
 ## 15.2. Editar Instalações
 
-O utilizador pode navegar para a página de edição de instalação na página de instalações de estabelecimento ([Fig. 39](#fig39)) e clicar no botão **ALTERAR INSTALAÇÃO**.
+O utilizador pode navegar para a página de edição de instalação na página de instalações de estabelecimento ((#fig39)) e clicar no botão **ALTERAR INSTALAÇÃO**.
 A edição deve respeitar o preenchimento dos campos obrigatórios identificados no ponto [12.1 Criar Instalações](#criar-instalaes)
 No final da edição o utilizador para gravar as alterações deve clicar no botão **SUBMETER** ou **GUARDAR**, dependendo dos painéis alterados. Após clicar irá ser notificado com o resultado da operação.
 
 ## 15.3. Consultar Instalações
-O utilizador pode navegar para a página de consulta de instalação na página de instalações de estabelecimento ([Fig. 39](#fig39)) e clicar no botão **CONSULTAR INSTALAÇÃO**.
+O utilizador pode navegar para a página de consulta de instalação na página de instalações de estabelecimento ((#fig39)) e clicar no botão **CONSULTAR INSTALAÇÃO**.
 
 ## 15.4. Histórico Instalações
 
