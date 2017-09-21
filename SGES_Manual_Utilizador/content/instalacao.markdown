@@ -128,67 +128,68 @@ O separador *Construção* contém a caracterização da construção, como os s
 Contem informação acerca da energia, águas e gases medicinais utilizados na instalação, assim como os seus custos e consumos e a produção de resíduos.
 
 
-|    | Campos Obrigatórios em Detalhe                            | | |
-|----|-----------------------------------------------------------|-|-|
-| a) | Energia ([](#fig46))   | Ano de alteração;            | |
-| |                                  | Nível da tensão de alimentação – rede elétrica de distribuição pública;  | |
-| |                                  | Topologia de alimentação de energia elétrica; | | **lista*?
-| |                                  | Potência Contratada; | |
-| |                                  | Potência instalada; | |
-| |                                  | Nº grupos eletrogéneos; | |
-| |                                  | Potência instalada; | |
-| |                                  | Sistema de Cogeração; | |
-| |                                  | Sistema de Trigeração; | |
-| |                                  | Painéis Solares Térmicos; | Sim | Área do campo coletores instalados|
-| |                                  | Painéis Fotovoltaicos;  | Sim| Potência instalada em painéis fotovoltaicos|
-| |                                  | Aero-geradores;         | Sim | Potência instalada em energia eólica|
-| |                                  | Sistemas de aproveitamento da biomassa; | |
-| |                                  | Certificação Energética; | Sim | Qual a classificação energética| |A+| | |
-| |                                                                                                      |A| | |
-| |                                                                                                      |B| | |
-| |                                                                                                      |B-| | |
-| |                                                                                                      |C| | |
-| |                                                                                                      |D| | |
-| |                                                                                                      |E| | |
-| |                                                                                                      |F| | |
-|b)|Água / Águas Residuais  ((#fig47))  | Ano de alteração;            | |
-||                                               | Volume de armazenamento total; | |
-||                                               | Volume de armazenamento de água para rede de incêndios; | |
-||                                               | Furo de captação de águas subterrâneas; | |
-||                                               | ETAR / ETARI;| |
-|c)| Gases Medicinais  ((#fig48)) | Ano de alteração;            | |
-||                                         | Instalação registada no Infarmed como Dispositivo Médico?| |
-|d)| Consumos e Custos  ((#fig49)) | Ano                   | |
-|  |                                        | Energias Renováveis  |Energia elétrica produzida por painéis fotovoltaicos; |
-|  |                                        |                      |Energia elétrica produzida por aerogeradores; |
-|  |                                        | Combustíveis      |Consumo nafta; |
-|  |                                        |                   |Custo nafta; |
-|  |                                        |                   |Consumo gasóleo; |
-|  |                                        |                   |Custo gasóleo; |
-|  |                                        |                   |Consumo outros; |
-|  |                                        |                   |Custo outros; |
-|  |                                        | Águas             |Consumo água; |
-|  |                                        |                   |Custo água; |
-|  |                                        | Gases Medicinais  |Consumo oxigénio; |
-|  |                                        |              |Custo oxigénio; |
-|  |                                        |              |Consumo azoto; |
-|  |                                        |              |Custo azoto; |
-|  |                                        |              |Consumo protóxido; |
-|  |                                        |              |Custo Protóxido; |
-|  |                                        |              |Consumo dióxido de carbono;|
-|  |                                        |              |Custo dióxido de carbono; |
-|  |                                        |           |Consumo ar comprimido medicinal;|
-|  |                                        |           |Custo ar comprimido medicinal;|
-|  |                                        |           |Consumo ar comprimido medicinal produzido localmente;|
-|  |                                        |           |Custo ar comprimido medicinal produzido localmente;|
-|  |                                        |           |Consumo produção em Vácuo;|
-|  |                                        |           |Custo produção em Vácuo;|
-|  |                                        |     |Consumo exaustão de gases anestésicos;|
-|  |                                        |     |Custo exaustão de gases anestésicos;|
-|e)| Produção de Resíduos  ([](#fig50)) | Ano                   | |
-|  |                                   |Quantidade de Resíduos Produzidos |Grupo I e II; |
-|  |                                   |                                  |Grupo III; |
-|  |                                   |                                  |Grupo IV; |
+|    | Campos Obrigatórios em Detalhe                                                                    | | |
+|----|---------------------------------------------------------------------------------------------------|-|-|
+| a) | Energia ([](#fig46))   | Ano de alteração                                                           | |
+|  |                          | Nível da tensão de alimentação – rede elétrica de distribuição pública     | |
+|  |                          | Topologia de alimentação de energia elétrica                        | Em anel| 
+|  |                          |                                                                      | Radial|
+|  |                          | Potência Contratada                                                        | |
+|  |                          | Potência instalada                                                         | |
+|  |                          | Nº grupos eletrogéneos                                                     | |
+|  |                          | Potência instalada                                                         | |
+|  |                          | Sistema de Cogeração                                                       | |
+|  |                          | Sistema de Trigeração                                                      | |
+|  |                          | Painéis Solares Térmicos   |Sim|           Área do campo coletores instalados|
+|  |                          | Painéis Fotovoltaicos      |Sim|  Potência instalada em painéis fotovoltaicos|
+|  |                          | Aero-geradores;            |Sim|         Potência instalada em energia eólica|
+|  |                          | Sistemas de aproveitamento da biomassa                                     | |
+|  |                          | Certificação Energética    |Sim| Qual a classificação energética|     |A+    |
+|  |                                                                                                  |A     |
+|  |                                                                                                  |B     |
+|  |                                                                                                  |B-    |
+|  |                                                                                                  |C     |
+|  |                                                                                                  |D     |
+|  |                                                                                                  |E     |
+|  |                                                                                                  |F     |
+|b)|Água / Águas Residuais  ([](#fig47))           | Ano de alteração;                                     | |
+|  |                                               | Volume de armazenamento total;                        | |
+|  |                                               | Volume de armazenamento de água para rede de incêndios| |
+|  |                                               | Furo de captação de águas subterrâneas                | |
+|  |                                               | ETAR / ETARI                                          | |
+|c)| Gases Medicinais  ([](#fig48))                | Ano de alteração                                      | |
+|  |                                               | Instalação registada no Infarmed como Dispositivo Médico?| |
+|d)| Consumos e Custos  ([](#fig49))               | Ano                                                   | |
+|  |                                               | Energias Renováveis  |Energia elétrica produzida por painéis fotovoltaicos||
+|  |                                               |Energia elétrica produzida por aerogeradores           | |
+|  |                                               | Combustíveis                             |Consumo nafta |
+|  |                                               |                                          |Custo nafta |
+|  |                                               |                                          |Consumo gasóleo|
+|  |                                               |                                          |Custo gasóleo|
+|  |                                               |                                          |Consumo outros|
+|  |                                               |                                          |Custo outros |
+|  |                                               | Águas                                    |Consumo água |
+|  |                                               |                                          |Custo água   |
+|  |                                               | Gases Medicinais                         |Consumo oxigénio|
+|  |                                               |                                          |Custo oxigénio|
+|  |                                               |                                          |Consumo azoto|
+|  |                                               |                                          |Custo azoto|
+|  |                                               |                                          |Consumo protóxido|
+|  |                                               |                                          |Custo Protóxido|
+|  |                                               |                                          |Consumo dióxido de carbono|
+|  |                                               |                                          |Custo dióxido de carbono  |
+|  |                                               |                                          |Consumo ar comprimido medicinal|
+|  |                                               |                                          |Custo ar comprimido medicinal|
+|  |                                               |                                          |Consumo ar comprimido medicinal produzido localmente|
+|  |                                               |                                          |Custo ar comprimido medicinal produzido localmente|
+|  |                                               |                                          |Consumo produção em Vácuo;|
+|  |                                               |                                          |Custo produção em Vácuo;|
+|  |                                               |                                          |Consumo exaustão de gases anestésicos|
+|  |                                               |                                          |Custo exaustão de gases anestésicos|
+|e)| Produção de Resíduos  ([](#fig50))            | Ano                                                   | |
+|  |                                               |Quantidade de Resíduos Produzidos         |Grupo I e II  |
+|  |                                                                                          |Grupo III     |
+|  |                                                                                          |Grupo IV      |
 
 ![fig46](img/pages/46.JPG)
 
