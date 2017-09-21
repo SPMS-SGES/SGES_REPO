@@ -147,23 +147,23 @@ O separador *Construção* contém a caracterização da construção, como os s
 Contem informação acerca da energia, águas e gases medicinais utilizados na instalação, assim como os seus custos e consumos e a produção de resíduos.
 
 
-|    |                                                  |   Campos Obrigatórios em Detalhe - Energia   ([](#fig46)) ||
-|----|--------------------------------------------------------------------------------------------------------------||
-| Ano de alteração                                                           | |
-| Nível da tensão de alimentação – rede elétrica de distribuição pública     | |
-| Topologia de alimentação de energia elétrica                        | Em anel| 
+|   |                 Campos Obrigatórios em Detalhe - Energia   ([](#fig46)) ||
+|---|------------------------------------------------------------------------||
+| a)| Ano de alteração                                                           | |
+| b)|Nível da tensão de alimentação – rede elétrica de distribuição pública     | |
+| c)|Topologia de alimentação de energia elétrica                        | Em anel| 
 |                                                                     | Radial |
-| Potência Contratada                                                        | |
-| Potência instalada                                                         | |
-| Nº grupos eletrogéneos                                                     | |
-| Potência instalada                                                         | |
-| Sistema de Cogeração                                                       | |
-| Sistema de Trigeração                                                      | |
-| Painéis Solares Térmicos   |Sim|           Área do campo coletores instalados|
-| Painéis Fotovoltaicos      |Sim|  Potência instalada em painéis fotovoltaicos|
-| Aero-geradores;            |Sim|         Potência instalada em energia eólica|
-| Sistemas de aproveitamento da biomassa                                     | |
-| Certificação Energética    |Sim| Qual a classificação energética     |A+    |
+| d)|Potência Contratada                                                        | |
+| e)|Potência instalada                                                         | |
+| f)|Nº grupos eletrogéneos                                                     | |
+| g)|Potência instalada                                                         | |
+| h)|Sistema de Cogeração                                                       | |
+| i)|Sistema de Trigeração                                                      | |
+| j)|Painéis Solares Térmicos   |Sim|           Área do campo coletores instalados|
+| l)|Painéis Fotovoltaicos      |Sim|  Potência instalada em painéis fotovoltaicos|
+| m)|Aero-geradores;            |Sim|         Potência instalada em energia eólica|
+| n)|Sistemas de aproveitamento da biomassa                                     | |
+| o)|Certificação Energética    |Sim| Qual a classificação energética     |A+    |
 |                            |   |                                     |A     |
 |                            |   |                                     |B     |
 |                            |   |                                     |B-    |
@@ -173,33 +173,33 @@ Contem informação acerca da energia, águas e gases medicinais utilizados na i
 |                            |   |                                     |F     |
 
 
-|    |   Campos Obrigatórios em Detalhe - Água / Águas Residuais  ([](#fig47)) ||
-|----|----------------------------------------------------------------------|-|-|
-| Ano de alteração;                                                          | |
-| Volume de armazenamento total;                                             | |
-| Volume de armazenamento de água para rede de incêndios                     | |
-| Furo de captação de águas subterrâneas                                     | |
-| ETAR / ETARI                                                               | |
+|   |    Campos Obrigatórios em Detalhe - Água / Águas Residuais  ([](#fig47)) ||
+|---|-------------------------------------------------------------------------||
+| a)|Ano de alteração;                                                          | |
+| b)|Volume de armazenamento total;                                             | |
+| c)|Volume de armazenamento de água para rede de incêndios                     | |
+| d)|Furo de captação de águas subterrâneas                                     | |
+| e)|ETAR / ETARI                                                               | |
 
-|    |   Campos Obrigatórios em Detalhe - Gases Medicinais  ([](#fig48)) ||
-|----|----------------------------------------------------------------------|-|-|
-| Ano de alteração                                                           | |
-| Instalação registada no Infarmed como Dispositivo Médico?                  | |
+|    |   Campos Obrigatórios em Detalhe - Gases Medicinais  ([](#fig48))    ||
+|----|----------------------------------------------------------------------||
+| a)|Ano de alteração                                                           | |
+| b)|Instalação registada no Infarmed como Dispositivo Médico?                  | |
 
-|    |   Campos Obrigatórios em Detalhe - Consumos e Custos  ([](#fig49))  ||
-|----|----------------------------------------------------------------------|-|-|
-| Ano                                                   | |
-| Energias Renováveis  |Energia elétrica produzida por painéis fotovoltaicos||
-|Energia elétrica produzida por aerogeradores           | |
-| Combustíveis|Consumo nafta |
+|   |    Campos Obrigatórios em Detalhe - Consumos e Custos  ([](#fig49))  ||
+|---|----------------------------------------------------------------------||
+| a)|Ano                                                   | |
+| b)|Energias Renováveis  |Energia elétrica produzida por painéis fotovoltaicos||
+|c)|Energia elétrica produzida por aerogeradores           | |
+| d)|Combustíveis|Consumo nafta |
 |             |Custo nafta |
 |             |Consumo gasóleo|
 |             |Custo gasóleo|
 |             |Consumo outros|
 |             |Custo outros |
-| Águas       |Consumo água |
+| e)|Águas       |Consumo água |
 |             |Custo água   |
-| Gases Medicinais          |Consumo oxigénio|
+| f)|Gases Medicinais          |Consumo oxigénio|
 |                           |Custo oxigénio|
 |                           |Consumo azoto|
 |                           |Custo azoto|
@@ -216,10 +216,10 @@ Contem informação acerca da energia, águas e gases medicinais utilizados na i
 |                           |Consumo exaustão de gases anestésicos|
 |                           |Custo exaustão de gases anestésicos|
 
-|    |   Campos Obrigatórios em Detalhe - Consumos e Custos  Produção de Resíduos  ([](#fig50))   ||
-|----|-----------------------------------------------------------------------------------------|-|-|
-| Ano                                                   | |
-|Quantidade de Resíduos Produzidos         |Grupo I e II  |
+|  |Campos Obrigatórios em Detalhe - Consumos e Custos  Produção de Resíduos  ([](#fig50))   ||
+|--|----------------------------------------------------------------------------------------||
+| a)|Ano                                                   | |
+|b)|Quantidade de Resíduos Produzidos         |Grupo I e II  |
 |                                          |Grupo III     |
 |                                          |Grupo IV      |
 
