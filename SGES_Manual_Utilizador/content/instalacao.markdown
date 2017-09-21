@@ -269,7 +269,7 @@ Contém toda a informação relacionada com os serviços que foram realizados na
 
 ![fig54](img/pages/54.JPG)
 
-<p class="caption" id="fig54">Fig. 54 -Serviços - Serviço de Instalação e Equipamento</p>
+<p class="caption" id="fig54"> Serviços - Serviço de Instalação e Equipamento</p>
 
 ![fig55](img/pages/55.JPG)
 
