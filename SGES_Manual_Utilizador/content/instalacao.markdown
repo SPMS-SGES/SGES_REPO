@@ -128,7 +128,7 @@ O separador *Construção* contém a caracterização da construção, como os s
 Contem informação acerca da energia, águas e gases medicinais utilizados na instalação, assim como os seus custos e consumos e a produção de resíduos.
 
 
-|    | Campos Obrigatórios em Detalhe                                                   |                                              | |
+|    |                                                    |                        Campos Obrigatórios em Detalhe                      | |
 |----|-------------------------------------------------------------------------------------------------------------------------------|-|-|
 | a) | Energia ([](#fig46))                               | Ano de alteração                                                           | |
 |   |                                                      | Nível da tensão de alimentação – rede elétrica de distribuição pública     | |
@@ -254,8 +254,8 @@ Após guardar cada registo na tabela, e para não se perder os dados será neces
 
 Contém toda a informação relacionada com os serviços que foram realizados nas instalações do estabelecimento, assim como os seus custos e serviços de apoio.
 
-|    | Campos Obrigatórios em Serviços             | |
-|----|-----------------------------------------------------------|-|
+|    |                                                  |   Campos Obrigatórios em Serviços        | |
+|----|--------------------------------------------------|------------------------------------------|-|
 |a)  | Serviço de Instalação e Equipamento ([](#fig54)) | Ano de Alteração (Ano em que acontece a alteração, se estiver a criar o ano de alteração deve ser igual ao ano actual) |
 |    |                                     | Equipa de Manutenção Permanente;|
 |    |                                     | Serviço de Instalações e Equipamentos – Em regime de outsourcing;|
