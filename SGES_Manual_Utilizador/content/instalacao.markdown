@@ -128,8 +128,8 @@ O separador *Construção* contém a caracterização da construção, como os s
 Contem informação acerca da energia, águas e gases medicinais utilizados na instalação, assim como os seus custos e consumos e a produção de resíduos.
 
 
-|    | Campos Obrigatórios em Detalhe                                                                    | | |
-|----|---------------------------------------------------------------------------------------------------|-|-|
+|    | Campos Obrigatórios em Detalhe                                                                                                | | |
+|----|-------------------------------------------------------------------------------------------------------------------------------|-|-|
 | a) | Energia ([](#fig46))   | Ano de alteração                                                           | |
 |  |                          | Nível da tensão de alimentação – rede elétrica de distribuição pública     | |
 |  |                          | Topologia de alimentação de energia elétrica                        | Em anel| 
@@ -145,13 +145,13 @@ Contem informação acerca da energia, águas e gases medicinais utilizados na i
 |  |                          | Aero-geradores;            |Sim|         Potência instalada em energia eólica|
 |  |                          | Sistemas de aproveitamento da biomassa                                     | |
 |  |                          | Certificação Energética    |Sim| Qual a classificação energética|     |A+    |
-|  |                                                                                                  |A     |
-|  |                                                                                                  |B     |
-|  |                                                                                                  |B-    |
-|  |                                                                                                  |C     |
-|  |                                                                                                  |D     |
-|  |                                                                                                  |E     |
-|  |                                                                                                  |F     |
+|  |                          |                            |    |                                     |A     |
+|  |                          |                            |    |                                     |B     |
+|  |                          |                            |    |                                     |B-    |
+|  |                          |                            |    |                                     |C     |
+|  |                          |                            |    |                                     |D     |
+|  |                          |                            |    |                                     |E     |
+|  |                          |                            |    |                                     |F     |
 |b)|Água / Águas Residuais  ([](#fig47))           | Ano de alteração;                                     | |
 |  |                                               | Volume de armazenamento total;                        | |
 |  |                                               | Volume de armazenamento de água para rede de incêndios| |
@@ -188,8 +188,8 @@ Contem informação acerca da energia, águas e gases medicinais utilizados na i
 |  |                                               |                                          |Custo exaustão de gases anestésicos|
 |e)| Produção de Resíduos  ([](#fig50))            | Ano                                                   | |
 |  |                                               |Quantidade de Resíduos Produzidos         |Grupo I e II  |
-|  |                                                                                          |Grupo III     |
-|  |                                                                                          |Grupo IV      |
+|  |                                               |                                          |Grupo III     |
+|  |                                               |                                          |Grupo IV      |
 
 ![fig46](img/pages/46.JPG)
 
