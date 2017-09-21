@@ -45,7 +45,8 @@ Para poder criar a instalação o utilizador deve preencher, pelo menos, os camp
 |    |                                                                                         |SCM                                           |||
 
 
-|    |   Campos Obrigatórios – Caracterização Geral - ([](#fig40_1))                             |                                               ||
+|    |   Campos Obrigatórios – Caracterização Geral - ([](#fig40_1))                            |                                            ||
+|----|-----------------------------------------------------------------------------------------|-------------------------------------------|-|-|
 |Se estabelecimento tem vários edifícios  = Sim e se edifícios que compõem o estabelecimento localizados no mesmo terreno?= Não               ||| 
 |a)  |  Nome edifício                                                                                                                         |||
 |b)  | Propriedade do Terreno                                                                  |Estado                                        |||
@@ -61,7 +62,8 @@ Para poder criar a instalação o utilizador deve preencher, pelo menos, os camp
 |    |                                                                                         |Freguesia                                     |||
 
 
-|  |   Campos Obrigatórios – Caracterização Geral - ([](#fig40_2))                               |                                               ||
+|  |   Campos Obrigatórios – Caracterização Geral - ([](#fig40_2))                             |                                               ||
+|----|-----------------------------------------------------------------------------------------|-------------------------------------------|-|-|
 |Se estabelecimento tem vários edifícios  = Não                                                                                               |||
 |a)| Nome edifício                                                                                                                            |||
 |b)| Propriedade do Terreno                                                                    |Estado                                        |||
