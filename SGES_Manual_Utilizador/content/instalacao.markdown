@@ -24,7 +24,7 @@ O utilizador pode consultar as instalações de um estabelecimento no separador 
 ## 14.1. Criar Instalações
 
 Caso ainda não exista informação acerca das instalações de um estabelecimento, o utilizador pode criar instalações.
-Para criar instalações, o utilizador deve clicar em **CRIAR INSTALAÇÃO** na página de instalações de estabelecimento ([Fig. 38](#figEstabeSInst)). De seguida, será encaminhado para a página de criação de instalações, onde deverá preencher os campos obrigatórios para poder efetuar o registo das instalações.
+Para criar instalações, o utilizador deve clicar em **CRIAR INSTALAÇÃO** na página de instalações de estabelecimento ([](#figEstabeSInst)). De seguida, será encaminhado para a página de criação de instalações, onde deverá preencher os campos obrigatórios para poder efetuar o registo das instalações.
 Para o Registo de Instalações será necessário primeiro submeter os campos da Caracterização Geral do(s) edifício(s), sem estes submetidos não é possível preencher outros campos.
 
 ### 14.1.1 Caracterização
@@ -32,7 +32,7 @@ Para o Registo de Instalações será necessário primeiro submeter os campos da
 Para poder criar a instalação o utilizador deve preencher, pelo menos, os campos obrigatórios da *Caracterização Geral* e clicar em **SUBMETER**;
 
 
-|    | Campos Obrigatórios – Caracterização Geral - (#fig40)  |   | | |
+|    | Campos Obrigatórios – Caracterização Geral - ([](#fig40))  |   | | |
 |----|----------------------------------------------------------------|----|-|-|
 | 1. Se estabelecimento tem vários edifícios  = Sim e se edifícios que compõem o estabelecimento localizados no mesmo terreno?= Sim|
 |a)| Propriedade do Terreno  |Estado  | | |
@@ -78,13 +78,13 @@ ___________________________________________________________________________
 ||||                                                                   | Não|
 ||                                          |Não|||
 
-![img/pages/fig40](img/pages/fig40.JPG)
+![fig40](img/pages/40.JPG)
 
 <p class="caption" id="fig40"> Criar Instalações – Caracterização Geral</p>
 
 Pode inserir informação acerca das áreas e estacionamento, submetendo no final de cada um de ambos os módulos.
 
-|    | Campos Áreas Totais e Estacionamento - (#fig41)  | |
+|    | Campos Áreas Totais e Estacionamento - ([](#fig41))  | |
 |----|-----------------------------------------------------------|-|
 | a) | Áreas Totais    |    Área bruta de construção             |
 ||                     |    Área de Estacionamento Construído     |
@@ -95,35 +95,35 @@ Pode inserir informação acerca das áreas e estacionamento, submetendo no fina
 | b) | Estacionamento  |  N.º Lugares de estacionamento em área construída |
 ||                     |  N.º Lugares de estacionamento à superfície |
 
-![img/pages/fig41](img/pages/fig41.JPG)
+![fig41](img/pages/41.JPG)
 
-<p class="caption" id="fig41"> Fig. 41 -Criar Instalação - Áreas Totais e Estacionamento</p>
+<p class="caption" id="fig41"> Criar Instalação - Áreas Totais e Estacionamento</p>
 
-O separador *Caracterização do Edifício* contém os dados referentes ao(s) edíficio(s) tais como o nome, a área útil do programa funcional, a área útil de projeto, a área bruta, a área de implantação, nº de pisos acima do 0, nº de pisos abaixo do 0 e área de estacionamento construído. caracterização do projeto, como os custos e datas. Estes dados devem ser inseridos para cada fase de construção dos edifícios (#fig41_1).
+O separador *Caracterização do Edifício* contém os dados referentes ao(s) edíficio(s) tais como o nome, a área útil do programa funcional, a área útil de projeto, a área bruta, a área de implantação, nº de pisos acima do 0, nº de pisos abaixo do 0 e área de estacionamento construído. caracterização do projeto, como os custos e datas. Estes dados devem ser inseridos para cada fase de construção dos edifícios ([](#fig41_1)).
 
-![img/pages/fig42](img/pages/fig42.JPG)
+![fig42](img/pages/42.JPG)
 
-<p class="caption" id="fig42"> Fig. 42 -Caracterização do Edifício</p>
+<p class="caption" id="fig42"> Caracterização do Edifício</p>
 
 O separador *Projeto* contem a caracterização do projeto, como os custos e datas. Estes dados devem ser inseridos para cada fase de construção dos edifícios;
 
-![img/pages/fig43](img/pages/fig43.JPG)
+![fig43](img/pages/43.JPG)
 
-<p class="caption" id="fig43"> Fig. 43 -Caracterização do Projeto -  Projeto e Construção</p>
+<p class="caption" id="fig43"> Caracterização do Projeto -  Projeto e Construção</p>
 
-![img/pages/fig43](img/pages/fig43_1.JPG)
+![fig43](img/pages/43_1.JPG)
 
-<p class="caption" id="fig43_1"> Fig. 44 -Caracterização do Projeto -  Custos </p>
+<p class="caption" id="fig43_1"> Caracterização do Projeto -  Custos </p>
 
-![img/pages/fig44](img/pages/fig44.JPG)
+![fig44](img/pages/44.JPG)
 
-<p class="caption" id="fig44"> Fig. 44 -Caracterização do Projeto - Datas Chaves</p>
+<p class="caption" id="fig44"> Caracterização do Projeto - Datas Chaves</p>
 
-O separador *Construção* contem a caracterização da construção, como os seus custos e custos de equipamentos. Estes dados devem ser inseridos para cada fase de construção dos edifícios;
+O separador *Construção* contém a caracterização da construção, como os seus custos e custos de equipamentos. Estes dados devem ser inseridos para cada fase de construção dos edifícios;
 
-![img/pages/fig45](img/pages/fig45.JPG)
+![fig45](img/pages/fig45.JPG)
 
-<p class="caption" id="fig45"> Fig. 45 -Caracterização da Construção</p>
+<p class="caption" id="fig45"> Caracterização da Construção</p>
 
 ### 14.1.2 Detalhe
 
@@ -132,7 +132,7 @@ Contem informação acerca da energia, águas e gases medicinais utilizados na i
 
 |    | Campos Obrigatórios em Detalhe                            | | |
 |----|-----------------------------------------------------------|-|-|
-| a) | Energia ((#fig46))   | Ano de alteração;            | |
+| a) | Energia ([](#fig46))   | Ano de alteração;            | |
 | |                                  | Nível da tensão de alimentação – rede elétrica de distribuição pública;  | |
 | |                                  | Topologia de alimentação de energia elétrica; | | **lista*?
 | |                                  | Potência Contratada; | |
@@ -187,28 +187,28 @@ Contem informação acerca da energia, águas e gases medicinais utilizados na i
 |  |                                        |           |Custo produção em Vácuo;|
 |  |                                        |     |Consumo exaustão de gases anestésicos;|
 |  |                                        |     |Custo exaustão de gases anestésicos;|
-|e)| Produção de Resíduos  ((#fig50)) | Ano                   | |
+|e)| Produção de Resíduos  ([](#fig50)) | Ano                   | |
 |  |                                   |Quantidade de Resíduos Produzidos |Grupo I e II; |
 |  |                                   |                                  |Grupo III; |
 |  |                                   |                                  |Grupo IV; |
 
-![img/pages/fig46](img/pages/fig46.JPG)
+![fig46](img/pages/46.JPG)
 
 <p class="caption" id="fig46"> Detalhe Energia</p>
 
-![img/pages/fig47](img/pages/fig47.JPG)
+![fig47](img/pages/47.JPG)
 
 <p class="caption" id="fig47"> Detalhe Água/Águas Residuais</p>
 
-![img/pages/fig48](img/pages/fig48.JPG)
+![fig48](img/pages/48.JPG)
 
 <p class="caption" id="fig48"> Detalhe Gases Medicinais</p>
 
-![img/pages/fig49](img/pages/fig49.JPG)
+![fig49](img/pages/49.JPG)
 
 <p class="caption" id="fig49"> Detalhe Consumos e Custos</p>
 
-![img/pages/fig50](img/pages/fig50.JPG)
+![fig50](img/pages/50.JPG)
 
 <p class="caption" id="fig50"> Detalhe Produção de Resíduos</p>
 
@@ -236,15 +236,15 @@ Após guardar cada registo na tabela, e para não se perder os dados será neces
 ||                                                       | Estado;   | |
 ||                                                       | Data de Abate (caso Estado=Abatido)   | |
 
-![img/pages/fig51](img/pages/fig51.JPG)
+![fig51](img/pages/51.JPG)
 
 <p class="caption" id="fig51"> Equipamentos Críticos - Instalações Elétricas</p>
 
-![img/pages/fig52](img/pages/fig52.JPG)
+![fig52](img/pages/52.JPG)
 
 <p class="caption" id="fig52"> Equipamentos Críticos - Instalações Mecânicas</p>
 
-![img/pages/fig53](img/pages/fig53.JPG)
+![fig53](img/pages/53.JPG)
 
 <p class="caption" id="fig53"> Equipamentos Críticos - Instalações de Águas e Esgotos</p>
 
@@ -254,28 +254,28 @@ Contém toda a informação relacionada com os serviços que foram realizados na
 
 |    | Campos Obrigatórios em Serviços             | |
 |----|-----------------------------------------------------------|-|
-|a)  | Serviço de Instalação e Equipamento ([Fig. 54](#fig54)) | Ano de Alteração (Ano em que acontece a alteração, se estiver a criar o ano de alteração deve ser igual ao ano actual) |
+|a)  | Serviço de Instalação e Equipamento ([](#fig54)) | Ano de Alteração (Ano em que acontece a alteração, se estiver a criar o ano de alteração deve ser igual ao ano actual) |
 |    |                                     | Equipa de Manutenção Permanente;|
 |    |                                     | Serviço de Instalações e Equipamentos – Em regime de outsourcing;|
 |    |                                     | Número de elementos;|
 |    |                                     | Em regime de outsourcing| Sim| Nome da Empresa|
-| b) | Custos do Serviço ([Fig. 55](#fig55))| Orçamento anual do serviço de instalações e equipamentos;|
+| b) | Custos do Serviço ([](#fig55))| Orçamento anual do serviço de instalações e equipamentos;|
 | |                                         | Custos anuais com manutenção corretiva;|
 | |                                         | Custos anuais com contratos de manutenção;|
 | |                                         |Custos anuais com substituição de equipamento;|
-| c) | Serviços de Apoio ([Fig. 56](#fig56))| Esterilização serviço em outsourcing|Sim|Custos anuais com o serviço;|
+| c) | Serviços de Apoio ([](#fig56))| Esterilização serviço em outsourcing|Sim|Custos anuais com o serviço;|
 | |                                         | Existe lavandaria|Sim|Custos anuais com o serviço;|
 | |                                         | Resíduos serviço em outsourcing| Sim| Custos anuais com o serviço;|
 
-![img/pages/fig54](img/pages/fig54.JPG)
+![fig54](img/pages/54.JPG)
 
 <p class="caption" id="fig54">Fig. 54 -Serviços - Serviço de Instalação e Equipamento</p>
 
-![img/pages/fig55](img/pages/fig55.JPG)
+![fig55](img/pages/55.JPG)
 
 <p class="caption" id="fig55"> Serviços - Custos do Serviço</p>
 
-![img/pages/fig56](img/pages/fig56.JPG)
+![fig56](img/pages/56.JPG)
 
 <p class="caption" id="fig56"> Serviços - Serviços de Apoio</p>
 
@@ -283,7 +283,7 @@ Contém toda a informação relacionada com os serviços que foram realizados na
 
 Contém a informação dos contratos de manutenção dos equipamentos das instalações.
 
-|    | Campos em Contratos de Manutenção – (#fig57)     | |
+|    | Campos em Contratos de Manutenção – ([](#fig57)]     | |
 |----|-----------------------------------------------------------|-|
 |a)  |Possibilidade de filtrar pelo estado do contrato          | |
 |b)  | Equipamento com contrato de manutenção | Bomba(s) rede de incêndios |
@@ -327,7 +327,7 @@ Contém a informação dos contratos de manutenção dos equipamentos das instal
 | h) |  Existe equipa de manutenção associada a este contrato?    | Sim| |Números de elementos de equipa|
 | |                                                        | Não|
 
-![img/pages/fig57](img/pages/fig57.JPG)
+![fig57](img/pages/57.JPG)
 
 <p class="caption" id="fig57"> Contratos de Manutenção </p>
 
@@ -336,13 +336,13 @@ Contém a informação dos contratos de manutenção dos equipamentos das instal
 
 Contém a informação acerca da avaliação dos edifícios da instalação; útil instrumento na implementação de melhorias na criação de edifícios no futuro.
 
-|    | Campos em Avaliação Pós-Ocupação – (#fig58)     | |
+|    | Campos em Avaliação Pós-Ocupação – ([](#fig58))    | |
 |----|-----------------------------------------------------------|-|
 |a)  | Existe APO efetuada?                | Data de realização |
 |b)  | Serviços avaliados                						||
 |c)  | Upload para repositório?            | Ficheiro           |
 
-![img/pages/fig58](img/pages/fig58.JPG)
+![fig58](img/pages/58.JPG)
 
 <p class="caption" id="fig58"> Avaliação Pós-Ocupação </p>
 
@@ -350,7 +350,7 @@ Contém a informação acerca da avaliação dos edifícios da instalação; út
 
 Contém a informação de todas as ações que a ACSS executou naquelas instalações.
 
-|    | Campos em Ações ACSS – (#fig59)     | |
+|    | Campos em Ações ACSS – ([](#fig59))     | |
 |----|-----------------------------------------------------------|-|
 | a) | Existem ações realizadas no estabelecimento, pela ACSS? |Data de realização |
 | b) | Tipo de Ação                          |Avaliações do estado das instalações |
@@ -362,20 +362,20 @@ Contém a informação de todas as ações que a ACSS executou naquelas instala�
 | e) | Upload para repositório?              |Ficheiro |
 
 
-![img/pages/fig59](img/pages/fig59.JPG)
+![fig59](59.JPG)
 
 <p class="caption" id="fig59"> Ações ACSS </p>
 
 ## 15.2. Editar Instalações
 
-O utilizador pode navegar para a página de edição de instalação na página de instalações de estabelecimento ((#fig39)) e clicar no botão **ALTERAR INSTALAÇÃO**.
+O utilizador pode navegar para a página de edição de instalação na página de instalações de estabelecimento ([](#fig39)) e clicar no botão **ALTERAR INSTALAÇÃO**.
 A edição deve respeitar o preenchimento dos campos obrigatórios identificados no ponto [12.1 Criar Instalações](#criar-instalaes)
 No final da edição o utilizador para gravar as alterações deve clicar no botão **SUBMETER** ou **GUARDAR**, dependendo dos painéis alterados. Após clicar irá ser notificado com o resultado da operação.
 
 ## 15.3. Consultar Instalações
-O utilizador pode navegar para a página de consulta de instalação na página de instalações de estabelecimento ((#fig39)) e clicar no botão **CONSULTAR INSTALAÇÃO**.
+O utilizador pode navegar para a página de consulta de instalação na página de instalações de estabelecimento ([](#fig39)) e clicar no botão **CONSULTAR INSTALAÇÃO**.
 
 ## 15.4. Histórico Instalações
 
-A página de histórico de uma entidade pode ser acedida através da página de instalações de estabelecimento ([Fig. 39](#fig39)) e clicando no botão **HISTÓRICO INSTALAÇÃO** .
+A página de histórico de uma entidade pode ser acedida através da página de instalações de estabelecimento ([](#fig39)) e clicando no botão **HISTÓRICO INSTALAÇÃO** .
 Uma vez na página de histórico poderá visualizar todas as versões resultantes da edição das instalações, bem como a identificação dos campos alterados.
