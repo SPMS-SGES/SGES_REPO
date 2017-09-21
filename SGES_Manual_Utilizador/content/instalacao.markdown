@@ -250,7 +250,7 @@ Após guardar cada registo na tabela, e para não se perder os dados será neces
 
 <p class="caption" id="fig53"> Equipamentos Críticos - Instalações de Águas e Esgotos</p>
 
-### 15.1.4 Serviços
+### 14.1.4 Serviços
 
 Contém toda a informação relacionada com os serviços que foram realizados nas instalações do estabelecimento, assim como os seus custos e serviços de apoio.
 
@@ -281,7 +281,7 @@ Contém toda a informação relacionada com os serviços que foram realizados na
 
 <p class="caption" id="fig56"> Serviços - Serviços de Apoio</p>
 
-### 15.1.5 Contratos de Manutenção
+### 14.1.5 Contratos de Manutenção
 
 Contém a informação dos contratos de manutenção dos equipamentos das instalações.
 
@@ -334,7 +334,7 @@ Contém a informação dos contratos de manutenção dos equipamentos das instal
 <p class="caption" id="fig57"> Contratos de Manutenção </p>
 
 
-### 15.1.6 Avaliação Pós-Ocupação
+### 14.1.6 Avaliação Pós-Ocupação
 
 Contém a informação acerca da avaliação dos edifícios da instalação; útil instrumento na implementação de melhorias na criação de edifícios no futuro.
 
@@ -348,7 +348,7 @@ Contém a informação acerca da avaliação dos edifícios da instalação; út
 
 <p class="caption" id="fig58"> Avaliação Pós-Ocupação </p>
 
-### 15.1.7 Ações ACSS
+### 14.1.7 Ações ACSS
 
 Contém a informação de todas as ações que a ACSS executou naquelas instalações.
 
@@ -368,16 +368,16 @@ Contém a informação de todas as ações que a ACSS executou naquelas instala�
 
 <p class="caption" id="fig59"> Ações ACSS </p>
 
-## 15.2. Editar Instalações
+## 14.2. Editar Instalações
 
 O utilizador pode navegar para a página de edição de instalação na página de instalações de estabelecimento ([](#fig39)) e clicar no botão **ALTERAR INSTALAÇÃO**.
 A edição deve respeitar o preenchimento dos campos obrigatórios identificados no ponto [12.1 Criar Instalações](#criar-instalaes)
 No final da edição o utilizador para gravar as alterações deve clicar no botão **SUBMETER** ou **GUARDAR**, dependendo dos painéis alterados. Após clicar irá ser notificado com o resultado da operação.
 
-## 15.3. Consultar Instalações
+## 14.3. Consultar Instalações
 O utilizador pode navegar para a página de consulta de instalação na página de instalações de estabelecimento ([](#fig39)) e clicar no botão **CONSULTAR INSTALAÇÃO**.
 
-## 15.4. Histórico Instalações
+## 14.4. Histórico Instalações
 
 A página de histórico de uma entidade pode ser acedida através da página de instalações de estabelecimento ([](#fig39)) e clicando no botão **HISTÓRICO INSTALAÇÃO** .
 Uma vez na página de histórico poderá visualizar todas as versões resultantes da edição das instalações, bem como a identificação dos campos alterados.
