@@ -32,7 +32,7 @@ Para o Registo de Instalações será necessário primeiro submeter os campos da
 Para poder criar a instalação o utilizador deve preencher, pelo menos, os campos obrigatórios da *Caracterização Geral* e clicar em **SUBMETER**;
 
 
-|    | Campos Obrigatórios – Caracterização Geral - ([](#fig40))                               |                                           | | |
+|    | Campos Obrigatórios –                          |                         Caracterização Geral - ([](#fig40))                        | | |
 |----|-----------------------------------------------------------------------------------------|-------------------------------------------|-|-|
 | 1.  Se estabelecimento tem vários edifícios  = Sim e se edifícios que compõem o estabelecimento localizados no mesmo terreno?= Sim         |||
 |    | Propriedade do Terreno                                                                  |Estado                                       |||
