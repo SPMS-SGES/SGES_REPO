@@ -11,13 +11,13 @@ order: 3
 # 14. Instalações
 
 É neste módulo que serão feitas ações sobre as instalações.
-O utilizador pode consultar as instalações de um estabelecimento no separador “Instalações” ((#figEstabeSInst) e [Fig. 39](#fig39)), através do ponto [7.3 Consultar Estabelecimento](#consultar-estabelecimento), ou selecionando um estabelecimento e clicando em **Instalações** ((#fig39_1)) na página de consulta de estabelecimentos existentes numa entidade, através do ponto [7. Estabelecimentos](#estabelecimentos). É possível, ainda, aceder às instalações de um estabelecimento através do sub-menu Instalações [](#figura_menu_ADMIN_entidade).
+O utilizador pode consultar as instalações de um estabelecimento no separador “Instalações” ([](#figEstabeSInst)) e ([](#fig39)), através do ponto [7.3 Consultar Estabelecimento](#consultar-estabelecimento), ou selecionando um estabelecimento e clicando em **Instalações** ([](#fig39_1)) na página de consulta de estabelecimentos existentes numa entidade, através do ponto [7. Estabelecimentos](#estabelecimentos). É possível, ainda, aceder às instalações de um estabelecimento através do sub-menu Instalações [](#figura_menu_ADMIN_entidade).
 
 ![figEstabeSInst](img/pages/38.JPG)
 
 <p class="caption" id="figEstabeSInst"> Exemplo de Estabelecimento sem Instalações</p>
 
-![img/pages/fig39](img/pages/fig39.JPG)
+![fig39](img/pages/39.JPG)
 
 <p class="caption" id="fig39"> Exemplo de Estabelecimento com Instalações</p>
 
