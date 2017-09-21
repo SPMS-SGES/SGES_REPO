@@ -32,9 +32,9 @@ Para o Registo de Instalações será necessário primeiro submeter os campos da
 Para poder criar a instalação o utilizador deve preencher, pelo menos, os campos obrigatórios da *Caracterização Geral* e clicar em **SUBMETER**;
 
 
-|                             |   Campos Obrigatórios – Caracterização Geral - ([](#fig40))    |                                             | |
+|    |                            Campos Obrigatórios – Caracterização Geral - ([](#fig40))    |                                              ||
 |----|-----------------------------------------------------------------------------------------|-------------------------------------------|-|-|
-| 1. Se estabelecimento tem vários edifícios  = Sim e se edifícios que compõem o estabelecimento localizados no mesmo terreno?= Sim         |||
+|Se estabelecimento tem vários edifícios  = Sim e se edifícios que compõem o estabelecimento localizados no mesmo terreno?= Sim              |||
 |    | Propriedade do Terreno                                                                  |Estado                                       |||
 |    |                                                                                         |Privado com cedência de direito de superfície|||
 |    |                                                                                         |SCM                                          |||
@@ -43,7 +43,10 @@ Para poder criar a instalação o utilizador deve preencher, pelo menos, os camp
 |    |                                                                                         |Estado                                        |||
 |    |                                                                                         |PPP                                           |||
 |    |                                                                                         |SCM                                           |||
-|2. Se estabelecimento tem vários edifícios  = Sim e se edifícios que compõem o estabelecimento localizados no mesmo terreno?= Não          ||| 
+
+
+|    |   Campos Obrigatórios – Caracterização Geral - ([](#fig40_1))                             |                                               ||
+|Se estabelecimento tem vários edifícios  = Sim e se edifícios que compõem o estabelecimento localizados no mesmo terreno?= Não               ||| 
 |a)  |  Nome edifício                                                                                                                         |||
 |b)  | Propriedade do Terreno                                                                  |Estado                                        |||
 |    |                                                                                         |Privado com cedência de direito de superfície |||
@@ -56,7 +59,10 @@ Para poder criar a instalação o utilizador deve preencher, pelo menos, os camp
 |    |                                                                                         |Código Postal                                 |||
 |    |                                                                                         |Concelho                                      |||
 |    |                                                                                         |Freguesia                                     |||
-|3. Se estabelecimento tem vários edifícios  = Não                                                                                           |||
+
+
+|  |   Campos Obrigatórios – Caracterização Geral - ([](#fig40_2))                               |                                               ||
+|Se estabelecimento tem vários edifícios  = Não                                                                                               |||
 |a)| Nome edifício                                                                                                                            |||
 |b)| Propriedade do Terreno                                                                    |Estado                                        |||
 | |                                                                                            |Privado com cedência de direito de superfície |||
@@ -79,6 +85,14 @@ Para poder criar a instalação o utilizador deve preencher, pelo menos, os camp
 ![fig40](img/pages/40.JPG)
 
 <p class="caption" id="fig40"> Criar Instalações – Caracterização Geral</p>
+
+![fig40_1](img/pages/40_1.JPG)
+
+<p class="caption" id="fig40_1"> Criar Instalações – Caracterização Geral</p>
+
+![fig40_2](img/pages/40_2.JPG)
+
+<p class="caption" id="fig40_2"> Criar Instalações – Caracterização Geral</p>
 
 Pode inserir informação acerca das áreas e estacionamento, submetendo no final de cada um de ambos os módulos.
 
