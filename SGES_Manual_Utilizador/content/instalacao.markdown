@@ -218,8 +218,8 @@ Após guardar cada registo na tabela, e para não se perder os dados será neces
 
 |    | Campos Obrigatórios em Equipamentos Críticos              | |
 |----|-----------------------------------------------------------|-|
-| a) | Instalações Elétricas ([](#fig51)), Instalações Mecânicas ([](#fig52)) ,Instalações de Águas e Esgotos ([](#fig53)) | Designação do Equipamento;    ||
-|| Designação | Central de deteção automático de deteção de incêndios||
+| | Instalações Elétricas ([](#fig51)), Instalações Mecânicas ([](#fig52)) ,Instalações de Águas e Esgotos ([](#fig53)) | Designação do Equipamento;    ||
+|a)| Designação | Central de deteção automático de deteção de incêndios||
 ||            | Central de deteção de CO| |
 ||            | Central de deteção de gás combustível||
 ||            | Central de deteção de intrusão ||
@@ -227,13 +227,16 @@ Após guardar cada registo na tabela, e para não se perder os dados será neces
 ||            | Posto de transformação (PT)||
 ||            | Quadro geral de baixa tensão (QGBT)||
 ||            | UPS||
-||                                                       | Data de entrada;   | |
-||                                                       | Data de entrada;   | |
-||                                                       | Data de entrada;   | |
-||                                                       | Data de entrada;   | |
-||                                                       | Data de entrada;   | |
-||                                                       | Estado;   | |
-||                                                       | Data de Abate (caso Estado=Abatido)   | |
+|b)| Localização | Exterior|
+||             | Edíficio|
+|c)| Marca ||
+|d)| Modelo ||
+|e)| Nº série||
+|f)| Data entrada funcionamento ||
+|g)| Estado   | Abatatido| Data de Abate|
+|  |          | Avariado |
+|  |          | Em funcionamento|
+|  |          | Parado|
 
 ![fig51](img/pages/51.JPG)
 
