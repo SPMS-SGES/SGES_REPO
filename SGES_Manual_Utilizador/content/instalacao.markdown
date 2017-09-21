@@ -121,7 +121,7 @@ O separador *Projeto* contem a caracterização do projeto, como os custos e dat
 
 O separador *Construção* contém a caracterização da construção, como os seus custos e custos de equipamentos. Estes dados devem ser inseridos para cada fase de construção dos edifícios;
 
-![fig45](img/pages/fig45.JPG)
+![fig45](img/pages/45.JPG)
 
 <p class="caption" id="fig45"> Caracterização da Construção</p>
 
@@ -362,7 +362,7 @@ Contém a informação de todas as ações que a ACSS executou naquelas instala�
 | e) | Upload para repositório?              |Ficheiro |
 
 
-![fig59](59.JPG)
+![fig59](img/pages/59.JPG)
 
 <p class="caption" id="fig59"> Ações ACSS </p>
 
