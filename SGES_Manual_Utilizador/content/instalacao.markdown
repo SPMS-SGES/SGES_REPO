@@ -316,17 +316,17 @@ Contém a informação dos contratos de manutenção dos equipamentos das instal
 | e) |      Tipo de Manutenção                | Preventiva |
 | |                                           | Corretiva |
 | |                                           | Preventiva e Corretiva |
-|  d)|Com peças? (Se Tipo de Manutenção = “Preventiva” ou ”Corretiva ou Preventiva”)       |                                               Sim |
+|  f)|Com peças? (Se Tipo de Manutenção = “Preventiva” ou ”Corretiva ou Preventiva”)       |                                               Sim |
 | |                                           | Não |
-| f) |      Duração do Contrato               | Semestral |
+| g) |      Duração do Contrato               | Semestral |
 | |                                           | Anual |
 | |                                           | Bianual|
 | |                                           | Trianual|
 | |                                           | Quadrienal|
 | |                                           | Quinquenal|
-| g) |   Contrato contém SLA – Service Level Agreement?    | Sim|
+| h) |   Contrato contém SLA – Service Level Agreement?    | Sim|
 | |                                                        | Não|
-| h) |  Existe equipa de manutenção associada a este contrato?    | Sim| |Números de elementos de equipa|
+| i) |  Existe equipa de manutenção associada a este contrato?    | Sim| |Números de elementos de equipa|
 | |                                                        | Não|
 
 ![fig57](img/pages/57.JPG)
