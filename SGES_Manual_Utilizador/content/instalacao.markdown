@@ -13,11 +13,11 @@ order: 3
 É neste módulo que serão feitas ações sobre as instalações.
 O utilizador pode consultar as instalações de um estabelecimento no separador “Instalações” ([Fig. 38](#fig38) e [Fig. 39](#fig39)), através do ponto [7.3 Consultar Estabelecimento](#consultar-estabelecimento), ou selecionando um estabelecimento e clicando em **Instalações** ([Fig. 39_1](#fig39_1)) na página de consulta de estabelecimentos existentes numa entidade, através do ponto [7. Estabelecimentos](#estabelecimentos). É possível, ainda, aceder às instalações de um estabelecimento através do sub-menu Instalações [](#figura_menu_ADMIN_entidade).
 
-![img/pages/fig38](img/pages/fig38.jpg)
+![img/pages/fig38](img/pages/fig38.JPG)
 
 <p class="caption" id="fig38"> Fig. 38 -Exemplo de Estabelecimento sem Instalações</p>
 
-![img/pages/fig39](img/pages/fig39.jpg)
+![img/pages/fig39](img/pages/fig39.JPG)
 
 <p class="caption" id="fig39"> Fig. 39 -Exemplo de Estabelecimento com Instalações</p>
 
@@ -78,7 +78,7 @@ ___________________________________________________________________________
 ||||                                                                   | Não|
 ||                                          |Não|||
 
-![img/pages/fig40](img/pages/fig40.jpg)
+![img/pages/fig40](img/pages/fig40.JPG)
 
 <p class="caption" id="fig40"> Fig. 40 -Criar Instalações – Caracterização Geral</p>
 
@@ -95,33 +95,33 @@ Pode inserir informação acerca das áreas e estacionamento, submetendo no fina
 | b) | Estacionamento  |  N.º Lugares de estacionamento em área construída |
 ||                     |  N.º Lugares de estacionamento à superfície |
 
-![img/pages/fig41](img/pages/fig41.jpg)
+![img/pages/fig41](img/pages/fig41.JPG)
 
 <p class="caption" id="fig41"> Fig. 41 -Criar Instalação - Áreas Totais e Estacionamento</p>
 
 O separador *Caracterização do Edifício* contém os dados referentes ao(s) edíficio(s) tais como o nome, a área útil do programa funcional, a área útil de projeto, a área bruta, a área de implantação, nº de pisos acima do 0, nº de pisos abaixo do 0 e área de estacionamento construído. caracterização do projeto, como os custos e datas. Estes dados devem ser inseridos para cada fase de construção dos edifícios (#fig41_1).
 
-![img/pages/fig42](img/pages/fig42.jpg)
+![img/pages/fig42](img/pages/fig42.JPG)
 
 <p class="caption" id="fig42"> Fig. 42 -Caracterização do Edifício</p>
 
 O separador *Projeto* contem a caracterização do projeto, como os custos e datas. Estes dados devem ser inseridos para cada fase de construção dos edifícios;
 
-![img/pages/fig43](img/pages/fig43.jpg)
+![img/pages/fig43](img/pages/fig43.JPG)
 
 <p class="caption" id="fig43"> Fig. 43 -Caracterização do Projeto -  Projeto e Construção</p>
 
-![img/pages/fig43](img/pages/fig43_1.jpg)
+![img/pages/fig43](img/pages/fig43_1.JPG)
 
 <p class="caption" id="fig43_1"> Fig. 44 -Caracterização do Projeto -  Custos </p>
 
-![img/pages/fig44](img/pages/fig44.jpg)
+![img/pages/fig44](img/pages/fig44.JPG)
 
 <p class="caption" id="fig44"> Fig. 44 -Caracterização do Projeto - Datas Chaves</p>
 
 O separador *Construção* contem a caracterização da construção, como os seus custos e custos de equipamentos. Estes dados devem ser inseridos para cada fase de construção dos edifícios;
 
-![img/pages/fig45](img/pages/fig45.jpg)
+![img/pages/fig45](img/pages/fig45.JPG)
 
 <p class="caption" id="fig45"> Fig. 45 -Caracterização da Construção</p>
 
@@ -192,23 +192,23 @@ Contem informação acerca da energia, águas e gases medicinais utilizados na i
 |  |                                   |                                  |Grupo III; |
 |  |                                   |                                  |Grupo IV; |
 
-![img/pages/fig46](img/pages/fig46.jpg)
+![img/pages/fig46](img/pages/fig46.JPG)
 
 <p class="caption" id="fig46"> Fig. 46 -Detalhe Energia</p>
 
-![img/pages/fig47](img/pages/fig47.jpg)
+![img/pages/fig47](img/pages/fig47.JPG)
 
 <p class="caption" id="fig47"> Fig. 47 -Detalhe Água/Águas Residuais</p>
 
-![img/pages/fig48](img/pages/fig48.jpg)
+![img/pages/fig48](img/pages/fig48.JPG)
 
 <p class="caption" id="fig48"> Fig. 48 -Detalhe Gases Medicinais</p>
 
-![img/pages/fig49](img/pages/fig49.jpg)
+![img/pages/fig49](img/pages/fig49.JPG)
 
 <p class="caption" id="fig49">Fig. 49 -Detalhe Consumos e Custos</p>
 
-![img/pages/fig50](img/pages/fig50.jpg)
+![img/pages/fig50](img/pages/fig50.JPG)
 
 <p class="caption" id="fig50">Fig. 50 -Detalhe Produção de Resíduos</p>
 
@@ -236,15 +236,15 @@ Após guardar cada registo na tabela, e para não se perder os dados será neces
 ||                                                       | Estado;   | |
 ||                                                       | Data de Abate (caso Estado=Abatido)   | |
 
-![img/pages/fig51](img/pages/fig51.jpg)
+![img/pages/fig51](img/pages/fig51.JPG)
 
 <p class="caption" id="fig51">Fig. 51 - Equipamentos Críticos - Instalações Elétricas</p>
 
-![img/pages/fig52](img/pages/fig52.jpg)
+![img/pages/fig52](img/pages/fig52.JPG)
 
 <p class="caption" id="fig52">Fig. 52 -Equipamentos Críticos - Instalações Mecânicas</p>
 
-![img/pages/fig53](img/pages/fig53.jpg)
+![img/pages/fig53](img/pages/fig53.JPG)
 
 <p class="caption" id="fig53">Fig. 53 -Equipamentos Críticos - Instalações de Águas e Esgotos</p>
 
@@ -267,15 +267,15 @@ Contém toda a informação relacionada com os serviços que foram realizados na
 | |                                         | Existe lavandaria|Sim|Custos anuais com o serviço;|
 | |                                         | Resíduos serviço em outsourcing| Sim| Custos anuais com o serviço;|
 
-![img/pages/fig54](img/pages/fig54.jpg)
+![img/pages/fig54](img/pages/fig54.JPG)
 
 <p class="caption" id="fig54">Fig. 54 -Serviços - Serviço de Instalação e Equipamento</p>
 
-![img/pages/fig55](img/pages/fig55.jpg)
+![img/pages/fig55](img/pages/fig55.JPG)
 
 <p class="caption" id="fig55">Fig. 55 -Serviços - Custos do Serviço</p>
 
-![img/pages/fig56](img/pages/fig56.jpg)
+![img/pages/fig56](img/pages/fig56.JPG)
 
 <p class="caption" id="fig56">Fig. 56 -Serviços - Serviços de Apoio</p>
 
@@ -327,7 +327,7 @@ Contém a informação dos contratos de manutenção dos equipamentos das instal
 | h) |  Existe equipa de manutenção associada a este contrato?    | Sim| |Números de elementos de equipa|
 | |                                                        | Não|
 
-![img/pages/fig57](img/pages/fig57.jpg)
+![img/pages/fig57](img/pages/fig57.JPG)
 
 <p class="caption" id="fig57">Fig. 57 -Contratos de Manutenção </p>
 
@@ -342,7 +342,7 @@ Contém a informação acerca da avaliação dos edifícios da instalação; út
 |b)  | Serviços avaliados                						||
 |c)  | Upload para repositório?            | Ficheiro           |
 
-![img/pages/fig58](img/pages/fig58.jpg)
+![img/pages/fig58](img/pages/fig58.JPG)
 
 <p class="caption" id="fig58">Fig. 58 -Avaliação Pós-Ocupação </p>
 
@@ -362,7 +362,7 @@ Contém a informação de todas as ações que a ACSS executou naquelas instala�
 | e) | Upload para repositório?              |Ficheiro |
 
 
-![img/pages/fig59](img/pages/fig59.jpg)
+![img/pages/fig59](img/pages/fig59.JPG)
 
 <p class="caption" id="fig59">Fig. 59 -Ações ACSS </p>
 
