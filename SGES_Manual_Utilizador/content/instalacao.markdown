@@ -128,7 +128,7 @@ O separador *Construção* contém a caracterização da construção, como os s
 Contem informação acerca da energia, águas e gases medicinais utilizados na instalação, assim como os seus custos e consumos e a produção de resíduos.
 
 
-|    | Campos Obrigatórios em Detalhe                                                                                                | | |
+|    | Campos Obrigatórios em Detalhe                                                   |                                              | |
 |----|-------------------------------------------------------------------------------------------------------------------------------|-|-|
 | a) | Energia ([](#fig46))                               | Ano de alteração                                                           | |
 |   |                                                      | Nível da tensão de alimentação – rede elétrica de distribuição pública     | |
