@@ -35,11 +35,11 @@ Para poder criar a instalação o utilizador deve preencher, pelo menos, os camp
 |    |                            Campos Obrigatórios – Caracterização Geral - ([](#fig40))    |                                              ||
 |----|-----------------------------------------------------------------------------------------|-------------------------------------------|-|-|
 |Se estabelecimento tem vários edifícios  = Sim e se edifícios que compõem o estabelecimento localizados no mesmo terreno?= Sim              |||
-|    | Propriedade do Terreno                                                                  |Estado                                       |||
-|    |                                                                                         |Privado com cedência de direito de superfície|||
-|    |                                                                                         |SCM                                          |||
-|    | Nome edifício                                                                                                                         |||
-|    | Propriedade do(s) Edifício(s)                                                           |Arrendado                                    |||
+| a)| Propriedade do Terreno                                                                  |Estado                                       |||
+| b)|                                                                                         |Privado com cedência de direito de superfície|||
+| c)|                                                                                         |SCM                                          |||
+| d)| Nome edifício                                                                                                                         |||
+| e) | Propriedade do(s) Edifício(s)                                                           |Arrendado                                    |||
 |    |                                                                                         |Estado                                        |||
 |    |                                                                                         |PPP                                           |||
 |    |                                                                                         |SCM                                           |||
