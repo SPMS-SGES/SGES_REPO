@@ -41,7 +41,7 @@ Depois de clicar no botão **GRAVAR** o utilizador irá ser notificado do result
 
 Para adicionar uma área convencionada o utilizador deve preencher os campos obrigatórios do formulário e clicar em **GRAVAR** ([](#figadiciona_area)) .
 
-|    |                                                | Campos obrigatórios para adicionar área                                    |                     |
+|    |                                                | Campos obrigatórios para adicionar área convencionada                     |                     |
 |----|-----------------------------------------------------------------------|------------|--------------------------------------------------------------|
 | a) Área                                             |  Análises Clínicas                                                                               | 
 |                                                     |  Anatomia Patológica                                                                             | 
