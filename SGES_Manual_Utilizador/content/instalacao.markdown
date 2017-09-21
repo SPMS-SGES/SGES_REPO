@@ -34,7 +34,7 @@ Para poder criar a instalação o utilizador deve preencher, pelo menos, os camp
 
 |    | Campos Obrigatórios – Caracterização Geral - ([](#fig40))                               |                                           | | |
 |----|-----------------------------------------------------------------------------------------|-------------------------------------------|-|-|
-| 1.  Se estabelecimento tem vários edifícios  = Sim e se edifícios que compõem o estabelecimento localizados no mesmo terreno?= Sim |      |||
+| 1.  Se estabelecimento tem vários edifícios  = Sim e se edifícios que compõem o estabelecimento localizados no mesmo terreno?= Sim         |||
 |    | Propriedade do Terreno                                                                  |Estado                                       |||
 |    |                                                                                         |Privado com cedência de direito de superfície|||
 |    |                                                                                         |SCM                                          |||
@@ -43,7 +43,7 @@ Para poder criar a instalação o utilizador deve preencher, pelo menos, os camp
 |    |                                                                                         |Estado                                        |||
 |    |                                                                                         |PPP                                           |||
 |    |                                                                                         |SCM                                           |||
-| 2. |Se estabelecimento tem vários edifícios  = Sim e se edifícios que compõem o estabelecimento localizados no mesmo terreno?= Não          ||| 
+| 2. Se estabelecimento tem vários edifícios  = Sim e se edifícios que compõem o estabelecimento localizados no mesmo terreno?= Não          ||| 
 |a)  |  Nome edifício                                                                                                                         |||
 |b)  | Propriedade do Terreno                                                                  |Estado                                        |||
 |    |                                                                                         |Privado com cedência de direito de superfície |||
