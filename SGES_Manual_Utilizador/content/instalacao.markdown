@@ -32,51 +32,49 @@ Para o Registo de Instalações será necessário primeiro submeter os campos da
 Para poder criar a instalação o utilizador deve preencher, pelo menos, os campos obrigatórios da *Caracterização Geral* e clicar em **SUBMETER**;
 
 
-|    | Campos Obrigatórios – Caracterização Geral - ([](#fig40))  |   | | |
-|----|----------------------------------------------------------------|----|-|-|
-| 1. Se estabelecimento tem vários edifícios  = Sim e se edifícios que compõem o estabelecimento localizados no mesmo terreno?= Sim|
-|a)| Propriedade do Terreno  |Estado  | | |
-| |                       |Privado com cedência de direito de superfície|||
-| |                       |SCM|| |
-|b)| Nome edifício ||||
-|c) | Propriedade do(s) Edifício(s)  |Arrendado| | |
-|    |                               |Estado| | |
-|    |                               |PPP| | |
-|    |                               |SCM| | |
-| 2. Se estabelecimento tem vários edifícios  = Sim e se edifícios que compõem o estabelecimento localizados no mesmo terreno?= Não|
-|a)| Nome edifício ||||
-|b)| Propriedade do Terreno  |Estado  | | |
-| |                          |Privado com cedência de direito de superfície|||
-| |                          |SCM|| |
-|c) | Propriedade do(s) Edifício(s)  |Arrendado| | |
-|    |                               |Estado| | |
-|    |                               |PPP| | |
-|    |                               |SCM| | |
-|d)| Se mesma morada que o estabelecimento = Não |Morada| | |
-|    |                                           |Código Postal| | |
-|    |                                           |Concelho| | |
-|    |                                           |Freguesia| | |
-| 3. Se estabelecimento tem vários edifícios  = Não|
-|a)| Nome edifício ||||
-|b)| Propriedade do Terreno  |Estado  | | |
-| |                          |Privado com cedência de direito de superfície|||
-| |                          |SCM|| |
-|c) | Propriedade do(s) Edifício(s)  |Arrendado| | |
-|    |                               |Estado| | |
-|    |                               |PPP| | |
-|    |                               |SCM| | |
-|d)| Se mesma morada que o estabelecimento = Não |Morada| | |
-|    |                                           |Código Postal| | |
-|    |                                           |Concelho| | |
-|    |                                           |Freguesia| | |
-___________________________________________________________________________                                                                                                                                      
-| f) | Edifícios construídos na mesma fase? |Sim|Número de fases de construção=1||
-||                                          |Não|Quantas fases de construção existiram?||
-| g) | Heliporto?                           |Sim|Heliporto Certificado?| Sim|
-||||                                                                   | Não|
-||||                                             Heliporto Operacional?| Sim|
-||||                                                                   | Não|
-||                                          |Não|||
+|    | Campos Obrigatórios – Caracterização Geral - ([](#fig40))                               |                                           | | |
+|----|-----------------------------------------------------------------------------------------|-------------------------------------------|-|-|
+| 1. |Se estabelecimento tem vários edifícios  = Sim e se edifícios que compõem o estabelecimento localizados no mesmo terreno?= Sim            |
+|a)  | Propriedade do Terreno                                                                  |Estado                                     | | |
+|    |                                                                                         |Privado com cedência de direito de superfície|||
+|    |                                                                                         |SCM                                          |||
+|b)  | Nome edifício                                                                                                                         |||
+|c)  | Propriedade do(s) Edifício(s)                                                           |Arrendado                                    |||
+|    |                                                                                         |Estado                                        |||
+|    |                                                                                         |PPP                                           |||
+|    |                                                                                         |SCM                                           |||
+| 2. |Se estabelecimento tem vários edifícios  = Sim e se edifícios que compõem o estabelecimento localizados no mesmo terreno?= Não          ||| 
+|a)  |  Nome edifício                                                                                                                         |||
+|b)  | Propriedade do Terreno                                                                  |Estado                                        |||
+|    |                                                                                         |Privado com cedência de direito de superfície |||
+|    |                                                                                         |SCM                                           |||
+|c)  | Propriedade do(s) Edifício(s)                                                           |Arrendado                                     |||
+|    |                                                                                         |Estado                                        |||
+|    |                                                                                         |PPP                                           |||
+|    |                                                                                         |SCM                                           |||
+|d)| Se mesma morada que o estabelecimento = Não                                               |Morada                                        |||
+|    |                                                                                         |Código Postal                                 |||
+|    |                                                                                         |Concelho                                      |||
+|    |                                                                                         |Freguesia                                     |||
+| 3. Se estabelecimento tem vários edifícios  = Não                                                                                           |||
+|a)| Nome edifício                                                                                                                            |||
+|b)| Propriedade do Terreno                                                                    |Estado                                        |||
+| |                                                                                            |Privado com cedência de direito de superfície |||
+| |                                                                                            |SCM                                           |||
+|c) | Propriedade do(s) Edifício(s)                                                            |Arrendado                                     |||
+|    |                                                                                         |Estado                                        |||
+|    |                                                                                         |PPP                                           |||
+|    |                                                                                         |SCM                                           |||
+|d)| Se mesma morada que o estabelecimento = Não                                               |Morada                                        |||
+|    |                                                                                         |Código Postal                                 |||
+|    |                                                                                         |Concelho                                      |||
+|    |                                                                                         |Freguesia                                     |||                                                                                                                                      
+| f) | Edifícios construídos na mesma fase?                                                    |Sim|            Número de fases de construção=1||
+|    |                                                                                         |Não|     Quantas fases de construção existiram?||
+| g) | Heliporto?                                                                              |Sim| Heliporto Certificado?                | Sim|
+|    |                                                                                         | Não|                                          ||
+|    | Heliporto Operacional?| Sim|
+|    |                       | Não|
 
 ![fig40](img/pages/40.JPG)
 
