@@ -218,7 +218,7 @@ Após guardar cada registo na tabela, e para não se perder os dados será neces
 
 |    | Campos Obrigatórios em Equipamentos Críticos              | |
 |----|-----------------------------------------------------------|-|
-| a) | Instalações Elétricas ((#fig51)), Instalações Mecânicas ((#fig52)) ,Instalações de Águas e Esgotos ((#fig53)) | Designação do Equipamento;    ||
+| a) | Instalações Elétricas ([](#fig51)), Instalações Mecânicas ([](#fig52)) ,Instalações de Águas e Esgotos ([](#fig53)) | Designação do Equipamento;    ||
 || Designação | Central de deteção automático de deteção de incêndios||
 ||            | Central de deteção de CO| |
 ||            | Central de deteção de gás combustível||
