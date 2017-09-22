@@ -242,5 +242,5 @@ Na próxima imagem ([](#figPesquisaExEntidade)) podemos observar o resultado da 
 <p class="caption" id="figPesquisaExEntidade"> Pesquisa exemplo de entidades </p>
 
 Clicando num dos registos da lista, o utilizador pode clicar nas opções que se encontram no final da tabela.
-Se a lista de resultados for superior a 10 registos, surgirá no canto superior da tabela a navegação para a(s) próxima(s) página(s);
+Se a lista de resultados for superior a dez registos, surgirá no canto superior da tabela a navegação para a(s) próxima(s) página(s).
 
