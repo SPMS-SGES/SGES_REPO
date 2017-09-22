@@ -220,8 +220,8 @@ Contem informação acerca da energia, águas e gases medicinais utilizados na i
 |--|-----------------------------------------------------------------------------------------||
 | a)|Ano                                                                                     ||
 |b)|Quantidade de Resíduos Produzidos                                          |Grupo I e II  |
-|                                                                              |Grupo III     |
-|                                                                              |Grupo IV      |
+|  |                                                                           |Grupo III     |
+|  |                                                                           |Grupo IV      |
 
 ![fig46](img/pages/46.JPG)
 
