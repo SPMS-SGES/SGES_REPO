@@ -10,7 +10,7 @@ order: 3
 
 # 12. Equipamentos
 
-É neste módulo que são feitas ações sobre os equipamentos. O utilizador pode consultar a lista de equipamentos associados a um estabelecimento através do separador Equipamentos ([](#figEqpEstabelecimento))
+Neste módulo que são feitas ações sobre os equipamentos. O utilizador pode consultar a lista de equipamentos associados a um estabelecimento através do separador Equipamentos ([](#figEqpEstabelecimento))
 
 ![figEqpEstabelecimento](img/pages/12_1.jpg)
 
