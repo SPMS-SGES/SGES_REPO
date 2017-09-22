@@ -163,14 +163,14 @@ Contem informação acerca da energia, águas e gases medicinais utilizados na i
 | l)|Painéis Fotovoltaicos      |Sim|  Potência instalada em painéis fotovoltaicos|
 | m)|Aero-geradores;            |Sim|         Potência instalada em energia eólica|
 | n)|Sistemas de aproveitamento da biomassa                                     | |
-| o)|Certificação Energética    |Sim| Qual a classificação energética     |A+    |
-|                            |   |                                     |A     |
-|                            |   |                                     |B     |
-|                            |   |                                     |B-    |
-|                            |   |                                     |C     |
-|                            |   |                                     |D     |
-|                            |   |                                     |E     |
-|                            |   |                                     |F     |
+| o)|Certificação Energética    |Sim| Qual a classificação energética  |A+    |
+|   |                           |   |                                  |A     |
+|   |                           |   |                                  |B     |
+|   |                           |   |                                  |B-    |
+|   |                           |   |                                  |C     |
+|   |                           |   |                                  |D     |
+|   |                           |   |                                  |E     |
+|   |                           |   |                                  |F     |
 
 
 |   |    Campos Obrigatórios em Detalhe - Água / Águas Residuais  ([](#fig47)) ||
@@ -217,11 +217,11 @@ Contem informação acerca da energia, águas e gases medicinais utilizados na i
 |                           |Custo exaustão de gases anestésicos|
 
 |  |Campos Obrigatórios em Detalhe - Consumos e Custos  Produção de Resíduos  ([](#fig50))   ||
-|--|----------------------------------------------------------------------------------------||
-| a)|Ano                                                   | |
-|b)|Quantidade de Resíduos Produzidos         |Grupo I e II  |
-|                                          |Grupo III     |
-|                                          |Grupo IV      |
+|--|-----------------------------------------------------------------------------------------||
+| a)|Ano                                                                                     ||
+|b)|Quantidade de Resíduos Produzidos                                          |Grupo I e II  |
+|                                                                              |Grupo III     |
+|                                                                              |Grupo IV      |
 
 ![fig46](img/pages/46.JPG)
 
