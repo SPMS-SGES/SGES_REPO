@@ -68,8 +68,7 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar o equipamento. 
 |    |                                |  Data de publicação da abertura do concurso                         |
 |    |                                |Custo de aquisição                                                   |
 |    |                                |Data de ínicio de funcionamento                                      |
-| b) | Se Tipo de Contrato = Concessão| Data de ínico de funcionamento                                      |
-|    | Campos Obrigatórios do módulo Contratação - Se Tipo de Contrato = Concessão  ([](#figContratacao))   |
+| b) | Campos Obrigatórios do módulo Contratação - Se Tipo de Contrato = Concessão  ([](#figContratacao))   |
 | c) | Se Tipo de Contrato = Locação/Leasing ou Oferta | Nº inventário/ID Equipamento                       | 
 |    |                                                 | Data de início de funcionamento                    |
 
