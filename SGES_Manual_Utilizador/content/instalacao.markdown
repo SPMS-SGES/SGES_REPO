@@ -11,7 +11,7 @@ order: 3
 # 14. Instalações
 
 É neste módulo que serão feitas ações sobre as instalações.
-Para consultar  instalações de um estabelecimento, o utilizador tem três alternativas:
+Para aceder às  instalações de um estabelecimento, o utilizador tem três alternativas:
 (i) Selecionando uma entidade e clicando no botão ''Instalações'' ([](#figEstabeSInst));
 
 (ii) Na página de consulta de estabelecimentos existentes numa entidade, através do ponto [7. Estabelecimentos] ([](#figEstEntidade));
@@ -31,7 +31,13 @@ Para consultar  instalações de um estabelecimento, o utilizador tem três alte
 
 Caso ainda não exista informação acerca das instalações de um estabelecimento, o utilizador pode criar instalações.
 Para criar instalações, o utilizador deve clicar em **CRIAR INSTALAÇÃO** na página de instalações de estabelecimento ([](#figEstabeSInst)). De seguida, será encaminhado para a página de criação de instalações, onde deverá preencher os campos obrigatórios para poder efetuar o registo das instalações.
-Para o Registo de Instalações será necessário primeiro submeter os campos da Caracterização Geral do(s) edifício(s), sem estes submetidos não é possível preencher outros campos.
+Para o Registo de Instalações será necessário primeiro submeter os campos da Caracterização Geral do(s) edifício(s); sem estes submetidos não é possível preencher outros campos.
+
+É de salientar que existem balões de informação juntos aos campos que envolvem regras de negócio mais complexas. Para que o utilizador possa visualizar estas informações, o utilizador deve manter o cursor sobre o símbolo mostrado na  [](#figBaloes).
+
+![figBaloes](img/pages/39_1.JPG)
+
+<p class="caption" id="figBaloes"> Balões de informação.</p>
 
 ### 14.1.1 Caracterização
 
@@ -147,6 +153,7 @@ O separador *Construção* contém a caracterização da construção, como os s
 ![fig45](img/pages/45.JPG)
 
 <p class="caption" id="fig45"> Caracterização da Construção</p>
+
 
 ### 14.1.2 Detalhe
 
