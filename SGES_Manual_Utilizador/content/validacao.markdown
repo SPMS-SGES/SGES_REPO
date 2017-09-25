@@ -44,7 +44,7 @@ Atualmente os módulos do SGES que contêm este painel são:
 |                  | RH Serviços                         |  |
 |                  | Consulta do ano da Produção de Equipamentos (interna e externa)           |  |
 |                  | Consulta do ano da Produção no Exterior (se existir)               |  |
-|                  | Tempos de Espera                    |  |
+|                  | Consulta do ano relativo aos tempos de espera                    |  |
 |------------------|-------------------------------------|--|
 | Estabelecimentos | Identificação                       |  |
 |                  | Capacidades (Se do tipo Hospital)   |  |
