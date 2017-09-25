@@ -21,7 +21,7 @@ O utilizador pode consultar a lista de estabelecimentos associados a uma entidad
 
 ## 7.1.Criar Estabelecimento
 
-Para criar um novo estabelecimento, o utilizador deve clicar em **CRIAR** na página de estabelecimentos associados a uma entidade  ([](#figEstEntidade)). De seguida, será encaminhado para a página de criação de estabelecimento, onde deverá preencher os campos obrigatórios para poder efetuar o registo do estabelecimento (ver tabela abaixo e [](#figCriarEstabelecimento).
+Para criar um novo estabelecimento, o utilizador deve clicar em **CRIAR** na página de estabelecimentos associados a uma entidade  ([](#figEstEntidade)). De seguida, será encaminhado para a página de criação de estabelecimento, onde deverá preencher os campos obrigatórios para poder efetuar o registo do estabelecimento (ver tabela abaixo e [](#figCriarEstabelecimento)).
 
 |    | Campos Obrigatórios para criar estabelecimento    |          |
 |----|---------------------------------------------------|----------|

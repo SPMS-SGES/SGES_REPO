@@ -105,7 +105,7 @@ Para poder criar a instalação o utilizador deve preencher, pelo menos, os camp
 
 <p class="caption" id="fig40_2"> Criar Instalações – Caracterização Geral</p>
 
-Pode inserir informação acerca das áreas e estacionamento, submetendo no final de cada um de ambos os módulos.
+Pode inserir informação acerca das áreas e estacionamento, tendo de carregar no botão **SUBMETER** depois de preencher cada um de ambos os módulos.
 
 |    | Campos Áreas Totais e Estacionamento - ([](#fig41))  | |
 |----|-----------------------------------------------------------|-|
@@ -122,13 +122,13 @@ Pode inserir informação acerca das áreas e estacionamento, submetendo no fina
 
 <p class="caption" id="fig41"> Criar Instalação - Áreas Totais e Estacionamento</p>
 
-O separador *Caracterização do Edifício* contém os dados referentes ao(s) edíficio(s) tais como o nome, a área útil do programa funcional, a área útil de projeto, a área bruta, a área de implantação, nº de pisos acima do 0, nº de pisos abaixo do 0 e área de estacionamento construído. caracterização do projeto, como os custos e datas. Estes dados devem ser inseridos para cada fase de construção dos edifícios ([](#fig41_1)).
+O separador *Caracterização do Edifício* contém os dados referentes ao(s) edíficio(s) tais como o nome, a área útil do programa funcional, a área útil de projeto, a área bruta, a área de implantação, nº de pisos acima do 0, nº de pisos abaixo do 0 e área de estacionamento construído. caracterização do projeto, como os custos e datas. Estes dados devem ser inseridos para cada fase de construção dos edifícios ([](#fig42)).
 
 ![fig42](img/pages/42.JPG)
 
 <p class="caption" id="fig42"> Caracterização do Edifício</p>
 
-O separador *Projeto* contem a caracterização do projeto, como os custos e datas. Estes dados devem ser inseridos para cada fase de construção dos edifícios;
+O separador *Projeto* contém a caracterização do projeto, como os custos e datas. Estes dados devem ser inseridos para cada fase de construção dos edifícios;
 
 ![fig43](img/pages/43.JPG)
 
@@ -142,7 +142,7 @@ O separador *Projeto* contem a caracterização do projeto, como os custos e dat
 
 <p class="caption" id="fig44"> Caracterização do Projeto - Datas Chaves</p>
 
-O separador *Construção* contém a caracterização da construção, como os seus custos e custos de equipamentos. Estes dados devem ser inseridos para cada fase de construção dos edifícios;
+O separador *Construção* contém a caracterização da construção, como os seus custos e os custos de equipamentos. Estes dados devem ser inseridos para cada fase de construção dos edifícios.
 
 ![fig45](img/pages/45.JPG)
 
@@ -150,7 +150,7 @@ O separador *Construção* contém a caracterização da construção, como os s
 
 ### 14.1.2 Detalhe
 
-Contem informação acerca da energia, águas e gases medicinais utilizados na instalação, assim como os seus custos e consumos e a produção de resíduos.
+É neste separador que o utilizador pode registar informação acerca da energia, águas e gases medicinais utilizados na instalação, assim como os seus custos e consumos e a produção de resíduos.
 
 
 |   |                 Campos Obrigatórios em Detalhe - Energia   ([](#fig46)) ||
@@ -249,10 +249,10 @@ Contem informação acerca da energia, águas e gases medicinais utilizados na i
 
 <p class="caption" id="fig50"> Detalhe Produção de Resíduos</p>
 
-### 15.1.3 Equipamentos Críticos 
+### 14.1.3 Equipamentos Críticos 
 
-Contém a informação de todos os equipamentos críticos para o funcionamento da instalação, como as instalações elétricas, instalações mecânicas e instalações de águas e esgotos.
-Após guardar cada registo na tabela, e para não se perder os dados será necessário submeter.
+É neste separador que o utilizador pode registar informação de todos os equipamentos críticos para o funcionamento da instalação, como as instalações elétricas, instalações mecânicas e instalações de águas e esgotos.
+Após o registo de cada dado, o utilizador deve clicar no botão **GUARDAR** para que a informação seja gravada.
 
 |    | Campos Obrigatórios em Equipamentos Críticos              | |
 |----|-----------------------------------------------------------|-|
@@ -290,7 +290,7 @@ Após guardar cada registo na tabela, e para não se perder os dados será neces
 
 ### 14.1.4 Serviços
 
-Contém toda a informação relacionada com os serviços que foram realizados nas instalações do estabelecimento, assim como os seus custos e serviços de apoio.
+É neste separador que o utilizador pode registar informação relacionada com os serviços que foram realizados nas instalações do estabelecimento, assim como os seus custos e serviços de apoio.
 
 |    |                                                  |   Campos Obrigatórios em Serviços        | |
 |----|--------------------------------------------------|------------------------------------------|-|
@@ -321,7 +321,7 @@ Contém toda a informação relacionada com os serviços que foram realizados na
 
 ### 14.1.5 Contratos de Manutenção
 
-Contém a informação dos contratos de manutenção dos equipamentos das instalações.
+É neste separador que o utilizador pode registar informação dos contratos de manutenção dos equipamentos das instalações.
 
 |    | Campos em Contratos de Manutenção – ([](#fig57)]     | |
 |----|-----------------------------------------------------------|-|
@@ -374,7 +374,7 @@ Contém a informação dos contratos de manutenção dos equipamentos das instal
 
 ### 14.1.6 Avaliação Pós-Ocupação
 
-Contém a informação acerca da avaliação dos edifícios da instalação; útil instrumento na implementação de melhorias na criação de edifícios no futuro.
+É neste separador que o utilizador pode registar informação acerca da avaliação dos edifícios da instalação; útil instrumento na implementação de melhorias na criação de edifícios no futuro.
 
 |    | Campos em Avaliação Pós-Ocupação – ([](#fig58))    | |
 |----|-----------------------------------------------------------|-|
@@ -388,7 +388,7 @@ Contém a informação acerca da avaliação dos edifícios da instalação; út
 
 ### 14.1.7 Ações ACSS
 
-Contém a informação de todas as ações que a ACSS executou naquelas instalações.
+É neste separador que o utilizador pode registar informação de todas as ações que a ACSS executou naquelas instalações.
 
 |    | Campos em Ações ACSS – ([](#fig59))     | |
 |----|-----------------------------------------------------------|-|
