@@ -18,7 +18,9 @@ Será organizado:
 	 * “Página de pesquisa”, onde é apresentado o menu de pesquisa da aplicação;
 	 “Gestão de utilizadores”, onde é apresentada a possibilidade de criar e gerir utilizadores;
 - “Sequências de menus”, onde são apresentados os menus, aos quais o utilizador pode aceder através da aplicação, e as suas funcionalidades.
- 
+
+Este manual foi desenvolvido com o intuito de agilizar a interação das entidade ULS, Centros Hospitalares e Hospitais do Sistema Nacional de Saúde com 
+a aplicação SGES.
 
 # 2.Tabela de Acrónimos
 
@@ -193,6 +195,11 @@ Para a criação de um utilizador devem ser preenchidos os seguintes campos obri
 
 No final da edição o utilizador para gravar as alterações deve clicar no botão **GUARDAR**. Após clicar irá ser notificado com o resultado da operação.
 
+4.4. Natureza Jurídica e os seus campos
+As entidades públicas - ULS, Centros Hospitalares e Hospitais do SNS - têm acesso a informações relativas a entidades, estabelecimentos,equipamentos e instalações (ver capítulos 6 a 14 inclusive).
+
+Informações relativas a Acordos/Convenções são acedidas, exclusivamente, pelas ARSs ACSS (ver capítulo 15).
+
 ## 5. Menu Principal
 
 Uma vez identificado e autenticado, é apresentado ao utilizador o menu principal do SGES onde pode aceder às diferentes funcionalidades que lhe estão disponíveis consoante o seu perfil; caso o utilizador tenha o perfil de administração de uma entidade pública o menu principal será o mostrado na [](#figura_menu_ADMIN_entidade).
@@ -217,7 +224,7 @@ O menu Acordos e Convenções, que permite a gestão de acordos e convenções, 
 Por sua vez, o menu Ficha Técnica, que permite o carregamento de fichas técnicas, pode ser acedido por utilizadores com o perfil ACSS. 
 
 ## 5.1. Página de Pesquisa
-A página de pesquisa (#figPesquisaEntidade) é a página de entrada de todos os menus e permite a pesquisa de entidades ou estabelecimentos.
+A página de pesquisa [](#figPesquisaEntidade) é a página de entrada de todos os menus e permite a pesquisa de entidades ou estabelecimentos.
 
 Caso pretenda pesquisar por entidades, o utilizador deverá selecionar **Entidade** no campo *Pesquisar por:* presente no formulário e preencher pelo menos 3 campos de pesquisa. Em seguida clicar em **Pesquisar** para executar a pesquisa (ver tabela abaixo e [](#figPesquisaEntidade)) .
 
