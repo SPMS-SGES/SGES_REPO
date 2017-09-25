@@ -39,7 +39,7 @@ efetuar o registo do equipamento.
 | g) | Produção para Exterior?                          | Sim     |
 |    |                                                  | Não     |
 | h) | O equipamento é partilhado por mais alguma entidade? | Sim| A entidade pertence ao SNS?| |Sim| Tipo de Entidade| |Entidade*|
-|    |                                                      |    |                            | |Não| Qual o nome da entidade?|
+|    |                                                      |    |                            |Não| Qual o nome da entidade?|
 |    |                                                      | Não| 
 
 * Para que seja possível selecionar a entidade o utilizador deve, primeiro, selecionar o tipo de entidade.
@@ -68,7 +68,7 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar o equipamento. 
 |    |                                |  Data de publicação da abertura do concurso                         |
 |    |                                |Custo de aquisição                                                   |
 |    |                                |Data de ínicio de funcionamento                                      |
-| b) | Campos Obrigatórios do módulo Contratação - Se Tipo de Contrato = Concessão  ([](#figContratacao))   |
+| b) | Se Tipo de Contrato = Concessão | Data início de funcionamento                                       |
 | c) | Se Tipo de Contrato = Locação/Leasing ou Oferta | Nº inventário/ID Equipamento                       | 
 |    |                                                 | Data de início de funcionamento                    |
 
