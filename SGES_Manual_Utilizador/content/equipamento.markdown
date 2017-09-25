@@ -39,8 +39,7 @@ efetuar o registo do equipamento.
 | g) | Produção para Exterior?                          | Sim     |
 |    |                                                  | Não     |
 | h) | O equipamento é partilhado por mais alguma entidade? | Sim| A entidade pertence ao SNS?| |Sim| Tipo de Entidade| |Entidade*|
-|    |                                                      |                                   |Não| Qual o nome da entidade?|
-|    |                                                      | Não| 
+|    |                                                      |Não| Qual o nome da entidade?|
 
 * Para que seja possível selecionar a entidade o utilizador deve, primeiro, selecionar o tipo de entidade.
 
