@@ -42,6 +42,8 @@ Na consulta será apresentada uma página separada por áreas de afetação dos 
 O utilizador pode preencher ou alterar o total de exames na produção realizada dos equipamentos após navegar para o subseparador de produção *Interna* ou *Para Exterior* do separador **Produção Equipamentos** ([Fig. 24](#fig24)), selecionar o ano que pretende preencher ou alterar e clicar no botão **PREENCHER/ALTERAR**.
 Para gravar as alterações o utilizador deve clicar no botão **GUARDAR**. Após clicar irá ser notificado com o resultado da operação.
 
+<p id="producao-no-exterior"></p>
+
 # 10.Produção no Exterior
 
 Neste módulo serão feitas ações sobre a produção realizada no exterior.
