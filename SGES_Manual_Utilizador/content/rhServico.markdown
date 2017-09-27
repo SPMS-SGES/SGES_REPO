@@ -71,7 +71,7 @@ O utilizador pode consultar a lista dos recursos humanos afetos a serviços numa
 
 <p class="caption" id="figCriarRhServicos"> Criar RH Serviços</p>
 
-Após o registo dos dados deve clicar em **GUARDAR** para gravar o RH Serviço. Após clicar irá ser notificado com o resultado da operação.
+Após o registo dos dados, o utilizador deve clicar em **GUARDAR** para gravar o RH Serviço. Após clicar irá ser notificado com o resultado da operação.
 
 <p id="consultaRhEquipamento"></p>
 
@@ -89,7 +89,7 @@ No final da edição o utilizador para gravar as alterações deve clicar no bot
 
 <p id="removeRhEquipamento"></p>
 
-##8.3. Apagar RH Serviço
+## 8.4. Apagar RH Serviço
  
  O utilizador pode apagar um RH Serviço após selecionar um RH Serviço da lista de RH Serviços existentes numa entidade ([](#figRhAfetosEntidade)) e clicar no botão **APAGAR**. 
  Após clicar irá ser notificado com o resultado da operação.
