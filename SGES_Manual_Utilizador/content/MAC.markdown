@@ -3,7 +3,7 @@ layout: default
 title: "Entidade"
 ---
 
-
+<p id="aconvencao"></p>
 # 15. Acordos e Convenções
 
 É neste módulo que serão feitas ações sobre os acordos e convenções. Estas só poderão ser realizadas por utilizadores com o perfil ARS ou ACSS.
@@ -37,6 +37,8 @@ Depois de clicar no botão **GRAVAR** o utilizador irá ser notificado do result
 ![figOpcoesAC](img/pages/14_2.JPG)
 
 <p class="caption" id="FigOpcoesAC"> Botões ''Adicionar Área'', ''Associar Estabelecimento'' e ''Associar RH Técnico'' ativos </p>
+
+<p id="areaConvencionada"></p>
 
 ## 15.1.1. Adicionar Área
 
@@ -108,6 +110,8 @@ Caso o utilizador deseje adicionar responsáveis técnicos substitutos poderá f
 
 Depois de preencher todos os campos o utilizador deve clicar no botão **GUARDAR**, caso deseje que as informações sejam gravadas, ou deve clicar no botão **REMOVER** caso contrário.
 
+
+<p id="estabelecimentosConvencionados"></p>
 ## 15.1.2. Associar Estabelecimento
 
 Para associar um estabelecimento ao acordo/convenção o utilizador deve preencher os campos obrigatórios do formulário correspondente e clicar em **GRAVAR** ([](#figAssociar_Estabelecimento)). 
@@ -136,6 +140,8 @@ Os campos obrigatórios relativos ao Diretor Técnico são os mesmos que já for
 
 Se o utilizador pretende adicionar diretores técnicos substitutos, deve clicar no botão **ADICIONAR SUBSTITUTO** e, posteriormente, preencher os campos obrigatórios do formulário. Estes campos obrigatórios já foram referidos para o Responsável Técnico Principal (ver tabela Campos obrigatórios para adicionar área).
 
+<p id="rhConvencao"></p>
+
 ## 15.1.3. Adicionar Recursos Humanos Técnicos
 
 Para adicionar recursos humanos técnicos, basta clicar no botão **ASSOCIAR RH TÉCNICO**. O utilizador é encaminhado para uma página que contém um formulário cujos campos obrigatórios devem ser preenchidos ([](#figAdicionar_RH_Tecnicos)).
@@ -154,6 +160,8 @@ De salientar que o campo Especialidade apenas pode ser preenchido depois de sele
 
 Para que os dados relativos ao recurso humano técnico sejam guardados, o utilizador deve clicar no botão **GRAVAR**. Após clicar irá ser notificado com o resultado da operação.
 
+<p id="alteraConvencao"></p>
+
 ## 15.2 Editar Acordo
 
 Para editar um acordo ou convenção o utilizador deve selecionar o acordo/convenção que pretende editar e clicar no botão **EDITAR** ([](#figEditAC)).
@@ -168,6 +176,8 @@ Para aceder a cada um dos campos relativos ao acordo ou convenção - identifica
 
 No final da edição de cada um dos campos do acordo ou convenção o utilizador deve clicar no botão **GRAVAR** para que as alterações realizadas sejam guardadas. Após clicar irá ser notificado com o resultado da operação.
 
+<p id="consultaAconvencao"></p>
+
 ## 15.3 Consultar Acordo
 
 Para consultar um acordo ou convenção o utilizador deve selecionar o acordo/convenção que pretende consultar e clicar no botão **CONSULTAR** ([](#figConsultarAC)).
@@ -178,8 +188,10 @@ Para consultar um acordo ou convenção o utilizador deve selecionar o acordo/co
 
 Para visualizar cada um dos campos relativos ao acordo ou convenção - identificação da entidade, áreas convencionadas, estabelecimentos e recursos humanos técnicos - o utilizador deverá clicar no botão **+** relativo a cada uma das áreas.
 
+<p id="alteraEstado"></p>
 ## 15.4 Alterar Estado 
 
+<p id="altera-Estado-acordo"></p>
 ## 15.4.1 Alterar Estado do Acordo/Convenção
 
 O utilizador pode alterar o estado do acordo/convenção após selecionar o acordo/convenção que pretende editar, clicar no botão **ALTERAR ESTADO** ([](#figAltAC)). 
@@ -190,14 +202,17 @@ O utilizador pode alterar o estado do acordo/convenção após selecionar o acor
 
 O utilizador é conduzido a uma página onde pode alterar o estado de cada acordo/convenção associado ao estabelecimento e selecionar o motivo da alteração de estado. 
 
+<p id="altera-Estado-valencias"></p>
 ## 15.4.2 Alterar Estado das Valências
 
 O utilizador pode alterar o estado do acordo/convenção após selecionar o acordo/convenção que pretende editar, clicar no botão **ALTERAR ESTADO** e, finalmente, no botão **DETALHES**. O utilzador é conduzido a uma página onde pode, alterar o estado de cada valência e exame e selecionar o motivo da alteração de estado.
 
+<p id="pesquisa-convencao"></p>
 ## 15.5 Pesquisar Acordo/Convenção
 
 A lista de acordos/convenções de uma determinada entidade pode ser acedida através da pesquisa de entidades ou, caso o utilizador tenha acesso ao menu Acordos e Convenções, pode navegar diretamente para a lista de acordos/convenções de uma determinada entidade após selecionar uma entidade e clicar no botão **CONSULTAR**.
 
+<p id="importar"></p>
 ## 15.6 Importar Ficha Técnica
 
 A importação da ficha técnica pode ser efetuada acedendo, exclusivamente, ao menu Ficha Técnica. O utilizador é encaminhado para uma página onde pode anexar e carregar as fichas técnicas ([](#figFichaTecnica)) .
