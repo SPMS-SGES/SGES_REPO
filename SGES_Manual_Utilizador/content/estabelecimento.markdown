@@ -8,7 +8,7 @@ translation_priority: 1
 order: 3
 ---
 
-
+<p id="estabelecimentos"></p>
 # 7.Estabelecimentos
 Neste módulo são feitas ações sobre os estabelecimentos.
 O utilizador pode consultar a lista de estabelecimentos associados a uma entidade através do separador **Estabelecimentos** ([](#figEstEntidade)).
