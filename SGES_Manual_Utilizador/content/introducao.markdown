@@ -207,6 +207,7 @@ As entidades públicas - ULS, Centros Hospitalares e Hospitais do SNS - têm ace
 
 Informações relativas a Acordos/Convenções são acedidas, exclusivamente, pelas ARSs ACSS (ver capítulo 15).
 
+<p id="home"></p>
 ## 5. Menu Principal
 
 Uma vez identificado e autenticado, é apresentado ao utilizador o menu principal do SGES onde pode aceder às diferentes funcionalidades que lhe estão disponíveis consoante o seu perfil; caso o utilizador tenha o perfil de administração de uma entidade pública o menu principal será o mostrado na [](#figura_menu_ADMIN_entidade).
@@ -230,6 +231,7 @@ O menu Acordos e Convenções, que permite a gestão de acordos e convenções, 
 
 Por sua vez, o menu Ficha Técnica, que permite o carregamento de fichas técnicas, pode ser acedido por utilizadores com o perfil ACSS. 
 
+<p id="pesquisa"></p>
 ## 5.1. Página de Pesquisa
 A página de pesquisa [](#figPesquisaEntidade) é a página de entrada de todos os menus e permite a pesquisa de entidades ou estabelecimentos.
 

@@ -3,7 +3,7 @@ layout: default
 title: "Entidade"
 ---
 
-
+<p id="entidades"></p>
 # 6.Entidades
 
 É neste módulo que serão feitas ações sobre as entidades.
