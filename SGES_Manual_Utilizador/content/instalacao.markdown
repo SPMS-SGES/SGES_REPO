@@ -386,7 +386,7 @@ Após o registo de cada dado, o utilizador deve clicar no botão **GUARDAR** par
 
 <p class="caption" id="fig57"> Contratos de Manutenção </p>
 
-<p id="avaliao-ps-ocupao""></p>
+<p id="avaliao-ps-ocupao"></p>
 ### 14.1.6 Avaliação Pós-Ocupação
 
 É neste separador que o utilizador pode registar informação acerca da avaliação dos edifícios da instalação; útil instrumento na implementação de melhorias na criação de edifícios no futuro.
