@@ -36,9 +36,9 @@ Ao inserir uma imagem com o tamanho menor que a página, esta não poderá esten
      acrescentar 
        `**,#paginas p  img[alt=\<nome da imagem\>]**`:
  
-        `#paginas p (...),#paginas p  img[alt=<nome da imagem>]  {
+        #paginas p (...),#paginas p  img[alt=<nome da imagem>]  {
         width: auto;
-        }`
+        }
  
  ### Novo Módulo
  Ao inserir um novo módulo, deve-se colocar o ficheiro markdown na directoria **content**. 
