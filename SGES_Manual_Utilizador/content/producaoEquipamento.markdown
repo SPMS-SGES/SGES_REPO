@@ -8,6 +8,7 @@ translation_priority: 1
 order: 3
 ---
 
+<p id="produo-equipamentos"></p>
 # 9.Produção Equipamentos
 Neste módulo que serão feitas ações sobre a produção realizada pelos equipamentos.
 O utilizador pode consultar a produção interna e para exterior dos equipamentos de uma entidade no separador **Produção Equipamentos** ([](#figProdEquipamento)), através do ponto [6.3 Consultar Entidade](#consultar-entidade).
