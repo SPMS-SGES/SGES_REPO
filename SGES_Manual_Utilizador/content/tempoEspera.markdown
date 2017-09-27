@@ -7,6 +7,7 @@ updated_on: 2015-10-06
 translation_priority: 1
 order: 3
 ---
+<p id="tempos-de-espera"></p>
 
 # 11.Tempos de Espera
 
@@ -19,7 +20,7 @@ O utilizador pode consultar os tempos de espera numa entidade no separador **Tem
 
 <p class="caption" id="figTempoEspera"> Tempos de Espera</p>
 
-<p id="tERealizacaoExames"></p>
+<p id="consultarTeRealizacaoExame"></p>
 
 ## 11.1.Consultar Tempos de Espera
 
@@ -31,7 +32,7 @@ selecionar o período que pretende consultar e clicar no botão **CONSULTAR**. C
 <p class="caption" id="criarTempoEspera"> Tempos de Espera</p>
 
 
-<p id="tERealizacaoExames"></p>
+<p id="alterarTeRealizacaoExames"></p>
 
 ## 11.2. Preencher/Alterar Tempos de Espera
 O utilizador pode preencher ou alterar o *Total dias de espera* após navegar para o separador **Tempos de Espera**  ([](#figTempoEspera)), selecionar o período que pretende preencher ou alterar e clicar no botão **PREENCHER/ALTERAR**.
