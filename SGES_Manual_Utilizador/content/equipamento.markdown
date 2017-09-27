@@ -26,7 +26,7 @@ Para criar um novo equipamento, o utilizador pode clicar em **CRIAR** na página
 Na página de criação de equipamento, o utilizador deverá preencher os campos obrigatórios do painel *Identificação* para poder 
 efetuar o registo do equipamento.
 
-
+<p id="identificao"></p>
 ### 12.1.1. Identificação
 
 |    | Campos Obrigatórios da ([](#figCriarEquipamento))         |      |
@@ -50,6 +50,7 @@ efetuar o registo do equipamento.
 
 Após o registo dos dados deve clicar em **GUARDAR** para gravar o equipamento. Após clicar irá ser notificado com o resultado da operação.
 
+<p id="outros-painis"></p>
 ### 12.1.2. Outros painéis
 
 |    | Outros módulos a preencher                 |
