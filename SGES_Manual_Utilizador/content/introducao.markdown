@@ -3,7 +3,7 @@ layout: default
 title: "Introdução"
 ---
 
-
+<p id="sobre-este-manual"></p>
 # 1.Sobre este Manual
 Este manual descreve o modo de funcionamento do sistema, apresentando os respectivos ecrãs, sua sequência, modo de preenchimento e as regras de negócio que lhe estão subjacentes. 
 Será organizado:
@@ -21,6 +21,8 @@ Será organizado:
 
 Este manual foi desenvolvido com o intuito de agilizar a interação das entidade ULS, Centros Hospitalares e Hospitais do Sistema Nacional de Saúde com 
 a aplicação SGES.
+
+<p id="tabela-de-acrnimos"></p>
 
 # 2.Tabela de Acrónimos
 
@@ -40,7 +42,7 @@ Na tabela seguinte estão apresentadas a siglas, ordenadas por ordem alfabética
 |  SPMS  |  Serviços Partilhados do Ministério da Saúde|               
 |  PPP   |  Parceria Público-Privada|           
  
- 
+<p id="termos-e-definies"></p>
 # 3.Introdução
 O Sistema de Gestão de Entidades de Saúde (*SGES*) é um projeto estruturante para o sistema de informação de saúde, promovendo a criação de um repositório central de Entidades de Saúde, fiável e permanentemente atualizado, a partilhar com todos os SI, eliminando a redundância de informação e promovendo o aumento da qualidade dos dados.
 Considerando a evolução dos requisitos funcionais e técnicos, resultante das iterações ocorridas com os diferentes intervenientes ao longo do projeto a que este sistema deu origem, identificam-se como principais objetivos conseguir através do SGES:
@@ -53,6 +55,7 @@ Considerando a evolução dos requisitos funcionais e técnicos, resultante das 
 * Reduzir o número de interações entre o cidadão e os serviços do SNS, para obtenção de informação sobre entidades convencionadas;
 * Otimizar a gestão dos recursos disponíveis.
 
+<p id="conceitos-bsicos"></p>
 # 4.Conceitos Básicos
 
 Associada a essa interação existe um conjunto de conceitos que serão referidos neste capítulo.
@@ -112,6 +115,7 @@ Estes são clicáveis o que permite ao utilizador voltar a uma página já naveg
 
 De modo a familiarizar o utilizador com a aplicação, apresentam-se, de seguida, alguns exemplos ilustrativos de ações fundamentais para interagir com o SGES.
 
+<p id="aceder-ao-sges"></p>
 ## 4.1. Aceder ao SGES
 
 O acesso ao SGES é realizado através da navegação até ao seu endereço em [http://sges.min-saude.pt/SGES/login.html](http://sges.min-saude.pt/SGES/login.html) num *browser* de internet.
@@ -141,6 +145,7 @@ Junto ao logotipo do SGES, encontra-se o botão de atalho para os diferentes men
 
 Na primeira vez que o utilizador acede à aplicação, aparecerá a página de ([5.2. Alteração da senha](#alterao-da-senha)).  
 
+<p id="alteracao-de-senha"></p>
 ## 4.2. Alteração da senha
 
 A qualquer momento, o utilizador pode fazer a alteração da sua senha, clicando no botão das opções avançadas situado no canto superior direito da página ([4.Conceitos Básicos](#conceitos-bsicos)). 
@@ -158,6 +163,7 @@ Após o preenchimento dos campos, o utilizador deverá finalizar a alteração c
 
 <p class="caption" id="figAlteracaoSenha"> Página de alteração de senha </p>
 
+<p id="pgina-de-pesquisa"></p>
 ## 4.3. Gestão de utilizadores
 <p id="gestaoUtilizadores"></p>
 
@@ -195,7 +201,8 @@ Para a criação de um utilizador devem ser preenchidos os seguintes campos obri
 
 No final da edição o utilizador para gravar as alterações deve clicar no botão **GUARDAR**. Após clicar irá ser notificado com o resultado da operação.
 
-4.4. Natureza Jurídica e os seus campos
+<p id="natureza-juridica"></p>
+## 4.4. Natureza jurídica e os seus campos
 As entidades públicas - ULS, Centros Hospitalares e Hospitais do SNS - têm acesso a informações relativas a entidades, estabelecimentos,equipamentos e instalações (ver capítulos 6 a 14 inclusive).
 
 Informações relativas a Acordos/Convenções são acedidas, exclusivamente, pelas ARSs ACSS (ver capítulo 15).
