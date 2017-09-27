@@ -7,6 +7,7 @@ updated_on: 2015-10-06
 translation_priority: 1
 order: 3
 ---
+<p id="instalacao"></p>
 
 # 14. Instalações
 
@@ -27,6 +28,8 @@ Para aceder às  instalações de um estabelecimento, o utilizador tem três alt
 
 <p class="caption" id="fig39"> Exemplo de Estabelecimento com Instalações</p>
 
+
+<p id="criaInstalacao"></p>
 ## 14.1. Criar Instalações
 
 Caso ainda não exista informação acerca das instalações de um estabelecimento, o utilizador pode criar instalações.
@@ -39,6 +42,7 @@ Para o Registo de Instalações será necessário primeiro submeter os campos da
 
 <p class="caption" id="figBaloes"> Balões de informação.</p>
 
+<p id="caracterizao-inst"></p>
 ### 14.1.1 Caracterização
 
 Para poder criar a instalação o utilizador deve preencher, pelo menos, os campos obrigatórios da *Caracterização Geral* e clicar em **SUBMETER**;
@@ -154,7 +158,7 @@ O separador *Construção* contém a caracterização da construção, como os s
 
 <p class="caption" id="fig45"> Caracterização da Construção</p>
 
-
+<p id="detalhe-inst"></p>
 ### 14.1.2 Detalhe
 
 É neste separador que o utilizador pode registar informação acerca da energia, águas e gases medicinais utilizados na instalação, assim como os seus custos e consumos e a produção de resíduos.
@@ -256,6 +260,7 @@ O separador *Construção* contém a caracterização da construção, como os s
 
 <p class="caption" id="fig50"> Detalhe Produção de Resíduos</p>
 
+<p id="equipamentos-crticos"></p>
 ### 14.1.3 Equipamentos Críticos 
 
 É neste separador que o utilizador pode registar informação de todos os equipamentos críticos para o funcionamento da instalação, como as instalações elétricas, instalações mecânicas e instalações de águas e esgotos.
@@ -295,6 +300,7 @@ Após o registo de cada dado, o utilizador deve clicar no botão **GUARDAR** par
 
 <p class="caption" id="fig53"> Equipamentos Críticos - Instalações de Águas e Esgotos</p>
 
+<p id="servios"></p>
 ### 14.1.4 Serviços
 
 É neste separador que o utilizador pode registar informação relacionada com os serviços que foram realizados nas instalações do estabelecimento, assim como os seus custos e serviços de apoio.
@@ -325,6 +331,8 @@ Após o registo de cada dado, o utilizador deve clicar no botão **GUARDAR** par
 ![fig56](img/pages/56.JPG)
 
 <p class="caption" id="fig56"> Serviços - Serviços de Apoio</p>
+
+<p id="contratos-de-manuteno"></p>
 
 ### 14.1.5 Contratos de Manutenção
 
@@ -378,7 +386,7 @@ Após o registo de cada dado, o utilizador deve clicar no botão **GUARDAR** par
 
 <p class="caption" id="fig57"> Contratos de Manutenção </p>
 
-
+<p id="avaliao-ps-ocupao""></p>
 ### 14.1.6 Avaliação Pós-Ocupação
 
 É neste separador que o utilizador pode registar informação acerca da avaliação dos edifícios da instalação; útil instrumento na implementação de melhorias na criação de edifícios no futuro.
@@ -393,6 +401,7 @@ Após o registo de cada dado, o utilizador deve clicar no botão **GUARDAR** par
 
 <p class="caption" id="fig58"> Avaliação Pós-Ocupação </p>
 
+<p id="acao-acss"></p>
 ### 14.1.7 Ações ACSS
 
 É neste separador que o utilizador pode registar informação de todas as ações que a ACSS executou naquelas instalações.
@@ -413,15 +422,19 @@ Após o registo de cada dado, o utilizador deve clicar no botão **GUARDAR** par
 
 <p class="caption" id="fig59"> Ações ACSS </p>
 
+<p id="ediatr-instalaes"></p>
+
 ## 14.2. Editar Instalações
 
 O utilizador pode navegar para a página de edição de instalação na página de instalações de estabelecimento ([](#fig39)) e clicar no botão **ALTERAR INSTALAÇÃO**.
 A edição deve respeitar o preenchimento dos campos obrigatórios identificados no ponto [12.1 Criar Instalações](#criar-instalaes)
 No final da edição o utilizador para gravar as alterações deve clicar no botão **SUBMETER** ou **GUARDAR**, dependendo dos painéis alterados. Após clicar irá ser notificado com o resultado da operação.
 
+<p id="consultar-instalaes"></p>
 ## 14.3. Consultar Instalações
 O utilizador pode navegar para a página de consulta de instalação na página de instalações de estabelecimento ([](#fig39)) e clicar no botão **CONSULTAR INSTALAÇÃO**.
 
+<p id="histrico-instalaes"></p>
 ## 14.4. Histórico Instalações
 
 A página de histórico de uma entidade pode ser acedida através da página de instalações de estabelecimento ([](#fig39)) e clicando no botão **HISTÓRICO INSTALAÇÃO** .
