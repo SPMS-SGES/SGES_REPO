@@ -4,7 +4,7 @@ title: "Entidade"
 ---
 
 
-# 15. Acordos e Convenções
+# 15. Acordos e Convenções ~~~~~~
 
 É neste módulo que serão feitas ações sobre os acordos e convenções. Estas só poderão ser realizadas por utilizadores com o perfil ARS ou ACSS.
 Todas elas podem ser realizadas indiretamente - acedendo ao menu Entidade onde o utilizador deve pesquisar e selecionar uma entidade e clicar no botão **ACORDOS/CONVENÇÕES** para aceder à lista de acordos - ou diretamente - acedendo ao menu Acordos e Convenções onde deve pesquisar e selecionar uma entidade convencionada.
