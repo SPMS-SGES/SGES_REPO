@@ -52,4 +52,4 @@ Ao inserir uma imagem com o tamanho menor que a página, esta não poderá esten
  Para associar hiperligações a um determinado texto referente a uma funcionalidade, é necessário:
   * Primeiro ir à aplicação e aceder à funcionalidade e ver qual o ''#...'' do url da página;
   * Ir ao **Indice** e fazer <href=''#...''>;
-  * Ir ao ficheiro markdown e fazer <p id=#...> </p> antes do texto ao qual se quer associar a hiperligação.
+  * Ir ao **ficheiro markdown** e fazer <p id=#...> </p> antes do texto ao qual se quer associar a hiperligação.
