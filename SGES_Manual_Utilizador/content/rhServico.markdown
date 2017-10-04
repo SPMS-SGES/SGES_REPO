@@ -65,8 +65,8 @@ O utilizador pode consultar a lista dos recursos humanos afetos a serviços numa
 | h) | Nº horas extraordinárias/ano                            |   | 
 | i) | Nº horas prevenção                                      |   | 
 | j) | Nº horas ao atos contratados                            |   | 
-| k) | Nº de exames contratados                                |   | 
-
+| k) | Trabalho em regime de telerradiologia? (se grupo profissional= médico e área de afetação=  radiologia)                               |   | 
+| k) | Observações                                             |   | 
 
 ![figCriarRhServicos](img/pages/8_1_1.jpg)
 
