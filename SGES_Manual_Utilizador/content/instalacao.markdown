@@ -336,12 +336,11 @@ Após o registo de cada dado, o utilizador deve clicar no botão **GUARDAR** par
 
 ### 14.1.5 Contratos de Manutenção
 
-É neste separador que o utilizador pode registar informação dos contratos de manutenção dos equipamentos das instalações.
+É neste separador que o utilizador pode registar informação dos contratos de manutenção dos equipamentos das instalações e pesquisar contratos, tendo em conta o seu estado.
 
 |    | Campos em Contratos de Manutenção – ([](#fig57)]     | |
 |----|-----------------------------------------------------------|-|
-|a)  |Possibilidade de filtrar pelo estado do contrato          | |
-|b)  | Equipamento com contrato de manutenção | Bomba(s) rede de incêndios |
+|a)  | Equipamento com contrato de manutenção | Bomba(s) rede de incêndios |
 | |                                           | Motor(es) de cogeração |
 | |                                           | Autoclave(s)|
 | |                                           | Central de Deteção de CO |
@@ -364,27 +363,45 @@ Após o registo de cada dado, o utilizador deve clicar no botão **GUARDAR** par
 | |                                           | Central de protóxido |
 | |                                           | Central de extração de gases anestésicos |
 | |                                           | Ventilador(es) associado(s) ao sistema de incêndios |
-| c)| Data Início ||
-| d)| Data Fim ||
-| e) |      Tipo de Manutenção                | Preventiva |
+| b)| Data Início ||
+| c)| Data Fim ||
+| d) |      Tipo de Manutenção                | Preventiva |
 | |                                           | Corretiva |
 | |                                           | Preventiva e Corretiva |
 |  f)|Com peças? (Se Tipo de Manutenção = “Preventiva” ou ”Corretiva ou Preventiva”)       |                                               Sim |
 | |                                           | Não |
-| g) |      Duração do Contrato               | Semestral |
+| e) |      Duração do Contrato               | Semestral |
 | |                                           | Anual |
 | |                                           | Bianual|
 | |                                           | Trianual|
 | |                                           | Quadrienal|
 | |                                           | Quinquenal|
-| h) |   Contrato contém SLA – Service Level Agreement?    | Sim|
+| f)| Estado*                                 | Em vigor  |
+|   |                                         | Anulado   |
+|   |                                         | Em vigor   |
+|   |                                         | Fechado   |
+|   |                                         | Renovado   |
+| g) |   Contrato contém SLA – Service Level Agreement?    | Sim|
 | |                                                        | Não|
-| i) |  Existe equipa de manutenção associada a este contrato?    | Sim| |Números de elementos de equipa|
+| h) |  Existe equipa de manutenção associada a este contrato?    | Sim| |Números de elementos de equipa|
 | |                                                        | Não|
 
 ![fig57](img/pages/57.JPG)
 
 <p class="caption" id="fig57"> Contratos de Manutenção </p>
+
+*Quando um contrato é criado o seu estado é Em Vigor e este campo é não editável. 
+Durante a duração do contrato é possível anulá-lo. Para isso o utilizador deve selecionar um dos contratos, clicar no botão ‘’Anular’’([](#anular) e indicar o motivo do anulamento do contrato.
+
+![anular](img/pages/57_1.JPG)
+
+<p class="caption" id="anular"> Possibilidade de anular um contrato em vigor </p>
+
+Se o contrato já tiver terminado (i.e., data de fim inferior à data atual), o utilizador pode renovar ou fechar o contrato. Para isso o utilizador deve selecionar um dos contratos e clicar nos respetivos botões ([](#renovar).
+
+![renovar](img/pages/57_2.JPG)
+
+<p class="caption" id="renovar"> Possibilidade de echar ou renovar um contrato que já chegou ao fim </p>
 
 <p id="avaliao-ps-ocupao"></p>
 ### 14.1.6 Avaliação Pós-Ocupação
