@@ -391,13 +391,13 @@ Após o registo de cada dado, o utilizador deve clicar no botão **GUARDAR** par
 <p class="caption" id="fig57"> Contratos de Manutenção </p>
 
 *Quando um contrato é criado o seu estado é Em Vigor e este campo é não editável. 
-Durante a duração do contrato é possível anulá-lo. Para isso o utilizador deve selecionar um dos contratos, clicar no botão ‘’Anular’’([](#anular) e indicar o motivo do anulamento do contrato.
+Durante a duração do contrato é possível anulá-lo. Para isso o utilizador deve selecionar um dos contratos, clicar no botão ‘’Anular’’([](#anular)) e indicar o motivo do anulamento do contrato.
 
 ![anular](img/pages/57_1.JPG)
 
 <p class="caption" id="anular"> Possibilidade de anular um contrato em vigor </p>
 
-Se o contrato já tiver terminado (i.e., data de fim inferior à data atual), o utilizador pode renovar ou fechar o contrato. Para isso o utilizador deve selecionar um dos contratos e clicar nos respetivos botões ([](#renovar).
+Se o contrato já tiver terminado (i.e., data de fim inferior à data atual), o utilizador pode renovar ou fechar o contrato. Para isso o utilizador deve selecionar um dos contratos e clicar nos respetivos botões ([](#renovar)).
 
 ![renovar](img/pages/57_2.JPG)
 
