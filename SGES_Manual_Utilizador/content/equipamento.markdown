@@ -141,11 +141,13 @@ Caso o tipo de utilização seja exclusiva do serviço, têm de existir os servi
 
 |    | Campos Obrigatórios do módulo Autorização Ministeria/ Licença de Instalação ([](#figAutorizacao)) | | |
 |----|----------------------------------------------------|----------|--|
-| a) | Autorização Ministerial                         	  | Sim||
+| a) | Autorização Ministerial*                         	  | Sim||
 ||                                                   	  | Não||
 | b) | Instalação licenciada pela DGS?                    | Sim| Data da Licença* |
 ||                                                   	  | Não||
 | c) | Observação                                         |    | |                   
+
+• O campo *autorização ministerial* não é aplicável para equipamentos com Designação =Câmara Hiperbárica, RM, RM (Dedicada Exclusivamente à Radioterapia), Robot Cirúrgico (tipo D’avinci), Simulador, TC, TC-Simulador e TC (Dedicada exclusivamente à radioterapia); 
 
 Depois de o utilizador selecionar a data da licença, o campo *período de vigência* (que se encontra sempre inativo) fica, automaticamente, preenchido com 5 anos.
 
