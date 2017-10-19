@@ -444,9 +444,9 @@ Contratos ativos correspondem a contratos em vigor e contratos renovados.
 
 ![fig59](img/pages/59.JPG)
 
-<p class="caption" id="fig59"> Ações ACSS </p>
+<p class="caption" id="fig59"> Ações ACSS </p> -->
 
-<p id="editar-instalaes"></p> --> 
+<p id="editar-instalaes"></p> 
 ## 14.2. Editar Instalações
 
 O utilizador pode navegar para a página de edição de instalação na página de instalações de estabelecimento ([](#fig39)) e clicar no botão **ALTERAR INSTALAÇÃO**.
