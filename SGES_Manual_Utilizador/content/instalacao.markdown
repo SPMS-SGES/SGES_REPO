@@ -60,6 +60,10 @@ Para poder criar a instalação o utilizador deve preencher, pelo menos, os camp
 |    |                                                                                         |PPP                                           |||
 |    |                                                                                         |SCM                                           |||
 
+![fig40](img/pages/40.JPG)
+
+<p class="caption" id="fig40"> Criar Instalações – Caracterização Geral</p>
+
 
 |    |   Campos Obrigatórios – Caracterização Geral - ([](#fig40_1))                            |                                            ||
 |----|-----------------------------------------------------------------------------------------|-------------------------------------------|-|-|
@@ -77,6 +81,9 @@ Para poder criar a instalação o utilizador deve preencher, pelo menos, os camp
 |    |                                                                                         |Concelho                                      |||
 |    |                                                                                         |Freguesia                                     |||
 
+![fig40_1](img/pages/40_1.JPG)
+
+<p class="caption" id="fig40_1"> Criar Instalações – Caracterização Geral</p>
 
 |  |   Campos Obrigatórios – Caracterização Geral - ([](#fig40_2))                             |                                               ||
 |----|-----------------------------------------------------------------------------------------|-------------------------------------------|-|-|
@@ -103,13 +110,6 @@ Para poder criar a instalação o utilizador deve preencher, pelo menos, os camp
 |    | Heliporto Operacional?| Sim|
 |    |                       | Não|
 
-![fig40](img/pages/40.JPG)
-
-<p class="caption" id="fig40"> Criar Instalações – Caracterização Geral</p>
-
-![fig40_1](img/pages/40_1.JPG)
-
-<p class="caption" id="fig40_1"> Criar Instalações – Caracterização Geral</p>
 
 ![fig40_2](img/pages/40_2.JPG)
 
@@ -132,13 +132,13 @@ Pode inserir informação acerca das áreas e estacionamento, tendo de carregar 
 
 <p class="caption" id="fig41"> Criar Instalação - Áreas Totais e Estacionamento</p>
 
-O separador *Caracterização do Edifício* contém os dados referentes ao(s) edíficio(s) tais como o nome, a área útil do programa funcional, a área útil de projeto, a área bruta, a área de implantação, nº de pisos acima do 0, nº de pisos abaixo do 0 e área de estacionamento construído. caracterização do projeto, como os custos e datas. Estes dados devem ser inseridos para cada fase de construção dos edifícios ([](#fig42)).
+O separador *Caracterização do Edifício* contém os dados referentes ao(s) edíficio(s) tais como o nome, a área útil do programa funcional, a área útil de projeto, a área bruta, a área de implantação, nº de pisos acima do 0, nº de pisos abaixo do 0 e área de estacionamento construído ([](#fig42)).
 
 ![fig42](img/pages/42.JPG)
 
 <p class="caption" id="fig42"> Caracterização do Edifício</p>
 
-O separador *Projeto* contém a caracterização do projeto, como os custos e datas. Estes dados devem ser inseridos para cada fase de construção dos edifícios;
+O separador *Projeto* visa caracterizar o projeto de construção do hospital , tal como os custos associados e datas chave. Estes dados devem ser inseridos para cada fase de construção dos edifícios.
 
 ![fig43](img/pages/43.JPG)
 
@@ -152,7 +152,7 @@ O separador *Projeto* contém a caracterização do projeto, como os custos e da
 
 <p class="caption" id="fig44"> Caracterização do Projeto - Datas Chaves</p>
 
-O separador *Construção* contém a caracterização da construção, como os seus custos e os custos de equipamentos. Estes dados devem ser inseridos para cada fase de construção dos edifícios.
+O separador *Construção* visa caracterizar os custos da construção e os custos de equipamentos. Estes dados devem ser inseridos para cada fase de construção dos edifícios.
 
 ![fig45](img/pages/45.JPG)
 
@@ -161,7 +161,7 @@ O separador *Construção* contém a caracterização da construção, como os s
 <p id="detalhe-inst"></p>
 ### 14.1.2 Detalhe
 
-É neste separador que o utilizador pode registar informação acerca da energia, águas e gases medicinais utilizados na instalação, assim como os seus custos e consumos e a produção de resíduos.
+É neste separador que o utilizador pode registar informação acerca das instalações técnicas da instalação, assim como alguns custos e consumos e a produção de resíduos.
 
 
 |   |                 Campos Obrigatórios em Detalhe - Energia   ([](#fig46)) ||
@@ -263,7 +263,7 @@ O separador *Construção* contém a caracterização da construção, como os s
 <p id="equipamentos-crticos"></p>
 ### 14.1.3 Equipamentos Críticos 
 
-É neste separador que o utilizador pode registar informação de todos os equipamentos críticos para o funcionamento da instalação, como as instalações elétricas, instalações mecânicas e instalações de águas e esgotos.
+É neste separador que o utilizador pode registar informação referente aos equipamentos críticos para o funcionamento da unidade hospitalar, e dividindo-os de acordo com as instalações elétricas, instalações mecânicas e instalações de águas e esgotos. 
 Após o registo de cada dado, o utilizador deve clicar no botão **GUARDAR** para que a informação seja gravada.
 
 |    | Campos Obrigatórios em Equipamentos Críticos              | |
@@ -336,11 +336,12 @@ Após o registo de cada dado, o utilizador deve clicar no botão **GUARDAR** par
 
 ### 14.1.5 Contratos de Manutenção
 
-É neste separador que o utilizador pode registar informação dos contratos de manutenção dos equipamentos das instalações e pesquisar contratos, tendo em conta o seu estado.
+É neste separador que o utilizador pode registar informação dos contratos de manutenção dos equipamentos identificados no separador *Equipamentos Críticos*.
 
 |    | Campos em Contratos de Manutenção – ([](#fig57)]     | |
 |----|-----------------------------------------------------------|-|
-|a)  | Equipamento com contrato de manutenção | Bomba(s) rede de incêndios |
+|a)| Identificação do Contrato ||
+|b)  | Equipamento com contrato de manutenção | Bomba(s) rede de incêndios |
 | |                                           | Motor(es) de cogeração |
 | |                                           | Autoclave(s)|
 | |                                           | Central de Deteção de CO |
@@ -363,27 +364,27 @@ Após o registo de cada dado, o utilizador deve clicar no botão **GUARDAR** par
 | |                                           | Central de protóxido |
 | |                                           | Central de extração de gases anestésicos |
 | |                                           | Ventilador(es) associado(s) ao sistema de incêndios |
-| b)| Data Início ||
-| c)| Data Fim ||
-| d) |      Tipo de Manutenção                | Preventiva |
+| c)| Data Início ||
+| d)| Data Fim ||
+| e) |      Tipo de Manutenção                | Preventiva |
 | |                                           | Corretiva |
 | |                                           | Preventiva e Corretiva |
-|  f)|Com peças? (Se Tipo de Manutenção = “Preventiva” ou ”Corretiva ou Preventiva”)       |                                               Sim |
+|  f)|Com peças? (Se Tipo de Manutenção = “Preventiva” ou ”Corretiva ou Preventiva”)       |Sim |
 | |                                           | Não |
-| e) |      Duração do Contrato               | Semestral |
+| f) |      Duração do Contrato               | Semestral |
 | |                                           | Anual |
 | |                                           | Bianual|
 | |                                           | Trianual|
 | |                                           | Quadrienal|
 | |                                           | Quinquenal|
-| f)| Estado*                                 | Em vigor  |
+| g)| Estado*                                 | Em vigor  |
 |   |                                         | Anulado   |
 |   |                                         | Em vigor   |
 |   |                                         | Fechado   |
 |   |                                         | Renovado   |
-| g) |   Contrato contém SLA – Service Level Agreement?    | Sim|
+| h) |   Contrato contém SLA – Service Level Agreement?    | Sim|
 | |                                                        | Não|
-| h) |  Existe equipa de manutenção associada a este contrato?    | Sim| |Números de elementos de equipa|
+| i) |  Existe equipa de manutenção associada a este contrato?    | Sim| |Números de elementos de equipa|
 | |                                                        | Não|
 
 ![fig57](img/pages/57.JPG)
@@ -402,6 +403,13 @@ Se o contrato já tiver terminado (i.e., data de fim inferior à data atual), o 
 ![renovar](img/pages/57_2.JPG)
 
 <p class="caption" id="renovar"> Possibilidade de echar ou renovar um contrato que já chegou ao fim </p>
+
+O utilizador pode filtrar a pesquisa de contratos tendo em conta o seu estado, nomeadamente, o utilizador pode pesquisar por contratos ativos, anulados ou fechados ([](#fig57_3)).
+Contratos ativos correspondem a contratos em vigor e contratos renovados.
+
+![filtrar](img/pages/52_3.JPG)
+
+<p class="caption" id="filtrar"> Pesquisa de Contratos </p>
 
 <!--<p id="avaliao-ps-ocupao"></p>
 ### 14.1.6 Avaliação Pós-Ocupação
@@ -438,7 +446,7 @@ Se o contrato já tiver terminado (i.e., data de fim inferior à data atual), o 
 
 <p class="caption" id="fig59"> Ações ACSS </p>
 
-<p id="ediatr-instalaes"></p> --> 
+<p id="editar-instalaes"></p> --> 
 ## 14.2. Editar Instalações
 
 O utilizador pode navegar para a página de edição de instalação na página de instalações de estabelecimento ([](#fig39)) e clicar no botão **ALTERAR INSTALAÇÃO**.
