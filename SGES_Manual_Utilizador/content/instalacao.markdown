@@ -369,15 +369,15 @@ Após o registo de cada dado, o utilizador deve clicar no botão **GUARDAR** par
 | e) |      Tipo de Manutenção                | Preventiva |
 | |                                           | Corretiva |
 | |                                           | Preventiva e Corretiva |
-|  f)|Com peças? (Se Tipo de Manutenção = “Preventiva” ou ”Corretiva ou Preventiva”)       |Sim |
+| f)|Com peças? (Se Tipo de Manutenção = “Preventiva” ou ”Corretiva ou Preventiva”)       |Sim |
 | |                                           | Não |
-| f) |      Duração do Contrato               | Semestral |
+| g) |      Duração do Contrato               | Semestral |
 | |                                           | Anual |
 | |                                           | Bianual|
 | |                                           | Trianual|
 | |                                           | Quadrienal|
 | |                                           | Quinquenal|
-| g)| Estado*                                 | Em vigor  |
+| i)| Estado*                                 | Em vigor  |
 |   |                                         | Anulado   |
 |   |                                         | Em vigor   |
 |   |                                         | Fechado   |
