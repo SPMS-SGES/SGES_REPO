@@ -213,7 +213,7 @@ O utilizador é conduzido a uma página onde pode alterar o estado de cada acord
 O utilizador pode alterar o estado do acordo/convenção após selecionar o acordo/convenção que pretende editar, clicar no botão **ALTERAR ESTADO** e, finalmente, no botão **DETALHES**. O utilzador é conduzido a uma página onde pode, alterar o estado de cada valência e exame e selecionar o motivo da alteração de estado.
 
 <p id="importar"></p>
-## 15.7 Importar Ficha Técnica
+## 15.6 Importar Ficha Técnica
 
 A importação da ficha técnica pode ser efetuada acedendo, exclusivamente, ao menu Ficha Técnica. O utilizador é encaminhado para uma página onde pode anexar e carregar as fichas técnicas ([](#figFichaTecnica)) .
 
@@ -221,10 +221,13 @@ A importação da ficha técnica pode ser efetuada acedendo, exclusivamente, ao 
 
 <p class="caption" id="figFichaTecnica"> Acordo selecionado e botão "Alterar Estado da Convenção" ativo e destacado a amarelo. </p>
 
-Caso a informação seja confirmada, o novo acordo/convenção passa a poder ser editado, consultado e o seu estado alterado, quer através do menu Entidade quer através do menu Acordos/Convenções.
+Depois de carregar a ficha técnica, é mostrada uma página de verificação da informação onde o utilizador pode consultar a informação que carregou.
+Caso a informação seja confirmada ([](#figpainel_confir)), a informação que consta na Ficha Técnica passa a integrar a base de dados do SGES.
+O novo acordo/convenção passa a poder ser editado, consultado e o seu estado alterado, quer através do menu Entidade quer através do menu Acordos/Convenções.
 
+![figpainel_confir](img/pages/14_13.JPG)
 
-
+<p class="caption" id="figFichaTecnica"> Página de verificação da informação que consta na Ficha Técnica. </p>
 
 
 
