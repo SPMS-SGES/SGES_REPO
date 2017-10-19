@@ -404,7 +404,7 @@ Se o contrato já tiver terminado (i.e., data de fim inferior à data atual), o 
 
 <p class="caption" id="renovar"> Possibilidade de echar ou renovar um contrato que já chegou ao fim </p>
 
-O utilizador pode filtrar a pesquisa de contratos tendo em conta o seu estado, nomeadamente, o utilizador pode pesquisar por contratos ativos, anulados ou fechados ([](#filtrar)).
+O utilizador pode filtrar a pesquisa de contratos tendo em conta o seu estado, nomeadamente, o utilizador pode pesquisar por contratos ativos, anulados ou fechados ([](#fig52_3)).
 Contratos ativos correspondem a contratos em vigor e contratos renovados.
 
 ![filtrar](img/pages/52_3.JPG)
