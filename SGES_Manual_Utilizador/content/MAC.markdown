@@ -222,10 +222,10 @@ A importação da ficha técnica pode ser efetuada acedendo, exclusivamente, ao 
 <p class="caption" id="figFichaTecnica"> Acordo selecionado e botão "Alterar Estado da Convenção" ativo e destacado a amarelo. </p>
 
 Depois de carregar a ficha técnica, é mostrada uma página de verificação da informação onde o utilizador pode consultar a informação que carregou.
-Caso a informação seja confirmada ([](#figpainel_confir)), a informação que consta na Ficha Técnica passa a integrar a base de dados do SGES.
+Caso a informação seja confirmada ([](#figPainel_confir)), a informação que consta na Ficha Técnica passa a integrar a base de dados do SGES.
 O novo acordo/convenção passa a poder ser editado, consultado e o seu estado alterado, quer através do menu Entidade quer através do menu Acordos/Convenções.
 
-![figpainel_confir](img/pages/14_13.JPG)
+![figPainel_confir](img/pages/14_13.JPG)
 
 <p class="caption" id="figFichaTecnica"> Página de verificação da informação que consta na Ficha Técnica. </p>
 
