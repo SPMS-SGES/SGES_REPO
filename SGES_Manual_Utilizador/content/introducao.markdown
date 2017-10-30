@@ -116,7 +116,7 @@ Caso contrário, deverá clicar em **Recuperar Senha**, inserir os campos obriga
 
 |    |  Campos Obrigatórios [](#figLoginRecuperacao).  |           
 |----|----------------------------------------|
-| a) | e-mail associado á conta da aplicação  |  
+| a) | 	Endereço eletrónico associado à conta da aplicação ou username  |  
 
 ![figLoginRecuperacao](img/pages/5_1_2.jpg)
 
