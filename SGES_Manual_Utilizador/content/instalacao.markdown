@@ -59,6 +59,16 @@ Para poder criar a instalação o utilizador deve preencher, pelo menos, os camp
 |    |                                                                                         |Estado                                        |||
 |    |                                                                                         |PPP                                           |||
 |    |                                                                                         |SCM                                           |||
+| d) | Edifícios construídos na mesma fase?                                                    |Sim|          Número de fases de construção =1 ||
+|    |                                                                                         |Não|     Quantas fases de construção existiram?||
+| e) | O estabelecimento hospitalar dispõe de plano diretor? |Sim| |O plano diretor está aprovado?| Sim| Data de aprovação do plano diretor + O plano diretor está implementado?| Sim|
+|    |                                                          | |                              | Não|                                                                        | Não|
+|    |                                                          | |                              | Não|
+|    |                                                      |Não|
+| e) | Heliporto?                                                                              |Sim| Heliporto Certificado?                | Sim|
+|    |                                                                                         | Não|                                          ||
+|    | Heliporto Operacional?| Sim|
+|    |                       | Não|
 
 ![fig40](img/pages/40.JPG)
 
@@ -80,6 +90,12 @@ Para poder criar a instalação o utilizador deve preencher, pelo menos, os camp
 |    |                                                                                         |Código Postal                                 |||
 |    |                                                                                         |Concelho                                      |||
 |    |                                                                                         |Freguesia                                     |||
+| e) | Edifícios construídos na mesma fase?                                                    |Sim|          Número de fases de construção =1 ||
+|    |                                                                                         |Não|     Quantas fases de construção existiram?||
+| f) | Heliporto?                                                                              |Sim| Heliporto Certificado?                | Sim|
+|    |                                                                                         | Não|                                          ||
+|    | Heliporto Operacional?| Sim|
+|    |                       | Não|
 
 ![fig40_1](img/pages/40_1.JPG)
 
@@ -95,21 +111,11 @@ Para poder criar a instalação o utilizador deve preencher, pelo menos, os camp
 |c) | Propriedade do(s) Edifício(s)                                                            |Arrendado                                     |||
 |    |                                                                                         |Estado                                        |||
 |    |                                                                                         |PPP                                           |||
-|    |                                                                                         |SCM                                           |||
-|d)| Se mesma morada que o estabelecimento = Não                                               |Morada                                        |||
-|    |                                                                                         |Código Postal                                 |||
-|    |                                                                                         |Concelho                                      |||
-|    |                                                                                         |Freguesia                                     |||                                                                                                                                      
-
-|  |   Campos Obrigatórios – Caracterização Geral: Campos presentes paras as 3 situações anteriores                          |                                              ||
-|----|-----------------------------------------------------------------------------------------|-------------------------------------------|-|-|
-| a) | Edifícios construídos na mesma fase?                                                    |Sim|            Número de fases de construção=1||
-|    |                                                                                         |Não|     Quantas fases de construção existiram?||
-| b) | Heliporto?                                                                              |Sim| Heliporto Certificado?                | Sim|
+|    |                                                                                         |SCM                                           |||                                                                                                                                    
+| d) | Heliporto?                                                                              |Sim| Heliporto Certificado?                | Sim|
 |    |                                                                                         | Não|                                          ||
 |    | Heliporto Operacional?| Sim|
 |    |                       | Não|
-
 
 ![fig40_2](img/pages/40_2.JPG)
 
@@ -128,11 +134,18 @@ Pode inserir informação acerca das áreas e estacionamento, tendo de carregar 
 | b) | Estacionamento  |  N.º Lugares de estacionamento em área construída |
 ||                     |  N.º Lugares de estacionamento à superfície |
 
+
 ![fig41](img/pages/41.JPG)
 
 <p class="caption" id="fig41"> Criar Instalação - Áreas Totais e Estacionamento</p>
 
-O separador *Caracterização do Edifício* contém os dados referentes ao(s) edíficio(s) tais como o nome, a área útil do programa funcional, a área útil de projeto, a área bruta, a área de implantação, nº de pisos acima do 0, nº de pisos abaixo do 0 e área de estacionamento construído ([](#fig42)).
+As áreas dos hospitais contemplam as áreas de prestação de cuidados de saúde e de apoio (investigação, técnicas, entre outras).
+
+Os lugares de estacionamento são os lugares de estacionamento disponíveis no estabelecimento hospitalar.
+
+
+
+O separador *Caracterização do Edifício* contém os dados referentes ao(s) edíficio(s) tais como o nome, a área útil do programa funcional, a área útil, a área bruta, a área de implantação, nº de pisos acima do solo, nº de pisos abaixo do solo e área de estacionamento construído ([](#fig42)).
 
 ![fig42](img/pages/42.JPG)
 
@@ -210,7 +223,7 @@ O separador *Construção* visa caracterizar os custos da construção e os cust
 |c)|Energia elétrica produzida por aerogeradores           | |
 | d)|Combustíveis|Consumo nafta |
 |             |Custo nafta |
-|             |Consumo gasóleo|
+|             |Consumo gasóleo*|
 |             |Custo gasóleo|
 |             |Consumo outros|
 |             |Custo outros |
@@ -232,6 +245,8 @@ O separador *Construção* visa caracterizar os custos da construção e os cust
 |                           |Custo produção em Vácuo;|
 |                           |Consumo exaustão de gases anestésicos|
 |                           |Custo exaustão de gases anestésicos|
+
+*o gasóleo consumido via frota automóvel não deve ser reportado via SGES. 
 
 |  |Campos Obrigatórios em Detalhe - Consumos e Custos  Produção de Resíduos  ([](#fig50))   ||
 |--|-----------------------------------------------------------------------------------------||
@@ -268,17 +283,10 @@ Após o registo de cada dado, o utilizador deve clicar no botão **GUARDAR** par
 
 |    | Campos Obrigatórios em Equipamentos Críticos              | |
 |----|-----------------------------------------------------------|-|
-| | Instalações Elétricas ([](#fig51)), Instalações Mecânicas ([](#fig52)) ,Instalações de Águas e Esgotos ([](#fig53)) | Designação do Equipamento;    ||
-|a)| Designação | Central de deteção automático de deteção de incêndios||
-||            | Central de deteção de CO| |
-||            | Central de deteção de gás combustível||
-||            | Central de deteção de intrusão ||
-||            | Gerador(es) de emergência ||
-||            | Posto de transformação (PT)||
-||            | Quadro geral de baixa tensão (QGBT)||
-||            | UPS||
-|b)| Localização | Exterior| Localização do equipamento|
-||             | Edíficio|
+| | Instalações Elétricas ([](#fig51)), Instalações Mecânicas ([](#fig52)) ,Instalações de Águas e Esgotos ([](#fig53)) ||
+|a)| Designação |(ver [16.1 Equipamentos das instalações elétricas, mecânicas e de águas e esgotos ](#listaeqcr))||
+|b)| Localização | Exterior| 
+||             | Edíficio| Localização do equipamento|
 |c)| Marca ||
 |d)| Modelo ||
 |e)| Nº série||
@@ -300,6 +308,16 @@ Após o registo de cada dado, o utilizador deve clicar no botão **GUARDAR** par
 
 <p class="caption" id="fig53"> Equipamentos Críticos - Instalações de Águas e Esgotos</p>
 
+Para cada tipo de instalação é possível filtrar a pesquisa de equipamentos.
+
+Como mostrado nas figuras anteriores, é possível importar os equipamentos de cada tipo de instalações através do carregamento de um ficheiro excel.
+
+Ao carregar no botão *Importar*, são mostradas as indicações necessárias para carregar os equipamentos críticos ([](#fig53.1))
+
+![fig53.1](img/pages/53.1.JPG)
+
+<p class="caption" id="fig53.1"> Importação Equipamentos Críticos </p>
+
 <p id="servios"></p>
 ### 14.1.4 Serviços
 
@@ -308,17 +326,28 @@ Após o registo de cada dado, o utilizador deve clicar no botão **GUARDAR** par
 |    |                                                  |   Campos Obrigatórios em Serviços        | |
 |----|--------------------------------------------------|------------------------------------------|-|
 |a)  | Serviço de Instalação e Equipamento ([](#fig54)) | Ano de Alteração (Ano em que acontece a alteração, se estiver a criar o ano de alteração deve ser igual ao ano actual) |
-|    |                                     | Equipa de Manutenção Permanente;|
-|    |                                     | Serviço de Instalações e Equipamentos – Em regime de outsourcing;|
-|    |                                     | Número de elementos;|
+|    |                                     | Serviço de Instalações e Equipamentos – Em regime de outsourcing;| Sim|
+|    |                                     |                                                                  | Não|
+|    |                                     | Equipa de Manutenção Permanente*| Elementos externos (Se *Serviço de Instalações e Equipamentos – Em regime de outsourcing*= Sim)|
+|    |                                     |                                 | Misto (quadro e externos)|
+|    |                                     |                                 | Funcionários da entidade hospitalar| (Se *Serviço de Instalações e Equipamentos – Em regime de outsourcing*= Não)|
+|    |                                     | Número de elementos do SIE;|
+|    |                                     | Número de elementos externos;|
+|    |                                     |Número de elementos que são funcionários da entidade hospitalar;|
 |    |                                     | Em regime de outsourcing| Sim| Nome da Empresa|
+
+* A equipa de manutenção permanente é constituída pelos elementos que compõem a equipa residente de manutenção do estabelecimento hospitalar.
+
 | b) | Custos do Serviço ([](#fig55))| Orçamento anual do serviço de instalações e equipamentos;|
-| |                                         | Custos anuais com manutenção corretiva;|
+| |                                         | Custos anuais com manutenção corretiva*;|
 | |                                         | Custos anuais com contratos de manutenção;|
 | |                                         |Custos anuais com substituição de equipamento;|
 | c) | Serviços de Apoio ([](#fig56))| Esterilização serviço em outsourcing|Sim|Custos anuais com o serviço;|
 | |                                         | Existe lavandaria|Sim|Custos anuais com o serviço;|
+| |                                         | Existe Cozinha|Sim|Custos anuais com o serviço;|
 | |                                         | Resíduos serviço em outsourcing| Sim| Custos anuais com o serviço;|
+
+* Os custos anuais de manutenção devem ser relativas ao ano transato.
 
 ![fig54](img/pages/54.JPG)
 
@@ -341,29 +370,7 @@ Após o registo de cada dado, o utilizador deve clicar no botão **GUARDAR** par
 |    | Campos em Contratos de Manutenção – ([](#fig57)]     | |
 |----|-----------------------------------------------------------|-|
 |a)| Identificação do Contrato ||
-|b)  | Equipamento com contrato de manutenção | Bomba(s) rede de incêndios |
-| |                                           | Motor(es) de cogeração |
-| |                                           | Autoclave(s)|
-| |                                           | Central de Deteção de CO |
-| |                                           | Bomba(s) circuladoras |
-| |                                           | Central de deteção de gás combustível |
-| |                                           | Chiller de adsorção |
-| |                                           | Central deteção intrusão |
-| |                                           | Câmara(s) frigorífica(s) |
-| |                                           | Gerador(es) de emergência |
-| |                                           | UPS |
-| |                                           | Posto de transformação (PT) |
-| |                                           | Gerador(es) de emergência |
-| |                                           | Máquinas de lavar/desinfetar|
-| |                                           | Quadro geral de baixa tensão (QGBT) |
-| |                                           | Bomba(s) circuladoras |
-| |                                           | Unidade de tratamento de ar (UTA) |
-| |                                           | Unidade de tratamento de ar novo (UTAN) |
-| |                                           | Bomba(s) de vácuo |
-| |                                           | Bomba(s) de ar comprimido medicinal |
-| |                                           | Central de protóxido |
-| |                                           | Central de extração de gases anestésicos |
-| |                                           | Ventilador(es) associado(s) ao sistema de incêndios |
+|b)  | Equipamento com contrato de manutenção |Designação do equipamento crítico (ver [16.1 Equipamentos das instalações elétricas, mecânicas e de águas e esgotos ](#listaeqcr))|
 | c)| Data Início ||
 | d)| Data Fim ||
 | e) |      Tipo de Manutenção                | Preventiva |
@@ -462,3 +469,10 @@ O utilizador pode navegar para a página de consulta de instalação na página 
 
 A página de histórico de uma entidade pode ser acedida através da página de instalações de estabelecimento ([](#fig39)) e clicando no botão **HISTÓRICO INSTALAÇÃO** .
 Uma vez na página de histórico poderá visualizar todas as versões resultantes da edição das instalações, bem como a identificação dos campos alterados.
+
+
+
+
+
+
+
