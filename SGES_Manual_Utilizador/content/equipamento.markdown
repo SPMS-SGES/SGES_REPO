@@ -98,17 +98,17 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar o equipamento. 
 | a) | Tipo Atividade                               	| Partilhada (Programada/Urgência) |
 ||                                                      | Programada    |
 ||                                                      | Urgência ||
-||                                                      | Parado       |
 | b) | Se Estado diferente urgência				        | Carga Semanal| 
 | c) | Se Estado diferente urgência				        | Nº dias por semana| 
 | d) | Tipo de Utilização                    	        | Exclusiva do serviço* |
-| e) |                                                  | Partilhada por Diferentes Serviços |
-
-![figManutencao](img/pages/12_1_2_3.PNG)
-
-<p class="caption" id="figManutencao"> Criar novo Equipamento - Manutenção</p>
+|                                                       | Partilhada por Diferentes Serviços |
 
 Caso o tipo de utilização seja exclusiva do serviço, têm de existir os serviços que constam nas especialidades do estabelecimento ([](#figEspecialidade)).
+
+![figAtividade](img/pages/12_1_2_4.PNG)
+
+<p class="caption" id="figAtividade"> Criar novo Equipamento - Atividade</p>
+
 
 |    | Campos Obrigatórios do módulo Manutenção ([](#figManutencao)) ||
 |----|----------------------------------------------------|----------|
@@ -133,10 +133,9 @@ Caso o tipo de utilização seja exclusiva do serviço, têm de existir os servi
 | j) | Horas de paragem                                   |  |
 
 
+![figManutencao](img/pages/12_1_2_3.PNG)
 
-![figAtividade](img/pages/12_1_2_4.PNG)
-
-<p class="caption" id="figAtividade"> Criar novo Equipamento - Atividade</p>
+<p class="caption" id="figManutencao"> Criar novo Equipamento - Manutenção</p>
 
 
 |    | Campos Obrigatórios do módulo Autorização Ministeria/ Licença de Instalação ([](#figAutorizacao)) | | |

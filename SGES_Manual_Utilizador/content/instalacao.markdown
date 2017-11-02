@@ -61,10 +61,9 @@ Para poder criar a instalação o utilizador deve preencher, pelo menos, os camp
 |    |                                                                                         |SCM                                           |||
 | d) | Edifícios construídos na mesma fase?                                                    |Sim|          Número de fases de construção =1 ||
 |    |                                                                                         |Não|     Quantas fases de construção existiram?||
-| e) | O estabelecimento hospitalar dispõe de plano diretor? |Sim| |O plano diretor está aprovado?| Sim| Data de aprovação do plano diretor + O plano diretor está implementado?| Sim|
-|    |                                                          | |                              | Não|                                                                        | Não|
-|    |                                                          | |                              | Não|
-|    |                                                      |Não|
+| e) | O estabelecimento hospitalar dispõe de plano diretor? |Sim  |O plano diretor está aprovado?| Sim| Data de aprovação do plano diretor| O plano diretor está implementado?| Sim|
+|    |                                                       |     |                              | Não|                                   |                                   | Não|
+|    |                                                       |Não  |                              |    |                                   |                                   |    |
 | e) | Heliporto?                                                                              |Sim| Heliporto Certificado?                | Sim|
 |    |                                                                                         | Não|                                          ||
 |    | Heliporto Operacional?| Sim|
@@ -91,9 +90,11 @@ Para poder criar a instalação o utilizador deve preencher, pelo menos, os camp
 |    |                                                                                         |Concelho                                      |||
 |    |                                                                                         |Freguesia                                     |||
 | e) | Edifícios construídos na mesma fase?                                                    |Sim|          Número de fases de construção =1 ||
-|    |                                                                                         |Não|     Quantas fases de construção existiram?||
-| f) | Heliporto?                                                                              |Sim| Heliporto Certificado?                | Sim|
-|    |                                                                                         | Não|                                          ||
+| f) | O estabelecimento hospitalar dispõe de plano diretor? |Sim  |O plano diretor está aprovado?| Sim| Data de aprovação do plano diretor| O plano diretor está implementado?| Sim|
+|    |                                                       |     |                              | Não|                                   |                                   | Não|
+|    |                                                       |Não  |                              |    |                                   |                                   |    |
+| g) | Heliporto?                                            |Sim| Heliporto Certificado?                | Sim|
+|    |                                                      | Não|                                          ||
 |    | Heliporto Operacional?| Sim|
 |    |                       | Não|
 
@@ -111,9 +112,11 @@ Para poder criar a instalação o utilizador deve preencher, pelo menos, os camp
 |c) | Propriedade do(s) Edifício(s)                                                            |Arrendado                                     |||
 |    |                                                                                         |Estado                                        |||
 |    |                                                                                         |PPP                                           |||
-|    |                                                                                         |SCM                                           |||                                                                                                                                    
-| d) | Heliporto?                                                                              |Sim| Heliporto Certificado?                | Sim|
-|    |                                                                                         | Não|                                          ||
+| d) | O estabelecimento hospitalar dispõe de plano diretor? |Sim  |O plano diretor está aprovado?| Sim| Data de aprovação do plano diretor| O plano diretor está implementado?| Sim|
+|    |                                                       |     |                              | Não|                                   |                                   | Não|
+|    |                                                       |Não  |                              |    |                                   |                                   |    |
+| e) | Heliporto?                                           |Sim| Heliporto Certificado?                | Sim|
+|    |                                                      | Não|                                          ||
 |    | Heliporto Operacional?| Sim|
 |    |                       | Não|
 
@@ -312,7 +315,7 @@ Para cada tipo de instalação é possível filtrar a pesquisa de equipamentos.
 
 Como mostrado nas figuras anteriores, é possível importar os equipamentos de cada tipo de instalações através do carregamento de um ficheiro excel.
 
-Ao carregar no botão *Importar*, são mostradas as indicações necessárias para carregar os equipamentos críticos ([](#fig53.1))
+Ao carregar no botão *Importar*, são mostradas as indicações necessárias para carregar os equipamentos críticos ([](#fig53.1)).
 
 ![fig53.1](img/pages/53.1.JPG)
 

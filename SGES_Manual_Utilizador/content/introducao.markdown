@@ -148,7 +148,7 @@ Na primeira vez que o utilizador acede à aplicação, aparecerá a página de (
 <p id="alteracao-de-senha"></p>
 ## 4.2. Alteração da senha
 
-A qualquer momento, o utilizador pode fazer a alteração da sua senha, clicando no botão das opções avançadas situado no canto superior direito da página ([4.Conceitos Básicos](#conceitos-bsicos)). 
+A qualquer momento, o utilizador pode fazer a alteração da sua senha, clicando no botão das opções avançadas situado no canto superior direito da página ~[4.Conceitos Básicos](#conceitos-bsicos). 
 Após clicar em **Alterar Password** é apresentada uma página de alteração de senha, [](#figAlteracaoSenha). O utilizador deverá inserir os campos obrigatórios ( ver tabela abaixo e [](#figAlteracaoSenha).
 
 |    |  Campos Obrigatórios                   |           
@@ -167,12 +167,14 @@ Após o preenchimento dos campos, o utilizador deverá finalizar a alteração c
 ## 4.3. Gestão de utilizadores
 <p id="gestaoUtilizadores"></p>
 
-O utilizador, se tiver permissões, pode criar/gerir utilizadores para atualizarem os diferentes painéis no SGES na entidade respetiva.
+O utilizador tiver o perfil de administrador (ARS_ADMIN ou ADMIN_ENTIDADE), pode criar/gerir utilizadores para atualizarem os diferentes painéis no SGES na entidade respetiva.
 É possível criar utilizadores com os seguintes perfis:
 
-* **SGES_ENTIDADE** - Os utilizadores com este perfil poderão executar as operações sobre a *entidade* assim como criar e alterar *estabelecimentos*.
+* **SGES_ENTIDADE** - Os utilizadores com este perfil poderão executar as operações sobre a *entidade* assim como criar e alterar *estabelecimentos*;
 
-* **SGES_EQUIPAMENTOS** - Os utilizadores com este perfil poderão executar as operações sobre os *equipamentos* médicos pesados e sobre a *produção* dos mesmos.
+* **SGES_EQUIPAMENTOS** - Os utilizadores com este perfil poderão executar as operações sobre os *equipamentos* médicos pesados e sobre a *produção* dos mesmos;
+
+* **SGES_INSTALACOES** - Os utilizadores com este perfil poderão executar as operações sobre as *instalações* de cada estabelecimento médico.
 
 Para criar novos utilizadores, o utilizador deve clicar no botão das opções avançadas situado no canto superior direito da página 
 ([](#conceitos-bsicos)). Após clicar em **Gestão de Utilizadores**, aparecerá a página de **Gestão de Utilizadores** [](#figGestaoUtilizadores).
@@ -200,6 +202,8 @@ Para a criação de um utilizador devem ser preenchidos os seguintes campos obri
 | |                                     | SGES_EQUIPAMENTOS|
 
 No final da edição o utilizador para gravar as alterações deve clicar no botão **GUARDAR**. Após clicar irá ser notificado com o resultado da operação.
+
+No SGES podem ainda existir utilizadores com outros perfis. No subcapítulo [16.2 Perfis e respetivas permissões ](#listaperfis) é possível consultar a lista de perfis, e respetivas permissões, disponíveis no SGES.
 
 <p id="natureza-juridica"></p>
 ## 4.4. Natureza jurídica e os seus campos

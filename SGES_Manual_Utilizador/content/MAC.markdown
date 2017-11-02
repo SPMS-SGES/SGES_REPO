@@ -215,22 +215,64 @@ O utilizador pode alterar o estado do acordo/convenção após selecionar o acor
 <p id="importar"></p>
 ## 15.6 Importar Ficha Técnica
 
-A importação da ficha técnica pode ser efetuada acedendo, exclusivamente, ao menu Ficha Técnica. O utilizador é encaminhado para uma página onde pode anexar e carregar as fichas técnicas ([](#figFichaTecnica)) .
+É possível registar um acordo/convenção através do carregamento de um ficheiro que contém a informação relativa ao mesmo.
+Este ficheiro deve ser preenchido seguindo as regras referidas no documento que contém as instruções de preenchimento do mesmo.
+A importação da ficha técnica pode ser efetuada acedendo, exclusivamente, ao sub-menu Importar Ficha Técnica que consta no menu Ficha Técnica. 
+O utilizador é encaminhado para uma página onde pode anexar e carregar as fichas técnicas ([](#figFichaTecnica)) .
 
 ![figFichaTecnica](img/pages/14_12.JPG)
 
-<p class="caption" id="figFichaTecnica"> Acordo selecionado e botão "Alterar Estado da Convenção" ativo e destacado a amarelo. </p>
+<p class="caption" id="figFichaTecnica"> Página de carregamento da Ficha Técnica. </p>
 
-Depois de carregar a ficha técnica, é mostrada uma página de verificação da informação onde o utilizador pode consultar a informação que carregou.
-Caso a informação seja confirmada ([](#figPainel_confir)), a informação que consta na Ficha Técnica passa a integrar a base de dados do SGES.
+Depois de carregar a ficha técnica, é mostrada uma página de verificação da informação onde o utilizador pode consultar a informação que carregou ([](#figPainel_confir)).
+Caso a informação seja confirmada, a informação que consta na Ficha Técnica passa a integrar a base de dados do SGES.
 O novo acordo/convenção passa a poder ser editado, consultado e o seu estado alterado, quer através do menu Entidade quer através do menu Acordos/Convenções.
 
 ![figPainel_confir](img/pages/14_13.JPG)
 
-<p class="caption" id="figFichaTecnica"> Página de verificação da informação que consta na Ficha Técnica. </p>
+<p class="caption" id="figPainel_confir"> Página de verificação da informação que consta na Ficha Técnica. </p>
 
+<p id="atualizar"></p>
+## 15.7 Importar Atualizações da Ficha Técnica
+Caso deseje atualizar informação relativa a um acordo/convenção, o utilizador pode fazê-lo através de um carregamento de um ficheiro com as atualizações. 
+Este ficheiro deve ser preenchido seguindo as regras referidas no documento que contém as instruções de preenchimento do mesmo.
+A importação das atualizações tem de ser realizada no sub-menu Atualizar Ficha Técnica que consta no menu Ficha Técnica.
+O utilizador é encaminhado para uma página onde pode anexar e carregar as fichas técnicas ([](#fig14_14)).
 
+![fig14_14](img/pages/14_14.JPG)
 
+<p class="caption" id="fig14_14"> Página de verificação da informação que consta na Ficha Técnica. </p>
 
+Depois de carregar a ficha técnica, é mostrada uma página de verificação da informação onde o utilizador pode consultar a informação que carregou ([](#figPainel_confir)).
+Caso a informação seja confirmada, esta informação passa a ter de ser sujeita a aprovação.
 
+<p id="aprovacoesPendentes"></p>
+## 15.8 Aprovação das Atualizações da Ficha Técnica
+Para uma determinada atualização, vai ser permitida a consulta, simultânea, dos dados que constam na base de dados e as novas informações e aprovar ou excluir a atualização ([](#figPainel_comp)).
+Caso o utilizador aprove, a nova informação substitui a anterior.
+Caso o utilizador exclua, os dados presentes na ficha técnica permanecem inalterados.
+
+![figPainel_comp](img/pages/14_14.JPG)
+
+<p class="caption" id="figPainel_comp"> Página de verificação da informação que consta na Ficha Técnica. </p>
+ 
+ <p id="aconvencao"></p>
+## 15.9 Validação das Atualizações da Ficha Técnica
+Depois da aprovação, os novos dados passam a ficar incluídos na base de dados, i.e., os campos da ficha técnica que sofreram alterações são atualizados. 
+Assim, no sub-menu Atualizações Por Aprovar, deixa de ser possível consultar as atualizações ao acordo/convenção e estas são transferidas para o ‘’separador’’ ‘’Atualizações Por Validar‘’ ([](#fig14_17)), presente no separador ‘’Acordos/Convenções’’ da entidade em causa ([](#fig14_16)).
+
+![fig14_16](img/pages/14_16.JPG)
+
+<p class="caption" id="fig14_16"> Separador Acordos/Convenções de uma entidade. </p>
+
+![fig14_17](img/pages/14_17.JPG)
+
+<p class="caption" id="fig14_17"> Separador Atualizações por Validar. </p>
+
+Quando o utilizador carrega no botão Validar ([](#fig14_17)), é direcionado para uma página onde pode visualizar e validar ou não, os blocos de informação que foram atualizados ([](#fig14_18)). 
+Pode também visualizar os blocos de informação que não foram atualizados e, por isso, são mostrados como validados.
+
+![fig14_18](img/pages/14_18.JPG)
+
+<p class="caption" id="fig14_18"> Página de validação das atualizações. </p>
 
