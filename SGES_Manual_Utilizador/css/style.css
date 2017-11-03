@@ -116,7 +116,7 @@ sub { bottom: -0.25em; }
 ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
 dd { margin: 0 0 0 40px; }
 nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
-
+nav ul li a {text-align: left;}
 
 
 /* =============================================================================
@@ -337,7 +337,7 @@ width: auto;
 }
 
 
-#paginas p  img[alt=figLogin],#paginas p  img[alt=figLoginRecuperacao], #paginas p  img[alt=figAlteracaoSenha] {
+#paginas p  img[alt=figLogin],#paginas p  img[alt=figLoginRecuperacao], #paginas p  img[alt=figAlteracaoSenha], #paginas p  img[alt=figacordos_convencoes], #paginas p  img[alt=figFT], #paginas p  img[alt=figDef], #paginas p  img[alt=figManual] {
 width: auto;
 }
 
@@ -378,6 +378,14 @@ border-left:    solid #005082 1.0pt;
 border-top:    solid #005082 1.0pt;
 }
 
+.modulo table.tabelahtml tbody th {
+border:    solid #005082 1.0pt;
+}
+
+.modulo table.tabelahtml td {
+border:    solid #005082 1.0pt;
+
+}
 #accordion li {
 	cursor: pointer;
 }
