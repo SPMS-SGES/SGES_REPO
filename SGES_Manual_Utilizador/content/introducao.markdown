@@ -234,33 +234,3 @@ Para além dos menus mostrados na figura anterior, existe ainda o menu Acordos e
 O menu Acordos e Convenções, que permite a gestão de acordos e convenções, pode ser acedido por utilizadores com o perfil ACSS e ARS. 
 
 Por sua vez, o menu Ficha Técnica, que permite o carregamento de fichas técnicas, pode ser acedido por utilizadores com o perfil ACSS. 
-
-<p id="pesquisa"></p>
-## 5.1. Página de Pesquisa
-A página de pesquisa [](#figPesquisaEntidade) é a página de entrada de todos os menus e permite a pesquisa de entidades ou estabelecimentos.
-
-Caso pretenda pesquisar por entidades, o utilizador deverá selecionar **Entidade** no campo *Pesquisar por:* presente no formulário e preencher pelo menos 3 campos de pesquisa. Em seguida clicar em **Pesquisar** para executar a pesquisa (ver tabela abaixo e [](#figPesquisaEntidade)) .
-
-|   |  Campos Obrigatórios                    |           
-|----|----------------------------------------|
-| a) | Campo de identificação do tipo de pesquisa | 
-
-![figPesquisaEntidade](img/pages/5_3_1.jpg)
-
-<p class="caption" id="figPesquisaEntidade"> Pesquisa de entidade </p>
-
-Caso pretenda pesquisar por estabelecimentos, o utilizador deverá selecionar **Estabelecimentos** no campo *Pesquisar por:* presente no formulário e preencher pelo menos 3 campos de pesquisa. Em seguida clicar em **Pesquisar** para executar a pesquisa [](#figPesquisaEntidade).
-
-![[](#figPesquisaEntidade) ](img/pages/5_3_2.jpg)
-
-<p class="caption" id="figPesquisaEstabelecimento"> Pesquisa de estabelecimentos </p>
-
-Na próxima imagem ([](#figPesquisaExEntidade)) podemos observar o resultado da pesquisa onde se pretende listar todos os centros hospitalares públicos no distrito do Porto.
-
-![figPesquisaExEntidade](img/pages/5_3_3.jpg)
-
-<p class="caption" id="figPesquisaExEntidade"> Pesquisa exemplo de entidades </p>
-
-Clicando num dos registos da lista, o utilizador pode clicar nas opções que se encontram no final da tabela.
-Se a lista de resultados for superior a dez registos, surgirá no canto superior da tabela a navegação para a(s) próxima(s) página(s).
-
