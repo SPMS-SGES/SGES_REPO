@@ -219,18 +219,3 @@ Uma vez identificado e autenticado, é apresentado ao utilizador o menu principa
 ![figura_menu_ADMIN_entidade](img/pages/5_1_3.JPG)
 
 <p class="caption" id="figura_menu_ADMIN_entidade"> Menu Principal para um utilizador com o perfil de administrador de uma entidade pública. </p>
-
-Para além dos menus mostrados na figura anterior, existe ainda o menu Acordos e Convenções - [](#figacordos_convencoes) - e o menu Ficha Técnica - [](#figFT).
-
-![figacordos_convencoes](img/pages/5_1_3_1.jpg) 
-
-<p class="caption" id="figacordos_convencoes"> Menu Acordos e Convenções. </p>
-
-![figFT](img/pages/5_1_3_1_1.jpg)
-
-<p class="caption" id="figFT"> Menu Ficha Técnica. </p>
-
-
-O menu Acordos e Convenções, que permite a gestão de acordos e convenções, pode ser acedido por utilizadores com o perfil ACSS e ARS. 
-
-Por sua vez, o menu Ficha Técnica, que permite o carregamento de fichas técnicas, pode ser acedido por utilizadores com o perfil ACSS. 
