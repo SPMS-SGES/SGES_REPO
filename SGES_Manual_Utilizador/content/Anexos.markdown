@@ -37,7 +37,7 @@ title: "Entidade"
 |   |                                       | Bomba(s) circuladoras |
 
 <p id="listaperfis"></p>
-## 16.2 Permissões e respetivas permissões
+## 16.2 Perfis e respetivas permissões
 
 |   | Permissões e respetivas permissões                                     ||
 |---|------------------------------------------------------------------------|| 
