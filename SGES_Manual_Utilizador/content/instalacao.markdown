@@ -7,6 +7,7 @@ updated_on: 2015-10-06
 translation_priority: 1
 order: 3
 ---
+<p id="instalacao"></p>
 
 # 14. Instalações
 
@@ -27,6 +28,8 @@ Para aceder às  instalações de um estabelecimento, o utilizador tem três alt
 
 <p class="caption" id="fig39"> Exemplo de Estabelecimento com Instalações</p>
 
+
+<p id="criaInstalacao"></p>
 ## 14.1. Criar Instalações
 
 Caso ainda não exista informação acerca das instalações de um estabelecimento, o utilizador pode criar instalações.
@@ -39,6 +42,7 @@ Para o Registo de Instalações será necessário primeiro submeter os campos da
 
 <p class="caption" id="figBaloes"> Balões de informação.</p>
 
+<p id="caracterizao-inst"></p>
 ### 14.1.1 Caracterização
 
 Para poder criar a instalação o utilizador deve preencher, pelo menos, os campos obrigatórios da *Caracterização Geral* e clicar em **SUBMETER**;
@@ -55,6 +59,19 @@ Para poder criar a instalação o utilizador deve preencher, pelo menos, os camp
 |    |                                                                                         |Estado                                        |||
 |    |                                                                                         |PPP                                           |||
 |    |                                                                                         |SCM                                           |||
+| d) | Edifícios construídos na mesma fase?                                                    |Sim|          Número de fases de construção =1 ||
+|    |                                                                                         |Não|     Quantas fases de construção existiram?||
+| e) | O estabelecimento hospitalar dispõe de plano diretor? |Sim  |O plano diretor está aprovado?| Sim| Data de aprovação do plano diretor| O plano diretor está implementado?| Sim|
+|    |                                                       |     |                              | Não|                                   |                                   | Não|
+|    |                                                       |Não  |                              |    |                                   |                                   |    |
+| e) | Heliporto?                                                                              |Sim| Heliporto Certificado?                | Sim|
+|    |                                                                                         | Não|                                          ||
+|    | Heliporto Operacional?| Sim|
+|    |                       | Não|
+
+![fig40](img/pages/40.JPG)
+
+<p class="caption" id="fig40"> Criar Instalações – Caracterização Geral</p>
 
 
 |    |   Campos Obrigatórios – Caracterização Geral - ([](#fig40_1))                            |                                            ||
@@ -72,7 +89,18 @@ Para poder criar a instalação o utilizador deve preencher, pelo menos, os camp
 |    |                                                                                         |Código Postal                                 |||
 |    |                                                                                         |Concelho                                      |||
 |    |                                                                                         |Freguesia                                     |||
+| e) | Edifícios construídos na mesma fase?                                                    |Sim|          Número de fases de construção =1 ||
+| f) | O estabelecimento hospitalar dispõe de plano diretor? |Sim  |O plano diretor está aprovado?| Sim| Data de aprovação do plano diretor| O plano diretor está implementado?| Sim|
+|    |                                                       |     |                              | Não|                                   |                                   | Não|
+|    |                                                       |Não  |                              |    |                                   |                                   |    |
+| g) | Heliporto?                                            |Sim| Heliporto Certificado?                | Sim|
+|    |                                                      | Não|                                          ||
+|    | Heliporto Operacional?| Sim|
+|    |                       | Não|
 
+![fig40_1](img/pages/40_1.JPG)
+
+<p class="caption" id="fig40_1"> Criar Instalações – Caracterização Geral</p>
 
 |  |   Campos Obrigatórios – Caracterização Geral - ([](#fig40_2))                             |                                               ||
 |----|-----------------------------------------------------------------------------------------|-------------------------------------------|-|-|
@@ -84,28 +112,13 @@ Para poder criar a instalação o utilizador deve preencher, pelo menos, os camp
 |c) | Propriedade do(s) Edifício(s)                                                            |Arrendado                                     |||
 |    |                                                                                         |Estado                                        |||
 |    |                                                                                         |PPP                                           |||
-|    |                                                                                         |SCM                                           |||
-|d)| Se mesma morada que o estabelecimento = Não                                               |Morada                                        |||
-|    |                                                                                         |Código Postal                                 |||
-|    |                                                                                         |Concelho                                      |||
-|    |                                                                                         |Freguesia                                     |||                                                                                                                                      
-
-|  |   Campos Obrigatórios – Caracterização Geral: Campos presentes paras as 3 situações anteriores                          |                                              ||
-|----|-----------------------------------------------------------------------------------------|-------------------------------------------|-|-|
-| a) | Edifícios construídos na mesma fase?                                                    |Sim|            Número de fases de construção=1||
-|    |                                                                                         |Não|     Quantas fases de construção existiram?||
-| b) | Heliporto?                                                                              |Sim| Heliporto Certificado?                | Sim|
-|    |                                                                                         | Não|                                          ||
+| d) | O estabelecimento hospitalar dispõe de plano diretor? |Sim  |O plano diretor está aprovado?| Sim| Data de aprovação do plano diretor| O plano diretor está implementado?| Sim|
+|    |                                                       |     |                              | Não|                                   |                                   | Não|
+|    |                                                       |Não  |                              |    |                                   |                                   |    |
+| e) | Heliporto?                                           |Sim| Heliporto Certificado?                | Sim|
+|    |                                                      | Não|                                          ||
 |    | Heliporto Operacional?| Sim|
 |    |                       | Não|
-
-![fig40](img/pages/40.JPG)
-
-<p class="caption" id="fig40"> Criar Instalações – Caracterização Geral</p>
-
-![fig40_1](img/pages/40_1.JPG)
-
-<p class="caption" id="fig40_1"> Criar Instalações – Caracterização Geral</p>
 
 ![fig40_2](img/pages/40_2.JPG)
 
@@ -124,17 +137,24 @@ Pode inserir informação acerca das áreas e estacionamento, tendo de carregar 
 | b) | Estacionamento  |  N.º Lugares de estacionamento em área construída |
 ||                     |  N.º Lugares de estacionamento à superfície |
 
+
 ![fig41](img/pages/41.JPG)
 
 <p class="caption" id="fig41"> Criar Instalação - Áreas Totais e Estacionamento</p>
 
-O separador *Caracterização do Edifício* contém os dados referentes ao(s) edíficio(s) tais como o nome, a área útil do programa funcional, a área útil de projeto, a área bruta, a área de implantação, nº de pisos acima do 0, nº de pisos abaixo do 0 e área de estacionamento construído. caracterização do projeto, como os custos e datas. Estes dados devem ser inseridos para cada fase de construção dos edifícios ([](#fig42)).
+As áreas dos hospitais contemplam as áreas de prestação de cuidados de saúde e de apoio (investigação, técnicas, entre outras).
+
+Os lugares de estacionamento são os lugares de estacionamento disponíveis no estabelecimento hospitalar.
+
+
+
+O separador *Caracterização do Edifício* contém os dados referentes ao(s) edíficio(s) tais como o nome, a área útil do programa funcional, a área útil, a área bruta, a área de implantação, nº de pisos acima do solo, nº de pisos abaixo do solo e área de estacionamento construído ([](#fig42)).
 
 ![fig42](img/pages/42.JPG)
 
 <p class="caption" id="fig42"> Caracterização do Edifício</p>
 
-O separador *Projeto* contém a caracterização do projeto, como os custos e datas. Estes dados devem ser inseridos para cada fase de construção dos edifícios;
+O separador *Projeto* visa caracterizar o projeto de construção do hospital , tal como os custos associados e datas chave. Estes dados devem ser inseridos para cada fase de construção dos edifícios.
 
 ![fig43](img/pages/43.JPG)
 
@@ -148,16 +168,16 @@ O separador *Projeto* contém a caracterização do projeto, como os custos e da
 
 <p class="caption" id="fig44"> Caracterização do Projeto - Datas Chaves</p>
 
-O separador *Construção* contém a caracterização da construção, como os seus custos e os custos de equipamentos. Estes dados devem ser inseridos para cada fase de construção dos edifícios.
+O separador *Construção* visa caracterizar os custos da construção e os custos de equipamentos. Estes dados devem ser inseridos para cada fase de construção dos edifícios.
 
 ![fig45](img/pages/45.JPG)
 
 <p class="caption" id="fig45"> Caracterização da Construção</p>
 
-
+<p id="detalhe-inst"></p>
 ### 14.1.2 Detalhe
 
-É neste separador que o utilizador pode registar informação acerca da energia, águas e gases medicinais utilizados na instalação, assim como os seus custos e consumos e a produção de resíduos.
+É neste separador que o utilizador pode registar informação acerca das instalações técnicas da instalação, assim como alguns custos e consumos e a produção de resíduos.
 
 
 |   |                 Campos Obrigatórios em Detalhe - Energia   ([](#fig46)) ||
@@ -206,7 +226,7 @@ O separador *Construção* contém a caracterização da construção, como os s
 |c)|Energia elétrica produzida por aerogeradores           | |
 | d)|Combustíveis|Consumo nafta |
 |             |Custo nafta |
-|             |Consumo gasóleo|
+|             |Consumo gasóleo*|
 |             |Custo gasóleo|
 |             |Consumo outros|
 |             |Custo outros |
@@ -228,6 +248,8 @@ O separador *Construção* contém a caracterização da construção, como os s
 |                           |Custo produção em Vácuo;|
 |                           |Consumo exaustão de gases anestésicos|
 |                           |Custo exaustão de gases anestésicos|
+
+*o gasóleo consumido via frota automóvel não deve ser reportado via SGES. 
 
 |  |Campos Obrigatórios em Detalhe - Consumos e Custos  Produção de Resíduos  ([](#fig50))   ||
 |--|-----------------------------------------------------------------------------------------||
@@ -256,24 +278,18 @@ O separador *Construção* contém a caracterização da construção, como os s
 
 <p class="caption" id="fig50"> Detalhe Produção de Resíduos</p>
 
+<p id="equipamentos-crticos"></p>
 ### 14.1.3 Equipamentos Críticos 
 
-É neste separador que o utilizador pode registar informação de todos os equipamentos críticos para o funcionamento da instalação, como as instalações elétricas, instalações mecânicas e instalações de águas e esgotos.
+É neste separador que o utilizador pode registar informação referente aos equipamentos críticos para o funcionamento da unidade hospitalar, e dividindo-os de acordo com as instalações elétricas, instalações mecânicas e instalações de águas e esgotos. 
 Após o registo de cada dado, o utilizador deve clicar no botão **GUARDAR** para que a informação seja gravada.
 
 |    | Campos Obrigatórios em Equipamentos Críticos              | |
 |----|-----------------------------------------------------------|-|
-| | Instalações Elétricas ([](#fig51)), Instalações Mecânicas ([](#fig52)) ,Instalações de Águas e Esgotos ([](#fig53)) | Designação do Equipamento;    ||
-|a)| Designação | Central de deteção automático de deteção de incêndios||
-||            | Central de deteção de CO| |
-||            | Central de deteção de gás combustível||
-||            | Central de deteção de intrusão ||
-||            | Gerador(es) de emergência ||
-||            | Posto de transformação (PT)||
-||            | Quadro geral de baixa tensão (QGBT)||
-||            | UPS||
-|b)| Localização | Exterior|
-||             | Edíficio|
+| | Instalações Elétricas ([](#fig51)), Instalações Mecânicas ([](#fig52)) ,Instalações de Águas e Esgotos ([](#fig53)) ||
+|a)| Designação |(ver [16.1 Equipamentos das instalações elétricas, mecânicas e de águas e esgotos ](#listaeqcr))||
+|b)| Localização | Exterior| 
+||             | Edíficio| Localização do equipamento|
 |c)| Marca ||
 |d)| Modelo ||
 |e)| Nº série||
@@ -295,6 +311,17 @@ Após o registo de cada dado, o utilizador deve clicar no botão **GUARDAR** par
 
 <p class="caption" id="fig53"> Equipamentos Críticos - Instalações de Águas e Esgotos</p>
 
+Para cada tipo de instalação é possível filtrar a pesquisa de equipamentos.
+
+Como mostrado nas figuras anteriores, é possível importar os equipamentos de cada tipo de instalações através do carregamento de um ficheiro excel.
+
+Ao carregar no botão *Importar*, são mostradas as indicações necessárias para carregar os equipamentos críticos ([](#fig53.1)).
+
+![fig53.1](img/pages/53.1.JPG)
+
+<p class="caption" id="fig53.1"> Importação Equipamentos Críticos </p>
+
+<p id="servios"></p>
 ### 14.1.4 Serviços
 
 É neste separador que o utilizador pode registar informação relacionada com os serviços que foram realizados nas instalações do estabelecimento, assim como os seus custos e serviços de apoio.
@@ -302,17 +329,28 @@ Após o registo de cada dado, o utilizador deve clicar no botão **GUARDAR** par
 |    |                                                  |   Campos Obrigatórios em Serviços        | |
 |----|--------------------------------------------------|------------------------------------------|-|
 |a)  | Serviço de Instalação e Equipamento ([](#fig54)) | Ano de Alteração (Ano em que acontece a alteração, se estiver a criar o ano de alteração deve ser igual ao ano actual) |
-|    |                                     | Equipa de Manutenção Permanente;|
-|    |                                     | Serviço de Instalações e Equipamentos – Em regime de outsourcing;|
-|    |                                     | Número de elementos;|
+|    |                                     | Serviço de Instalações e Equipamentos – Em regime de outsourcing;| Sim|
+|    |                                     |                                                                  | Não|
+|    |                                     | Equipa de Manutenção Permanente*| Elementos externos (Se *Serviço de Instalações e Equipamentos – Em regime de outsourcing*= Sim)|
+|    |                                     |                                 | Misto (quadro e externos)|
+|    |                                     |                                 | Funcionários da entidade hospitalar| (Se *Serviço de Instalações e Equipamentos – Em regime de outsourcing*= Não)|
+|    |                                     | Número de elementos do SIE;|
+|    |                                     | Número de elementos externos;|
+|    |                                     |Número de elementos que são funcionários da entidade hospitalar;|
 |    |                                     | Em regime de outsourcing| Sim| Nome da Empresa|
+
+* A equipa de manutenção permanente é constituída pelos elementos que compõem a equipa residente de manutenção do estabelecimento hospitalar.
+
 | b) | Custos do Serviço ([](#fig55))| Orçamento anual do serviço de instalações e equipamentos;|
-| |                                         | Custos anuais com manutenção corretiva;|
+| |                                         | Custos anuais com manutenção corretiva*;|
 | |                                         | Custos anuais com contratos de manutenção;|
 | |                                         |Custos anuais com substituição de equipamento;|
 | c) | Serviços de Apoio ([](#fig56))| Esterilização serviço em outsourcing|Sim|Custos anuais com o serviço;|
 | |                                         | Existe lavandaria|Sim|Custos anuais com o serviço;|
+| |                                         | Existe Cozinha|Sim|Custos anuais com o serviço;|
 | |                                         | Resíduos serviço em outsourcing| Sim| Custos anuais com o serviço;|
+
+* Os custos anuais de manutenção devem ser relativas ao ano transato.
 
 ![fig54](img/pages/54.JPG)
 
@@ -326,42 +364,22 @@ Após o registo de cada dado, o utilizador deve clicar no botão **GUARDAR** par
 
 <p class="caption" id="fig56"> Serviços - Serviços de Apoio</p>
 
+<p id="contratos-de-manuteno"></p>
+
 ### 14.1.5 Contratos de Manutenção
 
-É neste separador que o utilizador pode registar informação dos contratos de manutenção dos equipamentos das instalações.
+É neste separador que o utilizador pode registar informação dos contratos de manutenção dos equipamentos identificados no separador *Equipamentos Críticos*.
 
 |    | Campos em Contratos de Manutenção – ([](#fig57)]     | |
 |----|-----------------------------------------------------------|-|
-|a)  |Possibilidade de filtrar pelo estado do contrato          | |
-|b)  | Equipamento com contrato de manutenção | Bomba(s) rede de incêndios |
-| |                                           | Motor(es) de cogeração |
-| |                                           | Autoclave(s)|
-| |                                           | Central de Deteção de CO |
-| |                                           | Bomba(s) circuladoras |
-| |                                           | Central de deteção de gás combustível |
-| |                                           | Chiller de adsorção |
-| |                                           | Central deteção intrusão |
-| |                                           | Câmara(s) frigorífica(s) |
-| |                                           | Gerador(es) de emergência |
-| |                                           | UPS |
-| |                                           | Posto de transformação (PT) |
-| |                                           | Gerador(es) de emergência |
-| |                                           | Máquinas de lavar/desinfetar|
-| |                                           | Quadro geral de baixa tensão (QGBT) |
-| |                                           | Bomba(s) circuladoras |
-| |                                           | Unidade de tratamento de ar (UTA) |
-| |                                           | Unidade de tratamento de ar novo (UTAN) |
-| |                                           | Bomba(s) de vácuo |
-| |                                           | Bomba(s) de ar comprimido medicinal |
-| |                                           | Central de protóxido |
-| |                                           | Central de extração de gases anestésicos |
-| |                                           | Ventilador(es) associado(s) ao sistema de incêndios |
+|a)| Identificação do Contrato ||
+|b)  | Equipamento com contrato de manutenção |Designação do equipamento crítico (ver [16.1 Equipamentos das instalações elétricas, mecânicas e de águas e esgotos ](#listaeqcr))|
 | c)| Data Início ||
 | d)| Data Fim ||
 | e) |      Tipo de Manutenção                | Preventiva |
 | |                                           | Corretiva |
 | |                                           | Preventiva e Corretiva |
-|  f)|Com peças? (Se Tipo de Manutenção = “Preventiva” ou ”Corretiva ou Preventiva”)       |                                               Sim |
+| f)|Com peças? (Se Tipo de Manutenção = “Preventiva” ou ”Corretiva ou Preventiva”)       |Sim |
 | |                                           | Não |
 | g) |      Duração do Contrato               | Semestral |
 | |                                           | Anual |
@@ -369,6 +387,11 @@ Após o registo de cada dado, o utilizador deve clicar no botão **GUARDAR** par
 | |                                           | Trianual|
 | |                                           | Quadrienal|
 | |                                           | Quinquenal|
+| i)| Estado*                                 | Em vigor  |
+|   |                                         | Anulado   |
+|   |                                         | Em vigor   |
+|   |                                         | Fechado   |
+|   |                                         | Renovado   |
 | h) |   Contrato contém SLA – Service Level Agreement?    | Sim|
 | |                                                        | Não|
 | i) |  Existe equipa de manutenção associada a este contrato?    | Sim| |Números de elementos de equipa|
@@ -378,7 +401,27 @@ Após o registo de cada dado, o utilizador deve clicar no botão **GUARDAR** par
 
 <p class="caption" id="fig57"> Contratos de Manutenção </p>
 
+*Quando um contrato é criado o seu estado é Em Vigor e este campo é não editável. 
+Durante a duração do contrato é possível anulá-lo. Para isso o utilizador deve selecionar um dos contratos, clicar no botão ‘’Anular’’([](#anular)) e indicar o motivo do anulamento do contrato.
 
+![anular](img/pages/57_1.JPG)
+
+<p class="caption" id="anular"> Possibilidade de anular um contrato em vigor </p>
+
+Se o contrato já tiver terminado (i.e., data de fim inferior à data atual), o utilizador pode renovar ou fechar o contrato. Para isso o utilizador deve selecionar um dos contratos e clicar nos respetivos botões ([](#renovar)).
+
+![renovar](img/pages/57_2.JPG)
+
+<p class="caption" id="renovar"> Possibilidade de echar ou renovar um contrato que já chegou ao fim </p>
+
+O utilizador pode filtrar a pesquisa de contratos tendo em conta o seu estado, nomeadamente, o utilizador pode pesquisar por contratos ativos, anulados ou fechados ([](#fig5_3)).
+Contratos ativos correspondem a contratos em vigor e contratos renovados.
+
+![filtrar](img/pages/52_3.JPG)
+
+<p class="caption" id="filtrar"> Pesquisa de Contratos </p>
+
+<!--<p id="avaliao-ps-ocupao"></p>
 ### 14.1.6 Avaliação Pós-Ocupação
 
 É neste separador que o utilizador pode registar informação acerca da avaliação dos edifícios da instalação; útil instrumento na implementação de melhorias na criação de edifícios no futuro.
@@ -393,8 +436,8 @@ Após o registo de cada dado, o utilizador deve clicar no botão **GUARDAR** par
 
 <p class="caption" id="fig58"> Avaliação Pós-Ocupação </p>
 
+<p id="acao-acss"></p>
 ### 14.1.7 Ações ACSS
-
 É neste separador que o utilizador pode registar informação de todas as ações que a ACSS executou naquelas instalações.
 
 |    | Campos em Ações ACSS – ([](#fig59))     | |
@@ -411,18 +454,28 @@ Após o registo de cada dado, o utilizador deve clicar no botão **GUARDAR** par
 
 ![fig59](img/pages/59.JPG)
 
-<p class="caption" id="fig59"> Ações ACSS </p>
+<p class="caption" id="fig59"> Ações ACSS </p> -->
 
+<p id="editar-instalaes"></p>  
 ## 14.2. Editar Instalações
 
 O utilizador pode navegar para a página de edição de instalação na página de instalações de estabelecimento ([](#fig39)) e clicar no botão **ALTERAR INSTALAÇÃO**.
 A edição deve respeitar o preenchimento dos campos obrigatórios identificados no ponto [12.1 Criar Instalações](#criar-instalaes)
 No final da edição o utilizador para gravar as alterações deve clicar no botão **SUBMETER** ou **GUARDAR**, dependendo dos painéis alterados. Após clicar irá ser notificado com o resultado da operação.
 
+<p id="consultar-instalaes"></p>
 ## 14.3. Consultar Instalações
 O utilizador pode navegar para a página de consulta de instalação na página de instalações de estabelecimento ([](#fig39)) e clicar no botão **CONSULTAR INSTALAÇÃO**.
 
+<p id="histrico-instalaes"></p>
 ## 14.4. Histórico Instalações
 
 A página de histórico de uma entidade pode ser acedida através da página de instalações de estabelecimento ([](#fig39)) e clicando no botão **HISTÓRICO INSTALAÇÃO** .
 Uma vez na página de histórico poderá visualizar todas as versões resultantes da edição das instalações, bem como a identificação dos campos alterados.
+
+
+
+
+
+
+
