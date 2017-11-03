@@ -8,7 +8,7 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
 		<script src="js/highslide-with-gallery.js"></script>
 		<script type="text/javascript">
-			hs.graphicsDir = '../highslide/graphics/';
+			hs.graphicsDir = '/SGES_REPO/SGES_Manual_Utilizador/highslide/graphics/';
 			hs.align = 'center';
 			hs.transitions = ['expand', 'crossfade'];
 			hs.outlineType = 'rounded-white';
@@ -66,6 +66,9 @@
 			<div id="ModuloTempoEspera" class="modulo"></div>
 			<div id="ModuloEquipamentos" class="modulo"></div>
 			<div id="ModuloValidacao" class="modulo"></div>
+			<div id="ModuloInstalacoes" class="modulo"></div>
+			<div id="ModuloAcordos" class="modulo"></div>
+			<div id="ModuloAnexos" class="modulo"></div>
 		</div>
 			
 			
@@ -85,6 +88,7 @@
 		<script src="js/skel.min.js"></script>
 		<script src="js/util.js"></script>
 		<script src="js/main.js"></script>
+		
 					
 		<script>
 			/**Carrega o html dos modulos**/
@@ -97,6 +101,8 @@
 			$("#ModuloEquipamentos").load("content/equipamento.html");
 			$("#ModuloValidacao").load("content/validacao.html");
 			$("#ModuloInstalacoes").load("content/instalacao.html");
+			$("#ModuloAcordos").load("content/MAC.html");
+			$("#ModuloAnexos").load("content/Anexos.html");
 			$("#indice").load("Indice.html");
 		</script>
 	</body>
