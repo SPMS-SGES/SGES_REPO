@@ -2,7 +2,7 @@
 /**colocar tabela mais apresentavel*/
  function atualizarTabela(){
  /**retirar borders das células vazias*/
-  $('td').each(function(){
+  $('td:not(table.tabelahtml td)').each(function(){
   if($(this).html() == "&nbsp;")
 		$(this).css("border-top","solid #005082 1.0pt");
 		$(this).css("border-bottom","none");
