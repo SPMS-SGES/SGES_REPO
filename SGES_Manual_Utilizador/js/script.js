@@ -2,7 +2,7 @@
 /**colocar tabela mais apresentavel*/
  function atualizarTabela(){
  /**retirar borders das células vazias*/
-  $('td').each(function(){
+  $('td:not(table.tabelahtml td)').each(function(){
   if($(this).html() == "&nbsp;")
 		$(this).css("border-top","solid #005082 1.0pt");
 		$(this).css("border-bottom","none");
@@ -33,7 +33,7 @@ $('tr').each(function(){
  function zommClickImagem() {
 	 $('#paginas p>img:not([alt="logo"])').each(function(){
 		 var alt = $(this).attr("alt")
-		 if(alt != "figAlteracaoSenha" && alt != "figLogin" && alt !="figLoginRecuperacao")
+		 if(alt != "figAlteracaoSenha" && alt != "figLogin" && alt !="figLoginRecuperacao" && alt != "figFT" && alt != "figacordos_convencoes" && alt != "figDef" && alt != "figManual")
 		 $(this).wrap("<a class='imagem' href='"+$(this).attr( "src" ) + "' onclick='return hs.expand(this)'></a>"); 
 });
 }
