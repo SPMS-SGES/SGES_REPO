@@ -3,7 +3,7 @@ layout: default
 title: "Introdução"
 ---
 
-
+<p id="sobre-este-manual"></p>
 # 1.Sobre este Manual
 Este manual descreve o modo de funcionamento do sistema, apresentando os respectivos ecrãs, sua sequência, modo de preenchimento e as regras de negócio que lhe estão subjacentes. 
 Será organizado:
@@ -13,14 +13,18 @@ Será organizado:
  - “Tabela de  Acrónimos”, que contém todos os acrónimos usados ao longo deste manual e que permitirá que o utilizador fique familiarizado com determinadas abreviaturas apresentadas na aplicação; 
  - “Introdução”,   onde é apresentado o sistema SGES, qual o seu contexto e propósito e os propósitos da utilização da aplicação informática;
 - “Conceitos básicos”, onde se explicam os principais conceitos que suportam a aplicação, em particular, o conceito de “navegação" no sistema, explicando o que se entende por isso. Este capítulo inclui os seguintes sub-capítulos:
- 	 * “Aceder ao SGES”, onde é descrito como o utilizador pode aceder ao sistema;
-	 * “Alteração da senha”, onde é descrito a sequência de ações que o utilizador tem de realizar para alterar a sua senha;
-	 * “Página de pesquisa”, onde é apresentado o menu de pesquisa da aplicação;
-	 “Gestão de utilizadores”, onde é apresentada a possibilidade de criar e gerir utilizadores;
+
+	* “Aceder ao SGES”, onde é descrito como o utilizador pode aceder ao sistema;
+	* “Alteração da senha”, onde é descrito a sequência de ações que o utilizador tem de realizar para alterar a sua senha;
+	* “Página de pesquisa”, onde é apresentado o menu de pesquisa da aplicação;
+	* “Gestão de utilizadores”, onde é apresentada a possibilidade de criar e gerir utilizadores;
+
 - “Sequências de menus”, onde são apresentados os menus, aos quais o utilizador pode aceder através da aplicação, e as suas funcionalidades.
 
 Este manual foi desenvolvido com o intuito de agilizar a interação das entidade ULS, Centros Hospitalares e Hospitais do Sistema Nacional de Saúde com 
 a aplicação SGES.
+
+<p id="tabela-de-acrnimos"></p>
 
 # 2.Tabela de Acrónimos
 
@@ -40,7 +44,7 @@ Na tabela seguinte estão apresentadas a siglas, ordenadas por ordem alfabética
 |  SPMS  |  Serviços Partilhados do Ministério da Saúde|               
 |  PPP   |  Parceria Público-Privada|           
  
- 
+<p id="termos-e-definies"></p>
 # 3.Introdução
 O Sistema de Gestão de Entidades de Saúde (*SGES*) é um projeto estruturante para o sistema de informação de saúde, promovendo a criação de um repositório central de Entidades de Saúde, fiável e permanentemente atualizado, a partilhar com todos os SI, eliminando a redundância de informação e promovendo o aumento da qualidade dos dados.
 Considerando a evolução dos requisitos funcionais e técnicos, resultante das iterações ocorridas com os diferentes intervenientes ao longo do projeto a que este sistema deu origem, identificam-se como principais objetivos conseguir através do SGES:
@@ -53,6 +57,7 @@ Considerando a evolução dos requisitos funcionais e técnicos, resultante das 
 * Reduzir o número de interações entre o cidadão e os serviços do SNS, para obtenção de informação sobre entidades convencionadas;
 * Otimizar a gestão dos recursos disponíveis.
 
+<p id="conceitos-bsicos"></p>
 # 4.Conceitos Básicos
 
 Associada a essa interação existe um conjunto de conceitos que serão referidos neste capítulo.
@@ -112,6 +117,7 @@ Estes são clicáveis o que permite ao utilizador voltar a uma página já naveg
 
 De modo a familiarizar o utilizador com a aplicação, apresentam-se, de seguida, alguns exemplos ilustrativos de ações fundamentais para interagir com o SGES.
 
+<p id="aceder-ao-sges"></p>
 ## 4.1. Aceder ao SGES
 
 O acesso ao SGES é realizado através da navegação até ao seu endereço em [http://sges.min-saude.pt/SGES/login.html](http://sges.min-saude.pt/SGES/login.html) num *browser* de internet.
@@ -127,13 +133,13 @@ Caso contrário, deverá clicar em **Recuperar Senha**, deve preencher os campos
 
 |    |  Campos Obrigatórios [](#figLoginRecuperacao) |           
 |----|----------------------------------------|
-| a) | 	Endereço eletrónico* associado à conta da aplicação ou nome de utilizador  |  
+| a) | Endereço eletrónico* associado à conta da aplicação ou nome de utilizador|  
 
 ![figLoginRecuperacao](img/pages/5_1_2.jpg)
 
 <p class="caption" id="figLoginRecuperacao"> Recuperação da Senha </p>
 
-* Só será possível recuperar a senha indicando o endereço eletrónico se este estiver associado apenas a um utilizador.
+\* Só será possível recuperar a senha indicando o endereço eletrónico se este estiver associado apenas a um utilizador.
 
 Junto ao logotipo do SGES, encontra-se o botão de atalho para os diferentes menus [](#figatalho_menu). Este botão permite ao utilizador, em qualquer momento na navegação, mudar para um determinado menu.
 
@@ -143,9 +149,10 @@ Junto ao logotipo do SGES, encontra-se o botão de atalho para os diferentes men
 
 Na primeira vez que o utilizador acede à aplicação, aparecerá a página de ([5.2. Alteração da senha](#alterao-da-senha)).  
 
+<p id="alteracao-de-senha"></p>
 ## 4.2. Alteração da senha
 
-A qualquer momento, o utilizador pode fazer a alteração da sua senha, clicando no botão das opções avançadas situado no canto superior direito da página ([4.Conceitos Básicos](#conceitos-bsicos)). 
+A qualquer momento, o utilizador pode fazer a alteração da sua senha, clicando no botão das opções avançadas situado no canto superior direito da página ~[4.Conceitos Básicos](#conceitos-bsicos). 
 Após clicar em **Alterar Password** é apresentada uma página de alteração de senha, [](#figAlteracaoSenha). O utilizador deverá inserir os campos obrigatórios ( ver tabela abaixo e [](#figAlteracaoSenha).
 
 |    |  Campos Obrigatórios                   |           
@@ -160,15 +167,18 @@ Após o preenchimento dos campos, o utilizador deverá finalizar a alteração c
 
 <p class="caption" id="figAlteracaoSenha"> Página de alteração de senha </p>
 
+<p id="pgina-de-pesquisa"></p>
 ## 4.3. Gestão de utilizadores
 <p id="gestaoUtilizadores"></p>
 
-O utilizador, se tiver permissões, pode criar/gerir utilizadores para atualizarem os diferentes painéis no SGES na entidade respetiva.
+O utilizador tiver o perfil de administrador (ARS_ADMIN ou ADMIN_ENTIDADE), pode criar/gerir utilizadores para atualizarem os diferentes painéis no SGES na entidade respetiva.
 É possível criar utilizadores com os seguintes perfis:
 
-* **SGES_ENTIDADE** - Os utilizadores com este perfil poderão executar as operações sobre a *entidade* assim como criar e alterar *estabelecimentos*.
+* **SGES_ENTIDADE** - Os utilizadores com este perfil poderão executar as operações sobre a *entidade* assim como criar e alterar *estabelecimentos*;
 
-* **SGES_EQUIPAMENTOS** - Os utilizadores com este perfil poderão executar as operações sobre os *equipamentos* médicos pesados e sobre a *produção* dos mesmos.
+* **SGES_EQUIPAMENTOS** - Os utilizadores com este perfil poderão executar as operações sobre os *equipamentos* médicos pesados e sobre a *produção* dos mesmos;
+
+* **SGES_INSTALACOES** - Os utilizadores com este perfil poderão executar as operações sobre as *instalações* de cada estabelecimento médico.
 
 Para criar novos utilizadores, o utilizador deve clicar no botão das opções avançadas situado no canto superior direito da página 
 ([](#conceitos-bsicos)). Após clicar em **Gestão de Utilizadores**, aparecerá a página de **Gestão de Utilizadores** [](#figGestaoUtilizadores).
@@ -197,11 +207,15 @@ Para a criação de um utilizador devem ser preenchidos os seguintes campos obri
 
 No final da edição o utilizador para gravar as alterações deve clicar no botão **GUARDAR**. Após clicar irá ser notificado com o resultado da operação.
 
-4.4. Natureza Jurídica e os seus campos
+No SGES podem ainda existir utilizadores com outros perfis. No subcapítulo [16.2 Perfis e respetivas permissões ](#listaperfis) é possível consultar a lista de perfis, e respetivas permissões, disponíveis no SGES.
+
+<p id="natureza-juridica"></p>
+## 4.4. Natureza jurídica e os seus campos
 As entidades públicas - ULS, Centros Hospitalares e Hospitais do SNS - têm acesso a informações relativas a entidades, estabelecimentos,equipamentos e instalações (ver capítulos 6 a 14 inclusive).
 
 Informações relativas a Acordos/Convenções são acedidas, exclusivamente, pelas ARSs ACSS (ver capítulo 15).
 
+<p id="home"></p>
 ## 5. Menu Principal
 
 Uma vez identificado e autenticado, é apresentado ao utilizador o menu principal do SGES onde pode aceder às diferentes funcionalidades que lhe estão disponíveis consoante o seu perfil; caso o utilizador tenha o perfil de administração de uma entidade pública o menu principal será o mostrado na [](#figura_menu_ADMIN_entidade).
@@ -224,32 +238,4 @@ Para além dos menus mostrados na figura anterior, existe ainda o menu Acordos e
 O menu Acordos e Convenções, que permite a gestão de acordos e convenções, pode ser acedido por utilizadores com o perfil ACSS e ARS. 
 
 Por sua vez, o menu Ficha Técnica, que permite o carregamento de fichas técnicas, pode ser acedido por utilizadores com o perfil ACSS. 
-
-## 5.1. Página de Pesquisa
-A página de pesquisa [](#figPesquisaEntidade) é a página de entrada de todos os menus e permite a pesquisa de entidades ou estabelecimentos.
-
-Caso pretenda pesquisar por entidades, o utilizador deverá selecionar **Entidade** no campo *Pesquisar por:* presente no formulário e preencher pelo menos 3 campos de pesquisa. Em seguida clicar em **Pesquisar** para executar a pesquisa (ver tabela abaixo e [](#figPesquisaEntidade)) .
-
-|   |  Campos Obrigatórios                    |           
-|----|----------------------------------------|
-| a) | Campo de identificação do tipo de pesquisa | 
-
-![figPesquisaEntidade](img/pages/5_3_1.jpg)
-
-<p class="caption" id="figPesquisaEntidade"> Pesquisa de entidade </p>
-
-Caso pretenda pesquisar por estabelecimentos, o utilizador deverá selecionar **Estabelecimentos** no campo *Pesquisar por:* presente no formulário e preencher pelo menos 3 campos de pesquisa. Em seguida clicar em **Pesquisar** para executar a pesquisa [](#figPesquisaEntidade).
-
-![[](#figPesquisaEntidade) ](img/pages/5_3_2.jpg)
-
-<p class="caption" id="figPesquisaEstabelecimento"> Pesquisa de estabelecimentos </p>
-
-Na próxima imagem ([](#figPesquisaExEntidade)) podemos observar o resultado da pesquisa onde se pretende listar todos os centros hospitalares públicos no distrito do Porto.
-
-![figPesquisaExEntidade](img/pages/5_3_3.jpg)
-
-<p class="caption" id="figPesquisaExEntidade"> Pesquisa exemplo de entidades </p>
-
-Clicando num dos registos da lista, o utilizador pode clicar nas opções que se encontram no final da tabela.
-Se a lista de resultados for superior a dez registos, surgirá no canto superior da tabela a navegação para a(s) próxima(s) página(s).
 
