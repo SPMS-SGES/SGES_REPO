@@ -131,11 +131,13 @@ Caso contrário, deverá clicar em **Recuperar Senha**, deve preencher os campos
 
 |    |  Campos Obrigatórios [](#figLoginRecuperacao) |           
 |----|----------------------------------------|
-| a) | Endereço eletrónico associado à conta da aplicação ou *username*|  
+| a) | Endereço eletrónico* associado à conta da aplicação ou *username*|  
 
 ![figLoginRecuperacao](img/pages/5_1_2.jpg)
 
 <p class="caption" id="figLoginRecuperacao"> Recuperação da Senha </p>
+
+* Só será possível recuperar a senha indicando o endereço eletrónico se este estiver associado apenas a um utilizador.
 
 Junto ao logotipo do SGES, encontra-se o botão de atalho para os diferentes menus [](#figatalho_menu). Este botão permite ao utilizador, em qualquer momento na navegação, mudar para um determinado menu.
 
@@ -234,7 +236,4 @@ Para além dos menus mostrados na figura anterior, existe ainda o menu Acordos e
 O menu Acordos e Convenções, que permite a gestão de acordos e convenções, pode ser acedido por utilizadores com o perfil ACSS e ARS. 
 
 Por sua vez, o menu Ficha Técnica, que permite o carregamento de fichas técnicas, pode ser acedido por utilizadores com o perfil ACSS. 
-
-
-
 
