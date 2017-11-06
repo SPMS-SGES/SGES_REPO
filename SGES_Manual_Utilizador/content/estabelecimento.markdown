@@ -53,9 +53,9 @@ Na tabela abaixo e na [](#figPainelGabCidadao) são mostrados os campos de preen
 
 |    | Campos Obrigatórios do painel do gabinete do cidadão |      |
 |----|---------------------------------------------------|----------|
-| m) |E-mail do Gabinete Cidadão ||
-| n) |Telefone do Gabinete Cidadão ||
-| m) |Site Tabela Preços em vigor (É uma tabela de preços em vigor para os cuidados a prestar pelo hospital. (São os preços a pagar por um utente independente, sem qualquer sistema de saúde) )||
+| a) |E-mail do Gabinete Cidadão ||
+| b) |Telefone do Gabinete Cidadão ||
+| c) |Site Tabela Preços em vigor (É uma tabela de preços em vigor para os cuidados a prestar pelo hospital. (São os preços a pagar por um utente independente, sem qualquer sistema de saúde)||
 
 
 ![figCriarEstabelecimento](img/pages/7_1_1.jpg)

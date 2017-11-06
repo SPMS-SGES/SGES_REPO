@@ -29,6 +29,59 @@ efetuar o registo do equipamento.
 <p id="identificao"></p>
 ### 12.1.1. Identificação
 
+
+<table class="tabelaPermissao">
+	<tbody>
+	<tr style="text-align: center;">
+		<td style="border-bottom: none; border-right: none; border-left: 1pt solid rgb(0, 80, 130)" colspan="6">
+			<strong>Campos Obrigatórios da ([](#figCriarEquipamento))</strong>
+		</td>
+	</tr>
+	<tr>
+		<td style="padding-left: 10px;" colspan="6"> a) Designação </td>
+	</tr>
+	<tr>
+		<td style="padding-left:10px;" colspan="6"> b) Número de série </td>
+	</tr>
+	<tr>
+		<td style="padding-left: 10px;" colspan="6">c) Posto de trabalho (todos os serviços a que um equipamento se encontra associado devem ser considerados)  </td>
+	</tr>
+	<tr>
+		<td style="padding-left: 10px;" colspan="6">d) Marca </td>
+	</tr>  
+	<tr>
+		<td style="padding-left: 10px;" colspan="6"> e) Modelo </td>
+	</tr>  
+	<tr>
+		<td style="padding-left: 10px;" colspan="6"> f) Se Designação = Acelerador Linear,Angiógrafo,Câmara Gama, Câmara Hiperbárica,RM, RM (Dedicada exclusivamente à Radioterapia),TC ou TC (Dedicada exclusivamente à Radioterapia)  </td>
+	</tr>  
+	<tr>
+		<td style="padding-left: 10px;" colspan="5" rowspan="2"> g) Produção para Exterior? </td>
+		<td> Sim </td>
+	</tr>  
+	<tr>
+		<td> Não </td>
+	</tr>  
+	<tr>
+		<td style="padding-left: 10px;" rowspan="2"> h)O equipamento é partilhado por mais alguma entidade? </td>
+		<td> Sim </td>
+		<td> A entidade pertence ao SNS? </td>
+		<td> Sim </td>
+		<td> Tipo de Entidade </td>
+		<td> Entidade* </td>
+	</tr>  
+	<tr>
+		<td> Não </td>
+		<td colspan="3"> Qual o nome da entidade? </td>
+	</tr>     
+	</tbody>
+</table>
+
+
+
+
+
+
 |    | Campos Obrigatórios da ([](#figCriarEquipamento))         |      |
 |----|----------------------------------------------------|----------|
 | a) | Designação                                         |      |
@@ -40,9 +93,9 @@ efetuar o registo do equipamento.
 | g) | Produção para Exterior?                          | Sim     |
 |    |                                                  | Não     |
 | h) | O equipamento é partilhado por mais alguma entidade? | Sim| A entidade pertence ao SNS?| |Sim| Tipo de Entidade| |Entidade*|
-|    |                                                      |Não| Qual o nome da entidade?|
+|    |                                                      |Não| Qual o nome da entidade?|    ||     |||
 
-* Para que seja possível selecionar a entidade o utilizador deve, primeiro, selecionar o tipo de entidade.
+\* Para que seja possível selecionar a entidade o utilizador deve, primeiro, selecionar o tipo de entidade.
 
 ![figCriarEquipamento](img/pages/12_1_1_1.PNG)
 
@@ -103,7 +156,7 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar o equipamento. 
 | d) | Tipo de Utilização                    	        | Exclusiva do serviço* |
 |                                                       | Partilhada por Diferentes Serviços |
 
-Caso o tipo de utilização seja exclusiva do serviço, têm de existir os serviços que constam nas especialidades do estabelecimento ([](#figEspecialidade)).
+\* Caso o tipo de utilização seja exclusiva do serviço, têm de existir os serviços que constam nas especialidades do estabelecimento ([](#figEspecialidade)).
 
 ![figAtividade](img/pages/12_1_2_4.PNG)
 
@@ -146,7 +199,7 @@ Caso o tipo de utilização seja exclusiva do serviço, têm de existir os servi
 ||                                                   	  | Não||
 | c) | Observação                                         |    | |                   
 
-• O campo *autorização ministerial* não é aplicável para equipamentos com Designação =Câmara Hiperbárica, RM, RM (Dedicada Exclusivamente à Radioterapia), Robot Cirúrgico (tipo D’avinci), Simulador, TC, TC-Simulador e TC (Dedicada exclusivamente à radioterapia); 
+\* O campo *autorização ministerial* não é aplicável para equipamentos com Designação =Câmara Hiperbárica, RM, RM (Dedicada Exclusivamente à Radioterapia), Robot Cirúrgico (tipo D’avinci), Simulador, TC, TC-Simulador e TC (Dedicada exclusivamente à radioterapia); 
 
 Depois de o utilizador selecionar a data da licença, o campo *período de vigência* (que se encontra sempre inativo) fica, automaticamente, preenchido com 5 anos.
 

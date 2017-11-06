@@ -13,10 +13,12 @@ Será organizado:
  - “Tabela de  Acrónimos”, que contém todos os acrónimos usados ao longo deste manual e que permitirá que o utilizador fique familiarizado com determinadas abreviaturas apresentadas na aplicação; 
  - “Introdução”,   onde é apresentado o sistema SGES, qual o seu contexto e propósito e os propósitos da utilização da aplicação informática;
 - “Conceitos básicos”, onde se explicam os principais conceitos que suportam a aplicação, em particular, o conceito de “navegação" no sistema, explicando o que se entende por isso. Este capítulo inclui os seguintes sub-capítulos:
- 	 * “Aceder ao SGES”, onde é descrito como o utilizador pode aceder ao sistema;
-	 * “Alteração da senha”, onde é descrito a sequência de ações que o utilizador tem de realizar para alterar a sua senha;
-	 * “Página de pesquisa”, onde é apresentado o menu de pesquisa da aplicação;
-	 “Gestão de utilizadores”, onde é apresentada a possibilidade de criar e gerir utilizadores;
+
+	* “Aceder ao SGES”, onde é descrito como o utilizador pode aceder ao sistema;
+	* “Alteração da senha”, onde é descrito a sequência de ações que o utilizador tem de realizar para alterar a sua senha;
+	* “Página de pesquisa”, onde é apresentado o menu de pesquisa da aplicação;
+	* “Gestão de utilizadores”, onde é apresentada a possibilidade de criar e gerir utilizadores;
+
 - “Sequências de menus”, onde são apresentados os menus, aos quais o utilizador pode aceder através da aplicação, e as suas funcionalidades.
 
 Este manual foi desenvolvido com o intuito de agilizar a interação das entidade ULS, Centros Hospitalares e Hospitais do Sistema Nacional de Saúde com 
@@ -131,13 +133,13 @@ Caso contrário, deverá clicar em **Recuperar Senha**, deve preencher os campos
 
 |    |  Campos Obrigatórios [](#figLoginRecuperacao) |           
 |----|----------------------------------------|
-| a) | Endereço eletrónico* associado à conta da aplicação ou *username*|  
+| a) | Endereço eletrónico* associado à conta da aplicação ou nome de utilizador|  
 
 ![figLoginRecuperacao](img/pages/5_1_2.jpg)
 
 <p class="caption" id="figLoginRecuperacao"> Recuperação da Senha </p>
 
-* Só será possível recuperar a senha indicando o endereço eletrónico se este estiver associado apenas a um utilizador.
+\* Só será possível recuperar a senha indicando o endereço eletrónico se este estiver associado apenas a um utilizador.
 
 Junto ao logotipo do SGES, encontra-se o botão de atalho para os diferentes menus [](#figatalho_menu). Este botão permite ao utilizador, em qualquer momento na navegação, mudar para um determinado menu.
 
