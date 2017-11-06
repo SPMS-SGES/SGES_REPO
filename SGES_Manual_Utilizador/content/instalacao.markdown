@@ -249,7 +249,7 @@ O separador *Construção* visa caracterizar os custos da construção e os cust
 |                           |Consumo exaustão de gases anestésicos|
 |                           |Custo exaustão de gases anestésicos|
 
-*o gasóleo consumido via frota automóvel não deve ser reportado via SGES. 
+\* O gasóleo consumido via frota automóvel não deve ser reportado via SGES. 
 
 |  |Campos Obrigatórios em Detalhe - Consumos e Custos  Produção de Resíduos  ([](#fig50))   ||
 |--|-----------------------------------------------------------------------------------------||
@@ -339,7 +339,7 @@ Ao carregar no botão *Importar*, são mostradas as indicações necessárias pa
 |    |                                     |Número de elementos que são funcionários da entidade hospitalar;|
 |    |                                     | Em regime de outsourcing| Sim| Nome da Empresa|
 
-* A equipa de manutenção permanente é constituída pelos elementos que compõem a equipa residente de manutenção do estabelecimento hospitalar.
+\* A equipa de manutenção permanente é constituída pelos elementos que compõem a equipa residente de manutenção do estabelecimento hospitalar.
 
 | b) | Custos do Serviço ([](#fig55))| Orçamento anual do serviço de instalações e equipamentos;|
 | |                                         | Custos anuais com manutenção corretiva*;|
@@ -350,7 +350,7 @@ Ao carregar no botão *Importar*, são mostradas as indicações necessárias pa
 | |                                         | Existe Cozinha|Sim|Custos anuais com o serviço;|
 | |                                         | Resíduos serviço em outsourcing| Sim| Custos anuais com o serviço;|
 
-* Os custos anuais de manutenção devem ser relativas ao ano transato.
+\* Os custos anuais de manutenção devem ser relativas ao ano transato.
 
 ![fig54](img/pages/54.JPG)
 
