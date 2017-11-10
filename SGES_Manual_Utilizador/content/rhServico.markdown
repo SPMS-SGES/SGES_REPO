@@ -7,6 +7,7 @@ updated_on: 2015-10-06
 translation_priority: 1
 order: 3
 ---
+<p id="rh-servios"></p>
 
 # 8. RH Serviços
 
@@ -64,14 +65,14 @@ O utilizador pode consultar a lista dos recursos humanos afetos a serviços numa
 | h) | Nº horas extraordinárias/ano                            |   | 
 | i) | Nº horas prevenção                                      |   | 
 | j) | Nº horas ao atos contratados                            |   | 
-| k) | Nº de exames contratados                                |   | 
-
+| k) | Trabalho em regime de telerradiologia? (se grupo profissional= médico e área de afetação=  radiologia)                               |   | 
+| k) | Observações                                             |   | 
 
 ![figCriarRhServicos](img/pages/8_1_1.jpg)
 
 <p class="caption" id="figCriarRhServicos"> Criar RH Serviços</p>
 
-Após o registo dos dados deve clicar em **GUARDAR** para gravar o RH Serviço. Após clicar irá ser notificado com o resultado da operação.
+Após o registo dos dados, o utilizador deve clicar em **GUARDAR** para gravar o RH Serviço. Após clicar irá ser notificado com o resultado da operação.
 
 <p id="consultaRhEquipamento"></p>
 
@@ -89,7 +90,7 @@ No final da edição o utilizador para gravar as alterações deve clicar no bot
 
 <p id="removeRhEquipamento"></p>
 
-##8.3. Apagar RH Serviço
+## 8.4. Apagar RH Serviço
  
  O utilizador pode apagar um RH Serviço após selecionar um RH Serviço da lista de RH Serviços existentes numa entidade ([](#figRhAfetosEntidade)) e clicar no botão **APAGAR**. 
  Após clicar irá ser notificado com o resultado da operação.
