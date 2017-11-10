@@ -318,18 +318,17 @@ Ao carregar no botão **Importar**, são mostradas as indicações necessárias 
 
 |    |                                                  |   Campos Obrigatórios em Serviços        | |
 |----|--------------------------------------------------|------------------------------------------|-|
-|a)  | Serviço de Instalação e Equipamento ([](#fig54)) |                                          | |
-
-|    |                                     | Ano de Alteração|
-|    |                                     | Serviço de Instalações e Equipamentos – Em regime de outsourcing| Sim|
-|    |                                     |                                                                  | Não|
-|    |                                     | Equipa de Manutenção Permanente*| Elementos externos (Se *Serviço de Instalações e Equipamentos – Em regime de outsourcing*= Sim)|
-|    |                                     |                                 | Misto (quadro e externos)|
-|    |                                     |                                 | Funcionários da entidade hospitalar| (Se *Serviço de Instalações e Equipamentos – Em regime de outsourcing*= Não)|
-|    |                                     | Número de elementos do SIE|
-|    |                                     | Número de elementos externos|
-|    |                                     |Número de elementos que são funcionários da entidade hospitalar|
-|    |                                     | Em regime de outsourcing| Sim| Nome da Empresa|
+|a)  | Serviço de Instalação e Equipamento ([](#fig54)) |||
+|  |                                      |Ano de Alteração|
+|  |                                      |Serviço de Instalações e Equipamentos – Em regime de outsourcing| Sim|
+|  |                                                                                                       | Não|
+|  |                                      Equipa de Manutenção Permanente*| Elementos externos (Se *Serviço de Instalações e Equipamentos – Em regime de outsourcing*= Sim)|
+|  |                                     |                                 | Misto (quadro e externos)|
+|  |                                     |                                 | Funcionários da entidade hospitalar| (Se *Serviço de Instalações e Equipamentos – Em regime de outsourcing*= Não)|
+|  |                                     | Número de elementos do SIE|
+|  |                                     | Número de elementos externos|
+|  |                                     |Número de elementos que são funcionários da entidade hospitalar|
+|  |                                     | Em regime de outsourcing| Sim| Nome da Empresa|
 
 \* A equipa de manutenção permanente é constituída pelos elementos que compõem a equipa residente de manutenção do estabelecimento hospitalar.
 
