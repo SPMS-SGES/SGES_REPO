@@ -45,7 +45,7 @@ Para o Registo de Instalações será necessário primeiro submeter os campos da
 <p id="caracterizao-inst"></p>
 ### 14.1.1 Caracterização
 
-Para poder criar a instalação o utilizador deve preencher, pelo menos, os campos obrigatórios da *Caracterização Geral* e clicar em **SUBMETER**;
+Para poder criar a instalação o utilizador deve preencher, pelo menos, os campos obrigatórios da *Caracterização Geral* e clicar em **SUBMETER**.
 
 
 |    |                            Campos Obrigatórios – Caracterização Geral - ([](#fig40))    |                                              ||
@@ -73,6 +73,12 @@ Para poder criar a instalação o utilizador deve preencher, pelo menos, os camp
 
 <p class="caption" id="fig40"> Criar Instalações – Caracterização Geral</p>
 
+
+Os serviços de urgência básica (SUB) (ver [](#fig40_0)) da entidade devem ser indicados como edifícios. 
+
+![fig40_0](img/pages/40.JPG)
+
+<p class="caption" id="fig40_0"> Lista de SUB de uma entidade. </p>
 
 |    |   Campos Obrigatórios – Caracterização Geral - ([](#fig40_1))                            |                                            ||
 |----|-----------------------------------------------------------------------------------------|-------------------------------------------|-|-|
@@ -206,7 +212,7 @@ O separador *Construção* visa caracterizar os custos da construção e os cust
 |   |                           |   |                                  |F     |
 
 
-* Na criação da instalação, o campo *ano* é para preencher com o ano corrente; caso a instalação já exista no SGES e tenha sofrido alterações, deve inserir-se o ano em que ocorreu a alteração.
+\* Na criação da instalação, o campo *ano* é para preencher com o ano corrente; caso a instalação já exista no SGES e tenha sofrido alterações, deve inserir-se o ano em que ocorreu a alteração.
 
 ![fig46](img/pages/46.JPG)
 
@@ -414,7 +420,7 @@ Contratos ativos correspondem a contratos em vigor e contratos renovados.
 
 <p class="caption" id="filtrar"> Pesquisa de Contratos </p>
 
-<!--<p id="avaliao-ps-ocupao"></p>
+<!--<p id="avaliao-ps-ocupao"></p> 
 ### 14.1.6 Avaliação Pós-Ocupação
 
 É neste separador que o utilizador pode registar informação acerca da avaliação dos edifícios da instalação; útil instrumento na implementação de melhorias na criação de edifícios no futuro.
