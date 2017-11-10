@@ -322,7 +322,7 @@ Ao carregar no botão **Importar**, são mostradas as indicações necessárias 
 |  |                                      |Ano de Alteração|
 |  |                                      |Serviço de Instalações e Equipamentos – Em regime de outsourcing| Sim|
 |  |                                                                                                       | Não|
-|  |                                      Equipa de Manutenção Permanente*| Elementos externos (Se *Serviço de Instalações e Equipamentos – Em regime de outsourcing*= Sim)|
+|  |                                      |Equipa de Manutenção Permanente*| Elementos externos (Se *Serviço de Instalações e Equipamentos – Em regime de outsourcing*= Sim)|
 |  |                                     |                                 | Misto (quadro e externos)|
 |  |                                     |                                 | Funcionários da entidade hospitalar| (Se *Serviço de Instalações e Equipamentos – Em regime de outsourcing*= Não)|
 |  |                                     | Número de elementos do SIE|
