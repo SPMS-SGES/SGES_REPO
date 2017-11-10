@@ -114,7 +114,7 @@ Após o preenchimento da identificação do estabelecimento, dependendo do tipo 
 ||                                       |  Capacidade Lotação| 
 
 
- \* Um dos valores possíveis para to tipo de área é o quarto de isolamento. Estes são identificados pelo seu grau, nomeadamente,:
+ \* Um dos valores possíveis para to tipo de área é o quarto de isolamento. Estes são identificados pelo seu grau, nomeadamente:
 
    * Quarto de Isolamento de GRAU III: quarto individual fechado, bem ventilado;
 
@@ -209,9 +209,8 @@ Uma vez na página de **Encerrar Estabelecimento** ([](#figEncerraEstabeleciment
 
 ## 7.6. Histórico Estabelecimento 
 
-A página de histórico de um estabelecimento pode ser acedida através da pesquisa de estabelecimentos ([](#figPesquisaEstabelecimento))  ou através da página de estabelecimentos associados a uma entidade ([](#figEstEntidade)) , selecionando uma entidade da lista de resultados e clicando no botão **HISTÓRICO**.
-Uma vez na página de histórico ([](#figHistoricoEstabelecimento)), o utilizador  pode visualizar todas as versões resultantes da edição do estabelecimento, bem como a identificação dos campos alterados.
-
+A página de histórico de um estabelecimento pode ser acedida através da pesquisa de estabelecimentos ([](#figCamposPesquisaEntidade))  ou através da página de estabelecimentos associados a uma entidade ([](#figEstEntidade)) , selecionando uma entidade da lista de resultados e clicando no botão **HISTÓRICO**.
+Uma vez na página de histórico ([](#figHistoricoEstabelecimento)), o utilizador poderá visualizar todas as versões resultantes da edição da entidade, a data em que as alterações foram efetuadas, o utilizador que as realizou, bem como a identificação dos campos alterados.
 ![figHistoricoEstabelecimento](img/pages/7_6_1.jpg)
 
 <p class="caption" id="figHistoricoEstabelecimento"> Histórico de Estabelecimento </p>
