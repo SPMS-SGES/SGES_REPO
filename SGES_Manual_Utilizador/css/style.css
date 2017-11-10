@@ -378,14 +378,6 @@ border-left:    solid #005082 1.0pt;
 border-top:    solid #005082 1.0pt;
 }
 
-.modulo table.tabelahtml tbody th {
-border:    solid #005082 1.0pt;
-}
-
-.modulo table.tabelahtml td {
-border:    solid #005082 1.0pt;
-
-}
 #accordion li {
 	cursor: pointer;
 }
