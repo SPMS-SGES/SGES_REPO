@@ -29,55 +29,6 @@ efetuar o registo do equipamento.
 <p id="identificao"></p>
 ### 12.1.1. Identificação
 
-
-<table class="tabelaPermissao">
-	<tbody>
-	<tr style="text-align: center;">
-		<td style="border-bottom: none; border-right: none; border-left: 1pt solid rgb(0, 80, 130)" colspan="6">
-			<strong>Campos Obrigatórios da Identificação do Equipamento ([](#figCriarEquipamento))</strong>
-		</td>
-	</tr>
-	<tr>
-		<td style="padding-left: 10px;" colspan="6"> a) Designação </td>
-	</tr>
-	<tr>
-		<td style="padding-left:10px;" colspan="6"> b) Número de série </td>
-	</tr>
-	<tr>
-		<td style="padding-left: 10px;" colspan="6">c) Posto de trabalho (todos os serviços a que um equipamento se encontra associado devem ser considerados)  </td>
-	</tr>
-	<tr>
-		<td style="padding-left: 10px;" colspan="6">d) Marca </td>
-	</tr>  
-	<tr>
-		<td style="padding-left: 10px;" colspan="6"> e) Modelo </td>
-	</tr>  
-	<tr>
-		<td style="padding-left: 10px;" colspan="6"> f) Se Designação = Acelerador Linear,Angiógrafo,Câmara Gama, Câmara Hiperbárica,RM, RM (Dedicada exclusivamente à Radioterapia),TC ou TC (Dedicada exclusivamente à Radioterapia)  </td>
-	</tr>  
-	<tr>
-		<td style="padding-left: 10px;" colspan="5" rowspan="2"> g) Produção para Exterior? </td>
-		<td> Sim </td>
-	</tr>  
-	<tr>
-		<td> Não </td>
-	</tr>  
-	<tr>
-		<td style="padding-left: 10px;" rowspan="2"> h)O equipamento é partilhado por mais alguma entidade? </td>
-		<td> Sim </td>
-		<td> A entidade pertence ao SNS? </td>
-		<td> Sim </td>
-		<td> Tipo de Entidade </td>
-		<td> Entidade* </td>
-	</tr>  
-	<tr>
-		<td> Não </td>
-		<td colspan="3"> Qual o nome da entidade? </td>
-	</tr>     
-	</tbody>
-</table>
-
-
 |    | Campos Obrigatórios da Identificação do Equipamento ([](#figCriarEquipamento))         |      |
 |----|----------------------------------------------------|----------|
 | a) | Designação                                         |      |
