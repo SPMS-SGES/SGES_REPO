@@ -76,7 +76,7 @@ Para poder criar a instalação o utilizador deve preencher, pelo menos, os camp
 
 Os serviços de urgência básica (SUB) (ver [](#fig40_0)) da entidade devem ser indicados como edifícios. 
 
-![fig40_0](img/pages/40.JPG)
+![fig40_0](img/pages/40_0.JPG)
 
 <p class="caption" id="fig40_0"> Lista de SUB de uma entidade. </p>
 
