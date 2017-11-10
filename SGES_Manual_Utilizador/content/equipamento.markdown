@@ -34,7 +34,7 @@ efetuar o registo do equipamento.
 	<tbody>
 	<tr style="text-align: center;">
 		<td style="border-bottom: none; border-right: none; border-left: 1pt solid rgb(0, 80, 130)" colspan="6">
-			<strong>Campos Obrigatórios da ([](#figCriarEquipamento))</strong>
+			<strong>Campos Obrigatórios da Identificação do Equipamento ([](#figCriarEquipamento))</strong>
 		</td>
 	</tr>
 	<tr>
@@ -78,11 +78,7 @@ efetuar o registo do equipamento.
 </table>
 
 
-
-
-
-
-|    | Campos Obrigatórios da ([](#figCriarEquipamento))         |      |
+|    | Campos Obrigatórios da Identificação do Equipamento ([](#figCriarEquipamento))         |      |
 |----|----------------------------------------------------|----------|
 | a) | Designação                                         |      |
 | b) | Número de série                                    |      |
@@ -191,7 +187,7 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar o equipamento. 
 <p class="caption" id="figManutencao"> Criar novo Equipamento - Manutenção</p>
 
 
-|    | Campos Obrigatórios do módulo Autorização Ministeria/ Licença de Instalação ([](#figAutorizacao)) | | |
+|    | Campos Obrigatórios do módulo Autorização Ministerial/ Licença de Instalação ([](#figAutorizacao)) | | |
 |----|----------------------------------------------------|----------|--|
 | a) | Autorização Ministerial*                         	  | Sim||
 ||                                                   	  | Não||
@@ -207,10 +203,12 @@ Depois de o utilizador selecionar a data da licença, o campo *período de vigê
 
 <p class="caption" id="figAutorizacao"> Criar novo Equipamento - Autorização Ministeria/ Licença de Instalação</p>
 
+Depois de preencher cada um dos painéis referidos anteriormente  utilizador deve clicar em **GUARDAR** para que a informação fique gravada.
 
-![figRhAfetos](img/pages/12_1_2_6.PNG)
-
-<p class="caption" id="figRhAfetos"> Criar novo Equipamento - Recursos Humanos Afetos</p>
+Para o utilizador aceder ao painel *Recursos Humanos Afetos*([](#figRhAfetos)) deverá clicar na *tab* respectiva, e selecionar o ano pretendido.
+Para que o botão **CRIAR** esteja ativo, é necessário que o campo *Data de Início de Funcionamento* do campo *Contratação* esteja preenchido.
+O utilizador tem, ainda, a possibilidade de replicar a informação do ano imediatamente anterior ao selecionado. 
+Após clicar em **ALTERAR** irá ser notificado com o resultado da operação.
 
 |    | Campos Obrigatórios do módulo Recursos Humanos Afetos ([](#figRhAfetos)) | | 
 |----|----------------------------------------------------|----------|
@@ -219,11 +217,11 @@ Depois de o utilizador selecionar a data da licença, o campo *período de vigê
 | c) | Área Afetação   		                           	  | |
 | d) | ECTS 		   		                           	  | |
 
-Para o utilizador aceder ao painel *Recursos Humanos Afetos*([](#figRhAfetos)) deverá clicar na *tab* respectiva, e selecionar o ano pretendido.
-Para que o botão **CRIAR** esteja ativo, é necessário que o campo *Data de Início de Funcionamento* do campo *Contratação*.
-Após preencher os campos em cada painel, o utilizador deve clicar em  **GUARDAR** no painel respectivo, para gravar o equipamento.
-O utilizador tem, ainda, a possibilidade de replicar a informação do ano imediatamente anterior ao selecionado. 
-Após clicar irá ser notificado com o resultado da operação.
+
+![figRhAfetos](img/pages/12_1_2_6.PNG)
+
+<p class="caption" id="figRhAfetos"> Criar novo Equipamento - Recursos Humanos Afetos</p>
+
 
 <p id="alteraEquipamento"></p>
 
@@ -234,7 +232,7 @@ a esta página através do menu Entidade ou, diretamente, através do menu Equip
 
  Na página de equipamentos de um estabelecimento ([](#figEqpEstabelecimento)) o utilizador pode navegar diretamente para a edição após selecionar um equipamento da lista e clicar no botão **ALTERAR**.
 A edição deve respeitar o preenchimento dos campos obrigatórios identificados no ponto [13.1 Criar Equipamento](#criar-equipamento).
-No final da edição o utilizador para gravar as alterações deve clicar no botão **GUARDAR**. Após clicar irá ser notificado com o resultado da operação.
+Para gravar as alterações o utilizador  deve clicar no botão **GUARDAR**. Após clicar irá ser notificado com o resultado da operação.
 O utilizador pode navegar entre os equipamentos do estabelecimento clicando em **SEGUINTE** ou **ANTERIOR**.
 
 <p id="consultaEquipamento"></p>
@@ -252,7 +250,7 @@ Na página de equipamentos de um estabelecimento([](#figEqpEstabelecimento)), o 
 a esta página através do menu Entidade ou, diretamente, através do menu Equipamentos.
 Para poder transferir o equipamento, o utilizador deve preencher os campos obrigatórios e clicar em **TRANSFERIR**.
 
-|    | Campos Obrigatórios da ([](#figTransfEquipamento))         |
+|    | Campos Obrigatórios para transferir equipamento ([](#figTransfEquipamento))         |
 |----|----------------------------------------------------|
 | a) | Data de Fim                                        | 
 | b) | Motivo                                             | 
@@ -272,4 +270,4 @@ Na página de transferência o utilizador pode consultar toda a informação res
 A página de histórico de um equipamento pode ser acedida através da página de equipamentos de estabelecimento ([](#figEqpEstabelecimento)) e clicando no botão **HISTÓRICO**.
 O utilizador pode aceder
 a esta página através do menu Entidade ou, diretamente, através do menu Equipamentos.
-Uma vez na página de histórico, o utilizador poderá visualizar todas as versões resultantes da edição do equipamento, bem como a identificação dos campos alterados.
+Uma vez na página de histórico, o utilizador poderá visualizar todas as versões resultantes da edição da entidade, a data em que as alterações foram efetuadas, o utilizador que as realizou, bem como a identificação dos campos alterados.

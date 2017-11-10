@@ -11,7 +11,7 @@ order: 3
 <p id="produo-equipamentos"></p>
 # 9.Produção Equipamentos
 Neste módulo que serão feitas ações sobre a produção realizada pelos equipamentos.
-O utilizador pode consultar a produção interna e para exterior dos equipamentos de uma entidade no separador **Produção Equipamentos** ([](#figProdEquipamento)), através do ponto [6.3 Consultar Entidade](#consultar-entidade).
+O utilizador pode consultar a produção interna e para exterior dos equipamentos de uma entidade no separador Produção Equipamentos ([](#figProdEquipamento)), através do ponto [6.3 Consultar Entidade](#consultar-entidade).
 
 ![figProdEquipamento](img/pages/9_0_1.jpg)
 
@@ -20,7 +20,7 @@ O utilizador pode consultar a produção interna e para exterior dos equipamento
 <p id="consultarProducaoEquipamento"></p>
 
 ## 9.1.Consultar Produção Equipamentos
-O utilizador pode consultar a produção dos equipamentos após navegar para o subseparador de produção *Interna* ou *Para Exterior* do separador **Produção Equipamentos** ([](#figProdEquipamento)), selecionar o ano que pretende consultar e clicar no botão **CONSULTAR**.
+O utilizador pode consultar a produção dos equipamentos após navegar para o subseparador de produção *Interna* ou *Para Exterior* do separador **Produção Equipamentos** ([](#figProdEquipamento)), selecionar o ano, clicar no botão **CONSULTAR** e selecionar a especialidade.
 
 ![figExProdIntEnt](img/pages/9_1_1.jpg)
 
@@ -39,7 +39,7 @@ Na consulta será apresentada uma página separada por áreas de afetação dos 
 
 ## 9.2.Preencher/Alterar Produção Equipamentos
 
-O utilizador pode preencher ou alterar o total de exames na produção realizada dos equipamentos após navegar para o subseparador de produção *Interna* ou *Para Exterior* do separador **Produção Equipamentos** ([Fig. 24](#fig24)), selecionar o ano que pretende preencher ou alterar e clicar no botão **PREENCHER/ALTERAR**.
+O utilizador pode preencher ou alterar o total de exames na produção realizada dos equipamentos após navegar para o subseparador de produção *Interna* ou *Para Exterior* do separador **Produção Equipamentos** ([Fig. 24](#fig24)), selecionar o ano, clicar no botão **PREENCHER/ALTERAR** e selecionar a especialidade.
 Para gravar as alterações o utilizador deve clicar no botão **GUARDAR**. Após clicar irá ser notificado com o resultado da operação.
 
 <p id="producao-no-exterior"></p>

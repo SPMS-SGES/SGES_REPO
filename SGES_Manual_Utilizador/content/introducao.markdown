@@ -5,19 +5,21 @@ title: "Introdução"
 
 <p id="sobre-este-manual"></p>
 # 1.Sobre este Manual
-Este manual descreve o modo de funcionamento do sistema, apresentando os respectivos ecrãs, sua sequência, modo de preenchimento e as regras de negócio que lhe estão subjacentes. 
-Será organizado:
+Este manual descreve o modo de funcionamento do sistema, apresentando os respectivos ecrãs, a sua sequência, modo de preenchimento e as regras de negócio que lhe estão subjacentes. 
+Está dividido nos seguintes capítulos:
 
  - “Sobre este Manual”, o capítulo atual que descreve o conteúdo do
-   manual, qual a sua organização e como pode ser consultado; 
+   manual, a sua organização e como pode ser consultado; 
  - “Tabela de  Acrónimos”, que contém todos os acrónimos usados ao longo deste manual e que permitirá que o utilizador fique familiarizado com determinadas abreviaturas apresentadas na aplicação; 
- - “Introdução”,   onde é apresentado o sistema SGES, qual o seu contexto e propósito e os propósitos da utilização da aplicação informática;
-- “Conceitos básicos”, onde se explicam os principais conceitos que suportam a aplicação, em particular, o conceito de “navegação" no sistema, explicando o que se entende por isso. Este capítulo inclui os seguintes sub-capítulos:
+ - “Introdução”,   onde é apresentado o sistema SGES, o seu contexto e objetivo e os propósitos da utilização da aplicação informática;
+- “Conceitos básicos”, onde se explicam os principais conceitos que suportam a aplicação, em particular, o conceito de “navegação" no sistema. Este capítulo inclui os seguintes sub-capítulos:
 
-	* “Aceder ao SGES”, onde é descrito como o utilizador pode aceder ao sistema;
+	* “Aceder ao SGES”, onde é descrita como o utilizador pode aceder ao sistema;
 	* “Alteração da senha”, onde é descrito a sequência de ações que o utilizador tem de realizar para alterar a sua senha;
-	* “Página de pesquisa”, onde é apresentado o menu de pesquisa da aplicação;
 	* “Gestão de utilizadores”, onde é apresentada a possibilidade de criar e gerir utilizadores;
+	* “Natureza Jurídica e os seus campos” onde são indicadas as permissões fornecidas às entidades das diferentes naturezas jurídicas.
+
+- “Menu Principal”, onde é apresentado o menu principal de pesquisa da aplicação;
 
 - “Sequências de menus”, onde são apresentados os menus, aos quais o utilizador pode aceder através da aplicação, e as suas funcionalidades.
 
@@ -28,7 +30,7 @@ a aplicação SGES.
 
 # 2.Tabela de Acrónimos
 
-Na tabela seguinte estão apresentadas a siglas, ordenadas por ordem alfabética, que serão utilizadas no manual e na aplicação.
+Na tabela seguinte estão apresentadas, por ordem alfabética, a siglas que serão referidas no manual e na aplicação.
 
 |  Sigla |  Designação             |           
 |--------|-------------------------|
@@ -46,8 +48,8 @@ Na tabela seguinte estão apresentadas a siglas, ordenadas por ordem alfabética
  
 <p id="termos-e-definies"></p>
 # 3.Introdução
-O Sistema de Gestão de Entidades de Saúde (*SGES*) é um projeto estruturante para o sistema de informação de saúde, promovendo a criação de um repositório central de Entidades de Saúde, fiável e permanentemente atualizado, a partilhar com todos os SI, eliminando a redundância de informação e promovendo o aumento da qualidade dos dados.
-Considerando a evolução dos requisitos funcionais e técnicos, resultante das iterações ocorridas com os diferentes intervenientes ao longo do projeto a que este sistema deu origem, identificam-se como principais objetivos conseguir através do SGES:
+O Sistema de Gestão de Entidades de Saúde (SGES) é um projeto estruturante para o sistema de informação de saúde, promovendo a criação de um repositório central de Entidades de Saúde, fiável e permanentemente atualizado, a partilhar com todos os SI, eliminando a redundância de informação e promovendo o aumento da qualidade dos dados.
+Considerando a evolução dos requisitos funcionais e técnicos, resultante das iterações ocorridas com os diferentes intervenientes ao longo do projeto a que este sistema deu origem, identificam-se como principais objetivos que através do SGES seja possível:
 * Conhecer as entidades prestadoras de cuidados de saúde, a sua distribuição geográfica, a sua capacidade instalada e a sua relação com o SNS;
 * Dispor de um repositório de entidades de saúde único, integrado e partilhado;
 * Disponibilizar informação consistente, de qualidade e atempada aos diferentes SI da Saúde;
@@ -90,19 +92,19 @@ Para auxiliar o processo de criação e edição de dados existem quatro tipos d
 <p class="caption" id="figSucesso"> Exemplo de uma mensagem de sucesso. </p>
 
 
-No cabeçalho das páginas do **SGES** existe um conjunto de dados que serve para informação/contextualização do utilizador. 
+No cabeçalho das páginas do SGES existe um conjunto de dados que serve para informação/contextualização do utilizador. 
 
-Aparece na primeira linha é mostrado o perfil do utilizador e, caso este pertença a uma entidade, é mostrado o nome desta. Na segunda linha aparece o nome do utilizador.
+No canto superior direito da página da aplicação, na primeira linha, é mostrado o perfil do utilizador e, caso este pertença a uma entidade, é mostrado o nome desta. Na segunda linha aparece o nome do utilizador.
 
 Ao lado do nome de utilizador, encontra-se o botão das opções avançadas ([](#figDef)). Ao clicar no referido botão, o utilizador tem acesso a um 
-conjunto de opções relativas ao perfil do utilizador, tais como: alterar password ([4.2. Alteração da senha](#alterao-da-senha)) e a criação de utilizadores ([4.3. Gestão de utilizadores](#gesto-de-utilizadores)). 
-De referir que a opção de Gestão de Utilizadores também está disponível no menu principal da aplicação caso o utilizador tenha permissões para tal ([](#fig_menu_ADMIN_entidade)).
+conjunto de opções relativas ao perfil do utilizador, tais como: alterar password ([4.2. Alteração da senha](#alterao-da-senha)) e a criação de utilizadores (caso o utilizador tenha permissões para tal) ([4.3. Gestão de utilizadores](#gesto-de-utilizadores)). 
+De referir que a opção de Gestão de Utilizadores também está disponível no menu principal da aplicação (caso o utilizador tenha permissões para tal) ([](#figatalho_menu)).
 
 ![figDef](img/definicao.png)
 
 <p class="caption" id="figDef"> Botão das opções avançadas. </p>
 
-A qualquer momento, em qualquer página existe possibilidade de o utilizador consultar o manual de utilizador através de um botão no canto superior direito ([](#figManual)).
+A qualquer momento, em qualquer página, existe possibilidade de o utilizador consultar o manual de utilizador através de um botão no canto superior direito ([](#figManual)).
 
 ![figManual](img/manual.jpg)
 
@@ -120,8 +122,8 @@ De modo a familiarizar o utilizador com a aplicação, apresentam-se, de seguida
 <p id="aceder-ao-sges"></p>
 ## 4.1. Aceder ao SGES
 
-O acesso ao SGES é realizado através da navegação até ao seu endereço em [http://sges.min-saude.pt/SGES/login.html](http://sges.min-saude.pt/SGES/login.html) num *browser* de internet.
-Quando a página do SGES é carregada, o utilizador tem de inserir as suas credenciais de *login* [](#figLogin) para aceder à aplicação.
+O acesso ao SGES é possível através da navegação até ao seu endereço em [http://sges.min-saude.pt/SGES/login.html](http://sges.min-saude.pt/SGES/login.html) num *browser* de internet.
+Quando a página do SGES é carregada, o utilizador tem de inserir as suas credenciais de *login* ([](#figLogin)) para aceder à aplicação.
 
 ![figLogin](img/pages/5_1_1.jpg)
 
@@ -129,9 +131,9 @@ Quando a página do SGES é carregada, o utilizador tem de inserir as suas crede
 
 Caso o utilizador conheça as suas credenciais, deve preencher os campos obrigatórios, e clicar em **Avançar**.
 
-Caso contrário, deverá clicar em **Recuperar Senha**, deve preencher os campos obrigatórios, e clicar em **Enviar**.
+Caso contrário, deverá clicar em **Recuperar Senha**, preencher os campos mostrados na ([](#figLogin)), e clicar em **Enviar**.
 
-|    |  Campos Obrigatórios [](#figLoginRecuperacao) |           
+|    |  Campos Obrigatórios para recuperar a senha ([](#figLoginRecuperacao)) |           
 |----|----------------------------------------|
 | a) | Endereço eletrónico* associado à conta da aplicação ou nome de utilizador|  
 
@@ -141,21 +143,21 @@ Caso contrário, deverá clicar em **Recuperar Senha**, deve preencher os campos
 
 \* Só será possível recuperar a senha indicando o endereço eletrónico se este estiver associado apenas a um utilizador.
 
-Junto ao logotipo do SGES, encontra-se o botão de atalho para os diferentes menus [](#figatalho_menu). Este botão permite ao utilizador, em qualquer momento na navegação, mudar para um determinado menu.
+Junto ao logotipo do SGES, encontra-se o botão de atalho para os diferentes menus ([](#figatalho_menu)). Este botão permite ao utilizador, em qualquer momento na navegação, mudar para um determinado menu.
 
 ![figatalho_menu](img/pages/5_1_3_2.JPG)
 
 <p class="caption" id="figatalho_menu"> Botão de atalho para os diferentes menus destacado a amarelo e a janela mostrada quando se carrega no referido botão. </p> 
 
-Na primeira vez que o utilizador acede à aplicação, aparecerá a página de ([5.2. Alteração da senha](#alterao-da-senha)).  
+Na primeira vez que o utilizador acede à aplicação, aparecerá a página de ([4.2. Alteração da senha](#alterao-da-senha)).  
 
 <p id="alteracao-de-senha"></p>
 ## 4.2. Alteração da senha
 
-A qualquer momento, o utilizador pode fazer a alteração da sua senha, clicando no botão das opções avançadas situado no canto superior direito da página ~[4.Conceitos Básicos](#conceitos-bsicos). 
-Após clicar em **Alterar Password** é apresentada uma página de alteração de senha, [](#figAlteracaoSenha). O utilizador deverá inserir os campos obrigatórios ( ver tabela abaixo e [](#figAlteracaoSenha).
+A qualquer momento, o utilizador pode fazer a alteração da sua senha, clicando no botão das opções avançadas situado no canto superior direito da página [4.Conceitos Básicos](#conceitos-bsicos). 
+Após clicar em **Alterar Password** é apresentada uma página de alteração de senha, ([](#figAlteracaoSenha)). O utilizador deverá inserir os campos obrigatórios.
 
-|    |  Campos Obrigatórios                   |           
+|    |  Campos Obrigatórios para alterar senha ([](#figAlteracaoSenha) |           
 |----|----------------------------------------|
 | a) |  Senha utilizada atualmente            | 
 | b) |  Nova senha pretendida                 |  
@@ -171,31 +173,31 @@ Após o preenchimento dos campos, o utilizador deverá finalizar a alteração c
 ## 4.3. Gestão de utilizadores
 <p id="gestaoUtilizadores"></p>
 
-O utilizador tiver o perfil de administrador (ARS_ADMIN ou ADMIN_ENTIDADE), pode criar/gerir utilizadores para atualizarem os diferentes painéis no SGES na entidade respetiva.
+Se o utilizador tiver o perfil de administrador (ARS_ADMIN, ADMIN_ENTIDADE, ACSS_ADMIN ou SUPER_ADMIN_ENT), pode criar/gerir utilizadores para atualizarem os diferentes painéis no SGES na entidade respetiva.
 É possível criar utilizadores com os seguintes perfis:
 
-* **SGES_ENTIDADE** - Os utilizadores com este perfil poderão executar as operações sobre a *entidade* assim como criar e alterar *estabelecimentos*;
+* **SGES_ENTIDADE** - Os utilizadores com este perfil poderão executar as operações sobre a entidade assim como criar e alterar estabelecimentos;
 
-* **SGES_EQUIPAMENTOS** - Os utilizadores com este perfil poderão executar as operações sobre os *equipamentos* médicos pesados e sobre a *produção* dos mesmos;
+* **SGES_EQUIPAMENTOS** - Os utilizadores com este perfil poderão executar as operações sobre os equipamentos médicos pesados e sobre a produção dos mesmos;
 
-* **SGES_INSTALACOES** - Os utilizadores com este perfil poderão executar as operações sobre as *instalações* de cada estabelecimento médico.
+* **SGES_INSTALACOES** - Os utilizadores com este perfil poderão executar as operações sobre as instalações de cada estabelecimento médico.
 
 Para criar novos utilizadores, o utilizador deve clicar no botão das opções avançadas situado no canto superior direito da página 
-([](#conceitos-bsicos)). Após clicar em **Gestão de Utilizadores**, aparecerá a página de **Gestão de Utilizadores** [](#figGestaoUtilizadores).
+([](#figDef)). Após clicar em **Gestão de Utilizadores**, aparecerá a página mostrada na [](#figGestaoUtilizadores).
 
 ![figGestaoUtilizadores](img/pages/5_4_1.jpg)
 
 <p class="caption" id="figGestaoUtilizadores"> Gestão de utilizadores </p>
 
-O utilizador deve clicar em **Criar**, para aparecer a página de *Criar Utilizador* [](#figCriarUtilizador).
+O utilizador deve clicar em **Criar**, para aparecer a página de Criar Utilizador ([](#figCriarUtilizador)).
 
 ![figCriarUtilizador](img/pages/5_4_2.jpg)
 
 <p class="caption" id="figCriarUtilizador"> Criar utilizador </p>
 
-Para a criação de um utilizador devem ser preenchidos os seguintes campos obrigatórios:
+Para a criação de um utilizador devem ser preenchidos os campos obrigatórios mostrados na tabela abaixo.
 
-|    |  Campos Obrigatórios [](#figCriarUtilizador)  | |    
+|    |  Campos Obrigatórios para criar utilizador [](#figCriarUtilizador)  | |    
 |----|----------------------------------------|----|
 | a) |  Nome       		                ||
 | b) |  BI/CC                           ||
@@ -204,8 +206,9 @@ Para a criação de um utilizador devem ser preenchidos os seguintes campos obri
 | e) |  E-mail                          ||
 | f) |  Perfil                          | SGES_ENTIDADE|
 | |                                     | SGES_EQUIPAMENTOS|
+| |                                     | SGES_INSTALAÇÕES|
 
-No final da edição o utilizador para gravar as alterações deve clicar no botão **GUARDAR**. Após clicar irá ser notificado com o resultado da operação.
+No final da edição, para gravar as alterações o utilizador deve clicar no botão **GUARDAR**. Após clicar irá ser notificado com o resultado da operação.
 
 No SGES podem ainda existir utilizadores com outros perfis. No subcapítulo [16.2 Perfis e respetivas permissões ](#listaperfis) é possível consultar a lista de perfis, e respetivas permissões, disponíveis no SGES.
 
@@ -218,7 +221,7 @@ Informações relativas a Acordos/Convenções são acedidas, exclusivamente, pe
 <p id="home"></p>
 ## 5. Menu Principal
 
-Uma vez identificado e autenticado, é apresentado ao utilizador o menu principal do SGES onde pode aceder às diferentes funcionalidades que lhe estão disponíveis consoante o seu perfil; caso o utilizador tenha o perfil de administração de uma entidade pública o menu principal será o mostrado na [](#figura_menu_ADMIN_entidade).
+Uma vez identificado e autenticado, é apresentado ao utilizador o menu principal do SGES onde pode aceder às diferentes funcionalidades que lhe estão disponíveis consoante o seu perfil; caso o utilizador tenha o perfil de administrador de uma entidade pública o menu principal que irá visualizar será o mostrado na [](#figura_menu_ADMIN_entidade).
 
 ![figura_menu_ADMIN_entidade](img/pages/5_1_3.JPG)
 

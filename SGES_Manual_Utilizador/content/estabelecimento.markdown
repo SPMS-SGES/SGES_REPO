@@ -23,7 +23,7 @@ O utilizador pode consultar a lista de estabelecimentos associados a uma entidad
 
 Para criar um novo estabelecimento, o utilizador deve clicar em **CRIAR** na página de estabelecimentos associados a uma entidade  ([](#figEstEntidade)). De seguida, será encaminhado para a página de criação de estabelecimento, onde deverá preencher os campos obrigatórios para poder efetuar o registo do estabelecimento (ver tabela abaixo e [](#figCriarEstabelecimento)).
 
-|    | Campos Obrigatórios para criar estabelecimento    |          |
+|    | Campos Obrigatórios para identificação do estabelecimento    |          |
 |----|---------------------------------------------------|----------|
 | a) | Tipo de Estabelecimento                          |  Hospital | 
 ||                                                      |  Unidade funcional| 
@@ -55,7 +55,9 @@ Na tabela abaixo e na [](#figPainelGabCidadao) são mostrados os campos de preen
 |----|---------------------------------------------------|----------|
 | a) |E-mail do Gabinete Cidadão ||
 | b) |Telefone do Gabinete Cidadão ||
-| c) |Site Tabela Preços em vigor (É uma tabela de preços em vigor para os cuidados a prestar pelo hospital. (São os preços a pagar por um utente independente, sem qualquer sistema de saúde)||
+| c) |Site Tabela Preços em vigor* ||
+
+\* Preços em vigor dos cuidados a prestar pelo hospital; correspondem aos preços a pagar por um utente independente, sem qualquer sistema de saúde.
 
 
 ![figCriarEstabelecimento](img/pages/7_1_1.jpg)
@@ -87,6 +89,10 @@ Após o preenchimento da identificação do estabelecimento, dependendo do tipo 
 | b) | 	Se urgências                     |  Tipo de urgência| 
 ||                                       |Classificação do Serviço de Urgência| 
 
+![figUrgencias](img/pages/7_1_3.jpg)
+
+<p class="caption" id="figUrgencias"> Estabelecimento do tipo Hospital - Urgências</p>
+
 |    | Campos Obrigatórios –  Especialidade -([](#figEspecialidade))   |      |
 |----|--------------------------------------------------------|------|
 | a) | 	Especialidades e Exames          | Área |
@@ -94,37 +100,32 @@ Após o preenchimento da identificação do estabelecimento, dependendo do tipo 
 || 	                                     | Adultos e/ou Pediátricos|
 
 
-
-|    | Campos Obrigatórios – Capacidade - ([](#figCapacidade))    |      |
-|----|--------------------------------------------------------|------|
-| a) | 	Ano                       								| |
-| b) | 	Capacidade                       |Tipo Área Capacidade |
-||                                       |  Área Capacidade| 
-||                                       |  Tipo Capacidade| 
-||                                       |  Capacidade Lotação| 
-
-
-![figUrgencias](img/pages/7_1_3.jpg)
-
-<p class="caption" id="figUrgencias"> Estabelecimento do tipo Hospital - Urgências</p>
-
-
 ![figEspecialidade](img/pages/7_1_4.jpg)
 
 <p class="caption" id="figEspecialidade"> Painel das Especialidades </p>
 
 
+|    | Campos Obrigatórios – Capacidade - ([](#figCapacidade))    |      |
+|----|--------------------------------------------------------|------|
+| a) | 	Ano                       								| |
+| b) | 	Capacidade                       |Tipo Área Capacidade* |
+||                                       |  Área Capacidade| 
+||                                       |  Tipo Capacidade| 
+||                                       |  Capacidade Lotação| 
+
+
+ \* Um dos valores possíveis para to tipo de área é o quarto de isolamento. Estes são identificados pelo seu grau, nomeadamente,:
+
+   * Quarto de Isolamento de GRAU III: quarto individual fechado, bem ventilado;
+
+   * Quarto de Isolamento de GRAU IV: quarto individual fechado, bem ventilado, com desinfeção da ventilação e pressão negativa;
+
+   * Quarto de Isolamento de GRAU VI: quarto individual com porta dupla e pressão negativa. 
+
 ![figCapacidade](img/pages/7_1_5.jpg)
 
 <p class="caption" id="figCapacidade"> Painel das Capacidades </p>
 
-Os quartos de isolamento podem ser de três tipos diferentes:
-
-   * Quarto de Isolamento de GRAU III – Quarto individual fechado, bem ventilado;
-
-   * Quarto de Isolamento de GRAU IV  –  Quarto individual fechado, bem ventilado, com desinfeção da ventilação e pressão negativa;
-
-   * Quarto de Isolamento de GRAU VI  –  Quarto individual com porta dupla e pressão negativa. 
 
 As próximas tabelas e imagens mostram os campos de preenchimento obrigatório relativos a unidades funcionais e postos de colheita.
 
@@ -157,31 +158,36 @@ As próximas tabelas e imagens mostram os campos de preenchimento obrigatório r
 
 <p class="caption" id="figUnidadeFunc"> Estabelecimento do tipo Laboratório - Postos de Colheita</p>
 
-Após o registo dos dados em cada módulo, deve clicar em **GUARDAR** para gravar o estabelecimento. Após clicar irá ser notificado com o resultado da operação.
+Após o registo dos dados em cada módulo, deve clicar em **GUARDAR** para gravar os dados. Após clicar irá ser notificado com o resultado da operação.
 
 <p id="alteraEstabelecimento"></p>
 
 ## 7.2. Editar Estabelecimento
 
-A página de edição de um estabelecimento está disponível através consulta da página de estabelecimentos associados a uma entidade ([](#figEstEntidade)). O utilizador pode navegar diretamente para a edição após selecionar um estabelecimento da lista de resultados e clicar no botão **EDITAR**.
+A página de edição de um estabelecimento está disponível através da consulta do estabelecimento clicando no botão **EDITAR ESTABELECIMENTO**.
+
+Se o utilizador tiver acesso à pesquisa de estabelecimentos ([](#figCamposPesquisaEntidade)) ou à página de estabelecimentos associados a uma entidade ([](#figEstEntidade)) pode navegar diretamente para a edição após selecionar um estabelecimento da lista de resultados e clicar no botão **EDITAR**.
+
+
 A edição deve respeitar o preenchimento dos campos obrigatórios identificados no ponto [7.1 Criar Estabelecimento](#criar-estabelecimento).
+
 No final da edição o utilizador para gravar as alterações deve clicar no botão **GUARDAR**. Após clicar irá ser notificado com o resultado da operação.
 
 <p id="consultarEstabelecimento"></p>
 
 ## 7.3. Consultar Estabelecimento
 
-A página de consulta de um estabelecimento está disponível através consulta da página de estabelecimentos associados a uma entidade ([](#figEstEntidade)). O utilizador pode navegar diretamente para a edição após selecionar um estabelecimento da lista de resultados e clicar no botão **CONSULTAR**. 
+A consulta dos dados referentes a um estabelecimento é possível se o utilizador tiver acesso à pesquisa de estabelecimentos ([](#figCamposPesquisaEntidade)) ou à página de estabelecimentos associados a uma entidade ([](#figEstEntidade)) o utilizador pode navegar diretamente para a edição após selecionar um estabelecimento da lista de resultados e clicar no botão **CONSULTAR**. 
 
 <p id="transfereEstabelecimento"></p>
 
 ## 7.4. Transferir Estabelecimento 
 Na página de estabelecimentos associados a uma entidade ([](#figEstEntidade)), o utilizador pode navegar diretamente para a página de transferência de equipamento após selecionar um estabelecimento da lista e clicar no botão **TRANSFERIR**.
 Para poder transferir o equipamento, o utilizador deve preencher os campos obrigatórios e clicar em **TRANSFERIR**.
-Após clicar no botão, surge um alerta que confirma se o utilizador pretende encerrar o estabelecimento. 
+Após clicar no botão, surge um alerta que confirma se o utilizador pretende transferir o estabelecimento. 
 Se o utilizador confirmar irá ser notificado com o resultado da operação.
 
-|    | Campos Obrigatórios – ([](#figTransfEstabelecimento))  | 
+|    | Campos Obrigatórios para transferir estabelecimento – ([](#figTransfEstabelecimento))  | 
 |----|--------------------------------------------------------|
 | a) | Entidade destino                                       |
 
@@ -192,8 +198,8 @@ Se o utilizador confirmar irá ser notificado com o resultado da operação.
 <p id="encerrarEstabelecimento"></p>
 
 ## 7.5. Encerrar Estabelecimento 
-Para encerrar um estabelecimento tem de pesquisar pelo mesmo ([](#figPesquisaEstabelecimento)) e depois de o selecionar na lista de resultados deve clicar no botão **ENCERRAR**.
-Uma vez na página de **Encerrar Estabelecimento** ([](#figEncerraEstabelecimento)) deve preencher os campos *Mês*, *Ano*, *Motivo* e, se for o caso, *Observação* e depois clicar no botão “Encerrar”. Após clicar no botão, surge alerta que confirma se o utilizador pretende encerrar o estabelecimento. Se o utilizador confirmar irá ser notificado com o resultado da operação.
+Para encerrar um estabelecimento tem de pesquisar pelo mesmo ([](#figCamposPesquisaEntidade) ou ([](#figEstEntidade)) e depois de o selecionar na lista de resultados deve clicar no botão **ENCERRAR**.
+Uma vez na página de **Encerrar Estabelecimento** ([](#figEncerraEstabelecimento)), deve clicar no botão “Encerrar”. Após clicar no botão, surge alerta que confirma se o utilizador pretende encerrar o estabelecimento. Se o utilizador confirmar irá ser notificado com o resultado da operação.
 
 ![figEncerraEstabelecimento](img/pages/7_5_1.jpg)
 

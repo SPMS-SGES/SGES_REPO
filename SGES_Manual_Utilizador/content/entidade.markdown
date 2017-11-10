@@ -12,25 +12,26 @@ title: "Entidade"
 
 ## 6.1.Criar Entidade
 
-Para poder criar uma entidade o utilizador deve preencher,pelo menos, os campos obrigatórios e clicar em **CRIAR** (ver tabela abaixo e [](#figCamposPesquisaEntidade).
+Para pesquisar uma entidade o utilizador deve preencher, pelo menos, os campos obrigatórios e clicar em **PESQUISAR** ([](#figCamposPesquisaEntidade)).
 
-|  | Campos Obrigatórios                          |   |   |   |
+|  | Campos Obrigatórios para pesquisar entidade  |   |   |   |
 |----|--------------------------------------------|---|---|---|
-| a) | Campo de identificação do tipo de pesquisa |   |   |   |
-| b) | NIPC da entidade a criar |   |   |   |
+| a) | NIPC da entidade a pesquisar|   |   |   |
+| b) | Denominação |   |   |   |
+| c) | Total de três campos de pesquisa |   |   |   |
 
 
 
 ![figCamposPesquisaEntidade](img/pages/6_1_1.jpg)
 
-<p class="caption" id="figCamposPesquisaEntidade"> Campos de preenchimento para pesquisa Entidade </p>
+<p class="caption" id="figCamposPesquisaEntidade"> Campos de preenchimento obrigatório para a pesquisa de Entidades </p>
   
   
-Caso a entidade ainda não tenha sido anteriormente criada,o utilizador será encaminhado para a página de criação de entidade que estará pré-preenchida tendo em conta os dados inseridos da página de pesquisa [](#figPesquisaEntidade). 
+Caso a entidade ainda não tenha sido anteriormente criada,o utilizador poderá criar a entidade clicando em **CRIAR** e, assim, será encaminhado para a página de criação de entidade que estará pré-preenchida tendo em conta os dados inseridos da página de pesquisa [](#figPesquisaEntidade). 
 O utilizador deverá preencher os campos obrigatórios para que o registo da entidade possa ser efetuado.
 Após o registo dos dados, o utilizador deve clicar em **GUARDAR** para gravar a entidade. Após clicar irá ser notificado com o resultado da operação.
 
-|    | Campos Obrigatórios da ([](#figCriarEntidade))      |                 |             |   |
+|    | Campos Obrigatórios para criar uma entidade ([](#figCriarEntidade))      |                 |             |   |
 |----|-----------------------------------------------------|-----------------|-------------|---|
 | a) | Denominação                                         |                 |             |   |
 | b) | Natureza Jurídica                                   |                 |             |   |
@@ -45,7 +46,7 @@ Após o registo dos dados, o utilizador deve clicar em **GUARDAR** para gravar a
 |    |                                                     |                 |Hospital          |   |
 |    |                                                     |                 |ULS               |   |
 | e) | Integra                                             |    Pública      |ACES              |   |
-| g) | Matricula                                           |    Privada      |                  |   |
+| g) | Matrícula                                           |    Privada      |                  |   |
 |    |                                                     |    IPSS         |                  |   |
 |    |                                                     |  Cooperativa    |                  |   |
 | h) | Volume de negócios global                           |    Privada      |                  |   |
@@ -68,7 +69,7 @@ Após o registo dos dados, o utilizador deve clicar em **GUARDAR** para gravar a
 | s) | Site                                                |                 |             |   |
 | t) | Capital estatuário ou social € (Exceto natureza jurídica = Pública e tipo de entidade = ACES)|         |             |   |
 | u) | Fonte de informação                                 |                 |             |   |
-| v) | existe Equipamento Pesado?                          |                 |             |   |
+| v) | Existe Equipamento Pesado?                          |                 |             |   |
 | x) | Identificação dos corpos Gerentes/ Conselho de administração    |     |             |   |
 | y) | Identificação dos Sócios/Acionistas (só se natureza jurídica = Privada) |     |     |   |
 
@@ -80,20 +81,29 @@ Após o registo dos dados, o utilizador deve clicar em **GUARDAR** para gravar a
 <p id="alteraEntidade"></p>
 
 ## 6.2.Editar Entidade
-O utilizador pode navegar para a página de edição de entidade após selecionar uma entidade da lista de resultados e clicar no botão **EDITAR ENTIDADE**, ([](#figPPesquisaExEntidade)).
+O utilizador pode navegar para a página de edição de entidade após selecionar uma entidade da lista de resultados e clicar no botão **EDITAR ENTIDADE** ([](#figEditarEntidadec)), ou se tiver acesso à pesquisa de entidades pode navegar diretamente para a edição após selecionar uma entidade da lista de resultados e clicar no botão **EDITAR** ([](#EditarEntidade)).
 A edição deve respeitar o preenchimento dos campos obrigatórios identificados no ponto [6.1 Criar Entidade](#criar-entidade).
+
+![figEditarEntidadec](img/pages/6_1_2_2.JPG)
+
+<p class="caption" id="figCriarEntidade">Editar Entidade </p>
+
+![figEditarEntidade](img/pages/6_1_2_1.JPG)
+
+<p class="caption" id="figCriarEntidade">Editar Entidade </p>
+
 Para gravar as alterações, no final da edição, o utilizador  deve clicar no botão **GUARDAR**. Após clicar irá ser notificado com o resultado da operação.
 
 <p id="consultaEntidade"></p>
 
 ## 6.3.Consultar Entidade
-O utilizador pode navegar para a página de consulta de entidade após selecionar uma entidade da lista de resultados e clicar no botão **CONSULTAR**, ([](#figPPesquisaExEntidade)).
+Caso o utilizador tenha o perfil entidade, a página de consulta de ua entidade pode ser a página de entrada do menu Entidade ([](#figEditarEntidadec)). O utilizador pode navegar para a página de consulta de entidade após selecionar uma entidade da lista de resultados e clicar no botão **CONSULTAR** ([](#EditarEntidade)).
 
 <p id="encerrarEntidade"></p>
 
 ## 6.4.Encerrar Entidade
-Para encerrar uma entidade tem pesquisar pela mesma e depois de a selecionar na lista de resultados deve clicar no botão **ENCERRAR** ([](#figPesquisaExEntidade) ).
-Uma vez na página de **Encerrar Entidade** ([](#figEncerraEntidade)) deve preencher os campos *Mês*, *Ano* e, se for necessário, *Observações* e, depois, clicar no botão **Encerrar**. 
+Para encerrar uma entidade, o utilizador tem pesquisar pela mesma e depois de a selecionar na lista de resultados deve clicar no botão **ENCERRAR** ([](#EditarEntidade)).
+Uma vez na página de **Encerrar Entidade** ([](#figEncerraEntidade)), o utilizador deve clicar no botão **Encerrar**. 
 Após clicar no botão surge alerta a questionar a confirma que o utilizador pretende encerrar a entidade. Se o utilizador confirmar será notificado com o resultado da operação.
 
 ![figEncerraEntidade](img/pages/6_4_1.jpg)
@@ -103,13 +113,21 @@ Após clicar no botão surge alerta a questionar a confirma que o utilizador pre
 <p id="historicoEntidade"></p>
 
 ## 6.5.Histórico Entidade
-A página de histórico de uma entidade pode ser acedida através da pesquisa de entidades, selecionado uma entidade da lista de resultados e clicando no botão **HISTÓRICO**  ([](#figPesquisaExEntidade) ).
-Uma vez na página de histórico ([](#figHistoricoEntidade)) poderá visualizar todas as versões resultantes da edição da entidade, bem como a identificação dos campos alterados.
+A página de histórico de uma entidade pode ser acedida através da pesquisa de entidades, selecionado uma entidade da lista de resultados e clicando no botão **HISTÓRICO**  ([](#EditarEntidade)).
+Uma vez na página de histórico ([](#figHistoricoEntidade)) o utilizador poderá visualizar todas as versões resultantes da edição da entidade, a data em que as alterações foram efetuadas, o utilizador que as realizou, bem como a identificação dos campos alterados.
 Nesta página estão também registados os estabelecimentos transferidos e encerrados da entidade.
 
 ![figHistoricoEntidade](img/pages/6_5_1.jpg)
 
 <p class="caption" id="figHistoricoEntidade"> Histórico de Entidade</p>
+
+Ao selecionar uma das versões e, posteriormente, clicar no botão **DETALHE** o utilizador pode consultar a página de identificação da entidade na qual estão destacados os grupos alterados ([](#figDetalheHistoricoEntidade)).
+
+![figDetalheHistoricoEntidade](img/pages/6_5_2.jpg)
+
+<p class="caption" id="figDetalheHistoricoEntidade"> Detalhe histórico de Entidade</p>
+
+
 
  
 
