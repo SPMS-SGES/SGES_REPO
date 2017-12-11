@@ -39,7 +39,7 @@ Na consulta será apresentada uma página separada por áreas de afetação dos 
 
 ## 9.2.Preencher/Alterar Produção Equipamentos
 
-O utilizador pode preencher ou alterar o total de exames na produção realizada dos equipamentos após navegar para o subseparador de produção *Interna* ou *Para Exterior* do separador **Produção Equipamentos** ([Fig. 24](#fig24)), selecionar o ano, clicar no botão **PREENCHER/ALTERAR** e selecionar a especialidade.
+O utilizador pode preencher ou alterar o total de exames na produção realizada dos equipamentos após navegar para o subseparador de produção *Interna* ou *Para Exterior* do separador **Produção Equipamentos** ([Fig. 24](#fig24)), selecionar o ano, clicar no botão **PREENCHER/ALTERAR** e selecionar a especialidadel.
 Para gravar as alterações o utilizador deve clicar no botão **GUARDAR**. Após clicar irá ser notificado com o resultado da operação.
 
 <p id="producao-no-exterior"></p>
@@ -56,12 +56,12 @@ O utilizador pode consultar a produção no exterior por uma entidade no separad
 <p id="consultarProducaoRealizadaExterior"></p>
 
 ## 10.1.Consultar Produção no Exterior
-O utilizador pode consultar a produção realizada no exterior após navegar para o subseparador do ano pretendido no separador **Produção no Exterior** ([](#figProdExterior)), selecionar o ano que pretende consultar e clicar no botão **CONSULTAR**.
+O utilizador pode consultar a produção realizada no exterior após navegar para o subseparador do ano pretendido no separador **Produção no Exterior** ([](#figProdExterior)), selecionar o ano, clicar no botão **CONSULTAR**  e selecionar a especialidade.
 A consulta será apresentada da mesma forma que a demonstrada no ponto [9.1 Consultar Produção Equipamentos](#consultar-producao-equipamentos).
 
 <p id="alterarProducaoRealizadaExterior"></p>
 
 ## 10.2. Preencher/Alterar Produção no Exterior
-O utilizador pode preencher ou alterar o total de exames na produção realizada no exterior após navegar para o subseparador do ano pretendido no separador **Produção no Exterior** ([](#figProdExterior)), selecionar o ano que pretende preencher/alterar e clicar no botão **PREENCHER/ALTERAR**.
+O utilizador pode preencher ou alterar o total de exames na produção realizada no exterior após navegar para o subseparador do ano pretendido no separador **Produção no Exterior** ([](#figProdExterior)), selecionar o ano, clicar no botão **PREENCHER/ALTERAR**.
 Para gravar as alterações o utilizador deve clicar no botão **GUARDAR**. Após clicar irá ser notificado com o resultado da operação.
 

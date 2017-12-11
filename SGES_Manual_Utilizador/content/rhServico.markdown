@@ -12,7 +12,7 @@ order: 3
 # 8. RH Serviços
 
 É neste módulo que são feitas ações sobre os recursos humanos afetos a serviços.
-O utilizador pode consultar a lista dos recursos humanos afetos a serviços numa entidade no separador **RH Serviços**  ([](#figRhAfetosEntidade)), através do ponto [6.3 Consultar Entidade](##consultar-entidade).
+O utilizador pode consultar a lista dos recursos humanos afetos a serviços numa entidade no separador RH Serviços  ([](#figRhAfetosEntidade)), através do ponto [6.3 Consultar Entidade](##consultar-entidade).
 
 ![figRhAfetosEntidade](img/pages/8_0_1.jpg)
 
@@ -22,7 +22,7 @@ O utilizador pode consultar a lista dos recursos humanos afetos a serviços numa
 
 ## 8.1. Criar RH Serviço
 
-|    | Campos Obrigatórios da [](#figCriarRhServicos)       |      |
+|    | Campos Obrigatórios para criar RH Serviço [](#figCriarRhServicos)       |      |
 |----|---------------------------------------------------|----------|
 | a) | Ano                                          |   | 
 | b) | Grupo Profissional               |  Assistente Operacional| 
@@ -78,7 +78,7 @@ Após o registo dos dados, o utilizador deve clicar em **GUARDAR** para gravar o
 
 ## 8.2. Consultar RH Serviço
 
-O utilizador pode navegar para a página de consulta de RH Serviços após selecionar um RH Serviço da lista de RH Serviços existentes numa entidade ([](#figRhAfetosEntidade))  e clicar no botão **CONSULTAR**.
+O utilizador pode navegar para a página de consulta de RH Serviços, após selecionar um RH Serviço da lista de RH Serviços existentes numa entidade ([](#figRhAfetosEntidade)),  e clicar no botão **CONSULTAR**.
 
 <p id="alteraRhEquipamento"></p>
 

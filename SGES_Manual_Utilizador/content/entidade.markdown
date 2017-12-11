@@ -11,27 +11,13 @@ title: "Entidade"
 <p id="criarEntidade"></p>
 
 ## 6.1.Criar Entidade
+A funcionalidade de criar uma entidade apenas é disponibilizada a utilizadores da ACSS por esse motivo, caso pretenda criar uma nova entidade, por favor contacte a ACSS.
 
-Para pesquisar uma entidade o utilizador deve preencher, pelo menos, os campos obrigatórios e clicar em **PESQUISAR** ([](#figCamposPesquisaEntidade)).
+## 6.2.Editar Entidade
+O utilizador pode navegar para a página de edição de entidade após selecionar uma entidade da lista de resultados e clicar no botão **EDITAR ENTIDADE** ([](#figEditarEntidadec)), ou se tiver acesso à pesquisa de entidades pode navegar diretamente para a edição após selecionar uma entidade da lista de resultados e clicar no botão **EDITAR** ([](#EditarEntidade)).
+A edição deve respeitar o preenchimento dos campos obrigatórios identificados listados na tabela abaixo.
 
-|  | Campos Obrigatórios para pesquisar entidade  |   |   |   |
-|----|--------------------------------------------|---|---|---|
-| a) | NIPC da entidade a pesquisar|   |   |   |
-| b) | Denominação |   |   |   |
-| c) | Total de três campos de pesquisa |   |   |   |
-
-
-
-![figCamposPesquisaEntidade](img/pages/6_1_1.jpg)
-
-<p class="caption" id="figCamposPesquisaEntidade"> Campos de preenchimento obrigatório para a pesquisa de Entidades </p>
-  
-  
-Caso a entidade ainda não tenha sido anteriormente criada,o utilizador poderá criar a entidade clicando em **CRIAR** e, assim, será encaminhado para a página de criação de entidade que estará pré-preenchida tendo em conta os dados inseridos da página de pesquisa [](#figPesquisaEntidade). 
-O utilizador deverá preencher os campos obrigatórios para que o registo da entidade possa ser efetuado.
-Após o registo dos dados, o utilizador deve clicar em **GUARDAR** para gravar a entidade. Após clicar irá ser notificado com o resultado da operação.
-
-|    | Campos Obrigatórios para criar uma entidade ([](#figCriarEntidade))      |                 |             |   |
+|    | Campos obrigatórios para criar uma entidade ([](#figCriarEntidade))      |                 |             |   |
 |----|-----------------------------------------------------|-----------------|-------------|---|
 | a) | Denominação                                         |                 |             |   |
 | b) | Natureza Jurídica                                   |                 |             |   |
@@ -72,17 +58,6 @@ Após o registo dos dados, o utilizador deve clicar em **GUARDAR** para gravar a
 | v) | Existe Equipamento Pesado?                          |                 |             |   |
 | x) | Identificação dos corpos Gerentes/ Conselho de administração    |     |             |   |
 | y) | Identificação dos Sócios/Acionistas (só se natureza jurídica = Privada) |     |     |   |
-
-
-![figCriarEntidade](img/pages/6_1_2.jpg)
-
-<p class="caption" id="figCriarEntidade">Criar Entidade </p>
-
-<p id="alteraEntidade"></p>
-
-## 6.2.Editar Entidade
-O utilizador pode navegar para a página de edição de entidade após selecionar uma entidade da lista de resultados e clicar no botão **EDITAR ENTIDADE** ([](#figEditarEntidadec)), ou se tiver acesso à pesquisa de entidades pode navegar diretamente para a edição após selecionar uma entidade da lista de resultados e clicar no botão **EDITAR** ([](#EditarEntidade)).
-A edição deve respeitar o preenchimento dos campos obrigatórios identificados no ponto [6.1 Criar Entidade](#criar-entidade).
 
 ![figEditarEntidadec](img/pages/6_1_2_2.JPG)
 

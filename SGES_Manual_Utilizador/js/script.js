@@ -2,7 +2,7 @@
 /**colocar tabela mais apresentavel*/
  function atualizarTabela(){
  /**retirar borders das células vazias*/
-  $('td').each(function(){
+  $('td:not(.tabelanova td)').each(function(){
   if($(this).html() == "&nbsp;")
 		$(this).css("border-top","solid #005082 1.0pt");
 		$(this).css("border-bottom","none");
@@ -11,7 +11,7 @@
 });
 
  /**unir células (que tenham numero de linhas >1)*/
-$('tr').each(function(){
+$('tr:not(.tabelanova tr)').each(function(){
 	var n =1;
 	var anteriorvazio = 1;
 	$(this).find('td').each(function(){

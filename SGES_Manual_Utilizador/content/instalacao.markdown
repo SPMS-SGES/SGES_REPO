@@ -48,26 +48,101 @@ Para o Registo de Instalações será necessário primeiro submeter os campos da
 Para poder criar a instalação o utilizador deve preencher, pelo menos, os campos obrigatórios da *Caracterização Geral* e clicar em **SUBMETER**.
 
 
-|    |                            Campos Obrigatórios – Caracterização Geral - ([](#fig40))    |                                              ||
-|----|-----------------------------------------------------------------------------------------|-------------------------------------------|-|-|
-|Se estabelecimento tem vários edifícios  = Sim e se edifícios que compõem o estabelecimento localizados no mesmo terreno?= Sim              |||
-| a)| Propriedade do Terreno                                                                  |Estado                                       |||
-|   |                                                                                         |Privado com cedência de direito de superfície|||
-|    |                                                                                         |SCM                                          |||
-| b)| Nome edifício                                                                                                                         |||
-| c) | Propriedade do(s) Edifício(s)                                                           |Arrendado                                    |||
-|    |                                                                                         |Estado                                        |||
-|    |                                                                                         |PPP                                           |||
-|    |                                                                                         |SCM                                           |||
-| d) | Edifícios construídos na mesma fase?                                                    |Sim|          Número de fases de construção =1 ||
-|    |                                                                                         |Não|     Quantas fases de construção existiram?||
-| e) | O estabelecimento hospitalar dispõe de plano diretor? |Sim  |O plano diretor está aprovado?| Sim| Data de aprovação do plano diretor| O plano diretor está implementado?| Sim|
-|    |                                                       |     |                              | Não|                                   |                                   | Não|
-|    |                                                       |Não  |                              |    |                                   |                                   |    |
-| e) | Heliporto?                                                                              |Sim| Heliporto Certificado?                | Sim|
-|    |                                                                                         | Não|                                          ||
-|    | Heliporto Operacional?| Sim|
-|    |                       | Não|
+<table class="tabelanova">
+<thead>
+  	<tr>
+		<th colspan="8" >
+			<strong> Campos Obrigatórios – Caracterização Geral - <a href="#fig40"> Fig.54 </a> </strong>
+    	</th>
+	</tr>
+</thead>
+  <tbody>
+	<tr>
+		<td colspan="8"> Se estabelecimento tem vários edifícios  = Sim e se edifícios que compõem o estabelecimento localizados no mes mo terreno?= Sim </td>
+	</tr>
+	<tr>
+		<td colspan="7" rowspan="4"> a) Propriedade do Terreno  </td>
+    	<td> Estado </td>
+    </tr>
+	<tr>
+		<td> Privado com cedência de direito de superfície </td>
+	</tr>	
+	<tr>
+		<td> SCM </td>
+	</tr>
+	<tr>
+		<td> Outros </td>
+	</tr>
+	<tr>
+		<td colspan="8"> b) Nome edifício </td>
+	</tr>
+	<tr>
+		<td colspan="7" rowspan="5"> c) Propriedade do(s) Edifício(s)  </td>
+    	<td> Arrendado </td>
+    </tr>
+    <tr>
+		<td> Estado</td>
+    </tr>
+    <tr>
+		<td> PPP </td>
+    </tr>
+    <tr>
+		<td> SCM </td>
+	</tr> 
+	<tr>
+		<td> Outros</td>
+	</tr>  
+	<tr>
+		<td colspan="6" rowspan="2">  d) Edifícios construídos na mesma fase?   </td>
+		<td> Sim  </td>
+		<td> Número de fases de construção =1 </td>
+	</tr>  
+	<tr>
+		<td> Não </td>
+		<td> Quantas fases de construção existiram? </td>
+	</tr>  
+	<tr>
+		<td rowspan="5" colspan="4"> e) O estabelecimento hospitalar dispõe de plano diretor? </td>
+		<td rowspan="4"> Sim </td>
+    	<td rowspan="2"> Aprovado </td>
+    	<td> Sim </td>
+    	<td> Data de aprovação </td> 
+ 	</tr>
+ 	<tr>
+    	<td  colspan="6"> Não </td>
+ 	</tr>
+ 	<tr>
+     	<td rowspan="2"> Implementado? </td>
+      	<td colspan="6"> Sim</td>
+ 	</tr>
+ 	<tr>
+    	<td colspan="6"> Não </td>
+ 	</tr>
+ 	<tr>
+     	<td colspan="4"> Não </td>
+ 	</tr>
+	<tr>
+		<td colspan="5" rowspan="5"> f)  Heliporto? </td>
+		<td rowspan="4"> Sim </td>
+		<td rowspan="2"> Operacional? </td>
+    	<td> Sim </td>
+	</tr>  
+  	<tr>
+     	<td> Não </td>
+ 	</tr>
+ 	<tr>
+     	<td rowspan="2"> Certificado? </td>
+     	<td> Sim </td>
+ 	</tr>
+  	<tr>
+     	<td> Não </td>
+ 	</tr>
+  	<tr>
+     	<td colspan="5" > Não </td>
+  	</tr>  
+	</tbody>
+</table>
+
 
 ![fig40](img/pages/40.JPG)
 
@@ -80,51 +155,209 @@ Os serviços de urgência básica (SUB) (ver [](#fig40_0)) da entidade devem ser
 
 <p class="caption" id="fig40_0"> Lista de SUB de uma entidade. </p>
 
-|    |   Campos Obrigatórios – Caracterização Geral - ([](#fig40_1))                            |                                            ||
-|----|-----------------------------------------------------------------------------------------|-------------------------------------------|-|-|
-|Se estabelecimento tem vários edifícios  = Sim e se edifícios que compõem o estabelecimento localizados no mesmo terreno?= Não               ||| 
-|a)  |  Nome edifício                                                                                                                         |||
-|b)  | Propriedade do Terreno                                                                  |Estado                                        |||
-|    |                                                                                         |Privado com cedência de direito de superfície |||
-|    |                                                                                         |SCM                                           |||
-|c)  | Propriedade do(s) Edifício(s)                                                           |Arrendado                                     |||
-|    |                                                                                         |Estado                                        |||
-|    |                                                                                         |PPP                                           |||
-|    |                                                                                         |SCM                                           |||
-|d)| Se mesma morada que o estabelecimento = Não                                               |Morada                                        |||
-|    |                                                                                         |Código Postal                                 |||
-|    |                                                                                         |Concelho                                      |||
-|    |                                                                                         |Freguesia                                     |||
-| e) | Edifícios construídos na mesma fase?                                                    |Sim|          Número de fases de construção =1 ||
-| f) | O estabelecimento hospitalar dispõe de plano diretor? |Sim  |O plano diretor está aprovado?| Sim| Data de aprovação do plano diretor| O plano diretor está implementado?| Sim|
-|    |                                                       |     |                              | Não|                                   |                                   | Não|
-|    |                                                       |Não  |                              |    |                                   |                                   |    |
-| g) | Heliporto?                                            |Sim| Heliporto Certificado?                | Sim|
-|    |                                                      | Não|                                          ||
-|    | Heliporto Operacional?| Sim|
-|    |                       | Não|
+
+<table class="tabelanova">
+<thead>
+  	<tr>
+		<th colspan="8" >
+			<strong> Campos Obrigatórios – Caracterização Geral - <a href="#fig40_1">Fig.56 </a> </strong>
+    	</th>
+	</tr>
+</thead>
+  <tbody>
+	<tr>
+		<td colspan="8"> Se estabelecimento tem vários edifícios  = Sim e se edifícios que compõem o estabelecimento localizados no mesmo terreno?= Não </td>
+	</tr>
+	<tr>
+		<td colspan="7" rowspan="4"> a) Propriedade do Terreno  </td>
+    	<td> Estado </td>
+    </tr>
+	<tr>
+		<td> Privado com cedência de direito de superfície </td>
+	</tr>	
+	<tr>
+		<td> SCM </td>
+	</tr>
+	<tr>
+		<td> Outros </td>
+	</tr>
+	<tr>
+		<td colspan="8"> b) Nome edifício </td>
+	</tr>
+	<tr>
+		<td colspan="7" rowspan="5"> c) Propriedade do(s) Edifício(s)  </td>
+    	<td> Arrendado </td>
+    </tr>
+    <tr>
+		<td> Estado</td>
+    </tr>
+    <tr>
+		<td> PPP </td>
+    </tr>
+    <tr>
+		<td> SCM </td>
+	</tr>
+	  <tr>
+		<td> Outros </td>
+	</tr>
+	<tr>
+    	<td rowspan="5" colspan="6"> Mesma morada que o estabelecimento?</td>
+    	<td rowspan="4" colspan="1"> Sim</td>
+    	<td > Morada </td>
+	</tr>
+	<tr>
+    	<td > Código-Postal </td>
+	</tr>
+	<tr>
+	<td > Concelho </td>
+	</tr>
+    
+  	<tr>
+		<td > Freguesia </td>
+  	</tr>
+	<tr>
+    	 <td colspan="3"> Não </td>
+  	</tr>
+	<tr>
+		<td colspan="6" rowspan="2">  d) Edifícios construídos na mesma fase?   </td>
+		<td> Sim  </td>
+		<td> Número de fases de construção =1 </td>
+	</tr>  
+	<tr>
+		<td> Não </td>
+		<td> Quantas fases de construção existiram? </td>
+	</tr>  
+	<tr>
+		<td rowspan="5" colspan="4"> e) O estabelecimento hospitalar dispõe de plano diretor? </td>
+		<td rowspan="4"> Sim </td>
+    	<td rowspan="2"> Aprovado </td>
+    	<td> Sim </td>
+    	<td> Data de aprovação </td> 
+ 	</tr>
+ 	<tr>
+    	<td  colspan="6"> Não </td>
+ 	</tr>
+ 	<tr>
+     	<td rowspan="2"> Implementado? </td>
+      	<td colspan="6"> Sim</td>
+ 	</tr>
+ 	<tr>
+    	<td colspan="6"> Não </td>
+ 	</tr>
+ 	<tr>
+     	<td colspan="4"> Não </td>
+ 	</tr>
+	<tr>
+		<td colspan="5" rowspan="5"> f)  Heliporto? </td>
+		<td rowspan="4"> Sim </td>
+		<td rowspan="2"> Operacional? </td>
+    	<td> Sim </td>
+	</tr>  
+  	<tr>
+     	<td> Não </td>
+ 	</tr>
+ 	<tr>
+     	<td rowspan="2"> Certificado? </td>
+     	<td> Sim </td>
+ 	</tr>
+  	<tr>
+     	<td> Não </td>
+ 	</tr>
+  	<tr>
+     	<td colspan="5" > Não </td>
+  	</tr>  
+	</tbody>
+</table>
+
 
 ![fig40_1](img/pages/40_1.JPG)
 
-<p class="caption" id="fig40_1"> Criar Instalações – Caracterização Geral</p>
+<table class="tabelanova">
+<thead>
+  	<tr>
+		<th colspan="8" >
+			<strong> Campos Obrigatórios – Caracterização Geral - <a href="#fig40_2">Fig.57 </a> </strong>
+    	</th>
+	</tr>
+</thead>
+  <tbody>
+	<tr>
+		<td colspan="8"> Se estabelecimento tem vários edifícios  = Não  </td>
+	</tr>                                          
+	<tr>
+		<td colspan="7" rowspan="4"> a) Propriedade do Terreno  </td>
+    	<td> Estado </td>
+    </tr>
+	<tr>
+		<td> Privado com cedência de direito de superfície </td>
+	</tr>	
+	<tr>
+		<td> SCM </td>
+	</tr>
+	<tr>
+		<td> Outros </td>
+	</tr>
+	<tr>
+		<td colspan="8"> b) Nome edifício </td>
+	</tr>
+	<tr>
+		<td colspan="7" rowspan="5"> c) Propriedade do(s) Edifício(s)  </td>
+    	<td> Arrendado </td>
+    </tr>
+    <tr>
+		<td> Estado</td>
+    </tr>
+    <tr>
+		<td> PPP </td>
+    </tr>
+    <tr>
+		<td> SCM </td>
+	</tr>
+	<tr>
+		<td> Outros </td>
+	</tr>
+	<tr>
+		<td rowspan="5" colspan="4"> d) O estabelecimento hospitalar dispõe de plano diretor? </td>
+		<td rowspan="4"> Sim </td>
+    	<td rowspan="2"> Aprovado </td>
+    	<td> Sim </td>
+    	<td> Data de aprovação </td> 
+ 	</tr>
+ 	<tr>
+    	<td  colspan="6"> Não </td>
+ 	</tr>
+ 	<tr>
+     	<td rowspan="2"> Implementado? </td>
+      	<td colspan="6"> Sim</td>
+ 	</tr>
+ 	<tr>
+    	<td colspan="6"> Não </td>
+ 	</tr>
+ 	<tr>
+     	<td colspan="4"> Não </td>
+ 	</tr>
+	<tr>
+		<td colspan="5" rowspan="5"> e)  Heliporto? </td>
+		<td rowspan="4"> Sim </td>
+		<td rowspan="2"> Operacional? </td>
+    	<td> Sim </td>
+	</tr>  
+  	<tr>
+     	<td> Não </td>
+ 	</tr>
+ 	<tr>
+     	<td rowspan="2"> Certificado? </td>
+     	<td> Sim </td>
+ 	</tr>
+  	<tr>
+     	<td> Não </td>
+ 	</tr>
+  	<tr>
+     	<td colspan="5" > Não </td>
+  	</tr>  
+	</tbody>
+</table>
 
-|  |   Campos Obrigatórios – Caracterização Geral - ([](#fig40_2))                             |                                               ||
-|----|-----------------------------------------------------------------------------------------|-------------------------------------------|-|-|
-|Se estabelecimento tem vários edifícios  = Não                                                                                               |||
-|a)| Nome edifício                                                                                                                            |||
-|b)| Propriedade do Terreno                                                                    |Estado                                        |||
-| |                                                                                            |Privado com cedência de direito de superfície |||
-| |                                                                                            |SCM                                           |||
-|c) | Propriedade do(s) Edifício(s)                                                            |Arrendado                                     |||
-|    |                                                                                         |Estado                                        |||
-|    |                                                                                         |PPP                                           |||
-| d) | O estabelecimento hospitalar dispõe de plano diretor? |Sim  |O plano diretor está aprovado?| Sim| Data de aprovação do plano diretor| O plano diretor está implementado?| Sim|
-|    |                                                       |     |                              | Não|                                   |                                   | Não|
-|    |                                                       |Não  |                              |    |                                   |                                   |    |
-| e) | Heliporto?                                           |Sim| Heliporto Certificado?                | Sim|
-|    |                                                      | Não|                                          ||
-|    | Heliporto Operacional?| Sim|
-|    |                       | Não|
 
 ![fig40_2](img/pages/40_2.JPG)
 
@@ -149,10 +382,14 @@ Pode inserir informação acerca das áreas e estacionamento, tendo de carregar 
 <p class="caption" id="fig41"> Criar Instalação - Áreas Totais e Estacionamento</p>
 
 As áreas dos hospitais contemplam as áreas de prestação de cuidados de saúde e de apoio (investigação, técnicas, entre outras).
+<mark> As casas de função (usadas, por exemplo, por funcionários realocados) não contam para as áreas.
+Relativamente às SUBS e RNCCI, as suas áreas devem ser contabilizadas.</mark>
 
-Os lugares de estacionamento são os lugares de estacionamento disponíveis no estabelecimento hospitalar.
-
-
+Relativamente ao estacionamento:
+* Os lugares de estacionamento são os lugares de estacionamento disponíveis no estabelecimento hospitalar;
+* Apenas devem ser contabilizados os lugares os oficiais (delimitados);
+* Os descampados não contam para nº de lugares;
+* Lugares concessionados a terceiros devem ser contabilizados (desde que sejam utilizados pelas entidades hospitalares).
 
 O separador *Caracterização do Edifício* contém os dados referentes ao(s) edíficio(s) tais como o nome, a área útil do programa funcional, a área útil, a área bruta, a área de implantação, nº de pisos acima do solo, nº de pisos abaixo do solo e área de estacionamento construído ([](#fig42)).
 
@@ -248,11 +485,11 @@ O separador *Construção* visa caracterizar os custos da construção e os cust
 |   |                     |Energia elétrica produzida por aerogeradores           | |
 | c)|Combustíveis  ||            |
 |   |Consumo nafta |Custo nafta |
-|   |Consumo gasóleo*|Custo gasóleo|
-|   |Consumo outros| Custo outros |
+|   |Consumo gasóleo*|Custo gasóleo**|
+|   |Consumo outros| Custo outros** |
 | d)|Águas       
 |   |Consumo água |Custo água   |
-| e)|Gases Medicinais ||       
+| e)|Gases Medicinais (inclui gases em garrafas)||       
 |   |Consumo oxigénio |Custo oxigénio|
 |   |Consumo azoto |Custo azoto|
 |   |Consumo protóxido|Custo Protóxido|
@@ -262,7 +499,9 @@ O separador *Construção* visa caracterizar os custos da construção e os cust
 |   |Consumo produção em Vácuo|Custo produção em Vácuo;|
 |   |Consumo exaustão de gases anestésicos|Custo exaustão de gases anestésicos|
 
-\*o gasóleo consumido via frota automóvel não deve ser reportado via SGES. 
+\*o gasóleo consumido via frota automóvel não deve ser reportado via SGES.
+
+\** É permitido que o custo seja zero. 
 
 ![fig49](img/pages/49.JPG)
 

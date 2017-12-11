@@ -120,6 +120,9 @@ Estes são clicáveis o que permite ao utilizador voltar a uma página já naveg
 De modo a familiarizar o utilizador com a aplicação, apresentam-se, de seguida, alguns exemplos ilustrativos de ações fundamentais para interagir com o SGES.
 
 <p id="aceder-ao-sges"></p>
+
+Nota: Em qualquer campo da aplicação que não seja possível visualizar completamente o texto nele contido o utilizador pode ver o conteúdo total da linha se deixar o rato alguns segundos sobre a referida linha.
+
 ## 4.1. Aceder ao SGES
 
 O acesso ao SGES é possível através da navegação até ao seu endereço em [http://sges.min-saude.pt/SGES/login.html](http://sges.min-saude.pt/SGES/login.html) num *browser* de internet.
