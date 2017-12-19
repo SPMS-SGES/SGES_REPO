@@ -246,7 +246,7 @@ O utilizador é encaminhado para uma página onde pode anexar e carregar as fich
 Depois de carregar a ficha técnica, é mostrada uma página de verificação da informação onde o utilizador pode consultar a informação que carregou ([](#figPainel_confir)).
 Caso a informação seja confirmada, esta informação passa a ter de ser sujeita a aprovação.
 
-<p id="aprovacoesPendentes"></p>
+<!-- <p id="aprovacoesPendentes"></p>
 ## 15.8 Aprovação das Atualizações da Ficha Técnica
 Para uma determinada atualização, vai ser permitida a consulta, simultânea, dos dados que constam na base de dados e as novas informações e aprovar ou excluir a atualização ([](#figPainel_comp)).
 Caso o utilizador aprove, a nova informação substitui a anterior.
@@ -274,5 +274,5 @@ Pode também visualizar os blocos de informação que não foram atualizados e, 
 
 ![fig14_18](img/pages/cap15/14_18.JPG)
 
-<p class="caption" id="fig14_18"> Página de validação das atualizações. </p>
+<p class="caption" id="fig14_18"> Página de validação das atualizações. </p> -->
 
