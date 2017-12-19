@@ -14,7 +14,7 @@ order: 3
 É neste módulo que são feitas ações sobre os recursos humanos afetos a serviços.
 O utilizador pode consultar a lista dos recursos humanos afetos a serviços numa entidade no separador RH Serviços  ([](#figRhAfetosEntidade)), através do ponto [6.3 Consultar Entidade](##consultar-entidade).
 
-![figRhAfetosEntidade](img/pages/8_0_1.jpg)
+![figRhAfetosEntidade](img/pages/cap8/8_0_1.jpg)
 
 <p class="caption" id="figRhAfetosEntidade"> Recursos Humanos afetos a serviços numa Entidade</p>
 
@@ -68,7 +68,7 @@ O utilizador pode consultar a lista dos recursos humanos afetos a serviços numa
 | k) | Trabalho em regime de telerradiologia? (se grupo profissional= médico e área de afetação=  radiologia)                               |   | 
 | k) | Observações                                             |   | 
 
-![figCriarRhServicos](img/pages/8_1_1.jpg)
+![figCriarRhServicos](img/pages/cap8/8_1_1.jpg)
 
 <p class="caption" id="figCriarRhServicos"> Criar RH Serviços</p>
 

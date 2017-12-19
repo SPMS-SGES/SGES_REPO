@@ -69,25 +69,25 @@ Para auxiliar o processo de criação e edição de dados existem quatro tipos d
 
 * Mensagem de informação ([](#figInfo));
 
-![figInfo](img/informacao.jpg)
+![figInfo](img/pages/cap4/informacao.jpg)
 
 <p class="caption" id="figInfo"> Exemplo de uma mensagem de informação. </p>
 
 * Mensagem de Alerta ([](#figAlerta));
 
-![figAlerta](img/alerta.jpg)
+![figAlerta](img/pages/cap4//alerta.jpg)
 
 <p class="caption" id="figAlerta"> Exemplo de uma mensagem de alerta. </p>
 
 * Mensagem de Erro ([](#figErro));
 
-![figErro](img/erro.jpg)
+![figErro](img/pages/cap4/erro.jpg)
 
 <p class="caption" id="figErro"> Exemplo de uma mensagem de erro. </p>
 
 * Mensagem de Sucesso ([](#figSucesso));
 
-![figSucesso](img/sucesso.jpg)
+![figSucesso](img/pages/cap4/sucesso.jpg)
 
 <p class="caption" id="figSucesso"> Exemplo de uma mensagem de sucesso. </p>
 
@@ -100,20 +100,20 @@ Ao lado do nome de utilizador, encontra-se o botão das opções avançadas ([](
 conjunto de opções relativas ao perfil do utilizador, tais como: alterar password ([4.2. Alteração da senha](#alterao-da-senha)) e a criação de utilizadores (caso o utilizador tenha permissões para tal) ([4.3. Gestão de utilizadores](#gesto-de-utilizadores)). 
 De referir que a opção de Gestão de Utilizadores também está disponível no menu principal da aplicação (caso o utilizador tenha permissões para tal) ([](#figatalho_menu)).
 
-![figDef](img/definicao.png)
+![figDef](img/pages/cap4/definicao.png)
 
 <p class="caption" id="figDef"> Botão das opções avançadas. </p>
 
 A qualquer momento, em qualquer página, existe possibilidade de o utilizador consultar o manual de utilizador através de um botão no canto superior direito ([](#figManual)).
 
-![figManual](img/manual.jpg)
+![figManual](img/pages/cap4/manual.jpg)
 
 <p class="caption" id="figManual"> Botão que permite o acesso ao manual de utilizador. </p>
 
 O acesso às páginas e a sua navegação é representada nos panéis de navegação ([](#figPN)). 
 Estes são clicáveis o que permite ao utilizador voltar a uma página já navegada.
 
-![figPN](img/breadcrumbs.jpg)
+![figPN](img/pages/cap4/breadcrumbs.jpg)
 
 <p class="caption" id="figPN"> Painel de navegação. </p>
 
@@ -128,7 +128,7 @@ Nota: Em qualquer campo da aplicação que não seja possível visualizar comple
 O acesso ao SGES é possível através da navegação até ao seu endereço em [http://sges.min-saude.pt/SGES/login.html](http://sges.min-saude.pt/SGES/login.html) num *browser* de internet.
 Quando a página do SGES é carregada, o utilizador tem de inserir as suas credenciais de *login* ([](#figLogin)) para aceder à aplicação.
 
-![figLogin](img/pages/5_1_1.jpg)
+![figLogin](img/pages/cap4/5_1_1.jpg)
 
 <p class="caption" id="figLogin">Página de acesso do SGES </p>
 
@@ -140,7 +140,7 @@ Caso contrário, deverá clicar em **Recuperar Senha**, preencher os campos most
 |----|----------------------------------------|
 | a) | Endereço eletrónico* associado à conta da aplicação ou nome de utilizador|  
 
-![figLoginRecuperacao](img/pages/5_1_2.jpg)
+![figLoginRecuperacao](img/pages/cap4/5_1_2.jpg)
 
 <p class="caption" id="figLoginRecuperacao"> Recuperação da Senha </p>
 
@@ -148,7 +148,7 @@ Caso contrário, deverá clicar em **Recuperar Senha**, preencher os campos most
 
 Junto ao logotipo do SGES, encontra-se o botão de atalho para os diferentes menus ([](#figatalho_menu)). Este botão permite ao utilizador, em qualquer momento na navegação, mudar para um determinado menu.
 
-![figatalho_menu](img/pages/5_1_3_2.JPG)
+![figatalho_menu](img/pages/cap4/5_1_3_2.JPG)
 
 <p class="caption" id="figatalho_menu"> Botão de atalho para os diferentes menus destacado a amarelo e a janela mostrada quando se carrega no referido botão. </p> 
 
@@ -168,7 +168,7 @@ Após clicar em **Alterar Password** é apresentada uma página de alteração d
 
 Após o preenchimento dos campos, o utilizador deverá finalizar a alteração clicando em **Alterar**.
 
-![figAlteracaoSenha](img/pages/5_2_1.jpg)
+![figAlteracaoSenha](img/pages/cap4/5_2_1.jpg)
 
 <p class="caption" id="figAlteracaoSenha"> Página de alteração de senha </p>
 
@@ -188,13 +188,13 @@ Se o utilizador tiver o perfil de administrador (ARS_ADMIN, ADMIN_ENTIDADE, ACSS
 Para criar novos utilizadores, o utilizador deve clicar no botão das opções avançadas situado no canto superior direito da página 
 ([](#figDef)). Após clicar em **Gestão de Utilizadores**, aparecerá a página mostrada na [](#figGestaoUtilizadores).
 
-![figGestaoUtilizadores](img/pages/5_4_1.jpg)
+![figGestaoUtilizadores](img/pages/cap4/5_4_1.jpg)
 
 <p class="caption" id="figGestaoUtilizadores"> Gestão de utilizadores </p>
 
 O utilizador deve clicar em **Criar**, para aparecer a página de Criar Utilizador ([](#figCriarUtilizador)).
 
-![figCriarUtilizador](img/pages/5_4_2.jpg)
+![figCriarUtilizador](img/pages/cap4/5_4_2.jpg)
 
 <p class="caption" id="figCriarUtilizador"> Criar utilizador </p>
 
@@ -226,17 +226,17 @@ Informações relativas a Acordos/Convenções são acedidas, exclusivamente, pe
 
 Uma vez identificado e autenticado, é apresentado ao utilizador o menu principal do SGES onde pode aceder às diferentes funcionalidades que lhe estão disponíveis consoante o seu perfil; caso o utilizador tenha o perfil de administrador de uma entidade pública o menu principal que irá visualizar será o mostrado na [](#figura_menu_ADMIN_entidade).
 
-![figura_menu_ADMIN_entidade](img/pages/5_1_3.JPG)
+![figura_menu_ADMIN_entidade](img/pages/cap5/5_1_3.JPG)
 
 <p class="caption" id="figura_menu_ADMIN_entidade"> Menu Principal para um utilizador com o perfil de administrador de uma entidade pública. </p>
 
 Para além dos menus mostrados na figura anterior, existe ainda o menu Acordos e Convenções - [](#figacordos_convencoes) - e o menu Ficha Técnica - [](#figFT).
 
-![figacordos_convencoes](img/pages/5_1_3_1.jpg) 
+![figacordos_convencoes](img/pages/cap5/5_1_3_1.jpg) 
 
 <p class="caption" id="figacordos_convencoes"> Menu Acordos e Convenções. </p>
 
-![figFT](img/pages/5_1_3_1_1.jpg)
+![figFT](img/pages/cap5/5_1_3_1_1.jpg)
 
 <p class="caption" id="figFT"> Menu Ficha Técnica. </p>
 

@@ -22,11 +22,11 @@ O registo desta informação deve ser feito trimestralmente ([Despacho nº. 1043
 O utilizador pode consultar os tempos de espera para a realização de exames após navegar para o separador **Tempos de Espera** ([](#figTempoEspera)), 
 selecionar o período que pretende consultar clicar no botão **CONSULTAR** e selecionar a especialidade. Como é possível ver na figura [](#criarTempoEspera) é possível visualizar o tempo total de espera para um determinado exame de uma determinada área.
 
-![figTempoEspera](img/pages/11_0_1.jpg)
+![figTempoEspera](img/pages/cap11/11_0_1.jpg)
 
 <p class="caption" id="figTempoEspera"> Tempos de Espera</p>
 
-![criarTempoEspera](img/pages/11_1_1.jpg)
+![criarTempoEspera](img/pages/cap11/11_1_1.jpg)
 
 <p class="caption" id="criarTempoEspera"> Tempos de Espera</p>
 

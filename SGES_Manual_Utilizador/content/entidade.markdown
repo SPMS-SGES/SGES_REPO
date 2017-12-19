@@ -11,111 +11,114 @@ title: "Entidade"
 <p id="criarEntidade"></p>
 
 ## 6.1.Criar Entidade
-A funcionalidade de criar uma entidade apenas é disponibilizada a utilizadores da ACSS por esse motivo, caso pretenda criar uma nova entidade, por favor contacte a ACSS.
+A funcionalidade de criar uma entidade apenas é disponibilizada a utilizadores com o perfil ACSS por esse motivo, caso pretenda criar uma nova entidade, por favor contacte a ACSS.
 
 ## 6.2.Editar Entidade
-O utilizador pode navegar para a página de edição de entidade após selecionar uma entidade da lista de resultados e clicar no botão **EDITAR ENTIDADE** ([](#figEditarEntidadec)), ou se tiver acesso à pesquisa de entidades pode navegar diretamente para a edição após selecionar uma entidade da lista de resultados e clicar no botão **EDITAR** ([](#EditarEntidade)).
-A edição deve respeitar o preenchimento dos campos obrigatórios identificados listados na tabela abaixo.
 
-|    | Campos obrigatórios para criar uma entidade ([](#figCriarEntidade))      |                 |             |   |
-|----|-----------------------------------------------------|-----------------|-------------|---|
-| a) | Denominação                                         |                 |             |   |
-| b) | Natureza Jurídica                                   |                 |             |   |
-| c) | Tipo Entidade (se natureza jurídica = Pública)      | Natureza Jurídica | Tipo Entidade |   |
-|----|-----------------------------------------------------|-----------------|-------------|---|
-| d) | ARS                                                 |    Pública      |ACES              |   |
-|    |                                                     |                 |Centro Hospitalar |   |
-|    |                                                     |                 |Hospital          |   |
-|    |                                                     |                 |ULS               |   |
-| e) | Tipo Entidade                                       |    Pública      |ACES              |   |
-|    |                                                     |                 |Centro Hospitalar |   |
-|    |                                                     |                 |Hospital          |   |
-|    |                                                     |                 |ULS               |   |
-| e) | Integra                                             |    Pública      |ACES              |   |
-| g) | Matrícula                                           |    Privada      |                  |   |
-|    |                                                     |    IPSS         |                  |   |
-|    |                                                     |  Cooperativa    |                  |   |
-| h) | Volume de negócios global                           |    Privada      |                  |   |
-|    |                                                     |    IPSS         |                  |   |
-|    |                                                     |  Cooperativa    |                  |   |
-| i) | Tipo de Atividade Principal (CAE)                   |    Privada      |                  |   |
-|    |                                                     |    IPSS         |                  |   |
-|    |                                                     |    Cooperativa  |                  |   |
-| j) | Tipo de Atividade Secundária (CAE)                  |    Privada      |                  |   |
-|    |                                                     |    IPSS         |                  |   |
-|    |                                                     |    Cooperativa  |                  |   |
-| k) | Morada                                              |                 |             |   |
-| l) | Código Postal                                       |                 |             |   |
-| m) | Distrito                                            |                 |             |   |
-| n) | Concelho                                            |                 |             |   |
-| o) | Freguesia                                           |                 |             |   |
-| p) | Telefone                                            |                 |             |   |
-| q) | Fax                                                 |                 |             |   |
-| r) | E-mail                                              |                 |             |   |
-| s) | Site                                                |                 |             |   |
-| t) | Capital estatuário ou social € (Exceto natureza jurídica = Pública e tipo de entidade = ACES)|         |             |   |
-| u) | Fonte de informação                                 |                 |             |   |
-| v) | Existe Equipamento Pesado?                          |                 |             |   |
-| x) | Identificação dos corpos Gerentes/ Conselho de administração    |     |             |   |
-| y) | Identificação dos Sócios/Acionistas (só se natureza jurídica = Privada) |     |     |   |
+Neste momento esta funcionalidade apenas é disponibilizada a utilizadores com o perfil ACSS.
 
-![figEditarEntidadec](img/pages/6_1_2_2.JPG)
+<!-- Utilizadores com o perfil ARS_ADMIN têm permissões para editar a entidade a que pertencem  após clicarem no botão **EDITAR ENTIDADE** ([](#figEditarARS)). Têm também permissão para editar as entidades que lhes pertecem, pesquisando a entidade que pretendem editar, selecionar uma entidade da lista de resultados e clicar no botão **EDITAR** ([](#figEditarEntidade)). 
 
-<p class="caption" id="figCriarEntidade">Editar Entidade </p>
 
-![figEditarEntidade](img/pages/6_1_2_1.JPG)
 
-<p class="caption" id="figCriarEntidade">Editar Entidade </p>
+![figEditarARS](img/pages/cap6/edita_ars.JPG)
+
+<p class="caption" id="figEditarARS">Editar Entidade ARS</p>
+
+![figEditarEntidade](img/pages/cap6/edita_ent_ars.JPG)
+
+<p class="caption" id="figEditarEntidade">Editar Entidades pertencentes à ARS </p>
+
+A edição deve respeitar o preenchimento dos campos obrigatórios que dependem do tipo de entidade como ilustrado nas tabelas e imagens abaixo.
+
+
+|    | Campos obrigatórios para editar qualquer tipo de entidade             |              |   |
+|----|----------------------------------------------------------------------|---------------|---|
+| a) | Denominação                                                          |               |   |
+| b) | Estado                                                               |               |   |
+| c) | Nº Registo ERS                                                       |               |   |
+| d) | Data início atividade                                                |               |   |
+| e) | Morada                                                               |               |   |
+| f) | Código-Postal                                                        |               |   |
+| g) | Distrito                                                             |               |   |
+| h) | Concelho                                                             |               |   |
+| i) | Freguesia                                                            |               |   |
+| j) | Telefone                                                             |               |   |
+| l) | Fax                                                                  |               |   |
+| m) | Endereço eletrónico                                                  |               |   |
+| n) | Site                                                                 |               |   |
+| o) | Capital                                                              |               |   |
+| p) | Fonte de informação                                                  | ACSS          |   |
+|    |                                                                      | ERS           |   |
+|    |                                                                      | Entidade      |   |     |    |                                                                      | NCSP          |   |     |    |                                                                      |Portal da Saúde|   |
+| q) | Convencionada?                                                       | Sim           |   |
+|    |                                                                      | Não           |   |
+
+
+![figEditarGeral](img/pages/cap6/editar_ent_geral.JPG)
+
+<p class="caption" id="figEditarGeral">Campos obrigatórios para editar qualquer tipo de entidade</p>
+
+
+|    | Campos obrigatórios para editar para entidades                       |               |   |
+|    |        com Natureza Jurídica= Cooperativa                            |               |   |
+|----|----------------------------------------------------------------------|---------------|---|
+| a) | Matrícula                                                            |               |   |
+| b) | Volume de Negócios Global                                            |               |   |
+| c) | Tipo de Atividade Principal                                          |               |   |
+| d) | Tipo de Atividade Secundária                                         |               |   |
+| e) | Gerentes/Concelho de dministração                                    |               |   |
+
+![figEditarCoop](img/pages/cap6/edita_ent_cooperativa.JPG)
+
+<p class="caption" id="figEditarCoop">Campos obrigatórios para editar para entidades com Natureza Jurídica = Cooperativa </p>
+
+|    | Campos obrigatórios para editar para entidades                    |                  |   |
+|    |        com Natureza Jurídica= Pública                             |                  |   |
+|----|-------------------------------------------------------------------|------------------|---|
+| a) | ARS                                                               |ACES              |   |
+|    |                                                                   |Centro Hospitalar |   |
+|    |                                                                   |Hospital          |   |
+|    |                                                                   |ULS               |   |
+| b) | Tipo de Entidade Jurídica                                         |  EPE             |   |
+|    |                                                                   |   IP             |   |
+|    |                                                                   |     PPP          |   |
+|    |                                                                   |        SPA       |   |
+
+![figEditarPub](img/pages/cap6/edita_ent_publica.JPG)
+
+<p class="caption" id="figEditarPub">Campos obrigatórios para editar para entidades com Natureza Jurídica = Pública </p>
+
 
 Para gravar as alterações, no final da edição, o utilizador  deve clicar no botão **GUARDAR**. Após clicar irá ser notificado com o resultado da operação.
 
 <p id="consultaEntidade"></p>
 
 ## 6.3.Consultar Entidade
-Caso o utilizador tenha o perfil entidade, a página de consulta de ua entidade pode ser a página de entrada do menu Entidade ([](#figEditarEntidadec)). O utilizador pode navegar para a página de consulta de entidade após selecionar uma entidade da lista de resultados e clicar no botão **CONSULTAR** ([](#EditarEntidade)).
+A página de consulta das informações de uma entidade pode ser consultada no *tab* Entidade do menu Entidade.
 
 <p id="encerrarEntidade"></p>
 
 ## 6.4.Encerrar Entidade
-Para encerrar uma entidade, o utilizador tem pesquisar pela mesma e depois de a selecionar na lista de resultados deve clicar no botão **ENCERRAR** ([](#EditarEntidade)).
-Uma vez na página de **Encerrar Entidade** ([](#figEncerraEntidade)), o utilizador deve clicar no botão **Encerrar**. 
-Após clicar no botão surge alerta a questionar a confirma que o utilizador pretende encerrar a entidade. Se o utilizador confirmar será notificado com o resultado da operação.
+A funcionalidade de encerrar uma entidade apenas é disponibilizada a utilizadores com o perfil ACSS por esse motivo, caso pretenda encerrar uma entidade, por favor contacte a ACSS.
 
-![figEncerraEntidade](img/pages/6_4_1.jpg)
-
-<p class="caption" id="figEncerraEntidade"> Encerrar entidade</p>
-
-<p id="historicoEntidade"></p>
+<p id="historicoEntidade"></p> -->
 
 ## 6.5.Histórico Entidade
-A página de histórico de uma entidade pode ser acedida através da pesquisa de entidades, selecionado uma entidade da lista de resultados e clicando no botão **HISTÓRICO**  ([](#EditarEntidade)).
-Uma vez na página de histórico ([](#figHistoricoEntidade)) o utilizador poderá visualizar todas as versões resultantes da edição da entidade, a data em que as alterações foram efetuadas, o utilizador que as realizou, bem como a identificação dos campos alterados.
+
+Neste momento esta funcionalidade apenas é disponibilizada a utilizadores com o perfil ACSS.
+
+
+<!-- Uma vez na página de histórico ([](#figHistoricoEntidade)) o utilizador poderá visualizar todas as versões resultantes da edição da entidade, a data em que as alterações foram efetuadas, o utilizador que as realizou, bem como a identificação dos campos alterados.
 Nesta página estão também registados os estabelecimentos transferidos e encerrados da entidade.
 
-![figHistoricoEntidade](img/pages/6_5_1.jpg)
+![figHistoricoEntidade](img/pages/cap6/6_5_1.jpg)
 
 <p class="caption" id="figHistoricoEntidade"> Histórico de Entidade</p>
 
 Ao selecionar uma das versões e, posteriormente, clicar no botão **DETALHE** o utilizador pode consultar a página de identificação da entidade na qual estão destacados os grupos alterados ([](#figDetalheHistoricoEntidade)).
 
-![figDetalheHistoricoEntidade](img/pages/6_5_2.jpg)
+![figDetalheHistoricoEntidade](img/pages/cap6/6_5_2.jpg)
 
 <p class="caption" id="figDetalheHistoricoEntidade"> Detalhe histórico de Entidade</p>
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ -->

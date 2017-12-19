@@ -20,11 +20,11 @@ Para aceder às  instalações de um estabelecimento, o utilizador tem três alt
 
 (iii) Através do sub-menu Instalações [](#figura_menu_ADMIN_entidade), selecionado.
 
-![fig39](img/pages/39.JPG)
+![fig39](img/pages/cap14/39.JPG)
 
 <p class="caption" id="fig39"> Aceder às Instalações de um estabelecimento </p>
 
-![figEstabeSInst](img/pages/38.JPG)
+![figEstabeSInst](img/pages/cap14/38.JPG)
 
 <p class="caption" id="figEstabeSInst"> Exemplo de Estabelecimento sem Instalações</p>
 
@@ -38,7 +38,7 @@ Para o Registo de Instalações será necessário primeiro submeter os campos da
 
 É de salientar que existem balões de informação juntos aos campos que envolvem regras de negócio mais complexas. Para que o utilizador possa visualizar estas informações, o utilizador deve manter o cursor sobre o símbolo mostrado na  [](#figBaloes).
 
-![figBaloes](img/pages/39_1.JPG)
+![figBaloes](img/pages/cap14/39_1.JPG)
 
 <p class="caption" id="figBaloes"> Balões de informação.</p>
 
@@ -144,14 +144,14 @@ Para poder criar a instalação o utilizador deve preencher, pelo menos, os camp
 </table>
 
 
-![fig40](img/pages/40.JPG)
+![fig40](img/pages/cap14/40.JPG)
 
 <p class="caption" id="fig40"> Criar Instalações – Caracterização Geral</p>
 
 
 Os serviços de urgência básica (SUB) (ver [](#fig40_0)) da entidade devem ser indicados como edifícios. 
 
-![fig40_0](img/pages/40_0.JPG)
+![fig40_0](img/pages/cap14/40_0.JPG)
 
 <p class="caption" id="fig40_0"> Lista de SUB de uma entidade. </p>
 
@@ -270,7 +270,7 @@ Os serviços de urgência básica (SUB) (ver [](#fig40_0)) da entidade devem ser
 </table>
 
 
-![fig40_1](img/pages/40_1.JPG)
+![fig40_1](img/pages/cap14/40_1.JPG)
 
 <table class="tabelanova">
 <thead>
@@ -359,7 +359,7 @@ Os serviços de urgência básica (SUB) (ver [](#fig40_0)) da entidade devem ser
 </table>
 
 
-![fig40_2](img/pages/40_2.JPG)
+![fig40_2](img/pages/cap14/40_2.JPG)
 
 <p class="caption" id="fig40_2"> Criar Instalações – Caracterização Geral</p>
 
@@ -377,13 +377,10 @@ Pode inserir informação acerca das áreas e estacionamento, tendo de carregar 
 ||                     |  N.º Lugares de estacionamento à superfície |
 
 
-![fig41](img/pages/41.JPG)
+![fig41](img/pages/cap14/41.JPG)
 
 <p class="caption" id="fig41"> Criar Instalação - Áreas Totais e Estacionamento</p>
 
-As áreas dos hospitais contemplam as áreas de prestação de cuidados de saúde e de apoio (investigação, técnicas, entre outras).
-<mark> As casas de função (usadas, por exemplo, por funcionários realocados) não contam para as áreas.
-Relativamente às SUBS e RNCCI, as suas áreas devem ser contabilizadas.</mark>
 
 Relativamente ao estacionamento:
 * Os lugares de estacionamento são os lugares de estacionamento disponíveis no estabelecimento hospitalar;
@@ -393,27 +390,31 @@ Relativamente ao estacionamento:
 
 O separador *Caracterização do Edifício* contém os dados referentes ao(s) edíficio(s) tais como o nome, a área útil do programa funcional, a área útil, a área bruta, a área de implantação, nº de pisos acima do solo, nº de pisos abaixo do solo e área de estacionamento construído ([](#fig42)).
 
-![fig42](img/pages/42.JPG)
+![fig42](img/pages/cap14/42.JPG)
 
 <p class="caption" id="fig42"> Caracterização do Edifício</p>
 
+As áreas dos hospitais contemplam as áreas de prestação de cuidados de saúde e de apoio (investigação, técnicas, entre outras).
+As casas de função (usadas, por exemplo, por funcionários realocados) não contam para as áreas.
+Relativamente às SUBS e RNCCI, as suas áreas devem ser contabilizadas.
+
 O separador *Projeto* visa caracterizar o projeto de construção do hospital , tal como os custos associados e datas chave. Estes dados devem ser inseridos para cada fase de construção dos edifícios.
 
-![fig43](img/pages/43.JPG)
+![fig43](img/pages/cap14/43.JPG)
 
 <p class="caption" id="fig43"> Projeto -  Projeto e Construção</p>
 
-![fig43](img/pages/43_1.JPG)
+![fig43](img/pages/cap14/43_1.JPG)
 
 <p class="caption" id="fig43_1"> Projeto -  Custos do Projeto </p>
 
-![fig44](img/pages/44.JPG)
+![fig44](img/pages/cap14/44.JPG)
 
 <p class="caption" id="fig44"> Projeto - Datas Chaves</p>
 
 O separador *Construção* visa caracterizar os custos da construção e os custos de equipamentos. Estes dados devem ser inseridos para cada fase de construção dos edifícios.
 
-![fig45](img/pages/45.JPG)
+![fig45](img/pages/cap14/45.JPG)
 
 <p class="caption" id="fig45"> Caracterização da Construção</p>
 
@@ -451,7 +452,7 @@ O separador *Construção* visa caracterizar os custos da construção e os cust
 
 \* Na criação da instalação, o campo *ano* é para preencher com o ano corrente; caso a instalação já exista no SGES e tenha sofrido alterações, deve inserir-se o ano em que ocorreu a alteração.
 
-![fig46](img/pages/46.JPG)
+![fig46](img/pages/cap14/46.JPG)
 
 <p class="caption" id="fig46"> Detalhe Energia</p>
 
@@ -465,7 +466,7 @@ O separador *Construção* visa caracterizar os custos da construção e os cust
 | e)|ETAR / ETARI                                                               | |
 
 
-![fig47](img/pages/47.JPG)
+![fig47](img/pages/cap14/47.JPG)
 
 <p class="caption" id="fig47"> Detalhe Água/Águas Residuais</p>
 
@@ -474,7 +475,7 @@ O separador *Construção* visa caracterizar os custos da construção e os cust
 | a)|Ano de alteração                                                           | |
 | b)|Instalação registada no Infarmed como Dispositivo Médico?                  | |
 
-![fig48](img/pages/48.JPG)
+![fig48](img/pages/cap14/48.JPG)
 
 <p class="caption" id="fig48"> Detalhe Gases Medicinais</p>
 
@@ -503,13 +504,13 @@ O separador *Construção* visa caracterizar os custos da construção e os cust
 
 \** É permitido que o custo seja zero. 
 
-![fig49](img/pages/49.JPG)
+![fig49](img/pages/cap14/49.JPG)
 
 <p class="caption" id="fig49"> Detalhe Consumos e Custos</p>
 
 A informação relativa à produção de resíduos é preenchida na aplicação através do importe de um ficheiro no *backoffice* da aplicação.
 
-![fig50](img/pages/50.JPG)
+![fig50](img/pages/cap14/50.JPG)
 
 <p class="caption" id="fig50"> Detalhe Produção de Resíduos</p>
 
@@ -534,15 +535,15 @@ Após o registo de cada dado, o utilizador deve clicar no botão **GUARDAR** par
 |  |          | Em funcionamento|
 |  |          | Parado|
 
-![fig51](img/pages/51.JPG)
+![fig51](img/pages/cap14/51.JPG)
 
 <p class="caption" id="fig51"> Equipamentos Críticos - Instalações Elétricas</p>
 
-![fig52](img/pages/52.JPG)
+![fig52](img/pages/cap14/52.JPG)
 
 <p class="caption" id="fig52"> Equipamentos Críticos - Instalações Mecânicas</p>
 
-![fig53](img/pages/53.JPG)
+![fig53](img/pages/cap14/53.JPG)
 
 <p class="caption" id="fig53"> Equipamentos Críticos - Instalações de Águas e Esgotos</p>
 
@@ -552,7 +553,7 @@ Como mostrado nas figuras anteriores, é possível importar os equipamentos de c
 
 Ao carregar no botão **Importar**, são mostradas as indicações necessárias para preencher e carregar corretamente o documento que contém a informação referente aos equipamentos críticos ([](#fig53.1)).
 
-![fig53.1](img/pages/53.1.JPG)
+![fig53.1](img/pages/cap14/53.1.JPG)
 
 <p class="caption" id="fig53.1"> Importação Equipamentos Críticos </p>
 
@@ -590,15 +591,15 @@ Ao carregar no botão **Importar**, são mostradas as indicações necessárias 
 
 \* Os custos anuais de manutenção devem ser relativas ao ano transato.
 
-![fig54](img/pages/54.JPG)
+![fig54](img/pages/cap14/54.JPG)
 
 <p class="caption" id="fig54"> Serviços - Serviço de Instalação e Equipamento</p>
 
-![fig55](img/pages/55.JPG)
+![fig55](img/pages/cap14/55.JPG)
 
 <p class="caption" id="fig55"> Serviços - Custos do Serviço</p>
 
-![fig56](img/pages/56.JPG)
+![fig56](img/pages/cap14/56.JPG)
 
 <p class="caption" id="fig56"> Serviços - Serviços de Apoio</p>
 
@@ -635,27 +636,27 @@ Ao carregar no botão **Importar**, são mostradas as indicações necessárias 
 | i) |  Existe equipa de manutenção associada a este contrato?    | Sim| |Números de elementos de equipa|
 | |                                                        | Não|
 
-![fig57](img/pages/57.JPG)
+![fig57](img/pages/cap14/57.JPG)
 
 <p class="caption" id="fig57"> Contratos de Manutenção </p>
 
 \* Quando um contrato é criado o seu estado é *Em Vigor* e este campo é não editável. 
 Durante a duração do contrato é possível anulá-lo. Para isso o utilizador deve selecionar um dos contratos, clicar no botão **Cessar**       ([](#anular)) e indicar o motivo do anulamento do contrato.
 
-![anular](img/pages/57_1.JPG)
+![anular](img/pages/cap14/57_1.JPG)
 
 <p class="caption" id="anular"> Possibilidade de anular um contrato em vigor </p>
 
 Se o contrato já tiver terminado (i.e., data de fim inferior à data atual), o utilizador pode renovar ou fechar o contrato. Para isso o utilizador deve selecionar um dos contratos e clicar nos respetivos botões ([](#renovar)).
 
-![renovar](img/pages/57_2.JPG)
+![renovar](img/pages/cap14/57_2.JPG)
 
 <p class="caption" id="renovar"> Possibilidade de echar ou renovar um contrato que já chegou ao fim </p>
 
-O utilizador pode filtrar a pesquisa de contratos tendo em conta o seu estado, nomeadamente, o utilizador pode pesquisar por contratos ativos, anulados ou fechados ([](#fig52_3)).
+O utilizador pode filtrar a pesquisa de contratos tendo em conta o seu estado, nomeadamente, o utilizador pode pesquisar por contratos ativos, anulados ou fechados ([](#filtrar)).
 Contratos ativos correspondem a contratos em vigor e contratos renovados.
 
-![filtrar](img/pages/52_3.JPG)
+![filtrar](img/pages/cap14/52_3.JPG)
 
 <p class="caption" id="filtrar"> Pesquisa de Contratos </p>
 
@@ -670,7 +671,7 @@ Contratos ativos correspondem a contratos em vigor e contratos renovados.
 |b)  | Serviços avaliados                						||
 |c)  | Upload para repositório?            | Ficheiro           |
 
-![fig58](img/pages/58.JPG)
+![fig58](img/pages/cap14/58.JPG)
 
 <p class="caption" id="fig58"> Avaliação Pós-Ocupação </p>
 
@@ -690,7 +691,7 @@ Contratos ativos correspondem a contratos em vigor e contratos renovados.
 | e) | Upload para repositório?              |Ficheiro |
 
 
-![fig59](img/pages/59.JPG)
+![fig59](img/pages/cap14/59.JPG)
 
 <p class="caption" id="fig59"> Ações ACSS </p> -->
 
