@@ -628,7 +628,6 @@ Ao carregar no botão **Importar**, são mostradas as indicações necessárias 
 | |                                           | Quinquenal|
 | i)| Estado*                                 | Em vigor  |
 |   |                                         | Anulado   |
-|   |                                         | Em vigor   |
 |   |                                         | Fechado   |
 |   |                                         | Renovado   |
 | h) |   Contrato contém SLA – Service Level Agreement?    | Sim|
