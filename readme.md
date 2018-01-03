@@ -1,13 +1,21 @@
 # SGES_REPO
 
-Reposit髍io para material do SGES (Sistema de Gest鉶 de Entidades na Sa鷇e). 
+Reposit贸rio para material do SGES (Sistema de Gest茫o de Entidades na Sa煤de). 
 
 
 ## Directorias
 
-* **_layouts** - directoria com o layout html do conte鷇o utilizado em Markdown
+* **_layouts** - directoria com o layout html do conte煤do utilizado em Markdown
 
 ## Ajuda
-
+### Como proceder quando se pretende colocar no manual de utilizador uma imagem que tem menos de 80% do tamanho da p谩gina?
+ * Na pasta ''cs'', no ficheiro ''style'', adicionar a imagem em causa em ''paginas'';
+ * Na pasta ''js'' no ficheiro ''script'', adicionar a imagem na fun莽茫o "function zommClickImagem()".
+  
+ 
+### Como proceder quando se pretende adicionar um novo m贸dulo?
+* No ficheiro ''index'', adicionar o m贸dulo em ''div id="paginas"'';
+* No ficheiro ''index'', adicionar o m贸dulo em ''script'';
+* No ficheiro ''Indice'', adicionar o m贸dulo 脿 lista.
 
 
