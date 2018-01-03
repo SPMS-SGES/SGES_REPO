@@ -14,8 +14,8 @@ Repositório para material do SGES (Sistema de Gestão de Entidades na Saúde).
   
  
 ### Como proceder quando se pretende adicionar um novo módulo?
-* No ficheiro ''index'', adicionar o módulo em ''<div id="paginas">'';
-* No ficheiro ''index'', adicionar o módulo em ''<script>'';
+* No ficheiro ''index'', adicionar o módulo em ''div id="paginas"'';
+* No ficheiro ''index'', adicionar o módulo em ''script'';
 * No ficheiro ''Indice'', adicionar o módulo à lista.
 
 
