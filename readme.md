@@ -19,5 +19,8 @@ Repositório para material do SGES (Sistema de Gestão de Entidades na Saúde).
 * No ficheiro ''Indice'', adicionar o módulo à lista.
 
 
-
+### Como proceder para adicionar hiperligações?
+* Ir à aplicação ver qual é o #hashtag;
+* Ir ao índice e acrescentar href #hashtag;
+* Ir ao ficheiro markdown e pôr <p id= hashtag> </p> (antes do header h1/h2).
 
