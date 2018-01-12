@@ -18,7 +18,9 @@ A funcionalidade de criar uma entidade apenas é disponibilizada a utilizadores 
 Neste momento esta funcionalidade apenas é disponibilizada a utilizadores com o perfil ACSS e SGES_ENTIDADE.
 Utilizadores com o perfil SGES_ENTIDADE podem editar a entidade a que pertencem  após clicarem no botão **EDITAR ENTIDADE** ([](#figEditarEntidade)).
 
-![figEditarARS](img/pages/cap6/editar_sges_entidade.JPG)
+![figEditarEntidade](img/pages/cap6/editar_sges_entidade.JPG)
+
+<p class="caption" id="figEditarEntidade">Editar Entidade com o perfil SGES_ENTIDADE</p>
 
 <!-- Utilizadores com o perfil ARS_ADMIN têm permissões para editar a entidade a que pertencem  após clicarem no botão **EDITAR ENTIDADE** ([](#figEditarARS)). Têm também permissão para editar as entidades que lhes pertecem, pesquisando a entidade que pretendem editar, selecionar uma entidade da lista de resultados e clicar no botão **EDITAR** ([](#figEditarEntidade)). 
 
