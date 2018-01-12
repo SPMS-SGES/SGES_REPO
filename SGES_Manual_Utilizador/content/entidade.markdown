@@ -15,7 +15,10 @@ A funcionalidade de criar uma entidade apenas é disponibilizada a utilizadores 
 
 ## 6.2.Editar Entidade
 
-Neste momento esta funcionalidade apenas é disponibilizada a utilizadores com o perfil ACSS.
+Neste momento esta funcionalidade apenas é disponibilizada a utilizadores com o perfil ACSS e SGES_ENTIDADE.
+Utilizadores com o perfil SGES_ENTIDADE podem editar a entidade a que pertencem  após clicarem no botão **EDITAR ENTIDADE** ([](#figEditarEntidade)).
+
+![figEditarARS](img/pages/cap6/editar_sges_entidade.JPG)
 
 <!-- Utilizadores com o perfil ARS_ADMIN têm permissões para editar a entidade a que pertencem  após clicarem no botão **EDITAR ENTIDADE** ([](#figEditarARS)). Têm também permissão para editar as entidades que lhes pertecem, pesquisando a entidade que pretendem editar, selecionar uma entidade da lista de resultados e clicar no botão **EDITAR** ([](#figEditarEntidade)). 
 
@@ -92,7 +95,7 @@ A edição deve respeitar o preenchimento dos campos obrigatórios que dependem 
 
 Para gravar as alterações, no final da edição, o utilizador  deve clicar no botão **GUARDAR**. Após clicar irá ser notificado com o resultado da operação.
 
-<p id="consultaEntidade"></p>
+<p id="consultaEntidade"></p> -->
 
 ## 6.3.Consultar Entidade
 A página de consulta das informações de uma entidade pode ser consultada no *tab* Entidade do menu Entidade.
@@ -102,7 +105,7 @@ A página de consulta das informações de uma entidade pode ser consultada no *
 ## 6.4.Encerrar Entidade
 A funcionalidade de encerrar uma entidade apenas é disponibilizada a utilizadores com o perfil ACSS por esse motivo, caso pretenda encerrar uma entidade, por favor contacte a ACSS.
 
-<p id="historicoEntidade"></p> -->
+<p id="historicoEntidade"></p>
 
 ## 6.5.Histórico Entidade
 
