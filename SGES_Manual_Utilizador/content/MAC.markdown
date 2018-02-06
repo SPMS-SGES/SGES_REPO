@@ -3,7 +3,7 @@ layout: default
 title: "Entidade"
 ---
 
-<p id="aconvencao"></p>
+<!-- <p id="aconvencao"></p>
 # 15. Acordos e Convenções
 
 É neste módulo que serão feitas ações sobre os acordos e convenções. Estas só poderão ser realizadas por utilizadores com o perfil ARS ou ACSS.
@@ -284,3 +284,4 @@ Depois de carregar a ficha técnica, é mostrada uma página de verificação da
 Caso a informação seja confirmada, esta informação passa a ter de ser sujeita a aprovação.
 
 
+ -->
