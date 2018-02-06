@@ -4,7 +4,7 @@ title: "Entidade"
 ---
 
 <p id="listaeqcr"></p>
-# A. Anexos
+# A - Anexos
 
 ## A1. - Equipamentos das instalações elétricas, mecânicas e de águas e esgotos 
 
@@ -37,7 +37,7 @@ title: "Entidade"
 |   |                                       | Bomba(s) circuladoras |
 
 <p id="listaperfis"></p>
-## A2. - Perfis e respetivas permissões
+## A.2 - Perfis e respetivas permissões
 
 |   | Permissões e respetivas permissões                                     ||
 |---|------------------------------------------------------------------------|| 
