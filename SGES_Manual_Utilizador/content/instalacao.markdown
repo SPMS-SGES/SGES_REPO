@@ -420,11 +420,11 @@ O separador *Construção* visa caracterizar os custos da construção e os cust
 
 <p class="caption" id="fig45"> Caracterização da Construção</p>
 
-No separador *SCIE* o utilizador por registar informação acerca da segurança contra incêndios que os edfícios possuem.
+<!-- No separador *SCIE* o utilizador por registar informação acerca da segurança contra incêndios que os edfícios possuem. 
 
 ![fig60](img/pages/cap14/60.JPG)
 
-<p class="caption" id="fig60"> Segurança Contra Incêncios em Edífícios</p>
+<p class="caption" id="fig60"> Segurança Contra Incêncios em Edífícios</p>-->
 
 
 <p id="detalhe-inst"></p>
@@ -668,7 +668,7 @@ Contratos ativos correspondem a contratos em vigor e contratos renovados.
 
 <p class="caption" id="filtrar"> Pesquisa de Contratos </p>
 
-<p id="avaliao-ps-ocupao"></p> 
+<!-- <p id="avaliao-ps-ocupao"></p> 
 ### 14.1.6 Avaliação Pós-Ocupação
 
 Este separador apenas é editado por utilizadores aos quais tenha sido atribuído o perfil ACSS.
@@ -682,9 +682,9 @@ Neste separador é possível registar informação acerca da avaliação dos edi
 
 ![fig58](img/pages/cap14/58.JPG)
 
-<p class="caption" id="fig58"> Avaliação Pós-Ocupação </p>
+<p class="caption" id="fig58"> Avaliação Pós-Ocupação </p> -->
 
-<p id="acao-acss"></p>
+<!-- <p id="acao-acss"></p>
 ### 14.1.7 Ações ACSS
 Este separador apenas é editado por utilizadores aos quais tenha sido atribuído o perfil ACSS, no entanto, pode ser consultado por utilizadores com o perfil Entidades ou Instalações.
 Neste separador que o utilizador é possível registar informação de todas as ações que a ACSS executou naquelas instalações.
@@ -703,7 +703,7 @@ Neste separador que o utilizador é possível registar informação de todas as 
 
 ![fig59](img/pages/cap14/59.JPG)
 
-<p class="caption" id="fig59"> Ações ACSS </p>
+<p class="caption" id="fig59"> Ações ACSS </p> -->
 
 <p id="editar-instalaes"></p>  
 ## 14.2. Editar Instalações
