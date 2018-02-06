@@ -12,9 +12,9 @@ order: 3
 # 8. RH Serviços
 
 É neste módulo que são feitas ações sobre os recursos humanos afetos a serviços.
-O utilizador pode consultar a lista dos recursos humanos afetos a serviços numa entidade no separador **RH Serviços**  ([](#figRhAfetosEntidade)), através do ponto [6.3 Consultar Entidade](##consultar-entidade).
+O utilizador pode consultar a lista dos recursos humanos afetos a serviços numa entidade no separador RH Serviços  ([](#figRhAfetosEntidade)), através do ponto [6.3 Consultar Entidade](##consultar-entidade).
 
-![figRhAfetosEntidade](img/pages/8_0_1.jpg)
+![figRhAfetosEntidade](img/pages/cap8/8_0_1.jpg)
 
 <p class="caption" id="figRhAfetosEntidade"> Recursos Humanos afetos a serviços numa Entidade</p>
 
@@ -22,7 +22,7 @@ O utilizador pode consultar a lista dos recursos humanos afetos a serviços numa
 
 ## 8.1. Criar RH Serviço
 
-|    | Campos Obrigatórios da [](#figCriarRhServicos)       |      |
+|    | Campos Obrigatórios para criar RH Serviço [](#figCriarRhServicos)       |      |
 |----|---------------------------------------------------|----------|
 | a) | Ano                                          |   | 
 | b) | Grupo Profissional               |  Assistente Operacional| 
@@ -68,7 +68,7 @@ O utilizador pode consultar a lista dos recursos humanos afetos a serviços numa
 | k) | Trabalho em regime de telerradiologia? (se grupo profissional= médico e área de afetação=  radiologia)                               |   | 
 | k) | Observações                                             |   | 
 
-![figCriarRhServicos](img/pages/8_1_1.jpg)
+![figCriarRhServicos](img/pages/cap8/8_1_1.jpg)
 
 <p class="caption" id="figCriarRhServicos"> Criar RH Serviços</p>
 
@@ -78,7 +78,7 @@ Após o registo dos dados, o utilizador deve clicar em **GUARDAR** para gravar o
 
 ## 8.2. Consultar RH Serviço
 
-O utilizador pode navegar para a página de consulta de RH Serviços após selecionar um RH Serviço da lista de RH Serviços existentes numa entidade ([](#figRhAfetosEntidade))  e clicar no botão **CONSULTAR**.
+O utilizador pode navegar para a página de consulta de RH Serviços, após selecionar um RH Serviço da lista de RH Serviços existentes numa entidade ([](#figRhAfetosEntidade)),  e clicar no botão **CONSULTAR**.
 
 <p id="alteraRhEquipamento"></p>
 

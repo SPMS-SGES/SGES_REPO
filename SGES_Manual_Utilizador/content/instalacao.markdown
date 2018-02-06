@@ -18,13 +18,13 @@ Para aceder às  instalações de um estabelecimento, o utilizador tem três alt
 
 (ii) Na página de consulta de estabelecimentos existentes numa entidade, através do ponto [7. Estabelecimentos] ([](#figEstEntidade));
 
-(iii) Através do sub-menu Instalações [](#figura_menu_ADMIN_entidade), selecionado.
+(iii) Através do menu Instalações [](#figura_menu_ADMIN_entidade), selecionado.
 
-![fig39](img/pages/39.JPG)
+![fig39](img/pages/cap14/39.JPG)
 
 <p class="caption" id="fig39"> Aceder às Instalações de um estabelecimento </p>
 
-![figEstabeSInst](img/pages/38.JPG)
+![figEstabeSInst](img/pages/cap14/38.JPG)
 
 <p class="caption" id="figEstabeSInst"> Exemplo de Estabelecimento sem Instalações</p>
 
@@ -38,7 +38,7 @@ Para o Registo de Instalações será necessário primeiro submeter os campos da
 
 É de salientar que existem balões de informação juntos aos campos que envolvem regras de negócio mais complexas. Para que o utilizador possa visualizar estas informações, o utilizador deve manter o cursor sobre o símbolo mostrado na  [](#figBaloes).
 
-![figBaloes](img/pages/39_1.JPG)
+![figBaloes](img/pages/cap14/39_1.JPG)
 
 <p class="caption" id="figBaloes"> Balões de informação.</p>
 
@@ -48,85 +48,318 @@ Para o Registo de Instalações será necessário primeiro submeter os campos da
 Para poder criar a instalação o utilizador deve preencher, pelo menos, os campos obrigatórios da *Caracterização Geral* e clicar em **SUBMETER**.
 
 
-|    |                            Campos Obrigatórios – Caracterização Geral - ([](#fig40))    |                                              ||
-|----|-----------------------------------------------------------------------------------------|-------------------------------------------|-|-|
-|Se estabelecimento tem vários edifícios  = Sim e se edifícios que compõem o estabelecimento localizados no mesmo terreno?= Sim              |||
-| a)| Propriedade do Terreno                                                                  |Estado                                       |||
-|   |                                                                                         |Privado com cedência de direito de superfície|||
-|    |                                                                                         |SCM                                          |||
-| b)| Nome edifício                                                                                                                         |||
-| c) | Propriedade do(s) Edifício(s)                                                           |Arrendado                                    |||
-|    |                                                                                         |Estado                                        |||
-|    |                                                                                         |PPP                                           |||
-|    |                                                                                         |SCM                                           |||
-| d) | Edifícios construídos na mesma fase?                                                    |Sim|          Número de fases de construção =1 ||
-|    |                                                                                         |Não|     Quantas fases de construção existiram?||
-| e) | O estabelecimento hospitalar dispõe de plano diretor? |Sim  |O plano diretor está aprovado?| Sim| Data de aprovação do plano diretor| O plano diretor está implementado?| Sim|
-|    |                                                       |     |                              | Não|                                   |                                   | Não|
-|    |                                                       |Não  |                              |    |                                   |                                   |    |
-| e) | Heliporto?                                                                              |Sim| Heliporto Certificado?                | Sim|
-|    |                                                                                         | Não|                                          ||
-|    | Heliporto Operacional?| Sim|
-|    |                       | Não|
+<table class="tabelanova">
+<thead>
+  	<tr>
+		<th colspan="8" >
+			<strong> Campos Obrigatórios – Caracterização Geral - <a href="#fig40"> Fig.54 </a> </strong>
+    	</th>
+	</tr>
+</thead>
+  <tbody>
+	<tr>
+		<td colspan="8"> Se estabelecimento tem vários edifícios  = Sim e se edifícios que compõem o estabelecimento localizados no mes mo terreno?= Sim </td>
+	</tr>
+	<tr>
+		<td colspan="7" rowspan="4"> a) Propriedade do Terreno  </td>
+    	<td> Estado </td>
+    </tr>
+	<tr>
+		<td> Privado com cedência de direito de superfície </td>
+	</tr>	
+	<tr>
+		<td> SCM </td>
+	</tr>
+	<tr>
+		<td> Outros </td>
+	</tr>
+	<tr>
+		<td colspan="8"> b) Nome edifício </td>
+	</tr>
+	<tr>
+		<td colspan="7" rowspan="5"> c) Propriedade do(s) Edifício(s)  </td>
+    	<td> Arrendado </td>
+    </tr>
+    <tr>
+		<td> Estado</td>
+    </tr>
+    <tr>
+		<td> PPP </td>
+    </tr>
+    <tr>
+		<td> SCM </td>
+	</tr> 
+	<tr>
+		<td> Outros</td>
+	</tr>  
+	<tr>
+		<td colspan="6" rowspan="2">  d) Edifícios construídos na mesma fase?   </td>
+		<td> Sim  </td>
+		<td> Número de fases de construção =1 </td>
+	</tr>  
+	<tr>
+		<td> Não </td>
+		<td> Quantas fases de construção existiram? </td>
+	</tr>  
+	<tr>
+		<td rowspan="5" colspan="4"> e) O estabelecimento hospitalar dispõe de plano diretor? </td>
+		<td rowspan="4"> Sim </td>
+    	<td rowspan="2"> Aprovado </td>
+    	<td> Sim </td>
+    	<td> Data de aprovação </td> 
+ 	</tr>
+ 	<tr>
+    	<td  colspan="6"> Não </td>
+ 	</tr>
+ 	<tr>
+     	<td rowspan="2"> Implementado? </td>
+      	<td colspan="6"> Sim</td>
+ 	</tr>
+ 	<tr>
+    	<td colspan="6"> Não </td>
+ 	</tr>
+ 	<tr>
+     	<td colspan="4"> Não </td>
+ 	</tr>
+	<tr>
+		<td colspan="5" rowspan="5"> f)  Heliporto? </td>
+		<td rowspan="4"> Sim </td>
+		<td rowspan="2"> Operacional? </td>
+    	<td> Sim </td>
+	</tr>  
+  	<tr>
+     	<td> Não </td>
+ 	</tr>
+ 	<tr>
+     	<td rowspan="2"> Certificado? </td>
+     	<td> Sim </td>
+ 	</tr>
+  	<tr>
+     	<td> Não </td>
+ 	</tr>
+  	<tr>
+     	<td colspan="5" > Não </td>
+  	</tr>  
+	</tbody>
+</table>
 
-![fig40](img/pages/40.JPG)
+
+![fig40](img/pages/cap14/40.JPG)
 
 <p class="caption" id="fig40"> Criar Instalações – Caracterização Geral</p>
 
 
 Os serviços de urgência básica (SUB) (ver [](#fig40_0)) da entidade devem ser indicados como edifícios. 
 
-![fig40_0](img/pages/40_0.JPG)
+![fig40_0](img/pages/cap14/40_0.JPG)
 
 <p class="caption" id="fig40_0"> Lista de SUB de uma entidade. </p>
 
-|    |   Campos Obrigatórios – Caracterização Geral - ([](#fig40_1))                            |                                            ||
-|----|-----------------------------------------------------------------------------------------|-------------------------------------------|-|-|
-|Se estabelecimento tem vários edifícios  = Sim e se edifícios que compõem o estabelecimento localizados no mesmo terreno?= Não               ||| 
-|a)  |  Nome edifício                                                                                                                         |||
-|b)  | Propriedade do Terreno                                                                  |Estado                                        |||
-|    |                                                                                         |Privado com cedência de direito de superfície |||
-|    |                                                                                         |SCM                                           |||
-|c)  | Propriedade do(s) Edifício(s)                                                           |Arrendado                                     |||
-|    |                                                                                         |Estado                                        |||
-|    |                                                                                         |PPP                                           |||
-|    |                                                                                         |SCM                                           |||
-|d)| Se mesma morada que o estabelecimento = Não                                               |Morada                                        |||
-|    |                                                                                         |Código Postal                                 |||
-|    |                                                                                         |Concelho                                      |||
-|    |                                                                                         |Freguesia                                     |||
-| e) | Edifícios construídos na mesma fase?                                                    |Sim|          Número de fases de construção =1 ||
-| f) | O estabelecimento hospitalar dispõe de plano diretor? |Sim  |O plano diretor está aprovado?| Sim| Data de aprovação do plano diretor| O plano diretor está implementado?| Sim|
-|    |                                                       |     |                              | Não|                                   |                                   | Não|
-|    |                                                       |Não  |                              |    |                                   |                                   |    |
-| g) | Heliporto?                                            |Sim| Heliporto Certificado?                | Sim|
-|    |                                                      | Não|                                          ||
-|    | Heliporto Operacional?| Sim|
-|    |                       | Não|
 
-![fig40_1](img/pages/40_1.JPG)
+<table class="tabelanova">
+<thead>
+  	<tr>
+		<th colspan="8" >
+			<strong> Campos Obrigatórios – Caracterização Geral - <a href="#fig40_1">Fig.56 </a> </strong>
+    	</th>
+	</tr>
+</thead>
+  <tbody>
+	<tr>
+		<td colspan="8"> Se estabelecimento tem vários edifícios  = Sim e se edifícios que compõem o estabelecimento localizados no mesmo terreno?= Não </td>
+	</tr>
+	<tr>
+		<td colspan="7" rowspan="4"> a) Propriedade do Terreno  </td>
+    	<td> Estado </td>
+    </tr>
+	<tr>
+		<td> Privado com cedência de direito de superfície </td>
+	</tr>	
+	<tr>
+		<td> SCM </td>
+	</tr>
+	<tr>
+		<td> Outros </td>
+	</tr>
+	<tr>
+		<td colspan="8"> b) Nome edifício </td>
+	</tr>
+	<tr>
+		<td colspan="7" rowspan="5"> c) Propriedade do(s) Edifício(s)  </td>
+    	<td> Arrendado </td>
+    </tr>
+    <tr>
+		<td> Estado</td>
+    </tr>
+    <tr>
+		<td> PPP </td>
+    </tr>
+    <tr>
+		<td> SCM </td>
+	</tr>
+	  <tr>
+		<td> Outros </td>
+	</tr>
+	<tr>
+    	<td rowspan="5" colspan="6"> Mesma morada que o estabelecimento?</td>
+    	<td rowspan="4" colspan="1"> Sim</td>
+    	<td > Morada </td>
+	</tr>
+	<tr>
+    	<td > Código-Postal </td>
+	</tr>
+	<tr>
+	<td > Concelho </td>
+	</tr>
+    
+  	<tr>
+		<td > Freguesia </td>
+  	</tr>
+	<tr>
+    	 <td colspan="3"> Não </td>
+  	</tr>
+	<tr>
+		<td colspan="6" rowspan="2">  d) Edifícios construídos na mesma fase?   </td>
+		<td> Sim  </td>
+		<td> Número de fases de construção =1 </td>
+	</tr>  
+	<tr>
+		<td> Não </td>
+		<td> Quantas fases de construção existiram? </td>
+	</tr>  
+	<tr>
+		<td rowspan="5" colspan="4"> e) O estabelecimento hospitalar dispõe de plano diretor? </td>
+		<td rowspan="4"> Sim </td>
+    	<td rowspan="2"> Aprovado </td>
+    	<td> Sim </td>
+    	<td> Data de aprovação </td> 
+ 	</tr>
+ 	<tr>
+    	<td  colspan="6"> Não </td>
+ 	</tr>
+ 	<tr>
+     	<td rowspan="2"> Implementado? </td>
+      	<td colspan="6"> Sim</td>
+ 	</tr>
+ 	<tr>
+    	<td colspan="6"> Não </td>
+ 	</tr>
+ 	<tr>
+     	<td colspan="4"> Não </td>
+ 	</tr>
+	<tr>
+		<td colspan="5" rowspan="5"> f)  Heliporto? </td>
+		<td rowspan="4"> Sim </td>
+		<td rowspan="2"> Operacional? </td>
+    	<td> Sim </td>
+	</tr>  
+  	<tr>
+     	<td> Não </td>
+ 	</tr>
+ 	<tr>
+     	<td rowspan="2"> Certificado? </td>
+     	<td> Sim </td>
+ 	</tr>
+  	<tr>
+     	<td> Não </td>
+ 	</tr>
+  	<tr>
+     	<td colspan="5" > Não </td>
+  	</tr>  
+	</tbody>
+</table>
 
-<p class="caption" id="fig40_1"> Criar Instalações – Caracterização Geral</p>
 
-|  |   Campos Obrigatórios – Caracterização Geral - ([](#fig40_2))                             |                                               ||
-|----|-----------------------------------------------------------------------------------------|-------------------------------------------|-|-|
-|Se estabelecimento tem vários edifícios  = Não                                                                                               |||
-|a)| Nome edifício                                                                                                                            |||
-|b)| Propriedade do Terreno                                                                    |Estado                                        |||
-| |                                                                                            |Privado com cedência de direito de superfície |||
-| |                                                                                            |SCM                                           |||
-|c) | Propriedade do(s) Edifício(s)                                                            |Arrendado                                     |||
-|    |                                                                                         |Estado                                        |||
-|    |                                                                                         |PPP                                           |||
-| d) | O estabelecimento hospitalar dispõe de plano diretor? |Sim  |O plano diretor está aprovado?| Sim| Data de aprovação do plano diretor| O plano diretor está implementado?| Sim|
-|    |                                                       |     |                              | Não|                                   |                                   | Não|
-|    |                                                       |Não  |                              |    |                                   |                                   |    |
-| e) | Heliporto?                                           |Sim| Heliporto Certificado?                | Sim|
-|    |                                                      | Não|                                          ||
-|    | Heliporto Operacional?| Sim|
-|    |                       | Não|
+![fig40_1](img/pages/cap14/40_1.JPG)
 
-![fig40_2](img/pages/40_2.JPG)
+<table class="tabelanova">
+<thead>
+  	<tr>
+		<th colspan="8" >
+			<strong> Campos Obrigatórios – Caracterização Geral - <a href="#fig40_2">Fig.57 </a> </strong>
+    	</th>
+	</tr>
+</thead>
+  <tbody>
+	<tr>
+		<td colspan="8"> Se estabelecimento tem vários edifícios  = Não  </td>
+	</tr>                                          
+	<tr>
+		<td colspan="7" rowspan="4"> a) Propriedade do Terreno  </td>
+    	<td> Estado </td>
+    </tr>
+	<tr>
+		<td> Privado com cedência de direito de superfície </td>
+	</tr>	
+	<tr>
+		<td> SCM </td>
+	</tr>
+	<tr>
+		<td> Outros </td>
+	</tr>
+	<tr>
+		<td colspan="8"> b) Nome edifício </td>
+	</tr>
+	<tr>
+		<td colspan="7" rowspan="5"> c) Propriedade do(s) Edifício(s)  </td>
+    	<td> Arrendado </td>
+    </tr>
+    <tr>
+		<td> Estado</td>
+    </tr>
+    <tr>
+		<td> PPP </td>
+    </tr>
+    <tr>
+		<td> SCM </td>
+	</tr>
+	<tr>
+		<td> Outros </td>
+	</tr>
+	<tr>
+		<td rowspan="5" colspan="4"> d) O estabelecimento hospitalar dispõe de plano diretor? </td>
+		<td rowspan="4"> Sim </td>
+    	<td rowspan="2"> Aprovado </td>
+    	<td> Sim </td>
+    	<td> Data de aprovação </td> 
+ 	</tr>
+ 	<tr>
+    	<td  colspan="6"> Não </td>
+ 	</tr>
+ 	<tr>
+     	<td rowspan="2"> Implementado? </td>
+      	<td colspan="6"> Sim</td>
+ 	</tr>
+ 	<tr>
+    	<td colspan="6"> Não </td>
+ 	</tr>
+ 	<tr>
+     	<td colspan="4"> Não </td>
+ 	</tr>
+	<tr>
+		<td colspan="5" rowspan="5"> e)  Heliporto? </td>
+		<td rowspan="4"> Sim </td>
+		<td rowspan="2"> Operacional? </td>
+    	<td> Sim </td>
+	</tr>  
+  	<tr>
+     	<td> Não </td>
+ 	</tr>
+ 	<tr>
+     	<td rowspan="2"> Certificado? </td>
+     	<td> Sim </td>
+ 	</tr>
+  	<tr>
+     	<td> Não </td>
+ 	</tr>
+  	<tr>
+     	<td colspan="5" > Não </td>
+  	</tr>  
+	</tbody>
+</table>
+
+
+![fig40_2](img/pages/cap14/40_2.JPG)
 
 <p class="caption" id="fig40_2"> Criar Instalações – Caracterização Geral</p>
 
@@ -144,41 +377,55 @@ Pode inserir informação acerca das áreas e estacionamento, tendo de carregar 
 ||                     |  N.º Lugares de estacionamento à superfície |
 
 
-![fig41](img/pages/41.JPG)
+![fig41](img/pages/cap14/41.JPG)
 
 <p class="caption" id="fig41"> Criar Instalação - Áreas Totais e Estacionamento</p>
 
-As áreas dos hospitais contemplam as áreas de prestação de cuidados de saúde e de apoio (investigação, técnicas, entre outras).
 
-Os lugares de estacionamento são os lugares de estacionamento disponíveis no estabelecimento hospitalar.
-
-
+Relativamente ao estacionamento:
+* Os lugares de estacionamento são os lugares de estacionamento disponíveis no estabelecimento hospitalar;
+* Apenas devem ser contabilizados os lugares os oficiais (delimitados);
+* Os descampados não contam para nº de lugares;
+* Lugares concessionados a terceiros devem ser contabilizados (desde que sejam utilizados pelas entidades hospitalares).
 
 O separador *Caracterização do Edifício* contém os dados referentes ao(s) edíficio(s) tais como o nome, a área útil do programa funcional, a área útil, a área bruta, a área de implantação, nº de pisos acima do solo, nº de pisos abaixo do solo e área de estacionamento construído ([](#fig42)).
 
-![fig42](img/pages/42.JPG)
+![fig42](img/pages/cap14/42.JPG)
 
 <p class="caption" id="fig42"> Caracterização do Edifício</p>
 
+As áreas dos hospitais contemplam as áreas de prestação de cuidados de saúde e de apoio (investigação, técnicas, entre outras).
+As casas de função (usadas, por exemplo, por funcionários realocados) não contam para as áreas.
+Relativamente às SUBS e RNCCI, as suas áreas devem ser contabilizadas.
+
+<br><br>
+
 O separador *Projeto* visa caracterizar o projeto de construção do hospital , tal como os custos associados e datas chave. Estes dados devem ser inseridos para cada fase de construção dos edifícios.
 
-![fig43](img/pages/43.JPG)
+![fig43](img/pages/cap14/43.JPG)
 
 <p class="caption" id="fig43"> Projeto -  Projeto e Construção</p>
 
-![fig43](img/pages/43_1.JPG)
+![fig43](img/pages/cap14/43_1.JPG)
 
 <p class="caption" id="fig43_1"> Projeto -  Custos do Projeto </p>
 
-![fig44](img/pages/44.JPG)
+![fig44](img/pages/cap14/44.JPG)
 
 <p class="caption" id="fig44"> Projeto - Datas Chaves</p>
 
 O separador *Construção* visa caracterizar os custos da construção e os custos de equipamentos. Estes dados devem ser inseridos para cada fase de construção dos edifícios.
 
-![fig45](img/pages/45.JPG)
+![fig45](img/pages/cap14/45.JPG)
 
 <p class="caption" id="fig45"> Caracterização da Construção</p>
+
+No separador *SCIE* o utilizador por registar informação acerca da segurança contra incêndios que os edfícios possuem.
+
+![fig60](img/pages/cap14/60.JPG)
+
+<p class="caption" id="fig60"> Segurança Contra Incêncios em Edífícios</p>
+
 
 <p id="detalhe-inst"></p>
 ### 14.1.2 Detalhe
@@ -214,7 +461,7 @@ O separador *Construção* visa caracterizar os custos da construção e os cust
 
 \* Na criação da instalação, o campo *ano* é para preencher com o ano corrente; caso a instalação já exista no SGES e tenha sofrido alterações, deve inserir-se o ano em que ocorreu a alteração.
 
-![fig46](img/pages/46.JPG)
+![fig46](img/pages/cap14/46.JPG)
 
 <p class="caption" id="fig46"> Detalhe Energia</p>
 
@@ -228,7 +475,7 @@ O separador *Construção* visa caracterizar os custos da construção e os cust
 | e)|ETAR / ETARI                                                               | |
 
 
-![fig47](img/pages/47.JPG)
+![fig47](img/pages/cap14/47.JPG)
 
 <p class="caption" id="fig47"> Detalhe Água/Águas Residuais</p>
 
@@ -237,7 +484,7 @@ O separador *Construção* visa caracterizar os custos da construção e os cust
 | a)|Ano de alteração                                                           | |
 | b)|Instalação registada no Infarmed como Dispositivo Médico?                  | |
 
-![fig48](img/pages/48.JPG)
+![fig48](img/pages/cap14/48.JPG)
 
 <p class="caption" id="fig48"> Detalhe Gases Medicinais</p>
 
@@ -248,11 +495,11 @@ O separador *Construção* visa caracterizar os custos da construção e os cust
 |   |                     |Energia elétrica produzida por aerogeradores           | |
 | c)|Combustíveis  ||            |
 |   |Consumo nafta |Custo nafta |
-|   |Consumo gasóleo*|Custo gasóleo|
-|   |Consumo outros| Custo outros |
+|   |Consumo gasóleo*|Custo gasóleo**|
+|   |Consumo outros| Custo outros** |
 | d)|Águas       
 |   |Consumo água |Custo água   |
-| e)|Gases Medicinais ||       
+| e)|Gases Medicinais (inclui gases em garrafas)||       
 |   |Consumo oxigénio |Custo oxigénio|
 |   |Consumo azoto |Custo azoto|
 |   |Consumo protóxido|Custo Protóxido|
@@ -262,15 +509,17 @@ O separador *Construção* visa caracterizar os custos da construção e os cust
 |   |Consumo produção em Vácuo|Custo produção em Vácuo;|
 |   |Consumo exaustão de gases anestésicos|Custo exaustão de gases anestésicos|
 
-\*o gasóleo consumido via frota automóvel não deve ser reportado via SGES. 
+\*o gasóleo consumido via frota automóvel não deve ser reportado via SGES.
 
-![fig49](img/pages/49.JPG)
+\** É permitido que o custo seja zero. 
+
+![fig49](img/pages/cap14/49.JPG)
 
 <p class="caption" id="fig49"> Detalhe Consumos e Custos</p>
 
 A informação relativa à produção de resíduos é preenchida na aplicação através do importe de um ficheiro no *backoffice* da aplicação.
 
-![fig50](img/pages/50.JPG)
+![fig50](img/pages/cap14/50.JPG)
 
 <p class="caption" id="fig50"> Detalhe Produção de Resíduos</p>
 
@@ -295,15 +544,15 @@ Após o registo de cada dado, o utilizador deve clicar no botão **GUARDAR** par
 |  |          | Em funcionamento|
 |  |          | Parado|
 
-![fig51](img/pages/51.JPG)
+![fig51](img/pages/cap14/51.JPG)
 
 <p class="caption" id="fig51"> Equipamentos Críticos - Instalações Elétricas</p>
 
-![fig52](img/pages/52.JPG)
+![fig52](img/pages/cap14/52.JPG)
 
 <p class="caption" id="fig52"> Equipamentos Críticos - Instalações Mecânicas</p>
 
-![fig53](img/pages/53.JPG)
+![fig53](img/pages/cap14/53.JPG)
 
 <p class="caption" id="fig53"> Equipamentos Críticos - Instalações de Águas e Esgotos</p>
 
@@ -313,7 +562,7 @@ Como mostrado nas figuras anteriores, é possível importar os equipamentos de c
 
 Ao carregar no botão **Importar**, são mostradas as indicações necessárias para preencher e carregar corretamente o documento que contém a informação referente aos equipamentos críticos ([](#fig53.1)).
 
-![fig53.1](img/pages/53.1.JPG)
+![fig53.1](img/pages/cap14/53.1.JPG)
 
 <p class="caption" id="fig53.1"> Importação Equipamentos Críticos </p>
 
@@ -351,15 +600,15 @@ Ao carregar no botão **Importar**, são mostradas as indicações necessárias 
 
 \* Os custos anuais de manutenção devem ser relativas ao ano transato.
 
-![fig54](img/pages/54.JPG)
+![fig54](img/pages/cap14/54.JPG)
 
 <p class="caption" id="fig54"> Serviços - Serviço de Instalação e Equipamento</p>
 
-![fig55](img/pages/55.JPG)
+![fig55](img/pages/cap14/55.JPG)
 
 <p class="caption" id="fig55"> Serviços - Custos do Serviço</p>
 
-![fig56](img/pages/56.JPG)
+![fig56](img/pages/cap14/56.JPG)
 
 <p class="caption" id="fig56"> Serviços - Serviços de Apoio</p>
 
@@ -388,7 +637,6 @@ Ao carregar no botão **Importar**, são mostradas as indicações necessárias 
 | |                                           | Quinquenal|
 | i)| Estado*                                 | Em vigor  |
 |   |                                         | Anulado   |
-|   |                                         | Em vigor   |
 |   |                                         | Fechado   |
 |   |                                         | Renovado   |
 | h) |   Contrato contém SLA – Service Level Agreement?    | Sim|
@@ -396,52 +644,54 @@ Ao carregar no botão **Importar**, são mostradas as indicações necessárias 
 | i) |  Existe equipa de manutenção associada a este contrato?    | Sim| |Números de elementos de equipa|
 | |                                                        | Não|
 
-![fig57](img/pages/57.JPG)
+![fig57](img/pages/cap14/57.JPG)
 
 <p class="caption" id="fig57"> Contratos de Manutenção </p>
 
 \* Quando um contrato é criado o seu estado é *Em Vigor* e este campo é não editável. 
 Durante a duração do contrato é possível anulá-lo. Para isso o utilizador deve selecionar um dos contratos, clicar no botão **Cessar**       ([](#anular)) e indicar o motivo do anulamento do contrato.
 
-![anular](img/pages/57_1.JPG)
+![anular](img/pages/cap14/57_1.JPG)
 
 <p class="caption" id="anular"> Possibilidade de anular um contrato em vigor </p>
 
 Se o contrato já tiver terminado (i.e., data de fim inferior à data atual), o utilizador pode renovar ou fechar o contrato. Para isso o utilizador deve selecionar um dos contratos e clicar nos respetivos botões ([](#renovar)).
 
-![renovar](img/pages/57_2.JPG)
+![renovar](img/pages/cap14/57_2.JPG)
 
 <p class="caption" id="renovar"> Possibilidade de echar ou renovar um contrato que já chegou ao fim </p>
 
-O utilizador pode filtrar a pesquisa de contratos tendo em conta o seu estado, nomeadamente, o utilizador pode pesquisar por contratos ativos, anulados ou fechados ([](#fig52_3)).
+O utilizador pode filtrar a pesquisa de contratos tendo em conta o seu estado, nomeadamente, o utilizador pode pesquisar por contratos ativos, anulados ou fechados ([](#filtrar)).
 Contratos ativos correspondem a contratos em vigor e contratos renovados.
 
-![filtrar](img/pages/52_3.JPG)
+![filtrar](img/pages/cap14/52_3.JPG)
 
 <p class="caption" id="filtrar"> Pesquisa de Contratos </p>
 
-<!--<p id="avaliao-ps-ocupao"></p> 
+<p id="avaliao-ps-ocupao"></p> 
 ### 14.1.6 Avaliação Pós-Ocupação
 
-É neste separador que o utilizador pode registar informação acerca da avaliação dos edifícios da instalação; útil instrumento na implementação de melhorias na criação de edifícios no futuro.
+Este separador apenas é editado por utilizadores aos quais tenha sido atribuído o perfil ACSS.
+Neste separador é possível registar informação acerca da avaliação dos edifícios da instalação o que representa um útil instrumento na implementação de melhorias na criação de edifícios no futuro.
 
-|    | Campos em Avaliação Pós-Ocupação – ([](#fig58))    | |
+|    | Campos em Avaliação Pós-Ocupação – ([](#fig58))           | |
 |----|-----------------------------------------------------------|-| 
-|a)  | Existe APO efetuada?                | Data de realização |
-|b)  | Serviços avaliados                						||
-|c)  | Upload para repositório?            | Ficheiro           |
+|a)  | Data de realização                                        | |
+|b)  | Serviços avaliados                						 | |
+|c)  | Upload para repositório?            | Ficheiro              |
 
-![fig58](img/pages/58.JPG)
+![fig58](img/pages/cap14/58.JPG)
 
 <p class="caption" id="fig58"> Avaliação Pós-Ocupação </p>
 
 <p id="acao-acss"></p>
 ### 14.1.7 Ações ACSS
-É neste separador que o utilizador pode registar informação de todas as ações que a ACSS executou naquelas instalações.
+Este separador apenas é editado por utilizadores aos quais tenha sido atribuído o perfil ACSS, no entanto, pode ser consultado por utilizadores com o perfil Entidades ou Instalações.
+Neste separador que o utilizador é possível registar informação de todas as ações que a ACSS executou naquelas instalações.
 
-|    | Campos em Ações ACSS – ([](#fig59))     | |
+|    | Campos em Ações ACSS – ([](#fig59))                       | |
 |----|-----------------------------------------------------------|-|
-| a) | Existem ações realizadas no estabelecimento, pela ACSS? |Data de realização |
+| a) |Data de realização                                         | |
 | b) | Tipo de Ação                          |Avaliações do estado das instalações |
 ||                                           |Estudo-piloto |
 ||                                           |Outros |
@@ -451,9 +701,9 @@ Contratos ativos correspondem a contratos em vigor e contratos renovados.
 | e) | Upload para repositório?              |Ficheiro |
 
 
-![fig59](img/pages/59.JPG)
+![fig59](img/pages/cap14/59.JPG)
 
-<p class="caption" id="fig59"> Ações ACSS </p> -->
+<p class="caption" id="fig59"> Ações ACSS </p>
 
 <p id="editar-instalaes"></p>  
 ## 14.2. Editar Instalações

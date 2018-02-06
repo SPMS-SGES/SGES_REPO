@@ -13,7 +13,7 @@ order: 3
 Neste módulo são feitas ações sobre os estabelecimentos.
 O utilizador pode consultar a lista de estabelecimentos associados a uma entidade através do separador **Estabelecimentos** ([](#figEstEntidade)).
 
-![figEstEntidade](img/pages/7_1.jpg)
+![figEstEntidade](img/pages/cap7/7_1.jpg)
 
 <p class="caption" id="figEstEntidade"> Estabelecimentos da Entidade</p>
 
@@ -60,11 +60,11 @@ Na tabela abaixo e na [](#figPainelGabCidadao) são mostrados os campos de preen
 \* Preços em vigor dos cuidados a prestar pelo hospital; correspondem aos preços a pagar por um utente independente, sem qualquer sistema de saúde.
 
 
-![figCriarEstabelecimento](img/pages/7_1_1.jpg)
+![figCriarEstabelecimento](img/pages/cap7/7_1_1.jpg)
 
 <p class="caption" id="figCriarEstabelecimento"> Criar Estabelecimento</p>
 
-![figPainelGabCidadao](img/pages/7_1_2.jpg)
+![figPainelGabCidadao](img/pages/cap7/7_1_2.jpg)
 
 <p class="caption" id="figPainelGabCidadao"> Painel Gabinete ao cidadão</p>
 
@@ -89,7 +89,7 @@ Após o preenchimento da identificação do estabelecimento, dependendo do tipo 
 | b) | 	Se urgências                     |  Tipo de urgência| 
 ||                                       |Classificação do Serviço de Urgência| 
 
-![figUrgencias](img/pages/7_1_3.jpg)
+![figUrgencias](img/pages/cap7/7_1_3.jpg)
 
 <p class="caption" id="figUrgencias"> Estabelecimento do tipo Hospital - Urgências</p>
 
@@ -100,7 +100,7 @@ Após o preenchimento da identificação do estabelecimento, dependendo do tipo 
 || 	                                     | Adultos e/ou Pediátricos|
 
 
-![figEspecialidade](img/pages/7_1_4.jpg)
+![figEspecialidade](img/pages/cap7/7_1_4.jpg)
 
 <p class="caption" id="figEspecialidade"> Painel das Especialidades </p>
 
@@ -122,7 +122,7 @@ Após o preenchimento da identificação do estabelecimento, dependendo do tipo 
 
    * Quarto de Isolamento de GRAU VI: quarto individual com porta dupla e pressão negativa. 
 
-![figCapacidade](img/pages/7_1_5.jpg)
+![figCapacidade](img/pages/cap7/7_1_5.jpg)
 
 <p class="caption" id="figCapacidade"> Painel das Capacidades </p>
 
@@ -140,7 +140,7 @@ As próximas tabelas e imagens mostram os campos de preenchimento obrigatório r
 | d) | Se Unidade Funcional = USF                  | Modelo USF| 
 
 
-![figPostosColheita](img/pages/7_1_6.jpg)
+![figPostosColheita](img/pages/cap7/7_1_6.jpg)
 
 <p class="caption" id="figPostosColheita"> Estabelecimento do tipo Unidade Funcional</p>
  
@@ -154,7 +154,7 @@ As próximas tabelas e imagens mostram os campos de preenchimento obrigatório r
 | e) | Concelho                                               |
 | f) | Freguesia                                              |
 
-![figUnidadeFunc](img/pages/7_1_7.jpg)
+![figUnidadeFunc](img/pages/cap7/7_1_7.jpg)
 
 <p class="caption" id="figUnidadeFunc"> Estabelecimento do tipo Laboratório - Postos de Colheita</p>
 
@@ -166,7 +166,7 @@ Após o registo dos dados em cada módulo, deve clicar em **GUARDAR** para grava
 
 A página de edição de um estabelecimento está disponível através da consulta do estabelecimento clicando no botão **EDITAR ESTABELECIMENTO**.
 
-Se o utilizador tiver acesso à pesquisa de estabelecimentos ([](#figCamposPesquisaEntidade)) ou à página de estabelecimentos associados a uma entidade ([](#figEstEntidade)) pode navegar diretamente para a edição após selecionar um estabelecimento da lista de resultados e clicar no botão **EDITAR**.
+Se o utilizador tiver acesso à página de estabelecimentos associados a uma entidade ([](#figEstEntidade)) pode navegar diretamente para a edição após selecionar um estabelecimento da lista de resultados e clicar no botão **EDITAR**.
 
 
 A edição deve respeitar o preenchimento dos campos obrigatórios identificados no ponto [7.1 Criar Estabelecimento](#criar-estabelecimento).
@@ -177,7 +177,7 @@ No final da edição o utilizador para gravar as alterações deve clicar no bot
 
 ## 7.3. Consultar Estabelecimento
 
-A consulta dos dados referentes a um estabelecimento é possível se o utilizador tiver acesso à pesquisa de estabelecimentos ([](#figCamposPesquisaEntidade)) ou à página de estabelecimentos associados a uma entidade ([](#figEstEntidade)) o utilizador pode navegar diretamente para a edição após selecionar um estabelecimento da lista de resultados e clicar no botão **CONSULTAR**. 
+A consulta dos dados referentes a um estabelecimento é possível se o utilizador tiver acesso à página de estabelecimentos associados a uma entidade ([](#figEstEntidade)) o utilizador pode navegar diretamente para a edição após selecionar um estabelecimento da lista de resultados e clicar no botão **CONSULTAR**. 
 
 <p id="transfereEstabelecimento"></p>
 
@@ -191,17 +191,17 @@ Se o utilizador confirmar irá ser notificado com o resultado da operação.
 |----|--------------------------------------------------------|
 | a) | Entidade destino                                       |
 
-![figTransfEstabelecimento](img/pages/7_4_1.jpg)
+![figTransfEstabelecimento](img/pages/cap7/7_4_1.jpg)
 
 <p class="caption" id="figTransfEstabelecimento"> Transferir Estabelecimento</p>
 
 <p id="encerrarEstabelecimento"></p>
 
 ## 7.5. Encerrar Estabelecimento 
-Para encerrar um estabelecimento tem de pesquisar pelo mesmo ([](#figCamposPesquisaEntidade) ou ([](#figEstEntidade)) e depois de o selecionar na lista de resultados deve clicar no botão **ENCERRAR**.
+Para encerrar um estabelecimento, depois de o selecionar na lista de resultados, deve clicar no botão **ENCERRAR** ([](#figEstEntidade)).
 Uma vez na página de **Encerrar Estabelecimento** ([](#figEncerraEstabelecimento)), deve clicar no botão “Encerrar”. Após clicar no botão, surge alerta que confirma se o utilizador pretende encerrar o estabelecimento. Se o utilizador confirmar irá ser notificado com o resultado da operação.
 
-![figEncerraEstabelecimento](img/pages/7_5_1.jpg)
+![figEncerraEstabelecimento](img/pages/cap7/7_5_1.jpg)
 
 <p class="caption" id="figEncerraEstabelecimento"> Encerrar Estabelecimento</p>
 
@@ -209,8 +209,8 @@ Uma vez na página de **Encerrar Estabelecimento** ([](#figEncerraEstabeleciment
 
 ## 7.6. Histórico Estabelecimento 
 
-A página de histórico de um estabelecimento pode ser acedida através da pesquisa de estabelecimentos ([](#figCamposPesquisaEntidade))  ou através da página de estabelecimentos associados a uma entidade ([](#figEstEntidade)) , selecionando uma entidade da lista de resultados e clicando no botão **HISTÓRICO**.
+A página de histórico de um estabelecimento pode ser acedida através da página de estabelecimentos associados a uma entidade ([](#figEstEntidade)) , selecionando uma entidade da lista de resultados e clicando no botão **HISTÓRICO**.
 Uma vez na página de histórico ([](#figHistoricoEstabelecimento)), o utilizador poderá visualizar todas as versões resultantes da edição da entidade, a data em que as alterações foram efetuadas, o utilizador que as realizou, bem como a identificação dos campos alterados.
-![figHistoricoEstabelecimento](img/pages/7_6_1.jpg)
+![figHistoricoEstabelecimento](img/pages/cap7/7_6_1.jpg)
 
 <p class="caption" id="figHistoricoEstabelecimento"> Histórico de Estabelecimento </p>

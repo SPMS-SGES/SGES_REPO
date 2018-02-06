@@ -15,7 +15,7 @@ Neste módulo que são feitas ações sobre os equipamentos.
 Estas só poderão ser realizadas caso de no separador *Estabelecimento* estar indicado que existe equipamento médico pesado.
 O utilizador pode consultar a lista de equipamentos associados a um estabelecimento através do separador *Equipamentos* ([](#figEqpEstabelecimento))
 
-![figEqpEstabelecimento](img/pages/12_1.jpg)
+![figEqpEstabelecimento](img/pages/cap12/12_1.jpg)
 
 <p class="caption" id="figEqpEstabelecimento"> Equipamentos de um estabelecimento</p>
 
@@ -44,7 +44,7 @@ efetuar o registo do equipamento.
 
 \* Para que seja possível selecionar a entidade o utilizador deve, primeiro, selecionar o tipo de entidade.
 
-![figCriarEquipamento](img/pages/12_1_1_1.PNG)
+![figCriarEquipamento](img/pages/cap12/12_1_1_1.PNG)
 
 <p class="caption" id="figCriarEquipamento"> Criar novo Equipamento - Identificação</p>
 
@@ -73,7 +73,7 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar o equipamento. 
 | c) | Se Tipo de Contrato = Locação/Leasing ou Oferta | Nº inventário/ID Equipamento                       | 
 |    |                                                 | Data de início de funcionamento                    |
 
-![figContratacao](img/pages/12_1_2_1.jpg)
+![figContratacao](img/pages/cap12/12_1_2_1.jpg)
 
 <p class="caption" id="figContratacao"> Criar novo Equipamento - Contratação</p>
 
@@ -89,7 +89,7 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar o equipamento. 
 | c) | Se Estado = Não Instalado,Parado ou Avariado       | Motivo||
 | d) | Se Estado = Abatido                    	          | Data de Abate|
 
-![figLocalizacao](img/pages/12_1_2_2.jpg)
+![figLocalizacao](img/pages/cap12/12_1_2_2.jpg)
 
 <p class="caption" id="figLocalizacao"> Criar novo Equipamento - Localização/Estado</p>
 
@@ -105,7 +105,7 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar o equipamento. 
 
 \* Caso o tipo de utilização seja exclusiva do serviço, têm de existir os serviços que constam nas especialidades do estabelecimento ([](#figEspecialidade)).
 
-![figAtividade](img/pages/12_1_2_4.PNG)
+![figAtividade](img/pages/cap12/12_1_2_4.PNG)
 
 <p class="caption" id="figAtividade"> Criar novo Equipamento - Atividade</p>
 
@@ -133,7 +133,7 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar o equipamento. 
 | j) | Horas de paragem                                   |  |
 
 
-![figManutencao](img/pages/12_1_2_3.PNG)
+![figManutencao](img/pages/cap12/12_1_2_3.PNG)
 
 <p class="caption" id="figManutencao"> Criar novo Equipamento - Manutenção</p>
 
@@ -150,7 +150,7 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar o equipamento. 
 
 Depois de o utilizador selecionar a data da licença, o campo *período de vigência* (que se encontra sempre inativo) fica, automaticamente, preenchido com 5 anos.
 
-![figAutorizacao](img/pages/12_1_2_5.jpg)
+![figAutorizacao](img/pages/cap12/12_1_2_5.jpg)
 
 <p class="caption" id="figAutorizacao"> Criar novo Equipamento - Autorização Ministeria/ Licença de Instalação</p>
 
@@ -169,7 +169,7 @@ Após clicar em **ALTERAR** irá ser notificado com o resultado da operação.
 | d) | ECTS 		   		                           	  | |
 
 
-![figRhAfetos](img/pages/12_1_2_6.PNG)
+![figRhAfetos](img/pages/cap12/12_1_2_6.PNG)
 
 <p class="caption" id="figRhAfetos"> Criar novo Equipamento - Recursos Humanos Afetos</p>
 
@@ -209,7 +209,7 @@ Para poder transferir o equipamento, o utilizador deve preencher os campos obrig
 | d) | Estabelecimento de Destino                         | 
 
 
-![figTransfEquipamento](img/pages/12_4_1.jpg)
+![figTransfEquipamento](img/pages/cap12/12_4_1.jpg)
 
 <p class="caption" id="figTransfEquipamento"> Transferir Equipamento</p>
 
