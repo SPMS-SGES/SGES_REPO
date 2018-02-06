@@ -378,6 +378,23 @@ border-left:    solid #005082 1.0pt;
 border-top:    solid #005082 1.0pt;
 }
 
+/* tabela html dos campos obrigatórios*/
+.tabelanova td {
+    padding-left: 10px; 
+    border-bottom: 1pt solid rgb(0, 80, 130); 
+    border-right: 1pt solid rgb(0, 80, 130); 
+    border-left: 1pt solid rgb(0, 80, 130);
+}
+ .tabelanova th {
+    text-align: center; 
+    border-top: 1pt solid rgb(0, 80, 130);
+    border-bottom: 1pt solid rgb(0, 80, 130); 
+    border-right: 1pt solid rgb(0, 80, 130); 
+    border-left: 1pt solid rgb(0, 80, 130); 
+    border: 1pt solid #e6e6e6 ; 
+    background: #F5FAFB ; 
+}
+
 #accordion li {
 	cursor: pointer;
 }
