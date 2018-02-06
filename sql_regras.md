@@ -1,4 +1,4 @@
-# Regras de construção de sql
+ï»¿# Regras de construção de sql
 
 Regras de construção de ficheiros sql, pl/sql. 
 Para todas as alterações, deve-se criar um novo ficheiro, ou continuar o ultimo, pois os utilizadores que não vêem essa alteração podem não ter em conta esses dados.
