@@ -213,7 +213,7 @@ Para a criação de um utilizador devem ser preenchidos os campos obrigatórios 
 
 No final da edição, para gravar as alterações o utilizador deve clicar no botão **GUARDAR**. Após clicar irá ser notificado com o resultado da operação.
 
-No SGES podem ainda existir utilizadores com outros perfis. No subcapítulo [A.2 Perfis e respetivas permissões ](#listaperfis) é possível consultar a lista de perfis, e respetivas permissões, disponíveis no SGES.
+No SGES podem ainda existir utilizadores com outros perfis. No subcapítulo [A2 Perfis e respetivas permissões ](#listaperfis) é possível consultar a lista de perfis, e respetivas permissões, disponíveis no SGES.
 
 <p id="natureza-juridica"></p>
 ## 4.4. Natureza jurídica e os seus campos
