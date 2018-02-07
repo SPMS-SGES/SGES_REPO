@@ -1,10 +1,10 @@
----
+<!-- ---
 layout: default
 title: "Entidade"
 ---
 
-<!-- <p id="aconvencao"></p>
-# 15. Acordos e Convenções
+<p id="aconvencao"></p>
+# 16. Acordos e Convenções
 
 É neste módulo que serão feitas ações sobre os acordos e convenções. Estas só poderão ser realizadas por utilizadores com o perfil ARS ou ACSS.
 Todas elas podem ser realizadas indiretamente - acedendo ao menu Entidade onde o utilizador deve pesquisar e selecionar uma entidade e clicar no botão **ACORDOS/CONVENÇÕES** para aceder à lista de acordos - ou diretamente - acedendo ao menu Acordos e Convenções onde deve pesquisar e selecionar uma entidade convencionada.
@@ -12,7 +12,7 @@ Todas elas podem ser realizadas indiretamente - acedendo ao menu Entidade onde o
 
 <p id="registaAconvencao"></p>
 
-## 15.1. Regista Convenção
+## 16.1. Regista Convenção
 
 Para criar um acordo ou convenção o utilizador deve clicar no botão **CRIAR** ([](#figCriarAC) ).
 
@@ -40,7 +40,7 @@ Depois de clicar no botão **GRAVAR** o utilizador irá ser notificado do result
 
 <p id="areaConvencionada"></p>
 
-## 15.1.1. Adicionar Área
+## 16.1.1. Adicionar Área
 
 Para adicionar uma área convencionada o utilizador deve preencher os campos obrigatórios do formulário e clicar em **GRAVAR** ([](#figadiciona_area)) .
 
@@ -112,7 +112,7 @@ Depois de preencher todos os campos o utilizador deve clicar no botão **GUARDAR
 
 
 <p id="estabelecimentosConvencionados"></p>
-## 15.1.2. Associar Estabelecimento
+## 16.1.2. Associar Estabelecimento
 
 Para associar um estabelecimento ao acordo/convenção o utilizador deve preencher os campos obrigatórios do formulário correspondente e clicar em **GRAVAR** ([](#figAssociar_Estabelecimento)). 
 
@@ -142,7 +142,7 @@ Se o utilizador pretende adicionar diretores técnicos substitutos, deve clicar 
 
 <p id="rhConvencao"></p>
 
-## 15.1.3. Adicionar Recursos Humanos Técnicos
+## 16.1.3. Adicionar Recursos Humanos Técnicos
 
 Para adicionar recursos humanos técnicos, basta clicar no botão **ASSOCIAR RH TÉCNICO**. O utilizador é encaminhado para uma página que contém um formulário cujos campos obrigatórios devem ser preenchidos ([](#figAdicionar_RH_Tecnicos)).
 
@@ -162,7 +162,7 @@ Para que os dados relativos ao recurso humano técnico sejam guardados, o utiliz
 
 <p id="alteraConvencao"></p>
 
-## 15.2 Editar Acordo
+## 16.2 Editar Acordo
 
 Para editar um acordo ou convenção o utilizador deve selecionar o acordo/convenção que pretende editar e clicar no botão **EDITAR** ([](#figCriarAC)).
 
@@ -175,14 +175,14 @@ No final da edição de cada um dos campos do acordo ou convenção o utilizador
 
 <p id="consultaAconvencao"></p>
 
-## 15.3 Consultar Acordo
+## 16.3 Consultar Acordo
 
 Para consultar um acordo ou convenção o utilizador deve selecionar o acordo/convenção que pretende consultar e clicar no botão **CONSULTAR** ([](#figCriarAC)).
 
 Para visualizar cada um dos campos relativos ao acordo ou convenção - identificação da entidade, áreas convencionadas, estabelecimentos e recursos humanos técnicos - o utilizador deverá clicar no botão **+** relativo a cada uma das áreas.
 
 <p id="alteraEstado"></p>
-## 15.4 Alterar Estado 
+## 16.4 Alterar Estado 
 
 O utilizador pode alterar o estado do acordo/convenção após selecionar o acordo/convenção que pretende editar, clicar no botão **ALTERAR ESTADO ACORDO/CONVENÇÃO** ([](#figCriarAC)). 
 
@@ -225,7 +225,7 @@ Para editar o estado da área convencionada o utilizador deve carregar no botão
 <p class="caption" id="fig14_18"> Botão que o utilizador deve pressionar para editar o estado da área convencionada. </p>
 
 <p id="historicoConvencao"></p>
-## 15.5 Histórico Convenções
+## 16.5 Histórico Convenções
 
 A página de histórico de um acordo/convenção pode ser acedida através da lista de convenções da entidade e clicando no botão **HISTÓRICO** .
 Uma vez na página de histórico poderá visualizar a data das alterações, o utilizador que as realizou e os painéis que afetaram [](#fig14_19).
@@ -236,7 +236,7 @@ Uma vez na página de histórico poderá visualizar a data das alterações, o u
 
 
 <p id="exportar"></p>
-## 15.6 Exportar Ficha Técnica
+## 16.6 Exportar Ficha Técnica
 
 É possível exportar dois tipos de documentos, em formato *pdf*, nomeadamente:
 - Uma versão resumida na qual consta a identificação da entidade, a constituição do corpo gerente, as áreas convencionadas (sem valências) e a identificação da convenção. ara exportar este documento o utilizador deve carregar no símbolo que representa o documento em *pdf* na [](#figRegistaAC); <br><br>
@@ -249,7 +249,7 @@ Uma vez na página de histórico poderá visualizar a data das alterações, o u
 <p class="caption" id="fig14_20"> Exportar ficha técnica referente ao estabelecimento </p>
 
 <p id="importar"></p>
-## 15.7 Importar Ficha Técnica
+## 16.7 Importar Ficha Técnica
 
 É possível registar um acordo/convenção através do carregamento de um ficheiro que contém a informação relativa ao mesmo.
 Este ficheiro deve ser preenchido seguindo as regras referidas no documento que contém as instruções de preenchimento do mesmo.
@@ -270,7 +270,7 @@ O novo acordo/convenção passa a poder ser editado, consultado e o seu estado a
 
 
 <p id="atualizar"></p>
-## 15.8 Importar Atualizações da Ficha Técnica
+## 16.8 Importar Atualizações da Ficha Técnica
 Caso deseje atualizar informação relativa a um acordo/convenção, o utilizador pode fazê-lo através de um carregamento de um ficheiro com as atualizações. 
 Este ficheiro deve ser preenchido seguindo as regras referidas no documento que contém as instruções de preenchimento do mesmo.
 A importação das atualizações tem de ser realizada no sub-menu Atualizar Ficha Técnica que consta no menu Ficha Técnica.
@@ -282,6 +282,4 @@ O utilizador é encaminhado para uma página onde pode anexar e carregar as fich
 
 Depois de carregar a ficha técnica, é mostrada uma página de verificação da informação onde o utilizador pode consultar a informação que carregou ([](#figPainel_confir)).
 Caso a informação seja confirmada, esta informação passa a ter de ser sujeita a aprovação.
-
-
  -->

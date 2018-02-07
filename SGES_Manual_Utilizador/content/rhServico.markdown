@@ -11,7 +11,7 @@ order: 3
 
 # 8. RH Serviços
 
-É neste módulo que são feitas ações sobre os recursos humanos afetos a serviços.
+É neste separador que são feitas ações sobre os recursos humanos afetos a serviços.
 O utilizador pode consultar a lista dos recursos humanos afetos a serviços numa entidade no separador RH Serviços  ([](#figRhAfetosEntidade)), através do ponto [6.3 Consultar Entidade](##consultar-entidade).
 
 ![figRhAfetosEntidade](img/pages/cap8/8_0_1.jpg)

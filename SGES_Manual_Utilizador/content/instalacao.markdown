@@ -9,7 +9,7 @@ order: 3
 ---
 <p id="instalacao"></p>
 
-# 14. Instalações
+# 15. Instalações
 
 É neste módulo que serão feitas ações sobre as instalações.
 Para aceder às  instalações de um estabelecimento, o utilizador tem três alternativas:
@@ -30,7 +30,7 @@ Para aceder às  instalações de um estabelecimento, o utilizador tem três alt
 
 
 <p id="criaInstalacao"></p>
-## 14.1. Criar Instalações
+## 15.1. Criar Instalações
 
 Caso ainda não exista informação acerca das instalações de um estabelecimento, o utilizador pode criar instalações ([](#fig39)).
 Para criar instalações, o utilizador deve clicar em **CRIAR INSTALAÇÃO** na página de instalações de estabelecimento ([](#fig39)). De seguida, será encaminhado para a página de criação de instalações, onde deverá preencher os campos obrigatórios para poder efetuar o registo das instalações.
@@ -43,7 +43,7 @@ Para o Registo de Instalações será necessário primeiro submeter os campos da
 <p class="caption" id="figBaloes"> Balões de informação.</p>
 
 <p id="caracterizao-inst"></p>
-### 14.1.1 Caracterização
+### 15.1.1 Caracterização
 
 Para poder criar a instalação o utilizador deve preencher, pelo menos, os campos obrigatórios da *Caracterização Geral* e clicar em **SUBMETER**.
 
@@ -420,15 +420,15 @@ O separador *Construção* visa caracterizar os custos da construção e os cust
 
 <p class="caption" id="fig45"> Caracterização da Construção</p>
 
-<!-- No separador *SCIE* o utilizador por registar informação acerca da segurança contra incêndios que os edfícios possuem. 
+No separador *SCIE* o utilizador por registar informação acerca da segurança contra incêndios que os edfícios possuem.
 
 ![fig60](img/pages/cap14/60.JPG)
 
-<p class="caption" id="fig60"> Segurança Contra Incêncios em Edífícios</p>-->
+<p class="caption" id="fig60"> Segurança Contra Incêncios em Edífícios</p>
 
 
 <p id="detalhe-inst"></p>
-### 14.1.2 Detalhe
+### 15.1.2 Detalhe
 
 É neste separador que o utilizador pode registar informação acerca das instalações técnicas da instalação, assim como alguns custos e consumos e a produção de resíduos.
 
@@ -524,7 +524,7 @@ A informação relativa à produção de resíduos é preenchida na aplicação 
 <p class="caption" id="fig50"> Detalhe Produção de Resíduos</p>
 
 <p id="equipamentos-crticos"></p>
-### 14.1.3 Equipamentos Críticos 
+### 15.1.3 Equipamentos Críticos 
 
 É neste separador que o utilizador pode registar informação referente aos equipamentos críticos para o funcionamento da unidade hospitalar. Neste separador os equipamentos estão divididos pelo diferente tipo de instalações que integram, nomeadamente, instalações elétricas, instalações mecânicas e instalações de águas e esgotos. 
 Após o registo de cada dado, o utilizador deve clicar no botão **GUARDAR** para que a informação seja gravada.
@@ -567,7 +567,7 @@ Ao carregar no botão **Importar**, são mostradas as indicações necessárias 
 <p class="caption" id="fig53.1"> Importação Equipamentos Críticos </p>
 
 <p id="servios"></p>
-### 14.1.4 Serviços
+### 15.1.4 Serviços
 
 É neste separador que o utilizador pode registar informação relacionada com os serviços que foram realizados nas instalações do estabelecimento, assim como os seus custos e serviços de apoio.
 
@@ -614,7 +614,7 @@ Ao carregar no botão **Importar**, são mostradas as indicações necessárias 
 
 <p id="contratos-de-manuteno"></p>
 
-### 14.1.5 Contratos de Manutenção
+### 15.1.5 Contratos de Manutenção
 
 É neste separador que o utilizador pode registar informação dos contratos de manutenção dos equipamentos identificados no separador *Equipamentos Críticos*.
 
@@ -669,7 +669,7 @@ Contratos ativos correspondem a contratos em vigor e contratos renovados.
 <p class="caption" id="filtrar"> Pesquisa de Contratos </p>
 
 <!-- <p id="avaliao-ps-ocupao"></p> 
-### 14.1.6 Avaliação Pós-Ocupação
+### 15.1.6 Avaliação Pós-Ocupação
 
 Este separador apenas é editado por utilizadores aos quais tenha sido atribuído o perfil ACSS.
 Neste separador é possível registar informação acerca da avaliação dos edifícios da instalação o que representa um útil instrumento na implementação de melhorias na criação de edifícios no futuro.
@@ -682,10 +682,10 @@ Neste separador é possível registar informação acerca da avaliação dos edi
 
 ![fig58](img/pages/cap14/58.JPG)
 
-<p class="caption" id="fig58"> Avaliação Pós-Ocupação </p> -->
+<p class="caption" id="fig58"> Avaliação Pós-Ocupação </p>
 
-<!-- <p id="acao-acss"></p>
-### 14.1.7 Ações ACSS
+<p id="acao-acss"></p>
+### 15.1.7 Ações ACSS
 Este separador apenas é editado por utilizadores aos quais tenha sido atribuído o perfil ACSS, no entanto, pode ser consultado por utilizadores com o perfil Entidades ou Instalações.
 Neste separador que o utilizador é possível registar informação de todas as ações que a ACSS executou naquelas instalações.
 
@@ -703,21 +703,21 @@ Neste separador que o utilizador é possível registar informação de todas as 
 
 ![fig59](img/pages/cap14/59.JPG)
 
-<p class="caption" id="fig59"> Ações ACSS </p> -->
-
+<p class="caption" id="fig59"> Ações ACSS </p>
+ -->
 <p id="editar-instalaes"></p>  
-## 14.2. Editar Instalações
+## 15.2. Editar Instalações
 
 O utilizador pode navegar para a página de edição da instalação clicando no botão **CONSULTAR** na página de instalações de estabelecimento ([](#fig39)) e clicar no botão **ALTERAR INSTALAÇÃO**.
 A edição deve respeitar o preenchimento dos campos obrigatórios identificados no ponto [12.1 Criar Instalações](#criar-instalaes)
 No final da edição o utilizador para gravar as alterações deve clicar no botão **SUBMETER** ou **GUARDAR**, dependendo dos painéis alterados. Após clicar irá ser notificado com o resultado da operação.
 
 <p id="consultar-instalaes"></p>
-## 14.3. Consultar Instalações
+## 15.3. Consultar Instalações
 O utilizador pode navegar para a página de consulta de instalação na página de instalações de estabelecimento ([](#figEstabeSInst)) e clicar no botão **CONSULTAR INSTALAÇÃO**.
 
 <p id="histrico-instalaes"></p>
-## 14.4. Histórico Instalações
+## 15.4. Histórico Instalações
 
 A página de histórico de uma instalação pode ser acedida através da página da instalação do estabelecimento ([](#figEstabeSInst)) e clicando no botão **HISTÓRICO INSTALAÇÃO** .
 Uma vez na página de histórico poderá visualizar a data das alterações, o utilizador que as realizou e os paineis que afetaram.

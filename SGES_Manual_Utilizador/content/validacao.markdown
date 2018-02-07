@@ -10,7 +10,7 @@ order: 3
 
 <p id="validacao"></p>
 
-# 13. Validações
+# 14. Validações
 
 Os módulos do SGES contêm um painel que permite validar os dados do mesmo. Este painel tem a finalidade de permitir ao utilizador verificar/confirmar que o preenchimento dos dados do módulo é válido.
 ([](#figValicaoPanel))
@@ -21,7 +21,7 @@ Os módulos do SGES contêm um painel que permite validar os dados do mesmo. Est
 
 <p id="validarModulo"></p>
 
-## 13.1. Validar Módulo
+## 14.1. Validar Módulo
 
 Para validar um módulo, basta selecionar a *checkbox* do painel e clicar no botão **GUARDAR**. Caso os dados sejam validados com sucesso, a mensagem do painel é atualizada com a data de validação e o *username* do utilizador que validou.
 ([](#figValidarModulo))
@@ -33,7 +33,7 @@ Sempre que os dados de um módulo são alterados, estes deixam de estar validado
 
 <p id="modulosValidaveis"></p>
 
-## 13.2. Módulos com validação
+## 14.2. Módulos com validação
 
 Atualmente os módulos do SGES que contêm este painel são:
 

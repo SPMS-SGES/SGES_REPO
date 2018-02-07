@@ -10,7 +10,7 @@ order: 3
 
 <p id="estabelecimentos"></p>
 # 7.Estabelecimentos
-Neste módulo são feitas ações sobre os estabelecimentos.
+Neste separador são feitas ações sobre os estabelecimentos.
 O utilizador pode consultar a lista de estabelecimentos associados a uma entidade através do separador **Estabelecimentos** ([](#figEstEntidade)).
 
 ![figEstEntidade](img/pages/cap7/7_1.jpg)
@@ -68,9 +68,9 @@ Na tabela abaixo e na [](#figPainelGabCidadao) são mostrados os campos de preen
 
 <p class="caption" id="figPainelGabCidadao"> Painel Gabinete ao cidadão</p>
 
-Após o preenchimento da identificação do estabelecimento, dependendo do tipo deste, será necessário o preenchimento dos módulos adicionais.
+Após o preenchimento da identificação do estabelecimento, dependendo do tipo deste, será necessário o preenchimento dos campos adicionais.
 
-|  Tipo de Estabelecimento | Módulos de preenchimento  | 
+|  Tipo de Estabelecimento | Campos de preenchimento  | 
 |------------------------------------|
 | **Hospital**          |Urgências ([](#figUrgencias)) |
 |                       |Especialidade ([](#figEspecialidade)) |
@@ -114,7 +114,7 @@ Após o preenchimento da identificação do estabelecimento, dependendo do tipo 
 ||                                       |  Capacidade Lotação| 
 
 
- \* Um dos valores possíveis para o tipo de área é o quarto de isolamento. Estes são identificados pelo seu grau, nomeadamente:
+ \* Um dos valores possíveis para o campo tipo de área é o quarto de isolamento. Estes são identificados pelo seu grau, nomeadamente:
 
    * Quarto de Isolamento de GRAU III: quarto individual fechado, bem ventilado;
 
@@ -158,7 +158,7 @@ As próximas tabelas e imagens mostram os campos de preenchimento obrigatório r
 
 <p class="caption" id="figUnidadeFunc"> Estabelecimento do tipo Laboratório - Postos de Colheita</p>
 
-Após o registo dos dados em cada módulo, deve clicar em **GUARDAR** para gravar os dados. Após clicar irá ser notificado com o resultado da operação.
+Após o registo dos dados em cada bloco de informação, deve clicar em **GUARDAR** para gravar os dados. Após clicar irá ser notificado com o resultado da operação.
 
 <p id="alteraEstabelecimento"></p>
 
