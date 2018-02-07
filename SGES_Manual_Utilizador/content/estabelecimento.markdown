@@ -114,7 +114,7 @@ Após o preenchimento da identificação do estabelecimento, dependendo do tipo 
 ||                                       |  Capacidade Lotação| 
 
 
- \* Um dos valores possíveis para to tipo de área é o quarto de isolamento. Estes são identificados pelo seu grau, nomeadamente:
+ \* Um dos valores possíveis para o tipo de área é o quarto de isolamento. Estes são identificados pelo seu grau, nomeadamente:
 
    * Quarto de Isolamento de GRAU III: quarto individual fechado, bem ventilado;
 
