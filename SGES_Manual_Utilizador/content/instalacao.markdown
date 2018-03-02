@@ -42,6 +42,8 @@ Para o Registo de Instalações será necessário primeiro submeter os campos da
 
 <p class="caption" id="figBaloes"> Balões de informação.</p>
 
+É importante referir que é usado ''espaço'' como separador de grupos numéricos e usada a '','' como separador para números decimais.
+
 <p id="caracterizao-inst"></p>
 ### 15.1.1 Caracterização
 
@@ -373,20 +375,31 @@ Pode inserir informação acerca das áreas e estacionamento, tendo de carregar 
 ||                     |    Área de Arruamentos e Estacionamentos |
 ||                     |    Área terreno                          |
 ||                     |    Área útil                             |
+||                     |    Área impermeabilizada (Campo automático)*                 |
+||                     |    Área de espaços exteriores (Campo automático)**            |
+||                     |    Área espaços verdes (Campo automático)***                   |
 | b) | Estacionamento  |  N.º Lugares de estacionamento em área construída |
-||                     |  N.º Lugares de estacionamento à superfície |
+||                     |  N.º Lugares de estacionamento à superfície **** |
+||                     |  N.º Lugares interiores à cerca (Campo automático)**** |
 
+\* *Área impermeabilizada= Área implantação de todos os edifícios +  Área de Estacionamento Construído + Área de Arruamentos e Estacionamentos*
 
-![fig41](img/pages/cap14/41.JPG)
+\** *Área de espaços exteriores=  Área total do terreno – Área total de implantação do(s) edifício(s)*
 
-<p class="caption" id="fig41"> Criar Instalação - Áreas Totais e Estacionamento</p>
+\*** *Área espaços verdes= Área total de Espaços Exteriores – Área total de Arruamentos e Estacionamentos (vias)* 
 
+\**** *N.º Lugares interiores à cerca= N.º Lugares de estacionamento à superfície + N.º Lugares de estacionamento em área construída*
 
 Relativamente ao estacionamento:
 * Os lugares de estacionamento são os lugares de estacionamento disponíveis no estabelecimento hospitalar;
 * Apenas devem ser contabilizados os lugares os oficiais (delimitados);
 * Os descampados não contam para nº de lugares;
 * Lugares concessionados a terceiros devem ser contabilizados (desde que sejam utilizados pelas entidades hospitalares).
+
+![fig41](img/pages/cap14/41.JPG)
+
+<p class="caption" id="fig41"> Criar Instalação - Áreas Totais e Estacionamento</p>
+
 
 O separador *Caracterização do Edifício* contém os dados referentes ao(s) edíficio(s) tais como o nome, a área útil do programa funcional, a área útil, a área bruta, a área de implantação, nº de pisos acima do solo, nº de pisos abaixo do solo e área de estacionamento construído ([](#fig42)).
 
@@ -415,6 +428,27 @@ O separador *Projeto* visa caracterizar o projeto de construção do hospital , 
 <p class="caption" id="fig44"> Projeto - Datas Chaves</p>
 
 O separador *Construção* visa caracterizar os custos da construção e os custos de equipamentos. Estes dados devem ser inseridos para cada fase de construção dos edifícios.
+
+|   |  Campos Obrigatórios em Construção - Construção (Custos)  ([](#fig45)) ||
+|---|------------------------------------------------------------------------||
+| a)| Valor de Adjudicação da empreitada                                    | |
+| b)| Valor Final da construção                                             | |
+| c)| Terreno                                                               | | 
+
+
+|   |  Campos Obrigatórios em Construção - Equipamentos  ([](#fig45)) ||
+|---|------------------------------------------------------------------------||
+| a)| Valor de adjudicação do equipamento geral, móvel e fixo                | |
+| b)| Valor da adjudicação do equipamento informático                        | |
+| c)| Valor da adjudicação dos equipamentos e sistemas médicos               | |
+| d)| Valor final do equipamento geral, móvel e fixo                         | |  
+| e)| Valor final do equipamento informático                                 | |
+| f)| Valor final dos equipamentos e sistemas médicos                        | |
+| g)| Custo total dos equipamentos (Campo automático)*                       | |
+
+\* *Custo total dos equipamentos= Valor Final do Equipamento Informático + Valor Final dos Equipamentos e Sistemas Médicos + Valor Final do equipamento geral, móvel e fixo)*
+
+On campo *Custo Total* é igual ao somatório do valor dos campos *Terreno*, *Custo Total da fase de Projeto*, *Valor Final da construção e Custo Total dos Equipamentos*.
 
 ![fig45](img/pages/cap14/45.JPG)
 
@@ -668,7 +702,7 @@ Contratos ativos correspondem a contratos em vigor e contratos renovados.
 
 <p class="caption" id="filtrar"> Pesquisa de Contratos </p>
 
-<!-- <p id="avaliao-ps-ocupao"></p> 
+<p id="avaliao-ps-ocupao"></p> 
 ### 15.1.6 Avaliação Pós-Ocupação
 
 Este separador apenas é editado por utilizadores aos quais tenha sido atribuído o perfil ACSS.
@@ -704,7 +738,7 @@ Neste separador que o utilizador é possível registar informação de todas as 
 ![fig59](img/pages/cap14/59.JPG)
 
 <p class="caption" id="fig59"> Ações ACSS </p>
- -->
+
 <p id="editar-instalaes"></p>  
 ## 15.2. Editar Instalações
 
