@@ -379,16 +379,18 @@ Pode inserir informação acerca das áreas e estacionamento, tendo de carregar 
 ||                     |    Área de espaços exteriores (Campo automático)**            |
 ||                     |    Área espaços verdes (Campo automático)***                   |
 | b) | Estacionamento  |  N.º Lugares de estacionamento em área construída |
-||                     |  N.º Lugares de estacionamento à superfície **** |
+||                     |  N.º Lugares de estacionamento à superfície |
 ||                     |  N.º Lugares interiores à cerca (Campo automático)**** |
 
 \* *Área impermeabilizada= Área implantação de todos os edifícios +  Área de Estacionamento Construído + Área de Arruamentos e Estacionamentos*
 
-\** *Área de espaços exteriores=  Área total do terreno – Área total de implantação do(s) edifício(s)*
+\*\* *Área de espaços exteriores=  Área total do terreno – Área total de implantação do(s) edifício(s)*
 
-\*** *Área espaços verdes= Área total de Espaços Exteriores – Área total de Arruamentos e Estacionamentos (vias)* 
+\*\*\* *Área espaços verdes= Área total de Espaços Exteriores – Área total de Arruamentos e Estacionamentos (vias)* 
 
-\**** *N.º Lugares interiores à cerca= N.º Lugares de estacionamento à superfície + N.º Lugares de estacionamento em área construída*
+\*\*\*\* *N.º Lugares interiores à cerca= N.º Lugares de estacionamento à superfície + N.º Lugares de estacionamento em área construída*
+
+<br>
 
 Relativamente ao estacionamento:
 * Os lugares de estacionamento são os lugares de estacionamento disponíveis no estabelecimento hospitalar;
@@ -435,6 +437,7 @@ O separador *Construção* visa caracterizar os custos da construção e os cust
 | b)| Valor Final da construção                                             | |
 | c)| Terreno                                                               | | 
 
+<br>
 
 |   |  Campos Obrigatórios em Construção - Equipamentos  ([](#fig45)) ||
 |---|------------------------------------------------------------------------||
@@ -446,9 +449,13 @@ O separador *Construção* visa caracterizar os custos da construção e os cust
 | f)| Valor final dos equipamentos e sistemas médicos                        | |
 | g)| Custo total dos equipamentos (Campo automático)*                       | |
 
+<br>
+
 \* *Custo total dos equipamentos= Valor Final do Equipamento Informático + Valor Final dos Equipamentos e Sistemas Médicos + Valor Final do equipamento geral, móvel e fixo)*
 
-On campo *Custo Total* é igual ao somatório do valor dos campos *Terreno*, *Custo Total da fase de Projeto*, *Valor Final da construção e Custo Total dos Equipamentos*.
+<br>
+
+O campo *Custo Total* é igual ao somatório do valor dos campos *Terreno*, *Custo Total da fase de Projeto*, *Valor Final da construção e Custo Total dos Equipamentos*.
 
 ![fig45](img/pages/cap14/45.JPG)
 
