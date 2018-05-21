@@ -126,6 +126,11 @@ Após o preenchimento da identificação do estabelecimento, dependendo do tipo 
 
 <p class="caption" id="figCapacidade"> Painel das Capacidades </p>
 
+O estabelecimento pode ter ainda atividades associadas. Estas são mostradas no separador Atividades ([](#figCapacidade)). Salienta-se que esta informação apenas pode ser consultada.
+
+![figCapacidade](img/pages/cap7/7_1_1_5.jpg)
+
+<p class="caption" id="figAtividades"> Painel das Atividades </p>
 
 As próximas tabelas e imagens mostram os campos de preenchimento obrigatório relativos a unidades funcionais e postos de colheita.
 
