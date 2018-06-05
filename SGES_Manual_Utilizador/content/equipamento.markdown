@@ -12,7 +12,7 @@ order: 3
 # 13. Equipamentos
 
 Neste módulo que são feitas ações sobre os equipamentos. 
-Estas só poderão ser realizadas caso de no separador *Estabelecimento* estar indicado que existe equipamento médico pesado.
+Estas só poderão ser realizadas caso no separador *Estabelecimento* esteja indicado que existe equipamento médico pesado. Apenas entidades públicas, à exceção de ACES e ARSs, podem possuir equipamento médico pesado.
 O utilizador pode consultar a lista de equipamentos associados a um estabelecimento através do separador *Equipamentos* ([](#figEqpEstabelecimento))
 
 ![figEqpEstabelecimento](img/pages/cap12/12_1.jpg)
