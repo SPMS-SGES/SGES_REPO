@@ -134,7 +134,7 @@ Quando a página do SGES é carregada, o utilizador tem de inserir as suas crede
 
 Caso o utilizador conheça as suas credenciais, deve preencher os campos obrigatórios, e clicar em **Avançar**.
 
-Caso contrário, deverá clicar em **Recuperar Senha**, preencher os campos mostrados na ([](#figLogin)), e clicar em **Enviar**.
+Caso contrário, deverá clicar em **Recuperar Senha**, preencher os campos mostrados na ([](#figLoginRecuperacao)), e clicar em **Enviar**.
 
 |    |  Campos Obrigatórios para recuperar a senha ([](#figLoginRecuperacao)) |           
 |----|----------------------------------------|
