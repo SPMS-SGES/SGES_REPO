@@ -172,7 +172,7 @@ Após o preenchimento dos campos, o utilizador deverá finalizar a alteração c
 
 <p class="caption" id="figAlteracaoSenha"> Página de alteração de senha </p>
 
-<p id="pgina-de-pesquisa"></p>
+<p id="gestaoUtilizadores"></p>
 ## 4.3. Gestão de utilizadores
 <p id="gestaoUtilizadores"></p>
 
