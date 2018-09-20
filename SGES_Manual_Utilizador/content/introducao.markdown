@@ -194,7 +194,7 @@ Para criar novos utilizadores, o utilizador deve clicar no botão das opções a
 
 **4.3.1.** O utilizador deve clicar em **Criar**, para aparecer a página de Criar Utilizador ([](#figCriarUtilizador)).
 
-![figCriarUtilizador](img/pages/cap4/5_4_2.jpg)
+![figCriarUtilizador](img/pages/cap4/5_4_2.JPG)
 
 <p class="caption" id="figCriarUtilizador"> Criar utilizador </p>
 
