@@ -188,13 +188,13 @@ Se o utilizador tiver o perfil de administrador (ARS_ADMIN, ADMIN_ENTIDADE, ACSS
 Para criar novos utilizadores, o utilizador deve clicar no botão das opções avançadas situado no canto superior direito da página 
 ([](#figDef)). Após clicar em **Gestão de Utilizadores**, aparecerá a página mostrada na [](#figGestaoUtilizadores).
 
-![figGestaoUtilizadores](img/pages/cap4/5_4_1.jpg)
+![figGestaoUtilizadores](img/pages/cap4/5_4_1.JPG)
 
 <p class="caption" id="figGestaoUtilizadores"> Gestão de utilizadores </p>
 
 **4.3.1.** O utilizador deve clicar em **Criar**, para aparecer a página de Criar Utilizador ([](#figCriarUtilizador)).
 
-![figCriarUtilizador](img/pages/cap4/5_4_2.JPG)
+![figCriarUtilizador](img/pages/cap4/5_4_2.jpg)
 
 <p class="caption" id="figCriarUtilizador"> Criar utilizador </p>
 
