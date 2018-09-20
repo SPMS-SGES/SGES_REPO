@@ -122,7 +122,7 @@ Após o preenchimento da identificação do estabelecimento, dependendo do tipo 
 
    * Quarto de Isolamento de GRAU VI: quarto individual com porta dupla e pressão negativa. 
 
-![figCapacidade](img/pages/cap7/7_1_5.jpg)
+![figCapacidade](img/pages/cap7/7_1_5.JPG)
 
 <p class="caption" id="figCapacidade"> Painel das Capacidades </p>
 
