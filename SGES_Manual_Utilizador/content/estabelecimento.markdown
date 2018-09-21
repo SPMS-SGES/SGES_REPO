@@ -116,7 +116,7 @@ Após o preenchimento da identificação do estabelecimento, dependendo do tipo 
 
  \* No Painel das Capacidades ([](#figCapacidade)) foi adicionado uma nova funcionalidade : 
 
-   * Na Área Capacidade caso for selecionado irá ser visível o texto descritivo com a sua caracteristica;
+   * Na Área Capacidade caso for selecionado irá ser visível o texto descritivo;
 
    * O Internamento Total (lotação) inclui o internamento normal e os internamentos especiais (s/Berçário, Quartos Particulares, Lar Doentes e Cuidados Paliativos Rede).
 
