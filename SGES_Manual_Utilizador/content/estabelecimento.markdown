@@ -114,7 +114,7 @@ Após o preenchimento da identificação do estabelecimento, dependendo do tipo 
 ||                                       |  Capacidade Lotação| 
 
 
- \* No Painel das Capacidades ([](#figcapacidade)) foi adicionado uma nova funcionalidade : 
+ \* No Painel das Capacidades ([](#figCapacidade)) foi adicionado uma nova funcionalidade : 
 
    * Na Área Capacidade caso for selecionado irá ser visível o texto descritivo com a sua caracteristica;
 
