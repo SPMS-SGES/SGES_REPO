@@ -124,7 +124,7 @@ Após o preenchimento da identificação do estabelecimento, dependendo do tipo 
 
 ![figCapacidade](img/pages/cap7/7_1_5.JPG)
 
-<p class="caption" id="figCapacidade"> Painel das Capacidades com o a descrição e o internamento total </p>
+<p class="caption" id="figCapacidade"> Painel das Capacidades com a Descrição e o Internamento Total </p>
 
 O estabelecimento pode ter ainda atividades associadas. Estas são mostradas no separador Atividades ([](#figCapacidade)). Salienta-se que esta informação apenas pode ser consultada.
 
