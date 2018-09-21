@@ -108,17 +108,13 @@ Após o preenchimento da identificação do estabelecimento, dependendo do tipo 
 |    | Campos Obrigatórios – Capacidade - ([](#figCapacidade))    |      |
 |----|--------------------------------------------------------|------|
 | a) | 	Ano                       								| |
-| b) | 	Capacidade                       |Tipo Área Capacidade* |
-||                                       |  Área Capacidade| 
+| b) | 	Capacidade                       |Tipo Área Capacidade |
+||                                       |  Área Capacidade*| 
 ||                                       |  Tipo Capacidade| 
 ||                                       |  Capacidade Lotação| 
 
 
- \* No Painel das Capacidades ([](#figCapacidade)) foi adicionado uma nova funcionalidade : 
-
-   * Na Área Capacidade caso for selecionado irá ser visível o texto descritivo;
-
-   * O Internamento Total (lotação) inclui o internamento normal e os internamentos especiais (s/Berçário, Quartos Particulares, Lar Doentes e Cuidados Paliativos Rede).
+ \* No Painel das Capacidades ([](#figCapacidade)) ao ser selecionado a Área Capacidade é visível um texto descritivo ( aplicáveis só a algumas áreas). O Internamento Total (lotação) inclui o internamento normal e os internamentos especiais (s/Berçário, Quartos Particulares, Lar Doentes e Cuidados Paliativos Rede).
 
 ![figCapacidade](img/pages/cap7/7_1_5.JPG)
 
