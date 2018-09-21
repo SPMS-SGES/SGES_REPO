@@ -126,9 +126,9 @@ Após o preenchimento da identificação do estabelecimento, dependendo do tipo 
 
 <p class="caption" id="figCapacidade"> Painel das Capacidades com a Descrição e o Internamento Total </p>
 
-O estabelecimento pode ter ainda atividades associadas. Estas são mostradas no separador Atividades ([](#figCapacidade)). Salienta-se que esta informação apenas pode ser consultada.
+O estabelecimento pode ter ainda atividades associadas. Estas são mostradas no separador Atividades ([](#figAtividades)). Salienta-se que esta informação apenas pode ser consultada.
 
-![figCapacidade](img/pages/cap7/7_1_1_5.jpg)
+![figAtividades](img/pages/cap7/7_1_1_5.jpg)
 
 <p class="caption" id="figAtividades"> Painel das Atividades </p>
 
