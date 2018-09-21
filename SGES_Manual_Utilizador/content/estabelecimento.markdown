@@ -114,13 +114,11 @@ Após o preenchimento da identificação do estabelecimento, dependendo do tipo 
 ||                                       |  Capacidade Lotação| 
 
 
- \* Um dos valores possíveis para o campo tipo de área é o quarto de isolamento. Estes são identificados pelo seu grau, nomeadamente:
+ \* No Painel das Capacidades ([](#figcapacidade)) foi adicionado uma nova funcionalidade : 
 
-   * Quarto de Isolamento de GRAU III: quarto individual fechado, bem ventilado;
+   * Na Área Capacidade caso for selecionado irá ser visível o texto descritivo com a sua caracteristica;
 
-   * Quarto de Isolamento de GRAU IV: quarto individual fechado, bem ventilado, com desinfeção da ventilação e pressão negativa;
-
-   * Quarto de Isolamento de GRAU VI: quarto individual com porta dupla e pressão negativa. 
+   * O Internamento Total (lotação) inclui o internamento normal e os internamentos especiais (s/Berçário, Quartos Particulares, Lar Doentes e Cuidados Paliativos Rede).
 
 ![figCapacidade](img/pages/cap7/7_1_5.JPG)
 
