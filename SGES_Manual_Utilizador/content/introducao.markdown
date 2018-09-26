@@ -125,7 +125,7 @@ Nota: Em qualquer campo da aplicação que não seja possível visualizar comple
 
 ## 4.1. Aceder ao SGES
 
-O acesso ao SGES é possível através da navegação até ao seu endereço em [http://sges.min-saude.pt/SGES/login.html](http://sges.min-saude.pt/SGES/login.html) num *browser* de internet.
+O acesso ao SGES é possível através da navegação até ao seu endereço em [https://sges.min-saude.pt/SGES/login.html](https://sges.min-saude.pt/SGES/login.html) num *browser* de internet.
 Quando a página do SGES é carregada, o utilizador tem de inserir as suas credenciais de *login* ([](#figLogin)) para aceder à aplicação.
 
 ![figLogin](img/pages/cap4/5_1_1.jpg)
