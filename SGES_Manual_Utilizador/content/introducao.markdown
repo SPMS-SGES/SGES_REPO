@@ -176,7 +176,7 @@ Após o preenchimento dos campos, o utilizador deverá finalizar a alteração c
 ## 4.3. Gestão de utilizadores
 <p id="gestaoUtilizadores"></p>
 
-Se o utilizador tiver o perfil de administrador (ARS_ADMIN, ADMIN_ENTIDADE, ACSS_ADMIN ou SUPER_ADMIN_ENT), pode criar/gerir utilizadores para atualizarem os diferentes painéis no SGES na entidade respetiva.
+Se o utilizador tiver o perfil de administrador (ARS_ADMIN, ADMIN_ENTIDADE, ACSS_ADMIN ou ADMIN_ENT_GERAL), pode criar/gerir utilizadores para atualizarem os diferentes painéis no SGES na entidade respetiva.
 É possível criar utilizadores com os seguintes perfis:
 
 * **SGES_ENTIDADE** - Os utilizadores com este perfil poderão executar as operações sobre a entidade assim como criar e alterar estabelecimentos;
