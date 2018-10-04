@@ -41,7 +41,7 @@ title: "Entidade"
 
 |   | Permissões e respetivas permissões                                     ||
 |---|------------------------------------------------------------------------|| 
-| a) |SUPER_ADMIN_ENTI|            | Consulta e edita todos os campos dos módulos da aplicação e gere utilizadores|
+| a) |ADMIN_ENT_GERAL|            | Consulta e edita todos os campos dos módulos da aplicação e gere utilizadores|
 | b) |ADMIN_ENTIDADE |             | Consulta todos os campos dos módulos e gere utilizadores | 
 | c) |ARS_ADMIN      |			   | Consulta todos os campos dos módulos e gere utilizadores |
 | d) |ARS_CONSULTA|                | Consulta todos os campos dos módulos|
