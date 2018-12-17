@@ -40,5 +40,9 @@ Link do [Repositório](http://192.168.4.220:8081/nexus/ "Nexus").
 
 Link da ferramenta de [Integração Contínua](http://192.168.4.220:8080 "Jenkins").
 
+Link para reiniciar [reiniciar CI](http://192.168.4.220:8080/blue/organizations/jenkins/PIP_CI_BUILD_DEPLOY) 
+
+Link para criar/editar release [editar release](http://192.168.4.220:8080/blue/organizations/jenkins/PIP_SGES_RELEASE)
+
 
 
