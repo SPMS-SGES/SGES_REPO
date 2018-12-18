@@ -14,13 +14,15 @@ Link do [SGES](http://192.168.4.220:8001/SGES/ "SGES").
 
 Link do [SGES BackOffice](http://192.168.4.220:8001/SGES_BKO/ "SGES BKO").
 
+Link do [SGES REGISTO](http://192.168.4.220:8001/SGES_REGISTO/login.html?1).
+
 ### DEV
 
 Link do [SGES](http://192.168.4.220:7001/SGES/ "SGES").
 
 Link do [SGES BackOffice](http://192.168.4.220:7001/SGES_BKO/ "SGES BKO").
 
-Link do [SGES REGISTO](http://192.168.4.220:8001/SGES_REGISTO/login.html?1).
+Link do [SGES REGISTO](http://192.168.4.220:7001/SGES_REGISTO/login.html?1).
 
 ### QLT
 
