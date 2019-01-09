@@ -42,7 +42,9 @@ Link do [SGES REGISTO](https://sges.min-saude.pt/SGES_REGISTO/login.html?1).
 
 ## Repositório de versões
 
-Link do [Repositório](http://192.168.4.220:8081/nexus/ "Nexus").
+Link do [Repositório Releases](http://192.168.101.217:8081/#browse/browse:sges-releases).
+
+Link do [Repositório Snapshots](http://192.168.101.217:8081/#browse/browse:sges-snapshots).
 
 ## Integração contínua dos projetos
 
