@@ -26,11 +26,11 @@ Link do [SGES REGISTO](http://192.168.4.220:7001/SGES_REGISTO/login.html?1).
 
 ### QLT
 
-Link do [SGES](http://10.202.12.141:8080/SGES/ "SGES").
+Link do [SGES](https://sges-qa.min-saude.pt/SGES/ "SGES").
 
-Link do [SGES BackOffice](http://10.202.12.141:8080/SGES_BKO/ "SGES BKO").
+Link do [SGES BackOffice](https://sges-qa.min-saude.pt/SGES_BKO/ "SGES BKO").
 
-Link do [SGES REGISTO](http://10.202.12.141:8080/SGES_REGISTO/home.html?13).
+Link do [SGES REGISTO](https://sges-qa.min-saude.pt/SGES_REGISTO/home.html?13).
 
 ### PRD
 
