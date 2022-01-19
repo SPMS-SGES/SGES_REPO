@@ -226,6 +226,7 @@ Os serviços de urgência básica (SUB) (ver [](#fig40_0)) da entidade devem ser
       Freguesia </td>
   	</tr>
 	<tr>
+	<tr>
 		<td colspan="6" rowspan="2">  d) Edifícios construídos na mesma fase?   </td>
 		<td> Sim  </td>
 		<td> Número de fases de construção =1 </td>
