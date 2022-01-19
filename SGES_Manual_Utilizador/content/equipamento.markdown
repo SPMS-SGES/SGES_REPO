@@ -49,7 +49,7 @@ efetuar o registo do equipamento.
 
 \* Para que seja possível selecionar a entidade o utilizador deve, primeiro, selecionar o tipo de entidade.
 
-![figCriarEquipamento](img/pages/cap12/12_1_1_1_v1.PNG)
+![figCriarEquipamento](img/pages/cap12/12_1_1_1_v1.png)
 
 <p class="caption" id="figCriarEquipamento"> Criar novo Equipamento - Identificação</p>
 

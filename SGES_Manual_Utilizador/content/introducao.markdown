@@ -254,7 +254,7 @@ Informações relativas a Acordos/Convenções são acedidas, exclusivamente, pe
 
 Uma vez identificado e autenticado, é apresentado ao utilizador o menu principal do SGES onde pode aceder às diferentes funcionalidades que lhe estão disponíveis consoante o seu perfil; caso o utilizador tenha o perfil de administrador de uma entidade pública o menu principal que irá visualizar será o mostrado na [](#figura_menu_ADMIN_entidade).
 
-![figura_menu_ADMIN_entidade](img/pages/cap5/5_1_3_v1.JPG)
+![figura_menu_ADMIN_entidade](img/pages/cap5/5_1_3_v1.jpg)
 
 <p class="caption" id="figura_menu_ADMIN_entidade"> Menu Principal para um utilizador com o perfil de administrador de uma entidade pública. </p>
 
