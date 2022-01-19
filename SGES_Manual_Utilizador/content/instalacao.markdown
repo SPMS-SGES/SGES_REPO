@@ -206,9 +206,12 @@ Os serviços de urgência básica (SUB) (ver [](#fig40_0)) da entidade devem ser
 	<tr>
     	<td rowspan="5" colspan="6"> Mesma morada que o estabelecimento?</td>
     	<td rowspan="4" colspan="1"> Sim</td>
+	</tr>
+	<tr>
 	<tr>
     	 <td colspan="3"> Não </td>
   	</tr>
+	  <tr>
 	  <td > Morada </td>
 	</tr>
 	<tr>
