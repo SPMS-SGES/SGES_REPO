@@ -209,7 +209,7 @@ Os serviços de urgência básica (SUB) (ver [](#fig40_0)) da entidade devem ser
 	</tr>
 	<tr>
     	 <td colspan="3"> Não </td>
-	  <td > <p> Morada <p> Código-Postal <p> Distrito <p> Concelho <p> Freguesia
+	  <td > <p> Morada <p> Código-Postal <p> Distrito <p> Concelho <p> Freguesia </p>
       </td>
   	</tr>
 	<tr>
