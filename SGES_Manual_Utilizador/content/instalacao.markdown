@@ -222,7 +222,7 @@ Os serviços de urgência básica (SUB) (ver [](#fig40_0)) da entidade devem ser
   	</tr>
     <tr>
     	 <td colspan="3">  </td>
-	  <td > Concelho <br>
+	  <td > Concelho 
       Freguesia </td>
   	</tr>
 	<tr>
