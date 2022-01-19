@@ -50,4 +50,4 @@ title: "Entidade"
 | g) |SGES_INSTALACOES|            | Consulta e edita todos os campos referentes às instalações e pode consultar a entidade e estabelecimente a que estão associadas.|
 | h) |ARS_Convencoes|              | Consulta a entidade e estabelecimentos que representa, as convenções pelas quais está responsável e as entidades a que estão associadas.|
 
-    
+    werwerwe
