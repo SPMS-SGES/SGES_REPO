@@ -34,7 +34,7 @@ Apenas entidades públicas, à exceção de ACES, ARSs e Hospitais Militares, po
 ## 15.1. Criar Instalações
 
 Caso ainda não exista informação acerca das instalações de um estabelecimento, o utilizador pode criar instalações ([](#fig39)).
-Para criar instalações, o utilizador deve clicar em **CRIAR INSTALAÇÃO** na página de instalações de estabelecimento ([](#fig39)). De seguida, será encaminhado para a página de criação de instalações, onde deverá preencher os campos obrigatórios para poder efetuar o registo das instalações.
+Para criar instalações, o utilizador deve clicar em **CRIAR** na página de instalações de estabelecimento ([](#fig39)). De seguida, será encaminhado para a página de criação de instalações, onde deverá preencher os campos obrigatórios para poder efetuar o registo das instalações.
 Para o Registo de Instalações será necessário primeiro submeter os campos da Caracterização Geral do(s) edifício(s); sem estes submetidos não é possível preencher outros campos.
 
 É de salientar que existem balões de informação juntos aos campos que envolvem regras de negócio mais complexas. Para que o utilizador possa visualizar estas informações, o utilizador deve manter o cursor sobre o símbolo mostrado na  [](#figBaloes).
@@ -206,7 +206,10 @@ Os serviços de urgência básica (SUB) (ver [](#fig40_0)) da entidade devem ser
 	<tr>
     	<td rowspan="5" colspan="6"> Mesma morada que o estabelecimento?</td>
     	<td rowspan="4" colspan="1"> Sim</td>
-    	<td > Morada </td>
+	<tr>
+    	 <td colspan="3"> Não </td>
+  	</tr>
+	  <td > Morada </td>
 	</tr>
 	<tr>
     	<td > Código-Postal </td>
@@ -214,12 +217,11 @@ Os serviços de urgência básica (SUB) (ver [](#fig40_0)) da entidade devem ser
 	<tr>
 	<td > Concelho </td>
 	</tr>
-    
   	<tr>
 		<td > Freguesia </td>
   	</tr>
-	<tr>
-    	 <td colspan="3"> Não </td>
+	  <tr>
+		<td > Distrito </td>
   	</tr>
 	<tr>
 		<td colspan="6" rowspan="2">  d) Edifícios construídos na mesma fase?   </td>
@@ -399,7 +401,7 @@ Relativamente ao estacionamento:
 * Os descampados não contam para nº de lugares;
 * Lugares concessionados a terceiros devem ser contabilizados (desde que sejam utilizados pelas entidades hospitalares).
 
-![fig41](img/pages/cap14/41.JPG)
+![fig41](img/pages/cap14/41_v1.JPG)
 
 <p class="caption" id="fig41"> Criar Instalação - Áreas Totais e Estacionamento</p>
 
@@ -462,7 +464,7 @@ O campo *Custo Total* é igual ao somatório do valor dos campos *Terreno*, *Cus
 
 <p class="caption" id="fig45"> Caracterização da Construção</p>
 
-No separador *SCIE* o utilizador por registar informação acerca da segurança contra incêndios que os edfícios possuem.
+No separador *SCIE* o utilizador pode registar informação acerca da segurança contra incêndios que os edfícios possuem.
 
 ![fig60](img/pages/cap14/60.JPG)
 
@@ -480,7 +482,7 @@ No separador *SCIE* o utilizador por registar informação acerca da segurança 
 | a)| Ano*                                                          | |
 | b)|Nível da tensão de alimentação – rede elétrica de distribuição pública     | |
 | c)|Topologia de alimentação de energia elétrica                        | Em anel| 
-|                                                                     | Radial |
+|    |                                                                 | Radial |
 | d)|Potência Contratada                                                        | |
 | e)|Potência instalada                                                         | |
 | f)|Nº grupos eletrogéneos                                                     | |
@@ -489,7 +491,7 @@ No separador *SCIE* o utilizador por registar informação acerca da segurança 
 | i)|Sistema de Trigeração                                                      | |
 | j)|Painéis Solares Térmicos   |Sim|           Área do campo coletores instalados|
 | l)|Painéis Fotovoltaicos      |Sim|  Potência instalada em painéis fotovoltaicos|
-| m)|Aero-geradores;            |Sim|         Potência instalada em energia eólica|
+| m)|Aerogeradores;            |Sim|         Potência instalada em energia eólica|
 | n)|Sistemas de aproveitamento da biomassa                                     | |
 | o)|Certificação Energética    |Sim| Qual a classificação energética  |A+    |
 |   |                           |   |                                  |A     |
@@ -510,7 +512,7 @@ No separador *SCIE* o utilizador por registar informação acerca da segurança 
 
 |   |    Campos Obrigatórios em Detalhe - Água / Águas Residuais  ([](#fig47)) ||
 |---|-------------------------------------------------------------------------||
-| a)|Ano de alteração;                                                          | |
+| a)|Ano;                                                          | |
 | b)|Volume de armazenamento total;                                             | |
 | c)|Volume de armazenamento de água para rede de incêndios                     | |
 | d)|Furo de captação de águas subterrâneas                                     | |
@@ -523,7 +525,7 @@ No separador *SCIE* o utilizador por registar informação acerca da segurança 
 
 |    |   Campos Obrigatórios em Detalhe - Gases Medicinais  ([](#fig48))    ||
 |----|----------------------------------------------------------------------||
-| a)|Ano de alteração                                                           | |
+| a)|Ano                                                           | |
 | b)|Instalação registada no Infarmed como Dispositivo Médico?                  | |
 
 ![fig48](img/pages/cap14/48.JPG)
@@ -539,12 +541,10 @@ No separador *SCIE* o utilizador por registar informação acerca da segurança 
 |   |Consumo nafta |Custo nafta |
 |   |Consumo gasóleo*|Custo gasóleo**|
 |   |Consumo outros| Custo outros** |
-| d)|Águas       
-|   |Consumo água |Custo água   |
-| e)|Gases Medicinais (inclui gases em garrafas)||       
+| d)|Gases Medicinais (inclui gases em garrafas)||       
 |   |Consumo oxigénio |Custo oxigénio|
 |   |Consumo azoto |Custo azoto|
-|   |Consumo protóxido|Custo Protóxido|
+|   |Consumo protóxido de azoto |Custo Protóxido de azoto|
 |   |Consumo dióxido de carbono|Custo dióxido de carbono  |
 |   |Consumo ar comprimido medicinal|Custo ar comprimido medicinal|
 |   |Consumo ar comprimido medicinal produzido localmente|Custo ar comprimido medicinal produzido localmente|
@@ -604,7 +604,7 @@ Como mostrado nas figuras anteriores, é possível importar os equipamentos de c
 
 Ao carregar no botão **Importar**, são mostradas as indicações necessárias para preencher e carregar corretamente o documento que contém a informação referente aos equipamentos críticos ([](#fig53.1)).
 
-![fig53.1](img/pages/cap14/53.1.JPG)
+![fig53.1](img/pages/cap14/53.1_v1.JPG)
 
 <p class="caption" id="fig53.1"> Importação Equipamentos Críticos </p>
 
@@ -616,7 +616,7 @@ Ao carregar no botão **Importar**, são mostradas as indicações necessárias 
 |    |                                                  |   Campos Obrigatórios em Serviços        | |
 |----|--------------------------------------------------|------------------------------------------|-|
 |a)  | Serviço de Instalação e Equipamento ([](#fig54)) |||
-|  |                                      |Ano de Alteração|
+|  |                                      |Ano|
 |  |                                      |Serviço de Instalações e Equipamentos – Em regime de outsourcing| Sim|
 |  |                                                                                                       | Não|
 |  |                                      |Equipa de Manutenção Permanente*| Elementos externos (Se *Serviço de Instalações e Equipamentos – Em regime de outsourcing*= Sim)|
@@ -630,11 +630,13 @@ Ao carregar no botão **Importar**, são mostradas as indicações necessárias 
 \* A equipa de manutenção permanente é constituída pelos elementos que compõem a equipa residente de manutenção do estabelecimento hospitalar.
 
 | b) | Custos do Serviço ([](#fig55)) |||
+|  |                                      |Ano|
 | |                                         | Orçamento anual do serviço de instalações e equipamentos|
-| |                                         | Custos anuais com manutenção corretiva*|
+| |                                         | Custos anuais com manutenção corretiva* (reparações)|
 | |                                         | Custos anuais com contratos de manutenção|
-| |                                         |Custos anuais com substituição de equipamento|
+| |                                         |Custos anuais com substituição de equipamento das instalações elétricas|
 | c) | Serviços de Apoio ([](#fig56)) |||
+|  |                                      |Ano|
 |    |                                      | Esterilização serviço em outsourcing|Sim|Custos anuais com o serviço|
 | |                                         | Existe lavandaria|Sim|Custos anuais com o serviço|
 | |                                         | Existe Cozinha|Sim|Custos anuais com o serviço|
@@ -650,7 +652,7 @@ Ao carregar no botão **Importar**, são mostradas as indicações necessárias 
 
 <p class="caption" id="fig55"> Serviços - Custos do Serviço</p>
 
-![fig56](img/pages/cap14/56.JPG)
+![fig56](img/pages/cap14/56_v1.JPG)
 
 <p class="caption" id="fig56"> Serviços - Serviços de Apoio</p>
 
@@ -722,14 +724,14 @@ Neste separador é possível registar informação acerca da avaliação dos edi
 |b)  | Serviços avaliados                						 | |
 |c)  | Upload para repositório?            | Ficheiro              |
 
-![fig58](img/pages/cap14/58.JPG)
+![fig58](img/pages/cap14/58_v1.JPG)
 
 <p class="caption" id="fig58"> Avaliação Pós-Ocupação </p>
 
 <p id="acao-acss"></p>
 ### 15.1.7 Ações ACSS
 Este separador apenas é editado por utilizadores aos quais tenha sido atribuído o perfil ACSS, no entanto, pode ser consultado por utilizadores com o perfil Entidades ou Instalações.
-Neste separador que o utilizador é possível registar informação de todas as ações que a ACSS executou naquelas instalações.
+Neste separador o utilizador pode registar informação de todas as ações que a ACSS executou naquelas instalações.
 
 |    | Campos em Ações ACSS – ([](#fig59))                       | |
 |----|-----------------------------------------------------------|-|
@@ -750,13 +752,13 @@ Neste separador que o utilizador é possível registar informação de todas as 
 <p id="editar-instalaes"></p>  
 ## 15.2. Editar Instalações
 
-O utilizador pode navegar para a página de edição da instalação clicando no botão **CONSULTAR** na página de instalações de estabelecimento ([](#fig39)) e clicar no botão **ALTERAR INSTALAÇÃO**.
+O utilizador pode navegar para a página de edição da instalação clicando no botão **EDITAR** na página de instalações de estabelecimento ([](#fig39)).
 A edição deve respeitar o preenchimento dos campos obrigatórios identificados no ponto [12.1 Criar Instalações](#criar-instalaes)
 No final da edição o utilizador para gravar as alterações deve clicar no botão **SUBMETER** ou **GUARDAR**, dependendo dos painéis alterados. Após clicar irá ser notificado com o resultado da operação.
 
 <p id="consultar-instalaes"></p>
 ## 15.3. Consultar Instalações
-O utilizador pode navegar para a página de consulta de instalação na página de instalações de estabelecimento ([](#figEstabeSInst)) e clicar no botão **CONSULTAR INSTALAÇÃO**.
+O utilizador pode navegar para a página de consulta de instalação na página de instalações de estabelecimento ([](#figEstabeSInst)) e clicar no botão **CONSULTAR**.
 
 <p id="histrico-instalaes"></p>
 ## 15.4. Histórico Instalações

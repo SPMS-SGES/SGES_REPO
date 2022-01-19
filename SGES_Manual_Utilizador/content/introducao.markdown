@@ -49,7 +49,7 @@ Na tabela seguinte estão apresentadas, por ordem alfabética, a siglas que ser�
 <p id="termos-e-definies"></p>
 # 3.Introdução
 O Sistema de Gestão de Entidades de Saúde (SGES) é um projeto estruturante para o sistema de informação de saúde, promovendo a criação de um repositório central de Entidades de Saúde, fiável e permanentemente atualizado, a partilhar com todos os SI, eliminando a redundância de informação e promovendo o aumento da qualidade dos dados.
-Considerando a evolução dos requisitos funcionais e técnicos, resultante das iterações ocorridas com os diferentes intervenientes ao longo do projeto a que este sistema deu origem, identificam-se como principais objetivos que através do SGES seja possível:
+Considerando a evolução dos requisitos funcionais e técnicos, resultante das interações ocorridas com os diferentes intervenientes ao longo do projeto a que este sistema deu origem, identificam-se como principais objetivos que através do SGES seja possível:
 * Conhecer as entidades prestadoras de cuidados de saúde, a sua distribuição geográfica, a sua capacidade instalada e a sua relação com o SNS;
 * Dispor de um repositório de entidades de saúde único, integrado e partilhado;
 * Disponibilizar informação consistente, de qualidade e atempada aos diferentes SI da Saúde;
@@ -97,7 +97,7 @@ No cabeçalho das páginas do SGES existe um conjunto de dados que serve para in
 No canto superior direito da página da aplicação, na primeira linha, é mostrado o perfil do utilizador e, caso este pertença a uma entidade, é mostrado o nome desta. Na segunda linha aparece o nome do utilizador.
 
 Ao lado do nome de utilizador, encontra-se o botão das opções avançadas ([](#figDef)). Ao clicar no referido botão, o utilizador tem acesso a um 
-conjunto de opções relativas ao perfil do utilizador, tais como: alterar password ([4.2. Alteração da senha](#alterao-da-senha)) e a criação de utilizadores (caso o utilizador tenha permissões para tal) ([4.3. Gestão de utilizadores](#gesto-de-utilizadores)). 
+conjunto de opções relativas ao perfil do utilizador, tais como: a alteração de password ([4.2. Alteração da senha](#alterao-da-senha)), a criação de utilizadores (caso o utilizador tenha permissões para tal) ([4.3. Gestão de utilizadores](#gesto-de-utilizadores)) e a gestão de alertas. 
 De referir que a opção de Gestão de Utilizadores também está disponível no menu principal da aplicação (caso o utilizador tenha permissões para tal) ([](#figatalho_menu)).
 
 ![figDef](img/pages/cap4/definicao.png)
@@ -168,7 +168,7 @@ Após clicar em **Alterar Password** é apresentada uma página de alteração d
 
 Após o preenchimento dos campos, o utilizador deverá finalizar a alteração clicando em **Alterar**.
 
-![figAlteracaoSenha](img/pages/cap4/5_2_1.jpg)
+![figAlteracaoSenha](img/pages/cap4/5_2_1_v1.jpg)
 
 <p class="caption" id="figAlteracaoSenha"> Página de alteração de senha </p>
 
@@ -185,6 +185,8 @@ Se o utilizador tiver o perfil de administrador (ARS_ADMIN, ADMIN_ENTIDADE, ACSS
 
 * **SGES_INSTALACOES** - Os utilizadores com este perfil poderão executar as operações sobre as instalações de cada estabelecimento médico.
 
+Além dos apresentados, é também possível criar os seguintes perfis: ENT_INSTALACOES, RESPONSAVEL UF, ADMIN_ENT_GERAL, SGES_CONVENCOES.
+
 Para criar novos utilizadores, o utilizador deve clicar no botão das opções avançadas situado no canto superior direito da página 
 ([](#figDef)). Após clicar em **Gestão de Utilizadores**, aparecerá a página mostrada na [](#figGestaoUtilizadores).
 
@@ -194,7 +196,7 @@ Para criar novos utilizadores, o utilizador deve clicar no botão das opções a
 
 **4.3.1.** O utilizador deve clicar em **Criar**, para aparecer a página de Criar Utilizador ([](#figCriarUtilizador)).
 
-![figCriarUtilizador](img/pages/cap4/5_4_2.jpg)
+![figCriarUtilizador](img/pages/cap4/5_4_2_v1.jpg)
 
 <p class="caption" id="figCriarUtilizador"> Criar utilizador </p>
 
@@ -209,31 +211,35 @@ Para a criação de um utilizador devem ser preenchidos os campos obrigatórios 
 | e) |  E-mail                          ||
 | f) |  Perfil                          | SGES_ENTIDADE|
 | |                                     | SGES_EQUIPAMENTOS|
-| |                                     | SGES_INSTALAÇÕES|
+| |                                     | SGES_INSTALACOES|
+| |                                     | ENT_INSTALACOES|
+| |                                     | RESPONSAVEL UF|
+| |                                     | ADMIN_ENT_GERAL|
+| |                                     | SGES_CONVENCOES|
 
-No final da edição, para gravar as alterações o utilizador deve clicar no botão **GUARDAR**. Após clicar irá ser notificado com o resultado da operação.
+No final da edição, para gravar as alterações o utilizador deve clicar no botão **SUBMETER**. Após clicar irá ser notificado com o resultado da operação.
 
 No SGES podem ainda existir utilizadores com outros perfis. No subcapítulo [A2 Perfis e respetivas permissões ](#listaperfis) é possível consultar a lista de perfis, e respetivas permissões, disponíveis no SGES.
 
 <br>
 
-**4.3.2.** O utilizador deve clicar em **Editar**, para que seja possível editar os dados de um determinado utilizador.
+**4.3.2.** O utilizador deve selecionar o utilizador pretendido e clicar em **Editar**, para que seja possível editar os dados de um determinado utilizador.
 
 <br>
 
-**4.3.3.** O utilizador deve clicar em **Consultar**, para que seja possível consultar os dados de um determinado utilizador.
+**4.3.3.** O utilizador deve selecionar o utilizador pretendido e  clicar em **Consultar**, para que seja possível consultar os dados de um determinado utilizador.
 
 <br>
 
-**4.3.4.** O utilizador deve clicar em **Bloquear**/**Desbloquear**, caso deseje  um determinado utilizador.
+**4.3.4.** O utilizador deve selecionar o utilizador pretendido e clicar em **Bloquear**/**Desbloquear**, caso deseje  um determinado utilizador.
 
 <br>
 
-**4.3.5.** O utilizador deve clicar em **Apagar**, caso deseje eliminar um determinado utilizador
+**4.3.5.** O utilizador deve selecionar o utilizador pretendido e clicar em **Apagar**, caso deseje eliminar um determinado utilizador
 
 <br>
 
-**4.3.6.** O utilizador deve clicar em **Reiniciar Password** caso deseje voltar a enviar as credenciais de acesso à aplicação a um determinado utilizador. Esta funcionalidade pode ser útil caso, por exemplo, se tenha inserido, inicialmente, o endereço eletrónico errado e, consequentemente, as credenciais tenham sido enviadas para o e-mail errado.
+**4.3.6.** O utilizador deve selecionar o utilizador pretendido e clicar em **Reiniciar Password** caso deseje voltar a enviar as credenciais de acesso à aplicação a um determinado utilizador. Esta funcionalidade pode ser útil caso, por exemplo, se tenha inserido, inicialmente, o endereço eletrónico errado e, consequentemente, as credenciais tenham sido enviadas para o e-mail errado.
 
 <br>
 
@@ -241,14 +247,14 @@ No SGES podem ainda existir utilizadores com outros perfis. No subcapítulo [A2 
 ## 4.4. Natureza jurídica e os seus campos
 As entidades públicas - ULS, Centros Hospitalares e Hospitais do SNS - têm acesso a informações relativas a entidades, estabelecimentos,equipamentos e instalações (ver capítulos 6 a 14 inclusive).
 
-Informações relativas a Acordos/Convenções são acedidas, exclusivamente, pelas ARSs ACSS (ver capítulo 15).
+Informações relativas a Acordos/Convenções são acedidas, exclusivamente, pelas ARSs e ACSS (ver capítulo 15).
 
 <p id="home"></p>
 ## 5. Menu Principal
 
 Uma vez identificado e autenticado, é apresentado ao utilizador o menu principal do SGES onde pode aceder às diferentes funcionalidades que lhe estão disponíveis consoante o seu perfil; caso o utilizador tenha o perfil de administrador de uma entidade pública o menu principal que irá visualizar será o mostrado na [](#figura_menu_ADMIN_entidade).
 
-![figura_menu_ADMIN_entidade](img/pages/cap5/5_1_3.JPG)
+![figura_menu_ADMIN_entidade](img/pages/cap5/5_1_3_v1.JPG)
 
 <p class="caption" id="figura_menu_ADMIN_entidade"> Menu Principal para um utilizador com o perfil de administrador de uma entidade pública. </p>
 
@@ -258,12 +264,14 @@ Para além dos menus mostrados na figura anterior, existe ainda o menu Acordos e
 
 <p class="caption" id="figacordos_convencoes"> Menu Acordos e Convenções. </p>
 
-![figFT](img/pages/cap5/5_1_3_1_1.jpg)
+![figFT](img/pages/cap5/5_1_3_1_1_v1.jpg)
 
 <p class="caption" id="figFT"> Menu Ficha Técnica. </p>
 
 
-O menu Acordos e Convenções, que permite a gestão de acordos e convenções, pode ser acedido por utilizadores com o perfil ACSS e ARS. 
+O menu Acordos e Convenções, que permite a gestão de acordos e convenções, pode ser acedido por utilizadores com o perfil ACSS_CONVENCOES, ARS_ADMIN e ARS_CONVENCOES. 
 
-Por sua vez, o menu Ficha Técnica, que permite o carregamento de fichas técnicas, pode ser acedido por utilizadores com o perfil ACSS. 
+Por sua vez, o menu Ficha Técnica, que permite o carregamento de fichas técnicas, pode ser acedido por utilizadores com o perfil ACSS_CONVENCOES e ARS_CONVENCOES.
+
+O perfil ARS_ADMIN apenas consulta Acordos e Convenções.
 

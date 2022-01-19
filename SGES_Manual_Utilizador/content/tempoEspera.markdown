@@ -22,7 +22,7 @@ O registo desta informação deve ser feito trimestralmente ([Despacho nº. 1043
 O utilizador pode consultar os tempos de espera para a realização de exames após navegar para o separador **Tempos de Espera** ([](#figTempoEspera)), 
 selecionar o período que pretende consultar clicar no botão **CONSULTAR** e selecionar a especialidade. Como é possível ver na figura [](#criarTempoEspera) é possível visualizar o tempo total de espera para um determinado exame de uma determinada área.
 
-![figTempoEspera](img/pages/cap11/11_0_1.jpg)
+![figTempoEspera](img/pages/cap11/11_0_1_v1.jpg)
 
 <p class="caption" id="figTempoEspera"> Tempos de Espera</p>
 
@@ -33,7 +33,7 @@ selecionar o período que pretende consultar clicar no botão **CONSULTAR** e se
 
 <p id="alterarTeRealizacaoExames"></p>
 
-## 11.2. Preencher/Alterar Tempos de Espera
-O utilizador pode preencher ou alterar o *Total dias de espera* após navegar para o separador **Tempos de Espera**  ([](#figTempoEspera)), selecionar o período que pretende preencher ou alterar e clicar no botão **PREENCHER/ALTERAR**.
+## 11.2. Preencher/Editar Tempos de Espera
+O utilizador pode preencher ou editar o *Total dias de espera* após navegar para o separador **Tempos de Espera**  ([](#figTempoEspera)), selecionar o período que pretende preencher ou alterar e clicar no botão **PREENCHER/EDITAR**.
 No final da edição o utilizador para gravar as alterações deve clicar no botão **GUARDAR**. Após clicar irá ser notificado com o resultado da operação.
 

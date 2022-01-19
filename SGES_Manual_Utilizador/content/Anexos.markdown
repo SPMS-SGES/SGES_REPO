@@ -20,7 +20,7 @@ title: "Entidade"
 |    |                                     | Sistema anti-rapto |
 |    |                                       | UPS |
 | b) | Instalações Mecânicas		              | Autoclave(s)|	          
-|    |                                      | Bomba(s) circuladoras |
+|    |                                      | Bomba(s) circuladoras (águas e esgotos) |
 |    |                                        | Bomba(s) de ar comprimido medicinal |
 |    |                                       | Bomba(s) de vácuo |
 |    |                                        | Caldeira(s) |
@@ -34,20 +34,20 @@ title: "Entidade"
 |    |                                        | Unidade de tratamento de ar novo (UTAN) |
 |    |                                      | Ventilador(es) associado(s) ao sistema de incêndios |
 | c)| Instalações de Águas e Esgotos		| Bomba(s) rede de incêndios |     
-|   |                                       | Bomba(s) circuladoras |
+|   |                                       | Bomba(s) circuladoras (águas e esgotos)|
 
 <p id="listaperfis"></p>
 ## A.2 - Perfis e respetivas permissões
 
 |   | Permissões e respetivas permissões                                     ||
 |---|------------------------------------------------------------------------|| 
-| a) |ADMIN_ENT_GERAL|            | Consulta e edita todos os campos dos módulos da aplicação e gere utilizadores|
-| b) |ADMIN_ENTIDADE |             | Consulta todos os campos dos módulos e gere utilizadores | 
+| a) |ADMIN_ENT_GERAL|            | Consulta e edita todos os campos dos módulos da aplicação e gere utilizadores, menos para o módulo de Instalações|
+| b) |ADMIN_ENTIDADE |             | Consulta todos os campos dos módulos e gere utilizadores. Edita Entidades e Estabalecimentos | 
 | c) |ARS_ADMIN      |			   | Consulta todos os campos dos módulos e gere utilizadores |
 | d) |ARS_CONSULTA|                | Consulta todos os campos dos módulos|
-| e) |SGES_ENTIDADE |  			  | Consulta e edita todos os campos referentes aos estabelecimentos e consulta a informação associada à entidade a que pertencem|
+| e) |SGES_ENTIDADE |  			  | Consulta e edita todos os campos referentes aos estabelecimentos. Consulta e edita a informação associada à entidade a que pertencem  |
 | f) |SGES_EQUIPAMENTOS|           | Consulta e edita todos os campos referentes aos equipamentos médicos pesados e à produção dos mesmos e pode consultar a entidade e estabelecimente a que estão associadas|
 | g) |SGES_INSTALACOES|            | Consulta e edita todos os campos referentes às instalações e pode consultar a entidade e estabelecimente a que estão associadas.|
-| h) |ARS_Convencoes|              | Consulta a entidade que representa, as convenções pelas quais está responsável e as entidades a que estão associadas.|
+| h) |ARS_Convencoes|              | Consulta a entidade e estabelecimentos que representa, as convenções pelas quais está responsável e as entidades a que estão associadas.|
 
     

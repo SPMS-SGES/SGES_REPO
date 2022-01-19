@@ -39,14 +39,17 @@ O utilizador pode consultar a lista dos recursos humanos afetos a serviços numa
 |    |                                  |  Cardiologia| 
 |    |                                  |  Cardiologia Pediátrica/Hemodinâmica| 
 |    |                                  |  Cardiologia/Hemodinâmica| 
-|    |                                  |  Cardiopneumologia| 
-|    |                                  |  Cirurgia Vascular/Hemodinâmica| 
+|    |                                  |  Cardiopneumologia|
+|    |                                  |  Cardiologia/Neurorradiologia|
+|    |                                  |  Cardiologia/Radiologia|  
+|    |                                  |  Cirurgia Vascular/Hemodinâmica|
+|    |                                  |  Cirurgia Vascular|
+|    |                                  |  Cirurgia Vascular/Neurorradiologia|  
 |    |                                  |  Gastroenterologia| 
 |    |                                  |  Medicina Hiperbárica| 
 |    |                                  |  Medicina Nuclear| 
 |    |                                  |  Neurorradiologia| 
-|    |                                  |  Pneumologia| 
-|    |                                  |  Neurorradiologia| 
+|    |                                  |  Pneumologia|  
 |    |                                  |  Radiologia| 
 |    |                                  |  Radiologia/Neurorradiologia| 
 |    |                                  |  Radioncologia| 
