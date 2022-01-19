@@ -209,23 +209,8 @@ Os serviços de urgência básica (SUB) (ver [](#fig40_0)) da entidade devem ser
 	</tr>
 	<tr>
     	 <td colspan="3"> Não </td>
-	  <td > Morada </td>
-  	</tr>
-    <tr>
-    	 <td colspan="3">  </td>
-	  <td > Código-Postal </td>
-  	</tr>
-     <tr>
-    	 <td colspan="3">  </td>
-	  <td > Distrito </td>
-  	</tr>
-    <tr>
-    	 <td colspan="3">  </td>
-	  <td > Concelho </td>
-  	</tr>
-     <tr>
-    	 <td colspan="3">  </td>
-	  <td > Freguesia </td>
+	  <td > <p> Morada <p> Código-Postal <p> Distrito <p> Concelho <p> Freguesia
+      </td>
   	</tr>
 	<tr>
 		<td colspan="6" rowspan="2">  d) Edifícios construídos na mesma fase?   </td>
@@ -767,7 +752,7 @@ O utilizador pode navegar para a página de consulta de instalação na página 
 <p id="histrico-instalaes"></p>
 ## 15.4. Histórico Instalações
 
-A página de histórico de uma instalação pode ser acedida através da página da instalação do estabelecimento ([](#figEstabeSInst)) e clicando no botão **HISTÓRICO INSTALAÇÃO** .
+A página de histórico de uma instalação pode ser acedida através da página da instalação do estabelecimento ([](#figEstabeSInst)) e clicando no botão **HISTÓRICO** .
 Uma vez na página de histórico poderá visualizar a data das alterações, o utilizador que as realizou e os paineis que afetaram.
 
 

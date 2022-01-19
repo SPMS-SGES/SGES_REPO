@@ -131,7 +131,7 @@ O estabelecimento pode ter ainda atividades associadas. Estas são mostradas no 
 
 As próximas tabelas e imagens mostram os campos de preenchimento obrigatório relativos a unidades funcionais e postos de colheita.
 
-|    | Campos Obrigatórios – Unidade Funcional - ([](#figUnidadeFuncional))  | |
+|    | Campos Obrigatórios – Unidade Funcional - ([](#figPostosColheita))  | |
 |----|--------------------------------------------------------|------|
 | a) | Centro de Saúde                                        | | 
 | b) |População Abrangida                          | Distrito |
