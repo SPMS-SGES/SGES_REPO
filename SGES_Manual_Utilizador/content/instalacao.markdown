@@ -205,23 +205,22 @@ Os serviços de urgência básica (SUB) (ver [](#fig40_0)) da entidade devem ser
 	</tr>
 	<tr>
     	<td rowspan="5" colspan="6"> Mesma morada que o estabelecimento?</td>
-    	<td rowspan="4" colspan="1"> Sim</td>
-	<tr>
-    	 <td colspan="3"> Não </td>
-  	</tr>
-	  <td > Morada </td>
+    	<td rowspan="4" colspan="1"> Não</td>
+ </tr>
+	<tr>  <td > Morada <br>
+    Código-Postal <br>
+    Distrito <br>
+    Concelho <br>
+    Freguesia</td>
 	</tr>
 	<tr>
-    	<td > Código-Postal </td>
+    	<td ></td>
 	</tr>
 	<tr>
-	<td > Concelho </td>
+	<td ></td>
 	</tr>
   	<tr>
-		<td > Freguesia </td>
-  	</tr>
-	  <tr>
-		<td > Distrito </td>
+		<td > Sim </td>
   	</tr>
 	<tr>
 		<td colspan="6" rowspan="2">  d) Edifícios construídos na mesma fase?   </td>
@@ -401,7 +400,7 @@ Relativamente ao estacionamento:
 * Os descampados não contam para nº de lugares;
 * Lugares concessionados a terceiros devem ser contabilizados (desde que sejam utilizados pelas entidades hospitalares).
 
-![fig41](img/pages/cap14/41_v1.JPG)
+![fig41](img/pages/cap14/41_v1.jpg)
 
 <p class="caption" id="fig41"> Criar Instalação - Áreas Totais e Estacionamento</p>
 
