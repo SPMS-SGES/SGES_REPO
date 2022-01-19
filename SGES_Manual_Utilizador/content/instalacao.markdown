@@ -204,28 +204,25 @@ Os serviços de urgência básica (SUB) (ver [](#fig40_0)) da entidade devem ser
 		<td> Outros </td>
 	</tr>
 	<tr>
-          <tr>
-        <td rowspan="5" colspan="6"> Mesma morada que o estabelecimento?</td>
-    	<td> Sim</td>
-	</tr>
+    	<td rowspan="5" colspan="6"> Mesma morada que o estabelecimento?</td>
+    	<td rowspan="4" colspan="1"> Sim</td>
 	<tr>
     	 <td colspan="3"> Não </td>
+  	</tr>
 	  <td > Morada </td>
-  	</tr>
-    <tr>
-    	 <td colspan="3">  </td>
-	  <td > Código-Postal </td>
-  	</tr>
-     <tr>
-    	 <td colspan="3">  </td>
-	  <td > Distrito </td>
-  	</tr>
-    <tr>
-    	 <td colspan="3">  </td>
-	  <td > Concelho
-      Freguesia </td>
-  	</tr>
+	</tr>
 	<tr>
+    	<td > Código-Postal </td>
+	</tr>
+	<tr>
+	<td > Concelho </td>
+	</tr>
+  	<tr>
+		<td > Freguesia </td>
+  	</tr>
+	  <tr>
+		<td > Distrito </td>
+  	</tr>
 	<tr>
 		<td colspan="6" rowspan="2">  d) Edifícios construídos na mesma fase?   </td>
 		<td> Sim  </td>
@@ -404,7 +401,7 @@ Relativamente ao estacionamento:
 * Os descampados não contam para nº de lugares;
 * Lugares concessionados a terceiros devem ser contabilizados (desde que sejam utilizados pelas entidades hospitalares).
 
-![fig41](img/pages/cap14/41_v1.jpg)
+![fig41](img/pages/cap14/41_v1.JPG)
 
 <p class="caption" id="fig41"> Criar Instalação - Áreas Totais e Estacionamento</p>
 
@@ -607,7 +604,7 @@ Como mostrado nas figuras anteriores, é possível importar os equipamentos de c
 
 Ao carregar no botão **Importar**, são mostradas as indicações necessárias para preencher e carregar corretamente o documento que contém a informação referente aos equipamentos críticos ([](#fig53.1)).
 
-![fig53.1](img/pages/cap14/53.1_v1.jpg)
+![fig53.1](img/pages/cap14/53.1_v1.JPG)
 
 <p class="caption" id="fig53.1"> Importação Equipamentos Críticos </p>
 
@@ -655,7 +652,7 @@ Ao carregar no botão **Importar**, são mostradas as indicações necessárias 
 
 <p class="caption" id="fig55"> Serviços - Custos do Serviço</p>
 
-![fig56](img/pages/cap14/56_v1.jpg)
+![fig56](img/pages/cap14/56_v1.JPG)
 
 <p class="caption" id="fig56"> Serviços - Serviços de Apoio</p>
 
@@ -727,7 +724,7 @@ Neste separador é possível registar informação acerca da avaliação dos edi
 |b)  | Serviços avaliados                						 | |
 |c)  | Upload para repositório?            | Ficheiro              |
 
-![fig58](img/pages/cap14/58_v1.jpg)
+![fig58](img/pages/cap14/58_v1.JPG)
 
 <p class="caption" id="fig58"> Avaliação Pós-Ocupação </p>
 
