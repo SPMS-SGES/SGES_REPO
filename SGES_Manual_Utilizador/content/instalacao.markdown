@@ -204,17 +204,26 @@ Os serviços de urgência básica (SUB) (ver [](#fig40_0)) da entidade devem ser
 		<td> Outros </td>
 	</tr>
 	<tr>
-		<td colspan="5" rowspan="6"> Mesma morada que o estabelecimento? </td>
-		<td rowspan="4"> Sim </td>
-	</tr>  
+    	<td rowspan="5" colspan="6"> Mesma morada que o estabelecimento?</td>
+    	<td rowspan="4" colspan="1"> Sim</td>
+	<tr>
+    	 <td colspan="3"> Não </td>
+  	</tr>
+	  <td > Morada </td>
+	</tr>
+	<tr>
+    	<td > Código-Postal </td>
+	</tr>
+	<tr>
+	<td > Concelho </td>
+	</tr>
   	<tr>
-     	<td rowspan="4"> Não </td>
-		 <td rowspan="2"> Morada </td>
-		 <td rowspan="2"> Código-Postal </td>
-		  <td rowspan="2"> Distrito </td>
-		 <td rowspan="2"> Concelho </td>
-		 <td rowspan="2"> Freguesia </td>
- 	</tr>
+		<td > Freguesia </td>
+  	</tr>
+	  <tr>
+		<td > Distrito </td>
+  	</tr>
+	</tr> 
 	<tr>
 		<td colspan="6" rowspan="2">  d) Edifícios construídos na mesma fase?   </td>
 		<td> Sim  </td>
