@@ -35,7 +35,7 @@ efetuar o registo do equipamento.
 | b) | Tipo de Equipamento                                         |  Equipamentos Médicos Pesado    |
 |    |                                                             |  Outros Equipamentos Médicos    |
 | c) | Equipamento é Novo ou Upgrade?                                         |  NOVO    ||
-|    |                                                             |  UPGRADE    | Nr. de Série do equipamento a ser substituído|
+|    |                                                             |  UPGRADE**    | Nr. de Série do equipamento a ser substituído|
 | d) | Número de série                                    |      |
 | e) | Posto de trabalho (todos os serviços a que um equipamento se encontra associado devem ser considerados)                           |      |
 | f) | Marca                                              |      |
@@ -49,9 +49,15 @@ efetuar o registo do equipamento.
 
 \* Para que seja possível selecionar a entidade o utilizador deve, primeiro, selecionar o tipo de entidade.
 
+** A opção "UPGRADE" deve ser utilizada para subsitutuir um equipamento anterior. Esta opção apenas se aplica aos casos em que o equipamento a ser substítuido estiver com o estado assinalidado como "Substituido/Upgrade" (ver tabela Localização/Estado para alteração do estado) ([](#figPesquisaUpgrade)).
+
 ![figCriarEquipamento](img/pages/cap12/12_1_1_1_v1.png)
 
 <p class="caption" id="figCriarEquipamento"> Criar novo Equipamento - Identificação</p>
+
+![figPesquisaUpgrade](img/pages/cap12/40.1.jpg)
+
+<p class="caption" id="figPesquisaUpgrade"> Menu de pesquisa de equipamento a ser substituido </p>
 
 Após o registo dos dados deve clicar em **GUARDAR** para gravar o equipamento. Após clicar irá ser notificado com o resultado da operação.
 
@@ -228,7 +234,10 @@ Para poder transferir o equipamento, o utilizador deve preencher os campos obrig
 Na página de transferência o utilizador pode consultar toda a informação respeitante ao equipamento que vai transferir.
 
 ## 13.5. Histórico de Equipamento
-A página de histórico de um equipamento pode ser acedida através da página de equipamentos de estabelecimento ([](#figEqpEstabelecimento)) e clicando no botão **HISTÓRICO**.
-O utilizador pode aceder
-a esta página através do menu Entidade ou, diretamente, através do menu Equipamentos.
-Uma vez na página de histórico, o utilizador poderá visualizar todas as versões resultantes da edição da entidade, a data em que as alterações foram efetuadas, o utilizador que as realizou, bem como a identificação dos campos alterados. Este menu apenas apresenta as próprias alterações. Apenas com as devidas permissões, apresenta todo o histórico.
+A página de histórico de um equipamento pode ser acedida através da página de equipamentos de estabelecimento ([](#figEqpEstabelecimento)), ou através da página do equipamento no canto superior direito ([](#figCriarEquipamento)), clicando no botão **HISTÓRICO**.
+O utilizador pode aceder a esta página através do menu Entidade ou, diretamente, através do menu Equipamentos.
+Uma vez na página de histórico, o utilizador poderá visualizar as versões resultantes da edição da entidade, a data em que as alterações foram efetuadas, o utilizador que as realizou, identificação dos campos alterados, bem como a informação anterior e a informação nova. O menu permite ainda pesquisa das alterações efetuadas através de filtros como intervalo de tempo (data de - data até), Seccção, Utilizador, ou Campo ([](#figMenuHistorico)). É ainda possível efetuar a extração do resultado da pesquisa realizada. Este menu apenas apresenta as próprias alterações, apenas com as devidas permissões, apresenta todo o histórico de alterações de todos os utilizadores.
+
+![figMenuHistorico](img/pages/cap12/40.1.1.jpg)
+<p class="caption" id="figMenuHistorico"> Menu do histórico de alterações do equipamento</p>
+
