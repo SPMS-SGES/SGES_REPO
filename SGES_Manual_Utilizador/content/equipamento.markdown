@@ -49,7 +49,7 @@ efetuar o registo do equipamento.
 
 \* Para que seja possível selecionar a entidade o utilizador deve, primeiro, selecionar o tipo de entidade.
 
-** A opção "UPGRADE" deve ser utilizada nos casos em que o equipamento que está a ser criado seja a substituição de um equipamento anterior. Esta opção apenas se aplica se o equipamento a ser substítuido estiver com o estado assinalidado como "Substituido/Upgrade" (ver tabela Localização/Estado para alteração do estado). Esta opção abre um campo de pesquisa, onde é possível pesquisar o equipamento a substituir por designação, marca e número de série ([](#figPesquisaUpgrade)).
+** A opção "UPGRADE" deve ser utilizada nos casos em que o equipamento que está a ser criado seja a substituição de um equipamento anterior. Esta opção apenas se aplica se o equipamento a ser substítuido estiver com o estado assinalado como "Substituido/Upgrade" (ver tabela Localização/Estado para alteração do estado). Esta opção abre um campo de pesquisa, onde é possível pesquisar o equipamento a substituir por designação, marca e número de série ([](#figPesquisaUpgrade)).
 
 ![figCriarEquipamento](img/pages/cap12/12_1_1_1_v1.png)
 
