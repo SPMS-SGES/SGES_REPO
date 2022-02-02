@@ -28,26 +28,29 @@ Para criar um novo estabelecimento, o utilizador deve clicar em **CRIAR** na pá
 | a) | Tipo de Estabelecimento                          |  Hospital | 
 ||                                                      |  Unidade funcional| 
 ||                                                      |  Consultório| 
-||                                                      |  Laboratório| 
-| b) |Tipo de Unidade Funcional (se Tipo de Estabelecimento = Unidade Funcional)                                                                                                                                                    |UCC| 
+||                                                      |  Laboratório|
+||                                                      |  Hospital Militar| 
+||                                                      |  Posto Empresa|
+||                                                      |  SUB| 
+| b) | Tipo de Unidade Funcional (se Tipo de Estabelecimento = Unidade Funcional)                                                                                                                                                    |UCC| 
 ||                                                      |  UCSP| 
 ||                                                      |  USF| 
-||                                                      |  USP| 
-||                                                      |  URAP| 
 | c) |Estado                                            | Ativa|
 ||                                                      | Encerrado|
 ||                                                      | Suspenso|
 ||                                                      | Transferido|
-| d) |Nome/Designação social                       | |
-| e) |Morada                                       | |
-| f) |Código-Postal                                | |
-| g) |Distrito                                     | |
-| h) |Concelho                                     | |
-| i) |Freguesia                                    | |
-| j) |Telefone                                     | |
-| k) |Fax                                          | |
-| l) |Email                                        | |
-| m) |Site                                         | |
+||                                                      | Pendente|
+||                                                      | Visualizado|
+| d) | Nome/Designação social                       | |
+| e) | Morada                                       | |
+| f) | Código-Postal                                | |
+| g) | Distrito                                     | |
+| h) | Concelho                                     | |
+| i) | Freguesia                                    | |
+| j) | Telefone                                     | |
+| k) | Email                                          | |
+| l) | Existe Equipamento Médico Pesado?                                         | Sim |
+||                                                      | Não ||
 
 Na tabela abaixo e na [](#figPainelGabCidadao) são mostrados os campos de preenchimento obrigatório referentes ao painel do gabinete do cidadão. 
 
@@ -60,7 +63,7 @@ Na tabela abaixo e na [](#figPainelGabCidadao) são mostrados os campos de preen
 \* Preços em vigor dos cuidados a prestar pelo hospital; correspondem aos preços a pagar por um utente independente, sem qualquer sistema de saúde.
 
 
-![figCriarEstabelecimento](img/pages/cap7/7_1_1.jpg)
+![figCriarEstabelecimento](img/pages/cap7/7_1_1_v1.jpg)
 
 <p class="caption" id="figCriarEstabelecimento"> Criar Estabelecimento</p>
 
@@ -163,7 +166,7 @@ Após o registo dos dados em cada bloco de informação, deve clicar em **GUARDA
 
 ## 7.2. Editar Estabelecimento
 
-A página de edição de um estabelecimento está disponível através da consulta do estabelecimento clicando no botão **EDITAR ESTABELECIMENTO**.
+<!-- A página de edição de um estabelecimento está disponível através da consulta do estabelecimento clicando no botão **EDITAR ESTABELECIMENTO**. -->
 
 Se o utilizador tiver acesso à página de estabelecimentos associados a uma entidade ([](#figEstEntidade)) pode navegar diretamente para a edição após selecionar um estabelecimento da lista de resultados e clicar no botão **EDITAR**.
 
@@ -176,13 +179,13 @@ No final da edição o utilizador para gravar as alterações deve clicar no bot
 
 ## 7.3. Consultar Estabelecimento
 
-A consulta dos dados referentes a um estabelecimento é possível se o utilizador tiver acesso à página de estabelecimentos associados a uma entidade ([](#figEstEntidade)) o utilizador pode navegar diretamente para a edição após selecionar um estabelecimento da lista de resultados e clicar no botão **CONSULTAR**. 
+A consulta dos dados referentes a um estabelecimento é possível se o utilizador tiver acesso à página de estabelecimentos associados a uma entidade ([](#figEstEntidade)) o utilizador pode navegar diretamente para a consulta após selecionar um estabelecimento da lista de resultados e clicar no botão **CONSULTAR**. 
 
 <p id="transfereEstabelecimento"></p>
 
 ## 7.4. Transferir Estabelecimento 
-Na página de estabelecimentos associados a uma entidade ([](#figEstEntidade)), o utilizador pode navegar diretamente para a página de transferência de equipamento após selecionar um estabelecimento da lista e clicar no botão **TRANSFERIR**.
-Para poder transferir o equipamento, o utilizador deve preencher os campos obrigatórios e clicar em **TRANSFERIR**.
+Na página de estabelecimentos associados a uma entidade ([](#figEstEntidade)), o utilizador pode navegar diretamente para a página de transferência de estabelecimento após selecionar um estabelecimento da lista e clicar no botão **TRANSFERIR**.
+Para poder transferir o estabelecimento, o utilizador deve preencher os campos obrigatórios e clicar em **TRANSFERIR**.
 Após clicar no botão, surge um alerta que confirma se o utilizador pretende transferir o estabelecimento. 
 Se o utilizador confirmar irá ser notificado com o resultado da operação.
 
@@ -190,7 +193,7 @@ Se o utilizador confirmar irá ser notificado com o resultado da operação.
 |----|--------------------------------------------------------|
 | a) | Entidade destino                                       |
 
-![figTransfEstabelecimento](img/pages/cap7/7_4_1.jpg)
+![figTransfEstabelecimento](img/pages/cap7/7_4_1_v1.jpg)
 
 <p class="caption" id="figTransfEstabelecimento"> Transferir Estabelecimento</p>
 
@@ -209,7 +212,7 @@ Uma vez na página de **Encerrar Estabelecimento** ([](#figEncerraEstabeleciment
 ## 7.6. Histórico Estabelecimento 
 
 A página de histórico de um estabelecimento pode ser acedida através da página de estabelecimentos associados a uma entidade ([](#figEstEntidade)) , selecionando uma entidade da lista de resultados e clicando no botão **HISTÓRICO**.
-Uma vez na página de histórico ([](#figHistoricoEstabelecimento)), o utilizador poderá visualizar todas as versões resultantes da edição da entidade, a data em que as alterações foram efetuadas, o utilizador que as realizou, bem como a identificação dos campos alterados.
+Uma vez na página de histórico ([](#figHistoricoEstabelecimento)), o utilizador poderá visualizar todas as versões resultantes da edição do estabelecimento, a data em que as alterações foram efetuadas, o utilizador que as realizou, bem como a identificação dos campos alterados.
 ![figHistoricoEstabelecimento](img/pages/cap7/7_6_1.jpg)
 
 <p class="caption" id="figHistoricoEstabelecimento"> Histórico de Estabelecimento </p>

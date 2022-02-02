@@ -11,11 +11,11 @@ order: 3
 
 # 13. Equipamentos
 
-Neste módulo que são feitas ações sobre os equipamentos. 
+Neste módulo são feitas ações sobre os equipamentos. 
 Estas só poderão ser realizadas caso no separador *Estabelecimento* esteja indicado que existe equipamento médico pesado. Apenas entidades públicas, à exceção de ACES e ARSs, podem possuir equipamento médico pesado.
 O utilizador pode consultar a lista de equipamentos associados a um estabelecimento através do separador *Equipamentos* ([](#figEqpEstabelecimento))
 
-![figEqpEstabelecimento](img/pages/cap12/12_1.jpg)
+![figEqpEstabelecimento](img/pages/cap12/12_1_v1.jpg)
 
 <p class="caption" id="figEqpEstabelecimento"> Equipamentos de um estabelecimento</p>
 
@@ -29,24 +29,35 @@ efetuar o registo do equipamento.
 <p id="identificao"></p>
 ### 13.1.1. Identificação
 
-|    | Campos Obrigatórios da Identificação do Equipamento ([](#figCriarEquipamento))         |      |
+|    | Campos Obrigatórios da Identificação do Equipamento ([](#figCriarEquipamento))         |     |
 |----|----------------------------------------------------|----------|
 | a) | Designação                                         |      |
-| b) | Número de série                                    |      |
-| c) | Posto de trabalho (todos os serviços a que um equipamento se encontra associado devem ser considerados)                           |      |
-| d) | Marca                                              |      |
-| e) | Modelo                                             |      |
-| f) | Se Designação = Acelerador Linear,Angiógrafo,Câmara Gama, Câmara Hiperbárica,RM, RM (Dedicada exclusivamente à Radioterapia),TC ou TC (Dedicada exclusivamente à Radioterapia)                           |Característica Técnica| 
-| g) | Produção para Exterior?                          | Sim     |
+| b) | Tipo de Equipamento                                         |  Equipamentos Médicos Pesado    |
+|    |                                                             |  Outros Equipamentos Médicos    |
+| c) | Equipamento é Novo ou Upgrade?                                         |  NOVO    ||
+|    |                                                             |  UPGRADE**    | Nr. de Série do equipamento a ser substituído|
+| d) | Número de série                                    |      |
+| e) | Posto de trabalho (todos os serviços a que um equipamento se encontra associado devem ser considerados)                           |      |
+| f) | Marca                                              |      |
+| g) | Modelo                                             |      |
+| h) | Se Designação = Acelerador Linear,Angiógrafo,Câmara Gama, Câmara Hiperbárica,RM, RM (Dedicada exclusivamente à Radioterapia),TC ou TC (Dedicada exclusivamente à Radioterapia)                           |Característica Técnica|
+| i) | Se Tipo de Equipamento = Outros Equipamentos Médicos                           |Especificações Técnicas| 
+| j) | Produção para Exterior?                          | Sim     |
 |    |                                                  | Não     |
-| h) | O equipamento é partilhado por mais alguma entidade? | Sim| A entidade pertence ao SNS?| |Sim| Tipo de Entidade| |Entidade*|
+| k) | O equipamento é partilhado por mais alguma entidade? | Sim| A entidade pertence ao SNS?| |Sim| Tipo de Entidade| |Entidade*|
 |    |                                                      |Não| Qual o nome da entidade?|    ||     |||
 
 \* Para que seja possível selecionar a entidade o utilizador deve, primeiro, selecionar o tipo de entidade.
 
-![figCriarEquipamento](img/pages/cap12/12_1_1_1.PNG)
+** A opção "UPGRADE" deve ser utilizada nos casos em que o equipamento que está a ser criado seja a substituição de um equipamento anterior. Esta opção apenas se aplica se o equipamento a ser substítuido estiver com o estado assinalado como "Substituido/Upgrade" (ver tabela Localização/Estado para alteração do estado). Esta opção abre um campo de pesquisa, onde é possível pesquisar o equipamento a substituir por designação, marca e número de série ([](#figPesquisaUpgrade)).
+
+![figCriarEquipamento](img/pages/cap12/12_1_1_1_v1.png)
 
 <p class="caption" id="figCriarEquipamento"> Criar novo Equipamento - Identificação</p>
+
+![figPesquisaUpgrade](img/pages/cap12/40.1.jpg)
+
+<p class="caption" id="figPesquisaUpgrade"> Menu de pesquisa de equipamento a ser substituido </p>
 
 Após o registo dos dados deve clicar em **GUARDAR** para gravar o equipamento. Após clicar irá ser notificado com o resultado da operação.
 
@@ -65,13 +76,15 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar o equipamento. 
 
 |    | Campos Obrigatórios do módulo Contratação ([](#figContratacao))                                      |
 |----|------------------------------------------------------------------------------------------------------|
-| a) | Se Tipo de Contrato = Aquisição|  Nº inventário/ID Equipamento                                       | 
+| a) | Se Tipo de Contrato = Aquisição, Concessão, Locação/Leasing, Oferta |  Nº inventário/ID Equipamento                                       | 
 |    |                                |  Data de publicação da abertura do concurso                         |
-|    |                                |Custo de aquisição                                                   |
-|    |                                |Data de ínicio de funcionamento                                      |
-| b) | Se Tipo de Contrato = Concessão | Data início de funcionamento                                       |
-| c) | Se Tipo de Contrato = Locação/Leasing ou Oferta | Nº inventário/ID Equipamento                       | 
-|    |                                                 | Data de início de funcionamento                    |
+|    |                                | Custo de aquisição                                                   |
+|    |                                | Data de ínicio de funcionamento                                      |
+| b) | Se Tipo de Contrato = Outros |  Nº inventário/ID Equipamento                                       | 
+|    |                                |  Data de publicação da abertura do concurso                         |
+|    |                                | Custo de aquisição                                                   |
+|    |                                | Data de ínicio de funcionamento                                      |
+|    |                                | Especificações (tipo de contrato Outros)                             |
 
 ![figContratacao](img/pages/cap12/12_1_2_1.jpg)
 
@@ -84,12 +97,15 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar o equipamento. 
 ||                                                        | Em Funcionamento ||
 ||                                                        | Não Instalado ||
 ||                                                        | Parado       ||
+||                                                        | Substituido/Upgrade       ||
 | b) | Instalação Fixa				                      | Sim| Localização |
 ||                                                        | Não ||
-| c) | Se Estado = Não Instalado,Parado ou Avariado       | Motivo||
-| d) | Se Estado = Abatido                    	          | Data de Abate|
+| c) | Se Estado = Abatido ou Substituido/Upgrade         | Data de Alteração do Estado||
+| d) | Se Estado = Avariado                    	          | Data de Alteração do Estado||
+|    |                                                    | Motivo ||
+| e) | Se Estado = Não instalado ou Parado                | Motivo ||
 
-![figLocalizacao](img/pages/cap12/12_1_2_2.jpg)
+![figLocalizacao](img/pages/cap12/12_1_2_2_v1.jpg)
 
 <p class="caption" id="figLocalizacao"> Criar novo Equipamento - Localização/Estado</p>
 
@@ -122,7 +138,7 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar o equipamento. 
 |	|        		                         	          | Quinquenal |
 |	|        		                         	          | Semestral |
 |	|        		                         	          | Trianual |
-| d) |  Se Tipo de Manutenção = Preventiva ou Preventiva e Corretiva | Preventiva com Peças|
+| d) |  Se Tipo de Manutenção = Corretiva, Preventiva ou Preventiva e Corretiva | Preventiva com Peças|
 | e) | Se Designação=TC, com ampola                       | Sim |
 |	|        		                         	          | Não |
 | f) | Detetores                              	          | Sim |
@@ -130,7 +146,7 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar o equipamento. 
 | g) | Outros                             	          	  |  |
 | h) | Nome da empresa                            	      |  |
 | i) | Custo                             	          	  |  |
-| j) | Horas de paragem                                   |  |
+| j) | Horas de paragem/Ano                                   |  |
 
 
 ![figManutencao](img/pages/cap12/12_1_2_3.PNG)
@@ -181,7 +197,7 @@ Após clicar em **ALTERAR** irá ser notificado com o resultado da operação.
 A página de edição de um equipamento está disponível através da consulta de equipamento clicando no botão **EDITAR EQUIPAMENTO**. O utilizador pode aceder
 a esta página através do menu Entidade ou, diretamente, através do menu Equipamentos.
 
- Na página de equipamentos de um estabelecimento ([](#figEqpEstabelecimento)) o utilizador pode navegar diretamente para a edição após selecionar um equipamento da lista e clicar no botão **ALTERAR**.
+ Na página de equipamentos de um estabelecimento ([](#figEqpEstabelecimento)) o utilizador pode navegar diretamente para a edição após selecionar um equipamento da lista e clicar no botão **EDITAR**.
 A edição deve respeitar o preenchimento dos campos obrigatórios identificados no ponto [13.1 Criar Equipamento](#criar-equipamento).
 Para gravar as alterações o utilizador  deve clicar no botão **GUARDAR**. Após clicar irá ser notificado com o resultado da operação.
 O utilizador pode navegar entre os equipamentos do estabelecimento clicando em **SEGUINTE** ou **ANTERIOR**.
@@ -205,11 +221,11 @@ Para poder transferir o equipamento, o utilizador deve preencher os campos obrig
 |----|----------------------------------------------------|
 | a) | Data de Fim                                        | 
 | b) | Motivo                                             | 
-| c) | Entidade de Destino                                | 
-| d) | Estabelecimento de Destino                         | 
+| c) | Tipo de Entidade                                   | 
+| d) | Entidade                                           | 
+| e) | Estabelecimento                                    | 
 
-
-![figTransfEquipamento](img/pages/cap12/12_4_1.jpg)
+![figTransfEquipamento](img/pages/cap12/12_4_1_v1.jpg)
 
 <p class="caption" id="figTransfEquipamento"> Transferir Equipamento</p>
 
@@ -218,7 +234,10 @@ Para poder transferir o equipamento, o utilizador deve preencher os campos obrig
 Na página de transferência o utilizador pode consultar toda a informação respeitante ao equipamento que vai transferir.
 
 ## 13.5. Histórico de Equipamento
-A página de histórico de um equipamento pode ser acedida através da página de equipamentos de estabelecimento ([](#figEqpEstabelecimento)) e clicando no botão **HISTÓRICO**.
-O utilizador pode aceder
-a esta página através do menu Entidade ou, diretamente, através do menu Equipamentos.
-Uma vez na página de histórico, o utilizador poderá visualizar todas as versões resultantes da edição da entidade, a data em que as alterações foram efetuadas, o utilizador que as realizou, bem como a identificação dos campos alterados.
+A página de histórico de um equipamento pode ser acedida através da página de equipamentos de estabelecimento ([](#figEqpEstabelecimento)), ou através da página do equipamento no canto superior direito ([](#figCriarEquipamento)), clicando no botão **HISTÓRICO**.
+O utilizador pode aceder a esta página através do menu Entidade ou, diretamente, através do menu Equipamentos.
+Uma vez na página de histórico, o utilizador poderá visualizar as versões resultantes da edição da entidade, a data em que as alterações foram efetuadas, o utilizador que as realizou, identificação dos campos alterados, bem como a informação anterior e a informação nova. O menu permite ainda pesquisa das alterações efetuadas através de filtros como intervalo de tempo (data de - data até), Seccção, Utilizador, ou Campo ([](#figMenuHistorico)). É ainda possível efetuar a extração do resultado da pesquisa realizada. Este menu apenas apresenta as próprias alterações, apenas com as devidas permissões, apresenta todo o histórico de alterações de todos os utilizadores.
+
+![figMenuHistorico](img/pages/cap12/40.1.1.jpg)
+<p class="caption" id="figMenuHistorico"> Menu do histórico de alterações do equipamento</p>
+

@@ -16,8 +16,8 @@ order: 3
 
 <p class="caption" id="figCCIEnt"> Visualização do separador Consumos e Custos Instalações através do menu Entidade </p>
 
-![figCCIInst](img/pages/cap11/11_1_2.JPG)
+![figCCIInst](img/pages/cap11/11_1_2_v1.jpg)
 
-<p class="caption" id="figCCIInst"> Visualização do separador Consumos e Custos Instalações através do menu Instalações </p>
+<p class="caption" id="figCCIInst"> Visualização do separador Consumos e Custos Instalações</p>
 
 Os dados deste separador ([](#figCCIInst)) são preenchidos automaticamente por um SI externo. 

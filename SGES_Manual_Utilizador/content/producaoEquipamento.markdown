@@ -13,7 +13,7 @@ order: 3
 Neste separador que serão feitas ações sobre a produção realizada pelos equipamentos.
 O utilizador pode consultar a produção interna e para exterior dos equipamentos de uma entidade no separador Produção Equipamentos ([](#figProdEquipamento)), através do ponto [6.3 Consultar Entidade](#consultar-entidade).
 
-![figProdEquipamento](img/pages/cap9/9_0_1.jpg)
+![figProdEquipamento](img/pages/cap9/9_0_1_v1.jpg)
 
 <p class="caption" id="figProdEquipamento"> Fig. 24 -Produção Equipamentos</p>
 
@@ -22,7 +22,7 @@ O utilizador pode consultar a produção interna e para exterior dos equipamento
 ## 9.1.Consultar Produção Equipamentos
 O utilizador pode consultar a produção dos equipamentos após navegar para o subseparador de produção *Interna* ou *Para Exterior* do separador **Produção Equipamentos** ([](#figProdEquipamento)), selecionar o ano, clicar no botão **CONSULTAR** e selecionar a especialidade.
 
-![figExProdIntEnt](img/pages/cap9/9_1_1.jpg)
+![figExProdIntEnt](img/pages/cap9/9_1_1_v1.jpg)
 
 <p class="caption" id="figExProdIntEnt"> Exemplo de Produção Interna de uma Entidade</p>
 
@@ -37,9 +37,9 @@ Na consulta será apresentada uma página separada por áreas de afetação dos 
 
 <p id="preencherProducaoEquipamento"></p>
 
-## 9.2.Preencher/Alterar Produção Equipamentos
+## 9.2.Preencher/Editar Produção Equipamentos
 
-O utilizador pode preencher ou alterar o total de exames na produção realizada dos equipamentos após navegar para o subseparador de produção *Interna* ou *Para Exterior* do separador **Produção Equipamentos** ([Fig. 24](#fig24)), selecionar o ano, clicar no botão **PREENCHER/ALTERAR** e selecionar a especialidadel.
+O utilizador pode preencher ou editar o total de exames na produção realizada dos equipamentos após navegar para o subseparador de produção *Interna* ou *Para Exterior* do separador **Produção Equipamentos** ([Fig. 24](#fig24)), selecionar o ano, clicar no botão **PREENCHER/EDITAR** e selecionar a especialidadel.
 Para gravar as alterações o utilizador deve clicar no botão **GUARDAR**. Após clicar irá ser notificado com o resultado da operação.
 
 <p id="producao-no-exterior"></p>
@@ -49,19 +49,19 @@ Para gravar as alterações o utilizador deve clicar no botão **GUARDAR**. Apó
 Neste separador serão feitas ações sobre a produção realizada no exterior.
 O utilizador pode consultar a produção no exterior por uma entidade no separador **Produção no Exterior** ([](#figProdExterior)) através do ponto [6.3 Consultar Entidade](#consultar-entidade).
 
-![figProdExterior](img/pages/cap10/10_0_1.jpg)
+![figProdExterior](img/pages/cap10/10_0_1_v1.jpg)
 
 <p class="caption" id="figProdExterior"> Produção no Exterior</p>
 
 <p id="consultarProducaoRealizadaExterior"></p>
 
 ## 10.1.Consultar Produção no Exterior
-O utilizador pode consultar a produção realizada no exterior após navegar para o subseparador do ano pretendido no separador **Produção no Exterior** ([](#figProdExterior)), selecionar o ano, clicar no botão **CONSULTAR**  e selecionar a especialidade.
+O utilizador pode consultar a produção realizada no exterior após selecionar na tabela apresentada o ano pretendido, clicar no botão **CONSULTAR**  e selecionar a especialidade.
 A consulta será apresentada da mesma forma que a demonstrada no ponto [9.1 Consultar Produção Equipamentos](#consultar-producao-equipamentos).
 
 <p id="alterarProducaoRealizadaExterior"></p>
 
-## 10.2. Preencher/Alterar Produção no Exterior
-O utilizador pode preencher ou alterar o total de exames na produção realizada no exterior após navegar para o subseparador do ano pretendido no separador **Produção no Exterior** ([](#figProdExterior)), selecionar o ano, clicar no botão **PREENCHER/ALTERAR**.
+## 10.2. Preencher/Editar Produção no Exterior
+O utilizador pode preencher ou alterar o total de exames na produção realizada no exterior após selecionar na tabela apresentada o ano pretendido, clicar no botão **PREENCHER/EDITAR**.
 Para gravar as alterações o utilizador deve clicar no botão **GUARDAR**. Após clicar irá ser notificado com o resultado da operação.
 
