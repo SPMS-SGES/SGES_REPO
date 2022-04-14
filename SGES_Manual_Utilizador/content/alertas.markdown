@@ -8,211 +8,65 @@ translation_priority: 1
 order: 3
 ---
 
-<p id="estabelecimentos"></p>
-# 7.Estabelecimentos
-Neste separador são feitas ações sobre os estabelecimentos.
-O utilizador pode consultar a lista de estabelecimentos associados a uma entidade através do separador **Estabelecimentos** ([](#figEstEntidade)).
+<p id="alertas"></p>
 
-![figEstEntidade](img/pages/cap7/7_1.jpg)
+# 16. Alertas
 
-<p class="caption" id="figEstEntidade"> Estabelecimentos da Entidade</p>
+Neste separador são consultados os alertas recebidos. O utilizador pode consultar e ler as notificações recebidas, esporádicas ou periódicas, sobre os restantes módulos do sistema através do seu perfil na própria aplicação. O utilizador pode também receber os alertas via email. O utilizador pode consultar os alertas através do menu **Alertas**  ([](#figAlertas)).
 
-<p id="criarEstabelecimento"></p>
+No canto superior direito da caixa do menu Alertas é possível verificar se existem alertas não lidos, e em caso afirmativo a quantidade de alertas que existem como não lidos. 
 
-## 7.1.Criar Estabelecimento
+![figAlertas](img/pages/cap16/83.PNG)
 
-Para criar um novo estabelecimento, o utilizador deve clicar em **CRIAR** na página de estabelecimentos associados a uma entidade  ([](#figEstEntidade)). De seguida, será encaminhado para a página de criação de estabelecimento, onde deverá preencher os campos obrigatórios para poder efetuar o registo do estabelecimento (ver tabela abaixo e [](#figCriarEstabelecimento)).
+<p class="caption" id="figAlertas"> Acesso ao Menu de Alertas </p>
 
-|    | Campos Obrigatórios para identificação do estabelecimento    |          |
-|----|---------------------------------------------------|----------|
-| a) | Tipo de Estabelecimento                          |  Hospital | 
-||                                                      |  Unidade funcional| 
-||                                                      |  Consultório| 
-||                                                      |  Laboratório|
-||                                                      |  Hospital Militar| 
-||                                                      |  Posto Empresa|
-||                                                      |  SUB| 
-| b) | Tipo de Unidade Funcional (se Tipo de Estabelecimento = Unidade Funcional)                                                                                                                                                    |UCC| 
-||                                                      |  UCSP| 
-||                                                      |  USF| 
-| c) |Estado                                            | Ativa|
-||                                                      | Encerrado|
-||                                                      | Suspenso|
-||                                                      | Transferido|
-||                                                      | Pendente|
-||                                                      | Visualizado|
-| d) | Nome/Designação social                       | |
-| e) | Morada                                       | |
-| f) | Código-Postal                                | |
-| g) | Distrito                                     | |
-| h) | Concelho                                     | |
-| i) | Freguesia                                    | |
-| j) | Telefone                                     | |
-| k) | Email                                          | |
-| l) | Existe Equipamento Médico Pesado?                                         | Sim |
-||                                                      | Não ||
+Pode ainda aceder a este menu através do ícone das definições, no canto superior direito do ecrã ([](#figAlertas1)).
 
-Na tabela abaixo e na [](#figPainelGabCidadao) são mostrados os campos de preenchimento obrigatório referentes ao painel do gabinete do cidadão. 
+![figAlertas1](img/pages/cap16/84.PNG)
 
-|    | Campos Obrigatórios do painel do gabinete do cidadão |      |
-|----|---------------------------------------------------|----------|
-| a) |E-mail do Gabinete Cidadão ||
-| b) |Telefone do Gabinete Cidadão ||
-| c) |Site Tabela Preços em vigor* ||
+<p class="caption" id="figAlertas1"> Acesso ao Menu de Alertas - Icone definições </p>
 
-\* Preços em vigor dos cuidados a prestar pelo hospital; correspondem aos preços a pagar por um utente independente, sem qualquer sistema de saúde.
+Neste separador é possível ler e consultar alertas, pesquisar alertas anteriores e exportar para ficheiro excel a lista de alertas, conforme as necessidades. 
+A criação de alertas é da responsabilidade exclusiva de utilizadores com o perfil SPMS_ADMIN e ACSS_ADMIN.
 
 
-![figCriarEstabelecimento](img/pages/cap7/7_1_1_v1.jpg)
+<p id="consultarAlerta"></p>
 
-<p class="caption" id="figCriarEstabelecimento"> Criar Estabelecimento</p>
+## 16.1. Consultar Alerta
 
-![figPainelGabCidadao](img/pages/cap7/7_1_2.jpg)
+Para consultar os alertas recebidos, é apenas necessário abrir o separador Alertas, visto no ponto anterior. Depois de aberto este separador, a aplicação apresenta todos os alertas marcados como não lidos que existem para o utilizador. Na tabela de alertas é possível verificar várias informações sobre o alerta, como Ação, Estado, Assunto, Mensagem e Data de envio ([](#figConsultarAlerta)).
 
-<p class="caption" id="figPainelGabCidadao"> Painel Gabinete ao cidadão</p>
 
-Após o preenchimento da identificação do estabelecimento, dependendo do tipo deste, será necessário o preenchimento dos campos adicionais.
+![figConsultarAlerta](img/pages/cap16/85.PNG)
 
-|  Tipo de Estabelecimento | Campos de preenchimento  | 
-|------------------------------------|
-| **Hospital**          |Urgências ([](#figUrgencias)) |
-|                       |Especialidade ([](#figEspecialidade)) |
-|                       |Capacidade ([](#figCapacidade)) - Se Entidade Pública |
-| **Consultório**       |Especialidade ([](#figEspecialidade)) |
-| **Laboratório**        |Especialidade ([](#figEspecialidade)) |
-|                       |Postos de colheita ([](#figPostosColheita))|
-| **Unidade Funcional** |Unidade Funcional ([](#figUnidadeFunc)) |
+<p class="caption" id="figConsultarAlerta"> Menu - Lista de alertas</p>
 
 
 
-|    | Campos Obrigatórios – Urgências - ([](#figUrgencias))    |      |
-|----|--------------------------------------------------------|------|
-| a) | Urgências                         |  Sim| 
-| |                                       |  Não| 
-| b) | 	Se urgências                     |  Tipo de urgência| 
-||                                       |Classificação do Serviço de Urgência| 
+<p id="lerAlerta"></p>
 
-![figUrgencias](img/pages/cap7/7_1_3.jpg)
+## 16.2. Ler Alerta
+Para ler o alerta recebido, o utilizador deve aceder ao menu Alertas, na coluna Ações, colocar o mouse sobre os três pontos verticais e clicar **Ler Alerta**. O utilizador pode ainda marcar o alerta como lido através da opção **Marcar como lido** na coluna Ações ([](#figLerAlerta)).
 
-<p class="caption" id="figUrgencias"> Estabelecimento do tipo Hospital - Urgências</p>
+![figLerAlerta](img/pages/cap16/86.PNG)
 
-|    | Campos Obrigatórios –  Especialidade -([](#figEspecialidade))   |      |
-|----|--------------------------------------------------------|------|
-| a) | 	Especialidades e Exames          | Área |
-|| 	                                     | Especialidade|
-|| 	                                     | Adultos e/ou Pediátricos|
+<p class="caption" id="figLerAlerta"> Ler Alertas</p>
 
+Após clicar em Ler alerta, a aplicação exibe uma nova janela onde é possível ver o assunto, data e ler a mensagem do alerta ([](#figLerAlerta1)). Para voltar à página dos alertas, o utilizador deve clicar no botão **FECHAR**.
 
-![figEspecialidade](img/pages/cap7/7_1_4.jpg)
+![figLerAlerta1](img/pages/cap16/87.PNG)
 
-<p class="caption" id="figEspecialidade"> Painel das Especialidades </p>
+<p class="caption" id="figLerAlerta1"> Janela da mensagem do Alerta </p>
 
 
-|    | Campos Obrigatórios – Capacidade - ([](#figCapacidade))    |      |
-|----|--------------------------------------------------------|------|
-| a) | 	Ano                       								| |
-| b) | 	Capacidade                       |Tipo Área Capacidade |
-||                                       |  Área Capacidade*| 
-||                                       |  Tipo Capacidade| 
-||                                       |  Capacidade Lotação| 
+<p id="pesquisarAlerta"></p>
 
+## 16.3. Pesquisar Alerta
 
- \* No Painel das Capacidades ([](#figCapacidade)) ao ser selecionado a Área Capacidade é visível um texto descritivo ( aplicáveis só a algumas áreas). O Internamento Total (lotação) inclui o internamento normal e os internamentos especiais (s/Berçário, Quartos Particulares, Lar Doentes e Cuidados Paliativos Rede).
+O utilizador pode pesquisar os alertas pretendidos utilizando os filtros disponíveis na página. A pesquisa pode ser efetuada por Estado (Todos, Lido, Não lido), Assunto, Data De e Data Até e de seguida clicar no botão **PESQUISAR**  ([](#figPesquisarAlerta)). Caso o utilizador pretenda alterar os filtros de pesquisa, pode clicar **LIMPAR**, para colocar os campos sem nenhuma informação.
 
-![figCapacidade](img/pages/cap7/7_1_5.JPG)
+![figPesquisarAlerta](img/pages/cap16/88.PNG)
 
-<p class="caption" id="figCapacidade"> Painel das Capacidades com a Descrição e o Internamento Total </p>
+<p class="caption" id="figPesquisarAlerta"> Pesquisa de Alertas </p>
 
-O estabelecimento pode ter ainda atividades associadas. Estas são mostradas no separador Atividades ([](#figAtividades)). Salienta-se que esta informação apenas pode ser consultada.
-
-![figAtividades](img/pages/cap7/7_1_1_5.jpg)
-
-<p class="caption" id="figAtividades"> Painel das Atividades </p>
-
-As próximas tabelas e imagens mostram os campos de preenchimento obrigatório relativos a unidades funcionais e postos de colheita.
-
-|    | Campos Obrigatórios – Unidade Funcional - ([](#figPostosColheita))  | |
-|----|--------------------------------------------------------|------|
-| a) | Centro de Saúde                                        | | 
-| b) |População Abrangida                          | Distrito |
-||                                                 | Concelho | 
-||                                                 | Freguesias| 
-| c) | Se Unidade Funcional = USF, UCSP            | Nº de Gabinetes Médicos| 
-||                                                 | Nº de Gabinetes Tratamento| 
-| d) | Se Unidade Funcional = USF                  | Modelo USF| 
-
-
-![figPostosColheita](img/pages/cap7/7_1_6.jpg)
-
-<p class="caption" id="figPostosColheita"> Estabelecimento do tipo Unidade Funcional</p>
- 
- 
-|    | Campos Obrigatórios – Postos de Colheita -  ([](#figUnidadeFunc))  | 
-|----|--------------------------------------------------------|
-| a) | Nome                                                   |
-| b) | Morada                                                 |
-| c) | Código-Postal                                          |
-| d) | Distrito                                               |
-| e) | Concelho                                               |
-| f) | Freguesia                                              |
-
-![figUnidadeFunc](img/pages/cap7/7_1_7.jpg)
-
-<p class="caption" id="figUnidadeFunc"> Estabelecimento do tipo Laboratório - Postos de Colheita</p>
-
-Após o registo dos dados em cada bloco de informação, deve clicar em **GUARDAR** para gravar os dados. Após clicar irá ser notificado com o resultado da operação.
-
-<p id="alteraEstabelecimento"></p>
-
-## 7.2. Editar Estabelecimento
-
-<!-- A página de edição de um estabelecimento está disponível através da consulta do estabelecimento clicando no botão **EDITAR ESTABELECIMENTO**. -->
-
-Se o utilizador tiver acesso à página de estabelecimentos associados a uma entidade ([](#figEstEntidade)) pode navegar diretamente para a edição após selecionar um estabelecimento da lista de resultados e clicar no botão **EDITAR**.
-
-
-A edição deve respeitar o preenchimento dos campos obrigatórios identificados no ponto [7.1 Criar Estabelecimento](#criar-estabelecimento).
-
-No final da edição o utilizador para gravar as alterações deve clicar no botão **GUARDAR**. Após clicar irá ser notificado com o resultado da operação.
-
-<p id="consultarEstabelecimento"></p>
-
-## 7.3. Consultar Estabelecimento
-
-A consulta dos dados referentes a um estabelecimento é possível se o utilizador tiver acesso à página de estabelecimentos associados a uma entidade ([](#figEstEntidade)) o utilizador pode navegar diretamente para a consulta após selecionar um estabelecimento da lista de resultados e clicar no botão **CONSULTAR**. 
-
-<p id="transfereEstabelecimento"></p>
-
-## 7.4. Transferir Estabelecimento 
-Na página de estabelecimentos associados a uma entidade ([](#figEstEntidade)), o utilizador pode navegar diretamente para a página de transferência de estabelecimento após selecionar um estabelecimento da lista e clicar no botão **TRANSFERIR**.
-Para poder transferir o estabelecimento, o utilizador deve preencher os campos obrigatórios e clicar em **TRANSFERIR**.
-Após clicar no botão, surge um alerta que confirma se o utilizador pretende transferir o estabelecimento. 
-Se o utilizador confirmar irá ser notificado com o resultado da operação.
-
-|    | Campos Obrigatórios para transferir estabelecimento – ([](#figTransfEstabelecimento))  | 
-|----|--------------------------------------------------------|
-| a) | Entidade destino                                       |
-
-![figTransfEstabelecimento](img/pages/cap7/7_4_1_v1.jpg)
-
-<p class="caption" id="figTransfEstabelecimento"> Transferir Estabelecimento</p>
-
-<p id="encerrarEstabelecimento"></p>
-
-## 7.5. Encerrar Estabelecimento 
-Para encerrar um estabelecimento, depois de o selecionar na lista de resultados, deve clicar no botão **ENCERRAR** ([](#figEstEntidade)).
-Uma vez na página de **Encerrar Estabelecimento** ([](#figEncerraEstabelecimento)), deve clicar no botão “Encerrar”. Após clicar no botão, surge alerta que confirma se o utilizador pretende encerrar o estabelecimento. Se o utilizador confirmar irá ser notificado com o resultado da operação.
-
-![figEncerraEstabelecimento](img/pages/cap7/7_5_1.jpg)
-
-<p class="caption" id="figEncerraEstabelecimento"> Encerrar Estabelecimento</p>
-
-<p id="historicoEstabelecimento"></p>
-
-## 7.6. Histórico Estabelecimento 
-
-A página de histórico de um estabelecimento pode ser acedida através da página de estabelecimentos associados a uma entidade ([](#figEstEntidade)) , selecionando uma entidade da lista de resultados e clicando no botão **HISTÓRICO**.
-Uma vez na página de histórico ([](#figHistoricoEstabelecimento)), o utilizador poderá visualizar todas as versões resultantes da edição do estabelecimento, a data em que as alterações foram efetuadas, o utilizador que as realizou, bem como a identificação dos campos alterados.
-![figHistoricoEstabelecimento](img/pages/cap7/7_6_1.jpg)
-
-<p class="caption" id="figHistoricoEstabelecimento"> Histórico de Estabelecimento </p>
+Este menu permite ao utilizador exportar para ficheiro excel a lista de alertas pesquisada. Para isso, o utilizador deve realizar a pesquisa de alertas desejada e clicar no ícone abaixo do botão de pesquisa ([](#figPesquisarAlerta)).
