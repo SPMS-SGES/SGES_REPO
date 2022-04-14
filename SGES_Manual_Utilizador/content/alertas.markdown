@@ -48,7 +48,7 @@ Para consultar os alertas recebidos, é apenas necessário abrir o separador Ale
 ## 16.2. Ler Alerta
 Para ler o alerta recebido, o utilizador deve aceder ao menu Alertas, na coluna Ações, colocar o mouse sobre os três pontos verticais e clicar **Ler Alerta**. O utilizador pode ainda marcar o alerta como lido através da opção **Marcar como lido** na coluna Ações ([](#figLerAlerta)).
 
-![figLerAlerta](img/pages/cap16/86.PNG)
+![figLerAlerta](img/pages/cap16/86.png)
 
 <p class="caption" id="figLerAlerta"> Ler Alertas</p>
 
