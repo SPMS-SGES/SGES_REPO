@@ -12,7 +12,7 @@ order: 3
 
 # 16. Alertas
 
-Neste separador são consultados os alertas recebidos. O utilizador pode consultar e ler as notificações recebidas, esporádicas ou periódicas, sobre os restantes módulos do sistema através do seu perfil na própria aplicação. O utilizador pode também receber os alertas via email. O utilizador pode consultar os alertas através do menu **Alertas**  ([](#figAlertas)).
+Neste separador são consultados os alertas recebidos. O utilizador pode consultar e ler as notificações recebidas, esporádicas ou periódicas, sobre os restantes módulos do sistema através do seu perfil na própria aplicação. Os alertas podem também ser recebidos via email. O utilizador pode consultar os alertas através do menu **Alertas**  ([](#figAlertas)).
 
 No canto superior direito da caixa do menu Alertas é possível verificar se existem alertas não lidos, e em caso afirmativo a quantidade de alertas que existem como não lidos. 
 
@@ -26,7 +26,7 @@ Pode ainda aceder a este menu através do ícone das definições, no canto supe
 
 <p class="caption" id="figAlertas1"> Acesso ao Menu de Alertas - Icone definições </p>
 
-Neste separador é possível ler e consultar alertas, pesquisar alertas anteriores e exportar para ficheiro excel a lista de alertas, conforme as necessidades. 
+Neste separador é possível ler e consultar alertas, pesquisar e exportar para ficheiro excel a lista de alertas, conforme as necessidades. 
 A criação de alertas é da responsabilidade exclusiva de utilizadores com o perfil SPMS_ADMIN e ACSS_ADMIN.
 
 
