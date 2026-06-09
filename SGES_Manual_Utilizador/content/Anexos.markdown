@@ -41,12 +41,10 @@ title: "Entidade"
 
 |   | Permissões e respetivas permissões                                     ||
 |---|------------------------------------------------------------------------|| 
-| a) |ADMIN_ENT_GERAL|            | Consulta e edita todos os campos dos módulos da aplicação e gere utilizadores, menos para o módulo de Instalações|
-| b) |ADMIN_ENTIDADE |             | Consulta todos os campos dos módulos e gere utilizadores. Edita Entidades e Estabalecimentos | 
-| c) |ARS_ADMIN      |			   | Consulta todos os campos dos módulos e gere utilizadores |
-| d) |ARS_CONSULTA|                | Consulta todos os campos dos módulos|
-| e) |SGES_ENTIDADE |  			  | Consulta e edita todos os campos referentes aos estabelecimentos. Consulta e edita a informação associada à entidade a que pertencem  |
-| f) |SGES_EQUIPAMENTOS|           | Consulta e edita todos os campos referentes aos equipamentos médicos pesados e à produção dos mesmos e pode consultar a entidade e estabelecimente a que estão associadas|
-| g) |SGES_INSTALACOES|            | Consulta e edita todos os campos referentes às instalações e pode consultar a entidade e estabelecimente a que estão associadas.|
-| h) |ARS_Convencoes|              | Consulta a entidade e estabelecimentos que representa, as convenções pelas quais está responsável e as entidades a que estão associadas.|
-
+| a) |ADMIN_ENTIDADE |             | Consulta e edita todos os campos dos módulos, exceto o módulo de Instalações (consulta apenas). Gere utilizadores. Valida dados. Consulta alertas.| 
+| b) |ARS_ADMIN      |			   | Consulta todos os campos dos módulos. Pode alterar estabelecimentos. Gere utilizadores.|
+| c) |ARS_CONSULTA|                | Consulta todos os campos dos módulos. Pode exportar tabelas de entidades e estabelecimentos. |
+| d) |SGES_ENTIDADE |  			  | Consulta e edita todos os campos referentes aos estabelecimentos. Consulta e edita a informação associada à entidade a que pertencem. |
+| e) |SGES_EQUIPAMENTOS|           | Consulta e edita todos os campos referentes aos equipamentos médicos pesados e à produção dos mesmos e pode consultar a entidade e estabelecimente a que estão associadas.|
+| f) |SGES_INSTALACOES|            | Consulta e edita todos os campos referentes às instalações e pode consultar a entidade e estabelecimente a que estão associadas.|
+| g) |ARS_Convencoes|              | Consulta a entidade e estabelecimentos que representa, as convenções pelas quais está responsável e as entidades a que estão associadas. Atualiza ficha técnica.|
